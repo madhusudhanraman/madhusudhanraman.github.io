@@ -22,9 +22,9 @@
         <p>junior research fellow</p>
 
         <p class="view"><a href="https://madhusudhanraman.github.io">home page</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">seminars</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">notes</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">contact</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/contact">contact</a></p>
 
       </header>
       <section>
@@ -42,8 +42,8 @@
         <li>non-equilibrium statistical mechanics.</li>
         </ul>
     </li>
-    <li>I'm running two seminars this semester: one on <a href="http://madhusudhanraman.github.io/rs3">conformal field theories</a> and the other on some material related to my <a href="http://madhusudhanraman.github.io/rs2">masters thesis</a>.</li>
-    <li>I'm teaching a module on Fermi Liquid Theory starting next week.</li>
+    <li>I'm running two seminars this semester: one on <a href="http://madhusudhanraman.github.io/seminars/rs3">conformal field theories</a> and the other on some material related to my <a href="http://madhusudhanraman.github.io/seminars/rs2">masters thesis</a>.</li>
+    <li>I'm teaching a module on Fermi Liquid Theory starting next week!</li>
 </ul>
       </section>
       <footer>

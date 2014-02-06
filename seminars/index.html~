@@ -22,29 +22,26 @@
         <p>junior research fellow</p>
 
         <p class="view"><a href="https://madhusudhanraman.github.io">home page</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">seminars</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">notes</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">contact</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/contact">contact</a></p>
 
       </header>
       <section>
         <h1>
-<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>about</h1>
-
-<p>I study theoretical physics at the <a href="http://www.imsc.res.in">Institute of Mathematical Sciences</a> in Chennai.</p>
-
-<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>news</h1>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>current seminars</h1>
 
 <ul>
-    <li>I'm currently studying quantum field theory and the manner in which it is deployed in:
-        <ul>
-        <li>condensed matter physics, and</li>
-        <li>non-equilibrium statistical mechanics.</li>
-        </ul>
-    </li>
-    <li>I'm running two seminars this semester: one on <a href="http://madhusudhanraman.github.io/rs3">conformal field theories</a> and the other on some material related to my <a href="http://madhusudhanraman.github.io/rs2">masters thesis</a>.</li>
-    <li>I'm teaching a module on Fermi Liquid Theory starting next week.</li>
+    <li><a href="http://madhusudhanraman.github.io/seminars/rs3">A Literature Seminar on Conformal Field Theories</a></li>
+    <li><a href="http://madhusudhanraman.github.io/seminars/rs2">The Masters Thesis Seminar</a>.</li>
 </ul>
+
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>past seminars</h1>
+
+<ul>
+    <li><a href="http://madhusudhanraman.github.io/seminars/rs1">A Learning Seminar on Path Integral Quantum Field Theory</a></li>
+</ul>
+
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>

@@ -22,9 +22,9 @@
         <p>junior research fellow</p>
 
         <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">seminars</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">notes</a></p>
-        <p class="view"><a href="https://github.com/madhusudhanraman">contact</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/contact">contact</a></p>
 
       </header>
       <section>
@@ -47,10 +47,10 @@
       <td>Notes/References</td>
    </tr>
    <tr>
-      <td>6th February</td>
-      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Kumar Mishra</a></td>
-      <td>Energy-Momentum Tensors and Ward Identities</td>
-      <td>Ch. 4.2 of [1]</td>
+      <td>13th February</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>Conformal Invariance and Quantum Fields</td>
+      <td>Ch. 4.3 of [1], [2]</td>
    </tr>
    
 </table>
@@ -63,6 +63,12 @@
       <td>Speaker</td>
       <td>Topic</td>
       <td>Notes/References</td>
+   </tr>
+   <tr>
+      <td>6th February</td>
+      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Kumar Mishra</a></td>
+      <td>Energy-Momentum Tensors and Tracelessness</td>
+      <td>Ch. 4.2 of [1]</td>
    </tr>
    <tr>
       <td>23rd January</td>
@@ -83,7 +89,7 @@
 <ol>
 <li>P. Di Francesco, P. Mathieu, D. Senechal: <i>Conformal Field Theory</i>, Springer, (1999).</li>
 
-<li>S. Minwalla: <i>Restrictions Imposed by Superconformal Invariance on Quantum Field Theories</i>, Adv. Theor. Math. Phys. <b>2</b> (1998), 781-846.
+<li>S. Minwalla: <i>Restrictions Imposed by Superconformal Invariance on Quantum Field Theories</i>, Adv. Theor. Math. Phys. <b>2</b> (1998), 781-846.<br>
 Preprint available at <a href="http://arxiv.org/abs/hep-th/9712074">arXiv:hep-th/9712074</a>.</li>
 
 <li>G. Mack, A. Salam: <i>Finite-Component Field Representations of the Conformal Group</i>, Ann. Phys. <b>53</b> (1969), 174-202.</li>
