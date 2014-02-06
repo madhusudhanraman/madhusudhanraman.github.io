@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Madhusudhan Raman @ IMSc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>madhusudhan raman</h1>
+        <p>junior research fellow</p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="https://madhusudhanraman.github.io/contact">contact</a></p>
+
+      </header>
+      <section>
+        <h1>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>Literature Seminar on Conformal Field Theories</h1>
+
+<h2>January - April '14</h2>
+
+<p>With a little help from <a href="http://www.imsc.res.in/users/sashok">Prof. Sujay K. Ashok</a>, this seminar will discuss conformal field theories from the ground up! There is, at the moment, no fixed syllabus or list of topics we'd like to cover. We plan to tailor the topics discussed to reflect our interests over time.</p>
+
+<p>Each meeting will go on for an hour and a half. We meet every Thursday at 9:30 am in Hall 123.</p>
+
+<h3> Next Talk </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+      <td>Notes/References</td>
+   </tr>
+   <tr>
+      <td>13th February</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>Conformal Invariance and Quantum Fields</td>
+      <td>Ch. 4.3 of [1], [2]</td>
+   </tr>
+   
+</table>
+
+<h3> Past Talks </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+      <td>Notes/References</td>
+   </tr>
+   <tr>
+      <td>6th February</td>
+      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Kumar Mishra</a></td>
+      <td>Energy-Momentum Tensors and Tracelessness</td>
+      <td>Ch. 4.2 of [1]</td>
+   </tr>
+   <tr>
+      <td>23rd January</td>
+      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Kumar Mishra</a></td>
+      <td>The Conformal Group II: Representations in \( d \) Dimensions</td>
+      <td>Ch. 4.2 of [1], [3]</td>
+   </tr>
+   <tr>
+      <td>16th January</td>
+      <td><a href="http://www.imsc.res.in/users/nbala">N. Balakrishnan</a></td>
+      <td>The Conformal Group I: Generators and Their Algebra</td>
+      <td>Ch. 4.1 of [1]</td>
+   </tr>
+   
+</table>
+
+<h3> References </h3>
+<ol>
+<li>P. Di Francesco, P. Mathieu, D. Senechal: <i>Conformal Field Theory</i>, Springer, (1999).</li>
+
+<li>S. Minwalla: <i>Restrictions Imposed by Superconformal Invariance on Quantum Field Theories</i>, Adv. Theor. Math. Phys. <b>2</b> (1998), 781-846.<br>
+Preprint available at <a href="http://arxiv.org/abs/hep-th/9712074">arXiv:hep-th/9712074</a>.</li>
+
+<li>G. Mack, A. Salam: <i>Finite-Component Field Representations of the Conformal Group</i>, Ann. Phys. <b>53</b> (1969), 174-202.</li>
+ </ol>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
