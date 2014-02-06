@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Madhusudhan Raman @ IMSc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>madhusudhan raman</h1>
+        <p>junior research fellow</p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="https://github.com/madhusudhanraman">seminars</a></p>
+        <p class="view"><a href="https://github.com/madhusudhanraman">notes</a></p>
+        <p class="view"><a href="https://github.com/madhusudhanraman">contact</a></p>
+        
+      </header>
+      <section>
+        <h1>
+<a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>Masters Thesis Seminar</h1>
+
+<h2>January - April '14</h2>
+
+<p>This seminar will be devoted to a discussion of the work currently being carried out by its participants. That means this whole seminar is an elaborate excuse for me to bully my friends into talking about the stuff they've been reading. You should, however be warned: the talks may, at this point, not have anything at all to do with the speaker's masters theses.</p>
+
+<p>We meet every Saturday at 10:30 am in Hall 123.</p>
+
+<h3> Next Talk </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+      <td>Notes/References</td>
+   </tr>
+   <tr>
+      <td>8th February</td>
+      <td><a href="http://www.imsc.res.in/users/nbala">N. Balakrishnan</a></td>
+      <td>...</td>
+      <td>...</td>
+   </tr>
+   
+</table>
+
+<h3> Past Talks </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speakers</td>
+      <td>Topic</td>
+      <td>Notes/References</td>
+   </tr>
+   <tr>
+      <td>1st February</td>
+      <td><a href="http://www.imsc.res.in/users/madhur">Madhusudhan Raman</a></td>
+      <td>Inönü-Wigner Contraction, the Method of Induced Representations and Comments on Projective Representations</td>
+      <td>...</td>
+   </tr>
+   <tr>
+      <td>18th January</td>
+      <td><a href="http://www.imsc.res.in/users/madhur">Madhusudhan Raman</a></td>
+      <td>Chern-Simons II: \( \mathrm{ISO}(2,1) \) and Non-Abelian Gauge Groups</td>
+      <td>...</td>
+   </tr>
+   <tr>
+      <td>11th January</td>
+      <td><a href="http://www.imsc.res.in/users/madhur">Madhusudhan Raman</a></td>
+      <td>Chern-Simons I: The Action, Anyons and Maxwell Theory</td>
+      <td>...</td>
+   </tr>
+   
+</table>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
