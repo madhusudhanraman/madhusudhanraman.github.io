@@ -21,30 +21,20 @@
         <h1>madhusudhan raman</h1>
         <p>junior research fellow</p>
 
-        <p class="view"><a href="https://madhusudhanraman.github.io">home page</a></p>
-        <p class="view"><a href="https://madhusudhanraman.github.io/seminars">seminars</a></p>
-        <p class="view"><a href="https://madhusudhanraman.github.io/notes">notes</a></p>
-        <p class="view"><a href="https://madhusudhanraman.github.io/contact">contact</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
 
       </header>
       <section>
       
-<h1>contact</h1>
+<h1>notes</h1>
 
-    <p>The best way to contact me is to send an e-mail to either of the following addresses:</p>
-        <blockquote>madhusudhan dot raman at gmail dot com<br>
-        madhur at imsc dot res dot in
-        </blockquote>
-    <br>
-    <p>If you would rather write me a letter, please addresses it to:</p>
-        <blockquote>Madhusudhan Raman<br>
-        Office No. F7, Old Building<br>
-        Institute of Mathematical Sciences<br>
-        IV Cross Road, CIT Campus<br>
-        Taramani<br>
-        Chennai 600 113<br>
-        Tamil Nadu, India
-        </blockquote>
+    <p>Coming soon...</p>
+    
+    <p>In the mean time, head <a href="http://www.imsc.res.in/~madhur/#notes">here</a> for more!</p>
+        
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
