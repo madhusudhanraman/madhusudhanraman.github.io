@@ -49,8 +49,8 @@
    <tr>
       <td>3rd April</td>
       <td><a href="http://www.imsc.res.in/users/nbala">N. Balakrishnan</a></td>
-      <td>Fock Spaces: Bosons and Fermions</td>
-      <td>...</td>
+      <td>Operator Formalism: Bosons and Fermions</td>
+      <td>Ch. 6.3, 6.4 of [1]</td>
    </tr>
    
 </table>
@@ -68,7 +68,7 @@
       <td>27th March</td>
       <td><a href="http://www.imsc.res.in/users/sanjit">Sanjit Das</a></td>
       <td>The Weyl Anomaly</td>
-      <td>...</td>
+      <td>[4]</td>
    </tr>
    <tr>
       <td>20th March</td>
@@ -129,6 +129,8 @@
 Preprint available at <a href="http://arxiv.org/abs/hep-th/9712074">arXiv:hep-th/9712074</a>.</li>
 
 <li>G. Mack, A. Salam: <i>Finite-Component Field Representations of the Conformal Group</i>, Ann. Phys. <b>53</b> (1969), 174-202.</li>
+
+<li>N. D. Birrell, P. C. W. Davies: <i>Quantum Fields in Curved Space</i>, Cambridge University Press (1984).</li>
  </ol>
       </section>
       <footer>
