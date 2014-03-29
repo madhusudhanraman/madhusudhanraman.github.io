@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Madhusudhan Raman @ IMSc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>madhusudhan raman</h1>
+        <p>junior research fellow<br>
+        institute of mathematical sciences</p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
+
+      </header>
+      <section>
+
+<h1>Differential Forms, Integration and Hamiltonian Dynamics</h1>
+
+This text discusses differential forms, invariant integration on arbitrary manifolds and the geometrical formulation of Hamiltonian dynamics.
+
+<h2>Differential Forms
+
+Differential forms are gorgeous little beasts that are commonly found lurking under integral signs.
+
+A differential form of order $p$ (or a $p$-form) is a totally antisymmetric $(0,p)$ tensor. For example, $\mathrm{d} x^\mu$ is a 1-form and may be thought of as a line element.
+
+<h3>Wedge and Exterior Products
+
+One can define a product on two 1-forms called a wedge product. This is an antisymmetrized tensor product. For example, a 2-form is
+\[
+\mathrm{d} x^\mu \wedge \mathrm{d} x^\nu = \mathrm{d} x^\mu \otimes \mathrm{d} x^\nu - \mathrm{d} x^\nu \otimes \mathrm{d} x^\mu
+\]
+and, in general, an \(p\)-form may be constructed out of $p$ 1-forms as
+\[
+\mathrm{d} x^{\mu_1} \wedge \cdots \wedge \mathrm{d} x^{\mu_p} = \sum_{P \in \mathrm{Sym(p)}} \mathrm{sgn}(P) \ \mathrm{d} x^{\mu_{P(1)}} \otimes \cdots \otimes \mathrm{d} x^{\mu_{P(p)}} ,
+\]
+where $\mathrm{Sym(p)}$ is the symmetric group of order $p$. It follows from the above definition that if any two indices in a $p$-form take the same value, then the $p$-form is zero due to antisymmetry. Further, shuffling the order of the 1-forms will result in the $p$-form picking up a sign that depends on whether the permutation is odd or even.
+If we denote the space of $p$-forms at a point $q \in M$ as $\Omega^p_q(M)$, then the aforementioned set of $p$-forms form a basis for this space. Note, however, that for the purposes of this series of notes, we will often omit the subscript $q$! Any $\omega \in \Omega^p(M)$ is expanded as
+\[
+\omega = \frac{1}{p!}\omega_{\mu_1 \cdots \mu_p} \mathrm{d} x^{\mu_1} \wedge \cdots \wedge \mathrm{d} x^{\mu_p}
+\]
+and the components $\omega_{\mu_1 \cdots \mu_p}$ are totally antisymmetric under exchange of two indices, reflecting the antisymmetry of the basis.
+Now that we have a vector space of $p$-forms, we may ask what the dimension of such a space is. If our manifold is $n$-dimensional, then the answer is simply the number of ways one may choose $p$ numbers out of $n$ to take the place of indices $(\mu_1, \cdots ,\mu_p)$, or
+\[
+\mathrm{dim} \  \Omega^p(M) = \binom{n}{p} = \frac{n!}{p! (n-p)!} .
+\]
+There are a few points one should note. Firstly, we may identify $\Omega^1(M)$ with the cotangent space $T^*(M)$. Secondly, because of the properties of binomial coefficients, we have
+\[
+\mathrm{dim} \  \Omega^p(M) = \mathrm{dim} \  \Omega^{n-p}(M)
+\]
+or that the vector spaces $\Omega^p(M)$ and $\Omega^{n-p}(M)$ are isomorphic. Lastly, if $p > n$ then the form vanishes identically as some index must be repeated in the antisymmetrized sum.
+An exterior product is a product defined by trivial and symmetrized extension; for a $p$-form $\omega$ and a $q$-form $\xi$, we have
+\[
+\wedge: \Omega^p(M) \times \Omega^q(M) \rightarrow \Omega^{p+q}(M)
+\]
+such that
+\[
+(\omega \wedge \xi)(V_1,\cdots ,V_{p+q}) = \frac{1}{p!q!} \sum_{\mathrm{Sym}(p+q)} \mathrm{sgn}(P) \ \omega(V_{P(1)}, \cdots , V_{P(p)}) \ \xi(V_{P(p+1)}, \cdots , V_{P(p+q)}) ,
+\]
+so, as one might expect, this product is zero if $p+q > n$. With this product, we can define
+\[
+\Omega^*(M) = \Omega^0(M) \oplus \Omega^1(M) \oplus \cdots \oplus \Omega^n(M)
+\]
+which denotes the algebra of differential forms on $M$ that is closed under the exterior product.
+The following properties are easily verified. For a $p$-form $\omega$, a $q$-form $\xi$ and a $s$-form $\eta$, we have:
+\begin{eqnarray}
+\omega \wedge \omega &=& 0 \quad (\mathrm{odd} \ p) \\
+\xi \wedge \eta &=& (-1)^{qs} \eta \wedge \xi \\
+(\xi \wedge \eta ) \wedge \omega &=& \xi \wedge (\eta \wedge \omega)
+\end{eqnarray}
+
+<h3>Exterior Derivatives
+
+An exterior derivative is a map
+\[
+\mathrm{d} : \Omega^p(M) \rightarrow \Omega^{p+1}(M)
+\]
+and is defined to act on an $p$-form $\omega$ as
+\[
+\mathrm{d} \omega = \frac{1}{p!} \left(\frac{\partial}{\partial x^\nu} \omega_{\mu_1 \cdots \mu_p} \right) \mathrm{d} x^\nu \wedge \mathrm{d} x^{\mu_1} \wedge \cdots \wedge \mathrm{d} x^{\mu_p} .
+\]
+The exterior derivative obeys the graded Leibniz rule; for a $p$-form $\omega$ and a $q$-form $\eta$, we have
+\[
+\mathrm{d} (\omega \wedge \eta) = \mathrm{d} \omega \wedge \eta + (-1)^p \ \omega \wedge \mathrm{d} \eta .
+\]
+The rule is simple enough to remember: if the exterior derivative "jumps over" a $p$-form, then the term picks up a factor of $(-1)^p$.
+The following formula is quite useful: for $\omega \in \Omega^1(M)$ and $X, Y \in \mathscr{X}$, we have
+\[
+\mathrm{d} \omega(X,Y) = X[\omega(Y)] - Y[\omega(X)] - \omega([X,Y]) .
+\]
+It is easy to see that the the exterior derivative is nilpotent, i.e. that
+\[
+\mathrm{d}^2 = 0 .
+\]
+In fact, this follows from the manner in which $\mathrm{d}$ acts on a $p$-form $\omega$. If $\mathrm{d}$ acts twice, we get
+\[
+\mathrm{d}^2 \omega = \frac{1}{p!} \left(\frac{\partial^2}{\partial x^\rho \partial x^\sigma} \omega_{\mu_1 \cdots \mu_p} \right) \mathrm{d} x^\rho \wedge \mathrm{d} x^\sigma \wedge \mathrm{d} x^{\mu_1} \wedge \cdots \wedge \mathrm{d} x^{\mu_p} ,
+\]
+which vanishes identically as the second derivative in the brackets is symmetric under $\rho \leftrightarrow \sigma$ but $\mathrm{d} x^\rho \wedge \mathrm{d} x^\sigma$ is antisymmetric under this exchange.
+
+Differential forms may be pulled back; if $f: M \rightarrow N$ and $\omega, \eta \in \Omega^p(N)$, then
+\[
+(f^* \omega)(X_1, \cdots , X_p) = \omega(f_* X_1, \cdots , f_* X_p),
+\]
+as is straightforwardly generalized from the analogous property for 1-forms. Further, exterior derivation and products "commute" with pullbacks, so
+\[
+\mathrm{d} (f^* \omega) = f^* (\mathrm{d} \omega)
+\]
+and
+\[
+f^* (\omega \wedge \eta) = (f^* \omega) \wedge (f^* \eta) .
+\]
+The exterior derivative will important when discussing the de Rham complex and the associated cohomology groups.
+
+<h3>Interior Products and Lie's Magic Formula
+An interior product $i_X : \Omega^p(M) \rightarrow \Omega^{p-1}(M)$ is defined for $X \in \mathscr{X}$ and $\omega \in \Omega^p(M)$ as
+\[
+i_X \omega (X_1 , \cdots , X_{p-1}) = \omega (X, X_1 , \cdots , X_{p-1})
+\]
+or, in terms of components with $X = X^\mu \partial_\mu$ and $\omega = (1/p!) \omega_{\mu_1 \cdots \mu_p} \mathrm{d} x^{\mu_1} \wedge \cdots \wedge \mathrm{d} x^{\mu_p}$, we have
+\[
+i_X \omega = \frac{1}{p!} \sum_{j=1}^{p} X^{\mu_j} \omega_{\mu_1 \cdots \mu_j \cdots \mu_p} (-1)^{j-1} \mathrm{d} x^{\mu_1} \wedge \cdots \wedge \hat{\mathrm{d} x^{\mu_j}} \wedge \cdots \wedge \mathrm{d} x^{\mu_p}
+\]
+where, in the sum, the term with the hat is omitted.
+
+The Lie derivative of a form may now be very neatly expressed in terms of the exterior and interior derivatives as
+\[
+\mathcal{L}_X \omega = (\mathrm{d} i_X + i_X \mathrm{d}) \omega .
+\]
+Listed below are a number of cute properties the interior derivative possesses; for $\omega \in \Omega^p(M)$ and $X,Y \in \mathscr{X}$ we have
+\[
+i_{[X,Y]} \omega = X (i_Y \omega) - Y (i_X \omega)
+\]
+and
+\[
+i_X (\omega \wedge \eta) = i_X \omega \wedge \eta + (-1)^p \omega \wedge i_X \eta
+\]
+and
+\[
+i_X^2 = 0
+\]
+and, as a consequence of nilpotency,
+\[
+\mathcal{L}_X i_X \omega = i_X \mathcal{L}_X \omega .
+\]
+
+<h2>Integration
+
+<h3>Volume Forms
+
+Integrating differential forms is only defined when the manifold is orientable, i.e. if, for any pair of overlapping charts $U_i$ and $U_j$ with, say, coordinate functions $\{x^\mu\}$ and $\{y^\nu\}$ respectively, the Jacobian of the coordinate transformation
+\[
+J = \mathrm{det} \left( \frac{\partial x^\mu}{\partial y^\nu} \right)
+\]
+is positive. 
+
+For an $n$-manifold $M$ that is orientable, there exists a nowhere vanishing $n$-form called a volume element which plays the role of a measure when you integrate a function $f \in \mathscr{F}(M)$ over $M$. Two $n$-forms are $\omega$ and $\omega'$ are considered equivalent if they are related to each other as $\omega' = h \omega$, where $h \in \mathscr{F}(M)$ is a strictly positive function. If the function is strictly negative, then the orientation is reversed; in this way, $n$-forms on an orientable manifold are partitioned into two classes -- one with an orientation (say, right-handed) and the other with the opposite orientation (say, left-handed).
+
+To clarify these ideas further it is profitable to study these forms in their local coordinate presentation. Consider a manifold $M$ with an open set $U_i$ that is, in turn, coordinatized by the function $x = \varphi(p)$, where $p \in M$. The local coordinate version of this volume form is
+\[
+\omega = h(p) \mathrm{d} x^1 \wedge \cdots \wedge \mathrm{d} x^n ,
+\]
+where $h(p)$ is strictly positive on the open set $U_i$. The orientability of $M$ implies that $\omega$ can be extended throughout $M$, and $h$ is a function that is positive definite throughout $M$. For example, on the intersection of two open sets with coordinates $\{ x^\mu \}$ and $\{ y^\nu \}$, the volume form in the $y$-coordinate presentation differs from the volume form in the $x$-coordinate presentation simply by a Jacobian factor, which we have already mentioned is positive if the manifold is to be orientable.
+
+If $M$ is not orientable, an $\omega$ with a strictly positive $h$ cannot be defined throughout $M$. It should also be noted that in the presence of a metric, there is a canonical choice of volume form. We will talk about this in [[GAPIII]].
+
+<h3>Partitions of Unity and Integration
+We now address the following question: how does one integrate a function $f : M \rightarrow \mathbb{R}$? We'll answer this question in two steps: first, how do we integrate over open sets on manifolds, and second, how do we extend this notion of integration so that we may integrate functions over entire manifolds?
+
+To answer our question, consider an open set $U_i$ that is coordinatized by the function $x = \varphi(p)$. We define integration using the volume form $\omega$ as
+\[
+\int_{U_i} f \omega = \int_{\varphi(U_i)} f(\varphi_i^{-1}(x)) h(\varphi_i^{-1}(x)) \mathrm{d} x^1 \cdots \mathrm{d} x^n ,
+\]
+which will be recognized as an ordinary multiple integral that is straightforwardly computable.
+
+Now, to answer the question of how to extend this notion of integration to cover the entire manifold, we introduce a topological property called paracompactness and, associated with it a notion referred to as a partition of unity.
+
+A manifold is paracompact if any open covering of $M$ satisfies the following property: any point $p \in M$ is contained in some finite number of open sets. 
+
+For a partition of unity, we need the following ingredients: a set of differentiable functions $\{ \epsilon_i (p) \}$ such that
+# $0 \leq \epsilon_i (p) \leq 1$,
+# $\epsilon_i (p) = 0$ if $p \notin U_i$, and
+# the sum of all $\epsilon_i (p)$ is unity for any point $p \in M$.
+
+The partition of unity allows us to redefine the integral as a (finite) sum, allowing us to write
+\[
+f(p) = \sum_i f(p) \epsilon_i (p) = \sum_i f_i (p) ,
+\]
+which in turn allows us to define our integral of the function over the manifold as
+\[
+\int_M f \omega = \sum_i \int_{U_i} f_i \omega .
+\]
+Consult Flanders for more examples of the same.
+<h3>Pseudoforms
+
+<h2>Hamiltonian Dynamics
+
+Let $H$ be a Hamiltonian and the coordinates $(q^\mu , p_\mu)$ span the phase space. Introduce the canonical 1-form
+\[
+\theta = p_\mu \mathrm{d} q^\mu
+\]
+and define a symplectic 2-form as
+\[
+\omega = \mathrm{d} \theta = \mathrm{d} p_\mu \wedge \mathrm{d} q^\mu .
+\]
+
+<h3>Hamiltonian Vector Fields
+
+Now define, given a function $f$ on phase space, a Hamiltonian vector field
+\[
+X_f = \frac{\partial f}{\partial p_\mu} \partial_{q^\mu} - \frac{\partial f}{\partial q^\mu} \partial_{p_\mu}
+\]
+so that
+\[
+i_{X_f} \omega = - \frac{\partial f}{\partial p_\mu} \mathrm{d} p_\mu - \frac{\partial f}{\partial q^\mu} \mathrm{d} q^\mu = - \mathrm{d} f .
+\]
+Now let the function $f$ be the Hamiltonian itself; the associated Hamiltonian vector field is, then
+\[
+X_H = \frac{\partial H}{\partial p_\mu} \partial_{q^\mu} - \frac{\partial H}{\partial q^\mu} \partial_{p_\mu}
+\]
+and, using Hamilton's equations, we see
+\[
+X_H = \frac{\mathrm{d}}{\mathrm{d}t} \quad \mathrm{and} \quad i_{X_H} \omega = -\mathrm{d} H .
+\]
+Thus, the symplectic 2-form $\omega$ is preserved by the flow generated by the Hamiltonian vector field as, due to Lie's Magic Formula
+\[
+\mathcal{L}_{X_H} \omega = (\mathrm{d} i_{X_H} + i_{X_H} \mathrm{d}) \omega = - \mathrm{d}^2 H = 0
+\]
+where we have used the fact that the symplectic 2-form is closed.
+
+Conversely, for a Hamiltonian vector field $X$ that preserves the symplectic 2-form, there exists a Hamiltonian $H$ as
+\[
+\mathcal{L}_X \omega = \mathrm{d}(i_X \omega) = 0
+\]
+by assumption, so by Poincare's Lemma, we have
+\[
+i_X \omega = - \mathrm{d} H .
+\]
+Thus, Hamilton's equations are satisfied along the $\omega$ preserving flows generated by $X$.
+
+</section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
