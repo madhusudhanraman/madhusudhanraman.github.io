@@ -25,6 +25,7 @@
         <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/readinglist">my reading list</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
 
       </header>
@@ -32,9 +33,12 @@
       
 <h1>notes</h1>
 
-    <p>Coming soon...</p>
-    
-    <p>In the mean time, head <a href="http://www.imsc.res.in/~madhur/#notes">here</a> for more!</p>
+    <ul>
+        
+        <li>My masters thesis was on the subject of metric tensors in quantum condensed matter systems. It was mostly review, although there are some unpublished results that may be of interest to researchers trying to better understand the ground states of many-body systems. <br> <b>Metric Tensors in Condensed Matter Physics: A Review</b></li>
+        <li>I'm the teaching assistant for this semesters course on classical mechanics, and thought this was the right time to write up some notes on what is, in my opinion, the most natural development of the subject: via symplectic geometry. These notes are still in preparation! <br> <b>Notes on Symplectic Structures and Classical Dynamics</b></li>
+        
+    </ul>
         
       </section>
       <footer>
