@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Madhusudhan Raman @ IMSc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>madhusudhan raman</h1>
+        <p>junior research fellow<br>
+        institute of mathematical sciences</p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/readinglist">my reading list</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
+
+      </header>
+      <section>
+<h1>Literature Seminar on Conformal Field Theories</h1>
+
+<h2>January - April '14</h2>
+
+<p>This semester, just to get started, we will be discussing the path integral approach to quantum field theory, with the occasional jaunt around the maypole of condensed matter and statistical physics. This is mostly textbook stuff, so nothing fancy.</p>
+
+<p>We meet almost every Saturday at 6:00 PM in Hall 123.</p>
+
+<h3> Talks </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+   </tr>
+   <tr>
+      <td>16th November</td>
+      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Kumar Mishra</a></td>
+      <td>Dimensional Regularization</td>
+   </tr>
+   <tr>
+      <td>9th November</td>
+      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Kumar Mishra</a></td>
+      <td>Momentum Cutoff Regularization</td>
+   </tr>
+   <tr>
+      <td>2nd November</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>The \( S \) Matrix and Lehmann-Symanzik-Zimmermann Reduction</td>
+   </tr>
+   <tr>
+      <td>12th October</td>
+      <td><a href="http://www.imsc.res.in/users/rsingh">Rajesh Singh</a></td>
+      <td>Linear Response Theory I: Spectral Density Functions</td>
+   </tr>
+   <tr>
+      <td>5th October</td>
+      <td><a href="http://www.imsc.res.in/users/sbhtta">Soumyadeep Bhattacharya</a></td>
+      <td>Renormalization Group I: Central Limit Theorem</td>
+   </tr>
+   <tr>
+      <td>28th September</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>Symmetries, Groups and Algebras</td>
+   </tr>
+   <tr>
+      <td>21st September</td>
+      <td><a href="http://www.imsc.res.in/users/nbala">N. Balakrishnan</a></td>
+      <td>Path Integrals for Free Dirac Fields</td>
+   </tr>
+   <tr>
+      <td>14th September</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>Interactions II: Feynman Diagrams and \( \phi^4 \) Theory</td>
+   </tr>
+   <tr>
+      <td>31st August</td>
+      <td><a href="http://www.imsc.res.in/users/arnabps">Arnab Priya Saha</a></td>
+      <td>Interactions I: \( \phi^3 \) Theory</td>
+   </tr>
+      <tr>
+      <td>24th August</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>Massive Electrodynamics</td>
+   </tr>
+   <tr>
+      <td>17th August</td>
+      <td><a href="http://www.imsc.res.in/users/prasannakd">Prasanna Kumar Dhani</a></td>
+      <td>Free Scalar Fields</td>
+   </tr>
+   <tr>
+      <td>10th August</td>
+      <td><a href="http://www.imsc.res.in/users/nbala">N. Balakrishnan</a></td>
+      <td>Review: Path Integrals in Quantum Mechanics</td>
+   </tr>
+   
+</table>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
