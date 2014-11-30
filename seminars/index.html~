@@ -25,7 +25,7 @@
         <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
-        <p class="view"><a href="http://madhusudhanraman.github.io/readinglist">my reading list</a></p>
+
         <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
 
       </header>
@@ -34,7 +34,7 @@
 <h1>current seminars</h1>
 
 <ul>
-    <li><a href="http://madhusudhanraman.github.io/seminars/rs4">Topics in Field Theory (August - November '14)</a></li>
+    <li><a href="http://madhusudhanraman.github.io/seminars/rs4">Constraints, BRST and Supersymmetry (August - November '14)</a></li>
 </ul>
 
 <h1>past seminars</h1>
