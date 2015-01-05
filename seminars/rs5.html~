@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Madhusudhan Raman @ IMSc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>madhusudhan raman</h1>
+        <p>junior research fellow<br>
+        institute of mathematical sciences</p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
+
+      </header>
+      <section>
+<h1>Constraints, BRST and Supersymmetry</h1>
+
+<h2>August - December '14</h2>
+
+<p>In order to better understand the notion of gauge invariance, we began this seminar with a discussion of (i) Dirac's work on constrained dynamical systems and (ii) the BRST formalism.</p>
+
+<p>We decided then that a discussion of supersymmetry was appropriate, given the similarities between the BRST charge \( \mathcal{Q} \) and the supersymmetry charges \( Q_{\alpha} \). We plan to end the seminar with a discussion of Seiberg-Witten theory.</p>
+
+<p>Each meeting will go on for an hour and a half. We meet every Saturday at 5:00 pm in Hall 123.</p>
+
+<p>Note: An asterisk (*) next to a reference means it was mentioned in passing and is only tangentially related to the material discussed in the talk.</p>
+
+
+<h3> Talks </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+      <td>Notes/References</td>
+   </tr>
+   <tr>
+      <td>6th December</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>The Moduli Space and \( S \)-Duality</td>
+      <td>[12], [13]</td>
+   </tr>
+   <tr>
+      <td>15th November</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>Instantons and Seiberg's Nonrenormalization Theorems</td>
+      <td>[14]</td>
+   </tr>
+   <tr>
+      <td>25th October</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>The \( \mathcal{N} = 2 \) Supersymmetric Yang-Mills Action</td>
+      <td>[11], [13]</td>
+   </tr>
+   <tr>
+      <td>18th October</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>\( \mathcal{N}=1 \) Superspace: Chiral and Vector Superfields</td>
+      <td>[11], [12]</td>
+   </tr>
+   <tr>
+      <td>11th October</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>The Supersymmetry Algebra and Its Representations</td>
+      <td>[11]</td>
+   </tr>
+   <tr>
+      <td>8th October</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>BRST III: Quantum \( \mathcal{Q} \) Cohomology and Topological Field Theories</td>
+      <td>[8], [9], [10]</td>
+   </tr>
+   <tr>
+      <td>27th September</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>BRST II: Ghosts and \( \mathcal{Q} \) Cohomology</td>
+      <td>[5], [8]</td>
+   </tr>
+   <tr>
+      <td>20th September</td>
+      <td><a href="http://www.imsc.res.in/users/bpulak">Pulak Banerjee</a></td>
+      <td>Renormalization I: Loops and Divergences</td>
+      <td>...</td>
+   </tr>
+   <tr>
+      <td>13th September</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>BRST I: Phase Space and Local Charges</td>
+      <td>[8]</td>
+   </tr>
+   <tr>
+      <td>6th September</td>
+      <td><a href="http://www.imsc.res.in/users/vivekmv">Dr. Vivek M. Vyas</a></td>
+      <td>Constrained Theories III: Examples</td>
+      <td>[2], [6], [7]</td>
+   </tr>
+   <tr>
+      <td>30th August</td>
+      <td><a href="http://www.imsc.res.in/users/vivekmv">Dr. Vivek M. Vyas</a></td>
+      <td>Constrained Theories II: Dirac Brackets and Constraint Classes</td>
+      <td>[5]</td>
+   </tr>
+   <tr>
+      <td>26rd August</td>
+      <td><a href="http://www.imsc.res.in/users/vivekmv">Dr. Vivek M. Vyas</a></td>
+      <td>Constrained Theories I: Motivations, Multipliers and Singular Lagrangians</td>
+      <td>[1], [3], [4*]</td>
+   </tr>
+</table>
+
+<h3> References </h3>
+<ol>
+<li>P. A. M. Dirac: <i>Lectures on Quantum Mechanics</i>, Dover Publications (2001).</li>
+
+<li>A. Das: <i>Lectures on Quantum Field Theory</i>, World Scientific (2008).</li>
+
+<li>H. J. Rothe, K. D. Rothe: <i>Classical and Quantum Dynamics of Constrained Hamiltonian Systems</i>, World Scientific (2010).</li>
+
+<li>M. Ornigotti, A. Aiello: <i>The Faddeev-Popov Method Demystified</i>.<br>Preprint available at <a href="http://arxiv.org/abs/1407.7256">arXiv:1407.7256</a>.</li>
+
+<li>M. Henneaux, C. Teitelboim: <i>Quantization of Gauge Systems</i>, Princeton University Press (1994).</li>
+
+<li>S. Seahra: <i>Quantization of Constrained Systems</i>.<br> Lecture notes available <a href="http://www.math.unb.ca/~seahra/notes.html">here</a>.</li>
+
+<li>A. Scardicchio: <i>Classical and Quantum Dynamics of a Particle Constrained on a Circle</i>, Phys. Lett. A <b>300</b> (2002), 7-17.<br>Preprint available at <a href="http://arxiv.org/abs/quant-ph/0106029">arXiv:quant-ph/0106029</a>.</li>
+
+<li>J. W. van Holten: <i>Aspects of BRST Quantization</i>.<br>Preprint available at <a href="http://arxiv.org/abs/hep-th/0201124">arXiv:hep-th/0201124</a>.</li>
+
+<li>D. Birmingham et al.: <i>Topological Field Theories</i>, Phys. Rep. <b>209</b> (1991), 129-340.</li>
+
+<li>Y.-H. Gao: <i>Topological Twisting</i>.<br> Lecture notes available <a href="http://power.itp.ac.cn/~gaoyh/doc/tt1.pdf">here</a>.</li>
+
+<li>A. Bilal: <i>Introduction to Supersymmetry</i>.<br>Lecture notes available at <a href="http://arxiv.org/abs/hep-th/0101055">arXiv:hep-th/0101055</a>.</li>
+
+<li>L. Alvarez-Gaume, S. F. Hassan: <i>Introduction to \( S \)-Duality in \( \mathcal{N}=2 \) Supersymmetric Gauge Theory</i>, Fortsch. Phys. <b>45</b> (1997), 159-236.<br>Preprint available at <a href="http://arxiv.org/abs/hep-th/9701069">arXiv:hep-th/9701069</a>.</li>
+
+<li>N. Seiberg, E. Witten: <i>Electric-Magnetic Duality, Monopole Condensation, And Confinement in \( \mathcal{N}=2 \) Supersymmetric Yang-Mills Theory</i>, Nucl. Phys. B <b>426</b> (1994), 19-52.<br>Preprint available at <a href="http://arxiv.org/abs/hep-th/9407087">arXiv:hep-th/9407087</a>.</li>
+
+<li>N. Seiberg: <i>Naturalness Versus Supersymmetric Non-Renormalization Theorems</i>, Phys. Lett. B <b>318</b> (1993), 469-475.<br>Preprint available at <a href="http://arxiv.org/abs/hep-ph/9309335">arXiv:hep-ph/9309335</a>.</li>
+
+ </ol>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
