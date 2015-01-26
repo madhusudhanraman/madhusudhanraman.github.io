@@ -34,11 +34,9 @@
 
 <h2>January - June '15</h2>
 
-<p>The material discussed will roughly revolve around material presented in Polchinski: bosonic strings, conformal field theory, loop amplitudes, D-branes etc. We will highlight other references when we find Polchinski's treatment too terse.</p>
+<p>The material discussed will roughly revolve around material presented in Polchinski: bosonic strings, conformal field theory, loop amplitudes, D-branes etc.</p>
 
 <p>Each meeting will go on for an hour and a half. We meet every Thursday at 6:00 PM in Hall 123.</p>
-
-<p>Note: An asterisk (*) next to a reference means it was mentioned in passing and is only tangentially related to the material discussed in the talk.</p>
 
 <h3> Next Talk </h3>
 
@@ -47,13 +45,11 @@
       <td>Date</td>
       <td>Speaker</td>
       <td>Topic</td>
-      <td>Notes/References</td>
    </tr>
    <tr>
       <td>29th January</td>
       <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
       <td>Conformal Field Theory: OPEs, Ward Identities and the Virasoro Algebra</td>
-      <td>[1]</td>
    </tr>
 </table>
 
@@ -65,25 +61,17 @@
       <td>Date</td>
       <td>Speaker</td>
       <td>Topic</td>
-      <td>Notes/References</td>
    </tr>
    <td>22nd January</td>
       <td><a href="http://www.imsc.res.in/users/pinakib">Pinaki Banerjee</a></td>
       <td>Closed and Unoriented Strings</td>
-      <td>[1]</td>
    <tr>
       <td>14th January</td>
       <td><a href="http://www.imsc.res.in/users/nirmalya">Nirmalya Kajuri</a></td>
       <td>Action Principles and Open String Spectra</td>
-      <td>[1]</td>
    </tr>
 </table>
 
-<h3> References </h3>
-<ol>
-<li>J. Polchinski: <i>String Theory Vol. I: An Introduction to the Bosonic String</i>, Cambridge University Press (1998).</li>
-
- </ol>
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
