@@ -34,7 +34,7 @@
 
 <h2>January - June '15</h2>
 
-<p>The material discussed will roughly revolve around material presented in Polchinski: bosonic strings, conformal field theory, loop amplitudes, D-branes etc.</p>
+<p>The material discussed will roughly revolve around material presented in Polchinski: bosonic strings, conformal field theory, loop amplitudes, D\( p \)-branes etc.</p>
 
 <p>Each meeting will go on for an hour and a half. We meet (almost) every Thursday at 6:00 PM in Hall 123.</p>
 
@@ -47,9 +47,9 @@
       <td>Topic</td>
    </tr>
    <tr>
-      <td>12th February</td>
-      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
-      <td>The State-Operator Correspondence and the Polyakov Action</td>
+      <td>19th February</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=aladdha">Dr. Alok Laddha</a></td>
+      <td>The Batalin–Vilkovisky Formalism</td>
    </tr>
 </table>
 
@@ -63,6 +63,11 @@
       <td>Topic</td>
    </tr>
    <tr>
+      <td>12th February</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>The State-Operator Correspondence, Polyakov's Action and Faddeev-Popov Determinants</td>
+   </tr>
+   <tr>
       <td>7th February</td>
       <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj K. Mishra</a></td>
       <td>CFT II: Review and Discussion</td>
@@ -73,7 +78,7 @@
       <td>CFT I: Operator Product Expansions, Ward Identities and the Virasoro Algebra</td>
    </tr>
    <td>22nd January</td>
-      <td><a href="http://www.imsc.res.in/users/pinakib">Pinaki Banerjee</a></td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a></td>
       <td>Closed and Unoriented Strings</td>
    <tr>
       <td>14th January</td>
