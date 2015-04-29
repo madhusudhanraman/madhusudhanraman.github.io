@@ -24,6 +24,7 @@
 
         <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/teaching">teaching</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
 
         <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
@@ -47,9 +48,9 @@
       <td>Topic</td>
    </tr>
    <tr>
-      <td>23rd April</td>
-      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
-      <td>The String \( S \)-Matrix and Scattering Amplitudes II</td>
+      <td>30th April</td>
+      <td><a href="http://www.imsc.res.in/users/ronp">Rohan Poojary</a></td>
+      <td>...</td>
    </tr>
    
 </table>
@@ -62,6 +63,11 @@
       <td>Date</td>
       <td>Speaker</td>
       <td>Topic</td>
+   </tr>
+   <tr>
+      <td>25rd April</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>The String \( S \)-Matrix and Tree-Level Scattering Amplitudes</td>
    </tr>
    <tr>
       <td>16th April</td>
