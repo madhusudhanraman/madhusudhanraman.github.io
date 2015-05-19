@@ -24,6 +24,7 @@
 
         <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/teaching">teaching</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
 
         <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
@@ -34,13 +35,13 @@
 <h1>current seminars</h1>
 
 <ul>
-    <li><a href="http://madhusudhanraman.github.io/seminars/rs6">Integrable Systems (August '15)</a></li>
+    <li><a href="http://madhusudhanraman.github.io/seminars/rs6">String Theory Reading Group II (August '15)</a></li>
 </ul>
 
 <h1>past seminars</h1>
 
 <ul>
-    <li><a href="http://madhusudhanraman.github.io/seminars/rs5">String Theory Reading Group (January - May '15)</a></li>
+    <li><a href="http://madhusudhanraman.github.io/seminars/rs5">String Theory Reading Group I (January - May '15)</a></li>
     <li><a href="http://madhusudhanraman.github.io/seminars/rs4">Constraints, BRST and Supersymmetry (August - December '14)</a></li>
     <li><a href="http://madhusudhanraman.github.io/seminars/rs3">Conformal Field Theories (January - April '14)</a></li>
     <li><a href="http://madhusudhanraman.github.io/seminars/rs1">Path Integral Quantum Field Theory (August - November '13)</a></li>
