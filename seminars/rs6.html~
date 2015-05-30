@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Madhusudhan Raman @ IMSc</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>madhusudhan raman</h1>
+        <p>senior research fellow<br>
+        institute of mathematical sciences</p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/teaching">teaching</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
+
+        <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
+
+      </header>
+      <section>
+<h1>String Theory Reading Group I</h1>
+
+<h2>January - April '15</h2>
+
+<p>The material discussed will roughly revolve around material presented in Polchinski: bosonic strings, conformal field theory, loop amplitudes, D\( p \)-branes etc.</p>
+
+<p>Each meeting will go on for an hour and a half. We meet (almost) every Thursday at 6:00 PM in Hall 123.</p>
+
+
+<h3> Talks </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+   </tr>
+   <tr>
+      <td>25rd April</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>The String \( S \)-Matrix and Tree-Level Scattering Amplitudes</td>
+   </tr>
+   <tr>
+      <td>16th April</td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a> and <a href="http://www.cmi.ac.in/people/fac-profile.php?id=aladdha">Dr. Alok Laddha</a></td>
+      <td>Vertex Operators II</td>
+   </tr>
+   <tr>
+      <td>9th April</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=debangshu">Debangshu Mukherjee</a> and <a href="http://www.cmi.ac.in/people/fac-profile.php?id=aladdha">Dr. Alok Laddha</a></td>
+      <td>Complaints, Grievances and The No Ghost Theorem</td>
+   </tr>
+   <tr>
+      <td>30th March</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=debangshu">Debangshu Mukherjee</a></td>
+      <td>BRST Quantization Bosonic Strings</td>
+   </tr>
+   <tr>
+      <td>19th March</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=debangshu">Debangshu Mukherjee</a></td>
+      <td>Old Covariant Quantization of Bosonic Strings</td>
+   </tr>
+   <tr>
+      <td>12th March</td>
+      <td><a href="http://www.imsc.res.in/users/arnabps">Arnab Priya Saha</a> and <a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>Vertex Operators I and Scattering Amplitudes I</td>
+   </tr>
+   <tr>
+      <td>5th March</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=aladdha">Dr. Alok Laddha</a></td>
+      <td>Boundary Terms in Bosonic String Actions</td>
+   </tr>
+   <tr>
+      <td>26th February</td>
+      <td><a href="http://www.imsc.res.in/users/arnabps">Arnab Priya Saha</a></td>
+      <td>The Weyl Anomaly</td>
+   </tr>
+   <tr>
+      <td>21th February</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=aladdha">Dr. Alok Laddha</a></td>
+      <td>BV I: An Introduction to The Batalin–Vilkovisky Formalism</td>
+   </tr>
+   <tr>
+      <td>12th February</td>
+      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>The State-Operator Correspondence, Polyakov's Action and Faddeev-Popov Determinants</td>
+   </tr>
+   <tr>
+      <td>7th February</td>
+      <td><a href="http://www.imsc.res.in/users/dkmishra">Dheeraj Mishra</a></td>
+      <td>CFT II: Review and Discussion</td>
+   </tr>
+   <tr>
+      <td>29th January</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>CFT I: Operator Product Expansions, Ward Identities and the Virasoro Algebra</td>
+   </tr>
+   <td>22nd January</td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a></td>
+      <td>Closed and Unoriented Strings</td>
+   <tr>
+      <td>14th January</td>
+      <td><a href="http://www.imsc.res.in/users/nirmalya">Nirmalya Kajuri</a></td>
+      <td>Action Principles and Open String Spectra</td>
+   </tr>
+</table>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
