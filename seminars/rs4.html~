@@ -19,11 +19,12 @@
     <div class="wrapper">
       <header>
         <h1>madhusudhan raman</h1>
-        <p>junior research fellow<br>
+        <p>senior research fellow<br>
         institute of mathematical sciences</p>
 
         <p class="view"><a href="http://madhusudhanraman.github.io">home page</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/seminars">seminars</a></p>
+        <p class="view"><a href="http://madhusudhanraman.github.io/teaching">teaching</a></p>
         <p class="view"><a href="http://madhusudhanraman.github.io/notes">notes</a></p>
 
         <p class="view"><a href="http://madhusudhanraman.github.io/contact">contact</a></p>
@@ -60,7 +61,7 @@
    </tr>
    <tr>
       <td>15th November</td>
-      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>---</td>
       <td>Instantons and Seiberg's Nonrenormalization Theorems</td>
       <td>[14]</td>
    </tr>
@@ -84,13 +85,13 @@
    </tr>
    <tr>
       <td>8th October</td>
-      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>---</td>
       <td>BRST III: Quantum \( \mathcal{Q} \) Cohomology and Topological Field Theories</td>
       <td>[8], [9], [10]</td>
    </tr>
    <tr>
       <td>27th September</td>
-      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>---</td>
       <td>BRST II: Ghosts and \( \mathcal{Q} \) Cohomology</td>
       <td>[5], [8]</td>
    </tr>
@@ -102,7 +103,7 @@
    </tr>
    <tr>
       <td>13th September</td>
-      <td><a href="http://madhusudhanraman.github.io">Madhusudhan Raman</a></td>
+      <td>---</td>
       <td>BRST I: Phase Space and Local Charges</td>
       <td>[8]</td>
    </tr>
