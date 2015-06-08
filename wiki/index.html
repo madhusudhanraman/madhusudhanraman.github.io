@@ -333,7 +333,11 @@ Error message and password prompt
 
 <li>$:/view</li>
 
+<li>150608</li>
+
 <li>courses</li>
+
+<li>journal</li>
 
 <li>research</li>
 
@@ -355,9 +359,11 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20150508200851201" creator="madhu" modified="20150601183754154" modifier="madhu" title="..." type="">
+<div created="20150508200851201" creator="madhu" modified="20150608200022583" modifier="madhu" title="..." type="">
 <pre>!! about
 This is the staging area: a place to keep track of the organizational aspects of the [[research|research]] I do, the [[seminars|seminars]] I run, and (most recently) the [[courses|courses]] I teach.
+
+You might be interested in my [[journal|journal]], whose entries contain notes and commentary. 
 
 This is also a place to keep track of links and notes from talks, books, and papers, which makes this a kind of open lab notebook. Consequently, the content here may occasionally reflect my own misunderstandings.
 
@@ -369,8 +375,8 @@ If you read something you think is incorrect, please [[send me an e-mail|http://
 <div created="20150530045207914" creator="madhu" modified="20150530045212394" modifier="madhu" title="$:/config/NewJournal/Tags">
 <pre>journal</pre>
 </div>
-<div created="20150508194525380" creator="MadhusudhanRaman" modified="20150530045900459" modifier="madhu" title="$:/config/NewJournal/Title">
-<pre>DDth MMM 'YY</pre>
+<div created="20150508194525380" creator="MadhusudhanRaman" modified="20150608200147713" modifier="madhu" title="$:/config/NewJournal/Title">
+<pre>YY0MM0DD</pre>
 </div>
 <div modified="20150508210337975" modifier="madhu" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/full-screen">
 <pre>show</pre>
@@ -6024,7 +6030,7 @@ If you read something you think is incorrect, please [[send me an e-mail|http://
 <div created="20150508194504092" creator="M" modified="20150508200818203" modifier="madhur" title="$:/status/UserName">
 <pre>madhu</pre>
 </div>
-<div list="RLI ... research" title="$:/StoryList">
+<div list="... seminars RSVI" title="$:/StoryList">
 <pre></pre>
 </div>
 <div modified="20150508194545991" modifier="MadhusudhanRaman" title="$:/temp/advancedsearch">
@@ -6384,12 +6390,276 @@ At this point it is largely for experimentation by @zooko.
 <div modified="20150601143210908" modifier="madhu" title="$:/view">
 <pre>classic</pre>
 </div>
+<div created="20150608200156289" creator="madhu" modified="20150608200220251" modifier="madhu" tags="journal" title="150608">
+<pre>! Field Theory in Dimension Zero
+I'm meeting a friend tomorrow and we plan to discuss some quantum field theory. I thought it might be fun to talk a very simple and cute example: field theories over a point.
+
+!! Functional Integrals $$\rightarrow$$ Integrals Of Functions
+A field theory over a point means the field variables have no &quot;labels&quot; corresponding to coordinates over the base manifold, because the base manifold is now just:
+\[
+\{ \cdot \}
+\]
+i. e. a single point. In effect, this means the functional integrals that we know and love -- ones that define the partition function, for example -- are much simpler: they reduce to the integrals of functions of our field variables.
+\[
+Z := \int \text{d}X \, e^{-S(X)}
+\]
+
+Here, the field variable $$X: \{ \cdot \} \rightarrow \mathbb{R}$$. 
+
+While this &quot;field theory&quot; may seem bogus, it is quite useful. One can use this model to, in a systematic manner, introduce the diagrammatic expansions ubiquitous in perturbative quantum field theory.
+
+&lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/state/SampleReveal2&quot; text=&quot;show&quot;&gt;
+
+&lt;$button set=&quot;$:/state/SampleReveal2&quot; setTo=&quot;show&quot;&gt;Diagrammatic Expansions: Reveal&lt;/$button&gt;
+
+&lt;/$reveal&gt;
+&lt;$reveal type=&quot;match&quot; state=&quot;$:/state/SampleReveal2&quot; text=&quot;show&quot;&gt;
+
+&lt;$button set=&quot;$:/state/SampleReveal2&quot; setTo=&quot;hide&quot;&gt;Diagrammatic Expansions: Collapse&lt;/$button&gt;
+
+The following example is due to Zee [1]: let's focus our attention on evaluating the following integral
+\[
+Z(b,c) = \int dx \,e^{-ax^2 + bx - cx^4} 
+\]
+Peel off the $$e^{-cx^4}$$ piece and expand it in a Taylor series. We can now integrate this term by term; to do so, pull down factors of $$x$$ by differentiating repeatedly w.r.t. $$b$$. Yes, I know, I only have to differentiate half as many times per term if I pull down whole factors of $$x^2$$ by differentiating w.r.t. $$a$$, but I won't do that because it doesn't generalize to the field theoretic context. Thus, we write the above expression as
+\[
+Z(b,c) = \sqrt{\frac{\pi}{a}} \times e^{-c\left(\frac{d}{db}\right)^4} \times e^{b^2/4a} .
+\]
+Now expand both exponentials in Taylor series and collect like powers of $$b$$ and $$c$$. It will be possible to associate diagrams with each term! At its heart, this is exactly what a Feynman diagram is. One small point before we march forth, though: we won't care very much about the prefactor as it is the same for each term, i.e. $$Z(0,0) = \sqrt{\pi/a}$$. We follow Zee's notation and define the object $$\tilde{Z} = Z(b,c)/Z(0,0)$$. When calculating correlation functions, for example, it is $$\tilde{Z}$$ that we will be interested in anyway.
+
+Now, the rules for associating diagrams with each term in the expansion go like this:
+
+# Four lines may meet at a vertex.
+# Each vertex is associated with a factor $$(-c)$$.
+# Each line is weighted by $$1/a$$
+# Each external end counts for a $$b$$.
+
+Let's expand in orders of $$c$$; for example, let's say you wanted terms of order $$c^2$$ and $$b^6$$. As you observe, the diagram has seven lines, six ends and two vertices, so it will be of the order $$(1/a)^7 c^2 b^6$$ and the numerical prefactor is
+\[
+\frac{14!}{7!2!6!4^7} .
+\]
+For now, these prefactors aren't too important. They are a detail but an important one, and can only be picked up with practice.
+
+We may, of course, be asked to collect terms in the expansion in terms of $$b$$ instead of $$c$$. We can write
+\[
+\tilde{Z} = \sum_{n=0}^{\infty} \frac{1}{n!} b^n \underbrace{\int dx \,e^{-ax^2 - cx^4} x^n} ,
+\]
+where the underbraced portion is analogous to what we'd call a Green's function in the context of field theory. For example, to evaluate the $$\mathcal{O}(c)$$ contribution to $$G^{(4)}$$, we have the term
+\[
+\frac{b^4}{4!} (-c)  \int dx \,e^{-ax^2} x^8 = (-c) \frac{J^4}{a^4} \frac{7!!}{4!}
+\]
+which agrees with what we would have got for the $$c$$-expansion. All of this, incidentally, generalizes straightforwardly to the case of many bosonic variables.
+
+&lt;/$reveal&gt;
+
+I'm going to use it to explain what a supersymmetry is and what the quite generic phenomenon of localization looks like. Most of this follows Hori et al. [2], so look there for more details.
+
+Before introducing supersymmetry, we'll need to know how fermions are incorporated into the functional integral formalism. This is done using Grassmann variables. 
+
+&lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/state/SampleReveal2&quot; text=&quot;show&quot;&gt;
+
+&lt;$button set=&quot;$:/state/SampleReveal2&quot; setTo=&quot;show&quot;&gt;Grassmannology: Reveal&lt;/$button&gt;
+
+&lt;/$reveal&gt;
+&lt;$reveal type=&quot;match&quot; state=&quot;$:/state/SampleReveal2&quot; text=&quot;show&quot;&gt;
+
+&lt;$button set=&quot;$:/state/SampleReveal2&quot; setTo=&quot;hide&quot;&gt;Grassmannology: Collapse&lt;/$button&gt;
+
+From our study of canonical quantization, we are aware that fermionic field variables obey anticommutation relations. The reason we use anticommutation relations and not commutation relations (as in the case of scalar fields) is because we'd like to employ the spin-statistics connection, namely that integer spin particles obey Bose statistics and half-integer spin particles obey Fermi statistics.
+
+In the path integrals for the scalar field, however, all our field variables commute, and we can't use these variables to proceed if we wish to describe fermions. This (very loosely) motivates the introduction of the Grassmann variables, which naturally incorporate the anticommutation relations.
+
+!!! Variables and Functions
+The Grassmann variables obey the following relation:
+\[
+\{ \theta_i, \theta_j \} = \theta_i \theta_j + \theta_j \theta_i = 0 .
+\]
+This means when you push one $$\theta$$ past another, you'll pick up a minus sign. We note in passing that each $$\theta$$ may be represented by a matrix, but we will not do so here.
+
+One consequence of this relation is that $$\theta_i^2 = 0$$, i.e. the Grassmann variables are nilpotent. One may start with, say, $$N$$ Grassmann variables; they are then referred to as generators of the Grassmann algebra. A good way to think of this is to think of each $$\theta_i$$ as a basis vector in some vector space. The commutation relations then define a product on the vector space, turning it into an algebra, namely the Grassmann algebra. 
+
+You can define functions of Grassmann variables too! Any function of Grassmann variables is defined in terms of the Taylor series expansion, so for example:
+\[
+e^\theta = 1 + \theta .
+\]
+It is clear that there can be no higher order terms, for $$\theta^2 = 0$$. Thus, functions of Grassmann variables may appear especially simple at first sight.
+
+!!!Differentiation and Integration
+We define left-differentiation with the understanding that the derivative can only act on the function if the variable it is differentiating with respect to is sitting at the front. If this is not true, we'll have to bring that variable all the way to the left before differentiating. So, for example:
+\[
+\frac{\partial}{\partial \theta_i} (\theta_i \theta_j) = \theta_j \quad \mathrm{but} \quad \frac{\partial}{\partial \theta_i} (\theta_j \theta_i) = -\theta_j .
+\]
+
+The following rules may be derived from the above:
+\[
+\left\{ \theta_i , \frac{\partial}{\partial \theta_j} \right\} = \delta_{ij} ,
+\]
+\[
+\left\{ \frac{\partial}{\partial \theta_i}, \frac{\partial}{\partial \theta_j} \right\} = 0 ,
+\]
+and may be proved straightforwardly.
+
+In light of our aim -- to use the Grassmann variables to represent fermionic variables -- we'll need to learn how to integrate functions of Grassmann variables. We'll require that the differential element (that is, the measure) also be a Grassmann variable, so the following commutation relations apply:
+\[
+\left\{ \theta_i, d\theta_j \right\} = 0 ,
+\]
+\[
+\left\{ d\theta_i, d\theta_j \right\} = 0 .
+\]
+
+We will need the following identities to define integration:
+\[
+\int d\theta \,\theta = 1 \quad \mathrm{and} \int d\theta \,1 = 0 .
+\]
+We can motivate the second of these identities as follows:
+\[
+\left( \int d\theta \right)^2 = \int \int d\theta_1 \,d\theta_2 = - \int \int d\theta_2 \,d\theta_1 = -\left( \int d\theta \right)^2 .
+\]
+Here, we introduce $$\theta_1$$ and $$\theta_2$$ as dummy variables, employ the anticommutation relations and arrive at the required result.
+
+In general, integrals of functions of Grassmann variables are defined as being equal to the integrals of the corresponding Taylor expansion. Using this, we may arrive at the following most startling observation; consider integrating a function of two Grassmann variables over one of the variables. We get
+\[
+\int d\theta_1 \,f(\theta_1, \theta_2) = \int d\theta_1 \,\left( f_0 + f_1 \theta_1 + f_2 \theta_2 + f_3 \theta_1 \theta_2 \right) = f_1 + f_3 \theta_2 .
+\]
+The reader will observe that this is exactly what we might have arrived at if we had chosen to differentiate $$f$$ with respect to $$\theta_1$$! Thus, integration and differentiation of functions of Grassmann variables are //the same thing//.
+
+With this information, we can write:
+\[
+\int d\theta_1 \cdots d\theta_n = \frac{\partial^n}{\partial \theta_1 \cdots \partial \theta_n} ,
+\]
+with proper care taken so that the order in which the integrals is performed is the same as the order in which the derivatives are taken!
+
+!!! Gaussian Integrals
+Now we'll discuss Gaussian integrals for Grassmann variables. At first, this might be an odd thing to consider, in light of the relation $$\theta^2 = 0$$. We will, however, consider $$\theta$$ here to be a $$n$$-dimensional vector made up of Grassmann variables. Consider the following integral
+\[
+\int [\mathcal{D}\theta] \,e^{-\frac{1}{2}\theta^T \cdot A \cdot \theta} ,
+\]
+where $$[\mathcal{D} \theta]$$ is shorthand for $$d\theta_1 d\theta_2 \cdots d\theta_n$$ and $$A$$ is an $$n \times n$$ matrix with entries in $$\mathbb{R}$$. Then we expand the exponential
+\[
+\int [\mathcal{D} \theta] \, (1 - \frac{1}{2} ( \theta^T \cdot A \cdot \theta) + \frac{1}{2 \times 2!} (\theta^T \cdot A \cdot \theta)^2 + \cdots) ,
+\]
+and use the fact that integration and differentiation of functions of Grassmann variables are the same.
+
+A term in the series will only contribute a non-zero value if it has all the $$\theta_i$$ appearing in it exactly once; partial differentiation will kill any term that has fewer $$\theta$$ and anything more will necessarily mean that some $$\theta_i$$ appears more than once, thereby making the term zero due to nilpotency of the Grassmann variables.
+
+We may go one step further and claim that the result will be non-zero only if the vector $$\theta$$ is even dimensional, i.e. $$n$$ is an even number. That's because the measure has, say, odd number of terms and each term in the Taylor expansion of the function can only have an even number of terms as $$\theta$$ appears quadratically in the argument of the exponential. Since these two cannot be the same number (one is odd, the other is even!), the integral is identically zero. 
+
+For the case of $$n$$ even, there will be a non-zero contribution from the term in the Taylor expansion that has a power $$n/2$$ -- this ensures that there are as many variables as there are measures for them in the expression for the integral -- and the only integral we'll have to evaluate is
+\[
+\int [\mathcal{D} \theta] \left[ \frac{(-1)^{n/2}}{(n/2)!} (\theta^T \cdot A \cdot \theta)^{n/2} \right] .
+\] 
+Even in this expression, most of the terms won't give contribute at all due to repetitions. For example, for $$n=2$$, the only terms that will enter are given as 
+\[
+\int d\theta_1 d\theta_2 [-a\theta_1 \theta_2] = +a ,
+\]
+where $$A_{12} = -A_{21} = a$$. In general, for even $$n$$, with a little work one can show that
+\[
+\int [\mathcal{D} \theta] e^{-\frac{1}{2} \theta^T \cdot A \cdot \theta} = \sqrt{\mathrm{det}[A]} ,
+\]
+where the determinant above is of the antisymmetric part of $$A$$, not the whole of $$A$$. This is because the term quadratic in $$\theta$$ that sits in the argument of the exponential may be written as $$A_{ij} \theta_i \theta_j$$ and since the expression is antisymmetric under exchange $$i \leftrightarrow j$$, only the antisymmetric part of $$A$$ will contribute. The above expression is true for all dimensions -- that is, $$n$$ can be odd or even  -- as the determinant of any odd dimensional antisymmetric matrix is identically zero. 
+
+For the case of gaussian integrals with a source term, we use the following result:
+\[
+\int [\mathcal{D} \theta] \,e^{\frac{1}{2} \theta^T \cdot A \cdot \theta + J^T \cdot \theta} = \sqrt{\mathrm{det}[A]} \, e^{\frac{1}{2} J^T \cdot A^{-1} \cdot J} .
+\]
+
+Now we'll complexify the Grassmann variables; that is, any $$\eta = \theta_a + i \theta_b$$. Now, $$\psi$$ denotes a $$n$$-dimensional column vector made up of complex Grassmann variables and $$A$$ is a $$n \times n$$ matrix with (in general) complex entries. The Gaussian integral sourced by //complex// Grassmann sources now reads:
+
+\[
+\int [\mathcal{D} \overline{\psi}][\mathcal{D} \psi] \, \exp \left\{ -\frac{1}{2} \psi^\dagger \cdot A \cdot \psi + \psi^\dagger \cdot J_1 + J^\dagger_2 \cdot \psi \right\} = \sqrt{\mathrm{det}[A]} \exp \left\{ \frac{1}{2} J^\dagger_2 \cdot A^{-1} \cdot J_1 \right\} .
+\]
+
+This is a very general expression where $$\psi$$ and $$\psi^\dagger$$ are sourced by terms $$J_1$$ and $$J_2$$, these being independent sources. In the case of the Dirac field, these will be the same.
+
+Now we're going to make this all infinite dimensional. Earlier, our generators of the Grassmann algebra were labelled by a dicrete index like so: $$\theta_i$$. Now, we'll associate with every point in spacetime a Grassmann variable and denote this $$\theta (x)$$. The commutation relation now reads
+\[
+\{ \theta(x) , \theta(y) \} = 0 .
+\]
+Our master rule for evaluating derivatives now becomes
+\[
+\frac{\partial \theta(x)}{\partial \theta(y)} = \delta(x-y) ,
+\]
+and the corresponding rules for integration now become
+\[
+\int d\theta(x) \,1 = 0 \quad \mathrm{and} \quad \int d\theta(x) \, \theta(x) = 1 .
+\]
+
+&lt;/$reveal&gt;
+
+!! Supersymmetry
+
+Actions are always Grassmann even, so we'll need at least two Grassmann variables for our discussion: call them $$\psi_1$$ and $$\psi_2$$. We'll consider the following action:
+\[
+S(X, \psi_1, \psi_2) = \frac{1}{2} \left( \partial h \right)^2 - \psi_1 \psi_2 \partial^2 h \, ,
+\]
+where $$h$$ is a function of the variable $$X$$.
+
+Supersymmetry (SUSY) is a kind of symmetry transformation that rotates bosons and fermions into each other. That means the SUSY variation of a bosonic variable is always some linear combination of fermionic variables and the SUSY variation of a fermionic variable is always some linear combination of bosonic variables. One can show that the following variations leave the action invariant:
+\[
+\delta_\epsilon X = \epsilon^1 \psi_1 + \epsilon^2 \psi_2 \, ,
+\]
+\[
+\delta_\epsilon \psi_1 = \epsilon^2 \partial h \, ,
+\]
+\[
+\delta_\epsilon \psi_2 = - \epsilon^1 \partial h \, .
+\]
+
+One can also show that, in addition, the measure of integration is invariant under such a transformation. A discussion of how the measure transforms will necessitate the introduction of a superdeterminant or //Berezinian// and its infinitesimal analogue -- the supertrace -- although we won't discuss it here. See Witten [3] for an especially lucid exposition.
+
+!! Localization
+
+Localization refers to a fairly generic phenomenon observed in the study of supersymmetric field theories. One says the path integral defining a quantum field theory &quot;localizes&quot; when it can be reduced to a smaller-dimensional integral that can often be shown to equal the sum of certain other quantities -- evaluated at specific point(s) -- in the space of fields. 
+
+That's really vague, so let's look to the same supersymmetric field theory we saw earlier for a concrete example of localization. The partition function of our theory is
+\[
+Z = \int \text{d}X \, \text{d}\psi_1 \, \text{d}\psi_2 \, e^{-S(X,\psi_1,\psi_2)} \, .
+\]
+The trick now is to set the free parameters $$\epsilon^1 = \epsilon^2 = - \psi_1/\partial h$$. Since the action is SUSY invariant, all this does is exchange one set of bosonic and fermionic variables with another, except this time we have an action that is //independent// of one of the fermionic coordinates.
+
+|Once again, I'm brushing issues related to superdeterminants under the rug. For the moment, let us proceed; I will return to the subject of supermanifolds at a later date.|
+
+This allows us to establish something quite striking: the partition function evaluates to zero! Can this really be, though? If you think carefully about the steps we followed, you'll notice that the argument only works when $$\partial h \neq 0$$. 
+
+Thus, as far as the integral defining the partition function is concerned, the only points that actually contribute are points at which $$\partial h = 0$$, i. e. the critical set of $$h$$. From all other points, the above argument may be used to show that the partition function receives ''no'' contribution.
+
+It is also important to note that points where $$\partial h = 0$$ i. e. points constituting the critical set are fixed points of the SUSY transformation. This is evident from the explicit form of the transformations too. In general, the path integral localizes onto that set of points at which the fermionic fields are fixed under SUSY transformations. 
+
+We have, so far, delivered on our promise to &quot;localize&quot; the partition function onto a critical set. One proceeds by expanding the function $$h$$ in a Taylor series about the points that constitute the critical set:
+\[
+h(X) = h(X_c) + \frac{1}{2} \alpha_c (X-X_c)^2 + \cdots \, ,
+\]
+and neglecting anything past the quadratic term in the expansion. Our justification for doing so is that we are only concerned with a small neighbourhood surrounding a critical point.
+
+The partition function reduces to
+\[
+\sum_{X_c} \int \text{d}X \, \text{d}\psi_1 \, \text{d}\psi_2 \, e^{-\frac{1}{2} \alpha_c^2 (X-X_c)^2 + \alpha_c \psi_1 \psi_2} = \sum_{X_c} \frac{\alpha_c}{|\alpha_c|} \, .
+\]
+
+Now let's say that $$h(X)$$ is a polynomial function, of order $$n$$. At most, there are $$(n-1)$$ critical points. For $$n$$ odd, the partition function evaluates to zero, as there are just as many points with $$\partial^2 h &gt; 0$$ as there are with $$\partial^2 h &lt; 0$$. For $$n$$ even, $$Z = \pm 1$$.
+
+In closing, we note that the partition function only appears to depends on the order of the polynomial $$h$$: this is called deformation invariance. This property can be used to compute the partition function. Better yet, since our system is so simple, we can compute the partition function exactly. Both methods will confirm that the answers we arrived at using localization are correct.
+
+!! References
+
+[1] A. Zee: //Quantum Field Theory in a Nutshell//
+
+[2] K. Hori et al.: //Mirror Symmetry//
+
+[3] E. Witten: //[[Notes On Supermanifolds and Integration|http://arxiv.org/abs/1209.2199]]//</pre>
+</div>
 <div created="20150530045107604" creator="madhu" modified="20150601151017377" modifier="madhu" title="courses">
 <pre>I've decided to, starting this semester, teach informal courses on subjects I'm trying to learn. The focus, of course, will always be on keeping the material as accessible as possible. These pages also serve as a place for recording old questions, interesting examples, sketches of proofs etc.
 
 !! current courses
 
 * [[Classical Integrable Systems|RLI]] (August '15)</pre>
+</div>
+<div created="20150608200103076" creator="madhu" modified="20150608200134545" modifier="madhu" title="journal">
+<pre>This page records journal entries/notes.
+
+* [[8th June '15|150608]]
+&gt; Field theories over a point: supersymmetry and localization.</pre>
 </div>
 <div created="20150530044958895" creator="madhu" modified="20150606131831872" modifier="madhu" title="research">
 <pre>I use this page to keep track of some of my research projects. The following pages link to notes and ideas from papers, books, talks etc.
@@ -6426,20 +6696,29 @@ A healthier pace will, however, mean longer meetings.
 | 22/08 | Lax Pairs |
 | 29/08 | r-Matrices and Commuting Flows |</pre>
 </div>
-<div created="20150606131859332" creator="madhu" modified="20150606131959160" modifier="madhu" tags="research" title="RRIII">
+<div created="20150606131859332" creator="madhu" modified="20150608195930273" modifier="madhu" tags="research" title="RRIII">
 <pre>! Localization for N=1 Theories
+
+!! general idea
 
 The connections between Nekrasov's formalism, appropriately extended to dimension five, and the theory of topological strings are tantalizing. From Ooguri and Vafa [1] we know of strong indications that the topological vertex corresponds to an N=1 theory in dimension four. It would be nice to generalize the localization methods and bring them to bear on N=1 theories.
 
-This line of thought suggests connections to the work of Dijkgraaf and Vafa [2, 3] on the relation between matrix models and N=1 theories. The purpose of this project is to understand better this circle of ideas.
+This line of thought suggests connections to the work of Dijkgraaf and Vafa [2, 3, 4] on the relation between matrix models and N=1 theories. The purpose of this project is to understand better this circle of ideas.
 
-!!! references
+!! reading list and notes
+
+* [[Ronne|http://arxiv.org/abs/hep-th/0408103]] discusses what looks like most of the developments chronicled in the Dijkgraaf-Vafa papers. While Ch. 1 is mostly review, Ch. 2 discusses all the necessary ingredients: superpotentials, matrix models, fat graphs etc.
+* [[Keijdener|http://web.science.uu.nl/ITF/Teaching/2013/D.L.D.Keijdener.pdf]] seem like a promising places to start. A happy by-product will be the understanding of the 1-SYM theory in dimension five which has showed up in other interesting places and, if we persist, a concrete example of localization on $$S^5$$.
+
+
+!!! major references
 
 # Ooguri, Vafa: //[[Knot Invariants and Topological Strings|http://arxiv.org/abs/hep-th/9912123]]//
+# Dijkgraaf, Vafa: //[[Matrix Models, Topological Strings, and Supersymmetric Gauge Theories|http://arxiv.org/abs/hep-th/0206255]]//
 # Dijkgraaf, Vafa: //[[On Geometry and Matrix Models|http://arxiv.org/abs/hep-th/0207106]]//
 # Dijkgraaf, Vafa: //[[A Perturbative Window into Non-Perturbative Physics|http://arxiv.org/abs/hep-th/0208048]]//</pre>
 </div>
-<div created="20150601145819236" creator="madhu" modified="20150602144337053" modifier="madhu" tags="seminars" title="RSVI">
+<div created="20150601145819236" creator="madhu" modified="20150608200539315" modifier="madhu" tags="seminars" title="RSVI">
 <pre>! Topics in High-Energy Physics (June '15)
 
 !! outline
@@ -6450,7 +6729,8 @@ The purpose of this seminar is to familiarize its participants with developments
 
 !! schedule
 |!Date |!Speaker |!Topic |
-|4th June |Renjan John |Prepotentials of N=2 Theories |</pre>
+|4th June |Renjan John |Prepotentials of N=2 Theories |
+|9th June |Renjan John |Supersymmetric Actions |</pre>
 </div>
 <div created="20150530045050831" creator="madhu" modified="20150601183600179" modifier="madhu" title="seminars">
 <pre>I've been running unofficial student seminars on high-energy and mathematical physics at the [[Institute|http://www.imsc.res.in/]] for about two years now. While the topics we discuss have, over time, become rather sophisticated, our meetings retain their pedagogical tone.
