@@ -39,7 +39,6 @@
 
 <p>Each meeting will go on for an hour and a half. We meet (almost) every Thursday at 6:00 PM in Room 117.</p>
 
-
 <h3> Upcoming Talks </h3>
 
 <table>
@@ -49,9 +48,84 @@
       <td>Topic</td>
    </tr>
    <tr>
+      <td>4th November</td>
+      <td>M</td>
+      <td>\( \mathcal{N} =1 \) Theories</td>
+   </tr>
+</table>
+
+<h3> Past Talks </h3>
+
+<table>
+   <tr>
+      <td>Date</td>
+      <td>Speaker</td>
+      <td>Topic</td>
+   </tr>
+   <tr>
+      <td>7th October</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=debangshu">Debangshu Mukherjee</a></td>
+      <td>T-Duality for Open Strings and Gauge Fields in Compact Directions </td>
+   </tr>
+   <tr>
+      <td>23th September</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=debangshu">Debangshu Mukherjee</a></td>
+      <td>T-Duality for Closed Strings </td>
+   </tr>
+   <tr>
+      <td>14th September</td>
+      <td><a href="http://www.cmi.ac.in/people/fac-profile.php?id=debangshu">Debangshu Mukherjee</a></td>
+      <td>Introduction to D-Branes </td>
+   </tr>
+   <tr>
+      <td>2nd September</td>
+      <td>M</td>
+      <td>Seiberg-Witten: Instantons and the Elliptic Curve Solution </td>
+   </tr>
+   <tr>
+      <td>26st August</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>Monodromies And Massless States </td>
+   </tr>
+   <tr>
+      <td>21st August</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>Moduli Space and S-Duality II</td>
+   </tr>
+   <tr>
+      <td>7th August</td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a></td>
+      <td>Witten's Prescription</td>
+   </tr>
+   <tr>
+      <td>29th July</td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a></td>
+      <td>AdS Spaces</td>
+   </tr>
+   <tr>
+      <td>20th July</td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a></td>
+      <td>Maldacena's Decoupling Argument: \( \mathcal{N}=4 \) SYM in Dimension Four and IIB Strings in \( \mathrm{AdS}_5 \times S^5 \)</td>
+   </tr>
+   <tr>
+      <td>16th July</td>
+      <td><a href="http://www.imsc.res.in/~pinakib/">Pinaki Banerjee</a></td>
+      <td>Review: Dualities in Field and String Theories</td>
+   </tr>
+   <tr>
+      <td>10th July</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>Moduli Space and S-Duality I</td>
+   </tr>
+   <tr>
+      <td>2th July</td>
+      <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
+      <td>\( \mathcal{N} =2 \) Supersymmetric Yang-Mills Theory: The Action</td>
+   </tr>
+   <tr>
       <td>4th June</td>
       <td><a href="http://www.imsc.res.in/users/renjan">Renjan John</a></td>
-      <td>Prepotentials For \( \mathcal{N} =2 \) Theories</td>
+      <td>\( \mathcal{N} =1 \) Superspace: Chiral and Vector Superfields</td>
    </tr>
 </table>
 
