@@ -7,13 +7,14 @@ window.MathJax = {
   tex: {
     inlineMath: [['$', '$'], ['\\(', '\\)']],
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    processEscapes: true
+    processEscapes: true,
+    processEnvironments: true,
+    tags: 'ams'
   }
 };
 </script>
 
-<script
-  defer
+<script defer
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
 
