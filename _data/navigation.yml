@@ -4,6 +4,8 @@ main:
     url:   /papers/
   - title: "Teaching"
     url:   /teaching/
+  - title: "Notes"
+    url:   /notes/
   - title: "Students"
     url:   /students/
   - title: "Contact"
