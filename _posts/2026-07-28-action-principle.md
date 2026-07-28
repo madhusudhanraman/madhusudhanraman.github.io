@@ -6,7 +6,7 @@ excerpt: >
   of motion.
 ---
 
-Consider a finitary, conservative dynamical system, i.e.~one with a
+Consider a finitary, conservative dynamical system, i.e. one with a
 finite number of degrees of freedom, and in the absence of any
 dissipative effects. A fundamental question in classical dynamics is:
 given such a system in some initial configuration, how does it evolve
@@ -62,64 +62,5 @@ action:
 \end{equation}
 Writing the action $ S[q(t)] $ in terms of a Lagrangian
 $ L(q, \dot{q} ) $ allows us to translate the principle of least
-action --- global principle --- into a differential equation, i.e.~a
+action --- global principle --- into a differential equation, i.e. a
 local formulation of the same.
-
-Let us recall how this is done. For a general trajectory $ q(t) $, the
-variation of the action induced by the change $ q(t) + \delta q(t) $
-is
-\begin{equation}
-\delta S = \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} \delta q + \frac{\partial L}{\partial \dot{q} } \delta \dot{q}  \right) \ .
-\end{equation}
-Integrating the second term by parts yields
-\begin{align}
-    \delta S &= \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\partial L}{\partial \dot{q} } \delta q \right) + \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ , \\
-    &= \left. \frac{\partial L}{\partial \dot{q} } \delta q \right\vert_{t _{i}} ^{t _{f}} + \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ , \\
-\end{align}
-The boundary conditions we will impose are
-$ \delta q(t _{i}) = 0 = \delta q(t _{f}) $, which is the statement
-that the positions at times $ t _{i} $ and $ t _{f} $ are fixed to be
-$ q _{i} $ and $ q _{f} $ respectively. We find then that the first
-term drops out and that $ \delta S = 0 $ for arbitrary $ \delta q $ if
-and only if
-\begin{equation}
-\frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} } = 0 \ .
-\end{equation}
-This is the Euler-Lagrange equation of motion.
-
-The form of the
-Lagrangian is decided by the requirement that when the two can be
-compared, the Euler-Lagrange equations of motion must reproduce
-Newton's second law of motion. For example, the Lagrangian for a
-particle of mass $ m $ moving in one dimension subject to a potential
-$ V(q) $ is described by the Lagrangian
-\begin{equation}
-L = \frac{1}{2} m \dot{q} ^{2} - V(q) \ ,
-\end{equation}
-and the corresponding Euler-Lagrange equation of motion is
-\begin{equation}
-m \ddot{q} + \frac{\partial V}{\partial q}  = 0 \ .
-\end{equation}
-Indeed, on defining the canonical momentum conjugate to $ q $ as
-\begin{equation}
-  \label{eq:canonical-momentum-particle}
-p = \frac{\partial L}{\partial \dot{q} } \ ,
-\end{equation}
-we can rewrite this equation of motion as
-\begin{equation}
-\frac{\mathrm{d} }{\mathrm{d} t} p = - \frac{\partial V}{\partial q}  \ ,
-\end{equation}
-which is Newton's second law of motion: the rate of change of momentum
-of a body is determined by the force (here, the negative gradient
-of a potential) acting on it.
-
-While the above discussion was for a single degree of freedom, it is
-easily generalised to any finite number of degrees of freedom in the
-following manner: let the index $ a $ run over the $ N $ degrees of
-freedom of a finitary system. If the generalised coordinates are
-independent, so too are their variations, and the Euler-Lagrange
-equations of motion are
-\begin{equation}
-  \label{eq:el-equations}
-\frac{\partial L}{\partial q _{a}} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} _{a}} = 0 \quad \mathrm{for} \quad a \in \left\lbrace 1, \cdots , N \right\rbrace\ .
-\end{equation}
