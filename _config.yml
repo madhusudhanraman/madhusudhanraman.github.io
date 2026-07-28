@@ -143,10 +143,10 @@ author:
       icon: "ai ai-lg ai-arxiv"
       url: "http://arxiv.org/a/raman_m_1"
     - label: "Google Scholar"
-      icon: "ai ai-2x ai-google-scholar"
+      icon: "ai ai-lg ai-google-scholar"
       url: "https://scholar.google.com/citations?user=2CWKZtgAAAAJ"
     - label: "INSPIRE-HEP"
-      icon: "ai ai-fw ai-inspire"
+      icon: "ai ai-lg ai-inspire"
       url: "https://inspirehep.net/authors/1386436"
 
 # Site Footer
