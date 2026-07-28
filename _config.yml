@@ -124,9 +124,6 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
       # url: "mailto:madhusudhan.raman@ashoka.edu.in"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://sites.google.com/view/madhusudhanraman/home"
     - label: "Twitter"
       icon: "fab fa-fw fa-square-x-twitter"
       # url: "https://twitter.com/"
@@ -148,6 +145,10 @@ author:
     - label: "INSPIRE-HEP"
       icon: "ai ai-lg ai-inspire"
       url: "https://inspirehep.net/authors/1386436"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sites.google.com/view/madhusudhanraman/home"
+
 
 # Site Footer
 footer:
