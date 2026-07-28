@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Madhusudhan Raman"
-  avatar           : assets/images/DisplayPicture.JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : assets/images/DisplayPicture2.JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I study theoretical physics."
   location         : "Bangalore, India"
   email            :
@@ -162,7 +162,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-  since: "2013"
+  since: "2026"
 
 
 # Reading Files
