@@ -118,12 +118,12 @@ author:
   avatar           : assets/images/DisplayPicture2.JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I study theoretical physics."
   location         : "Bangalore, India"
-  email            : "madhusudhan.raman@ashoka.edu.in"
+  # email            : "madhusudhan.raman@ashoka.edu.in"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:madhusudhan.raman@ashoka.edu.in"
+      # url: "mailto:madhusudhan.raman@ashoka.edu.in"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://sites.google.com/view/madhusudhanraman/home"
