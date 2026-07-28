@@ -139,10 +139,15 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "arXiv"
+      icon: "ai ai-fw ai-arxiv"
+      url: "http://arxiv.org/a/raman_m_1"
     - label: "Google Scholar"
-      icon: "ai ai-fw ai-google-scholar" #
+      icon: "ai ai-fw ai-google-scholar"
       url: "https://scholar.google.com/citations?user=2CWKZtgAAAAJ"
-
+    - label: "INSPIRE-HEP"
+      icon: "ai ai-fw ai-inspire"
+      url: "https://inspirehep.net/authors/1386436"
 
 # Site Footer
 footer:
