@@ -1,0 +1,9 @@
+---
+title: "Testing MathJax"
+date: 2026-07-29
+---
+
+Einstein's equation is $G_{\mu\nu}=8\pi G T_{\mu\nu}$.
+
+The QED Lagrangian is
+$$ \mathcal{L} = -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} + \bar{\psi} \left(i\gamma^\mu D_\mu - m\right) \psi \ .$$
