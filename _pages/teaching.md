@@ -55,7 +55,7 @@ The lectures will be a (very) gentle introduction to some simple ideas in mathem
 - 20\. Bayesian Inference — 04/08
 > Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.
 >
-> Suggested reading: Ch. 1–2 ofData Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
+> Suggested reading: Ch. 1–2 of Data Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
 
 - 19\. Hamiltonian Paths and Complexity — 04/01
 > Hamiltonian paths/cycles. Certificates. An informal discussion of complexity classes P and NP. Bipartite graphs. Dirac's theorem.
