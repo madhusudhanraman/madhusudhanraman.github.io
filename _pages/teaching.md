@@ -10,120 +10,93 @@ toc: true
 
 ### Quantitative Reasoning and Mathematical Thinking (January – April '26)
 
+The lectures will be a (very) gentle introduction to some simple ideas in mathematics and their applications. We will discuss what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. We also hope, through examples from many subfields within mathematics, to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking. Here are some topics I hope to discuss: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics. For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
 
-The lectures will be a (very) gentle introduction to some simple ideas in mathematics and their applications. We will discuss what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. We also hope, through examples from many subfields within mathematics, to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking.
-
-Here are some topics I hope to discuss: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics.
-
-Meetings: Wednesdays and Fridays (1500–1630) in AC-04-LR-005
-
-Grading: 60% class tests + 30% final exam + 10% attendance
-
-Office Hours:Thursday (0900–1200) by appointment.
-
-For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
-
-### Announcements
-
-- 04/24 — We're done! Good luck for your final exams!
-
-- 03/23 — Your final exam will be held on 29th April between 1730–1930 in AC-02-LR-007.
-
-- 02/17 — You can come check your grades for the first test on Friday, 20th February, between 5–7 PM.
-
-- 02/11 — Your second class test will be held on 25th February, 2026.
-
-- 01/30 — Your first class test will be held on 11th February, 2026.
-
-- 01/23 — Your first assignment has been posted. Please bring attempts at solutions to all the questions in the assignment to your respective DSs.
-
-### Take-Home Assignment
+#### Take-Home Assignment
 
 - Your take-home assignment is available [here](https://drive.google.com/file/d/1PXUNDxSuWDYjfLvnKHZjcRU9KBX9tN8Q/view?usp=sharing).
 
-### Assignments
+#### Assignments
 
 - [Entropy](https://drive.google.com/file/d/1SvF___6AbtQf_jM6Tx1gfOAxH6ElD6Ip/view?usp=sharing)
-
 - [Probability](https://drive.google.com/file/d/1AORvhMfgSWvVfKoMmE5_si6ikP18zv78/view?usp=sharing)
-
 - [Combinatorics](https://drive.google.com/file/d/16r6WpD21yNFgVH78ldoOtoUKKe0D0h-6/view?usp=sharing)
-
 - [Dimensional Analysis and Scaling Laws](https://drive.google.com/file/d/1Hws-euMpb8iGnzYSZo4gtvXR2eJDRsVk/view?usp=sharing)
-
 - [Sequences and Series](https://drive.google.com/file/d/1x3hLbZcb9QmrZJsT8J1CC9gVG_rQmiq1/view?usp=sharing)
-
 - [Relations and Calculus](https://drive.google.com/file/d/1DAjkfPkc2HLEgatyRqo8OLFAEoUk-FQa/view?usp=sharing)
-
 - [Injections and One-To-One Correspondences](https://drive.google.com/file/d/1hs4sXwBGsQxlKXuI8BjHf2r9Mhw_SvYL/view?usp=sharing)
-
 - [Simple Proofs and Induction](https://drive.google.com/file/d/1PBunJKik3TXbAh1P5jMMvpxT_22u8z5M/view?usp=sharing)
-
 - [Flows and Knots](https://drive.google.com/file/d/1GwOlojfNsa1Sq9rsj-j47acYUCZuxoVa/view?usp=sharing)
-
 - [The Euler Characteristic](https://drive.google.com/file/d/1lxn-3im33pRub6k560_ln4Zh4VmW9Thj/view?usp=sharing)
 
-### Lectures
+#### Lectures
 
 - 25\. Summing Up — 04/24
-
-An overview of the topics discussed in this course.
+> An overview of the topics discussed in this course.
 
 - 24\. Relativity — 04/22
-
-The Michaelson-Morley null result and the death of luminiferous ether. Special relativity contrasted with Galilean relativity. The equivalence principle. Freely falling and accelerating elevators and the nature of gravitational forces. Early predictions regarding gravitational redshifts and the Pound-Rebka experiment. The curvature of spacetime induced by matter and energy. The Hulse-Taylor binary and early hints of gravitational waves. Direct detection and gravitational wave interferometry.Suggested reading: I read Was Einstein Right? by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
+> The Michaelson-Morley null result and the death of luminiferous ether. Special relativity contrasted with Galilean relativity. The equivalence principle. Freely falling and accelerating elevators and the nature of gravitational forces. Early predictions regarding gravitational redshifts and the Pound-Rebka experiment. The curvature of spacetime induced by matter and energy. The Hulse-Taylor binary and early hints of gravitational waves. Direct detection and gravitational wave interferometry.
+>
+> Suggested reading: I read Was Einstein Right? by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
 
 - 23\. Quantum Mechanics — 04/17
-
-Young's double-slit experiment. The photoelectric effect and Einstein's light quanta. Atomic spectra and Bohr's model. Pauli's aufbauprinzip and the periodic table. Fever dreams and the birth of quantum theory. Born's rule and the probabalistic nature of quantum theory. The "Shut Up and Calculate!" philosophy and its utility in the development of the nascent quantum theory.Suggested reading: A delightful account of the early days of quantum theory can be found in Ch. 1–6 ofQuantum Drama by Jim Baggott and John L. Heilbron.
+> Young's double-slit experiment. The photoelectric effect and Einstein's light quanta. Atomic spectra and Bohr's model. Pauli's aufbauprinzip and the periodic table. Fever dreams and the birth of quantum theory. Born's rule and the probabalistic nature of quantum theory. The "Shut Up and Calculate!" philosophy and its utility in the development of the nascent quantum theory.
+>
+> Suggested reading: A delightful account of the early days of quantum theory can be found in Ch. 1–6 ofQuantum Drama by Jim Baggott and John L. Heilbron.
 
 - 22\. Class Test — 04/15
-
-Based on take-home assignment.
+> Based on take-home assignment.
 
 - 21\. Statistical Mechanics — 04/10
-
-Reductionism and emergence. Entropy, energy, and their competition for dominance. Phase transitions and universality. Suggested reading: More is Different by P. W. Anderson.
+> Reductionism and emergence. Entropy, energy, and their competition for dominance. Phase transitions and universality.
+>
+> Suggested reading: More is Different by P. W. Anderson.
 
 - 20\. Bayesian Inference — 04/08
-
-Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.Suggested reading: Ch. 1–2 ofData Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
+> Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.
+>
+> Suggested reading: Ch. 1–2 ofData Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
 
 - 19\. Hamiltonian Paths and Complexity — 04/01
-
-Hamiltonian paths/cycles. Certificates. An informal discussion of complexity classes P and NP. Bipartite graphs. Dirac's theorem.Suggested reading:...
+> Hamiltonian paths/cycles. Certificates. An informal discussion of complexity classes P and NP. Bipartite graphs. Dirac's theorem.
 
 - 18\. Graphs — 03/28
-
-The Bridges of Königsberg. Some elementary results on Euler cycles/paths in the theory of graphs.Suggested reading:...
+> The Bridges of Königsberg. Some elementary results on Euler cycles/paths in the theory of graphs.
 
 - 17\. Conditional Probability and Statistics — 03/27
-
-Conditional probabilities and Bayes' theorem. Random sampling of populations and Gaussian distributions.Suggested reading: An Intuitive Explanation of Bayes' Theorem by Eliezer S. Yudkowsky.
+> Conditional probabilities and Bayes' theorem. Random sampling of populations and Gaussian distributions.
+>
+> Suggested reading: An Intuitive Explanation of Bayes' Theorem by Eliezer S. Yudkowsky.
 
 - 16\. Probability — 03/25
-
-Sample spaces, outcomes, and events. Elementary results in the theory of probability. Suggested reading: Ch. 1–4 of A Philosophical Essay on Probabilities by Pierre-Simon Laplace.
+> Sample spaces, outcomes, and events. Elementary results in the theory of probability.
+>
+> Suggested reading: Ch. 1–4 of A Philosophical Essay on Probabilities by Pierre-Simon Laplace.
 
 - 15\. Permutations and Combinations — 03/18
-
-Some simple combinatorial problems. Binomial coefficients. Suggested reading: Ch. 6 (titled Combinatorics) in Discrete Thoughts: Essays on Mathematics, Science, and Philosophy by Mark Kac, Gian-Carlo Rota, and Jacob T. Schwartz.
+> Some simple combinatorial problems. Binomial coefficients.
+>
+> Suggested reading: Ch. 6 (titled Combinatorics) in Discrete Thoughts: Essays on Mathematics, Science, and Philosophy by Mark Kac, Gian-Carlo Rota, and Jacob T. Schwartz.
 
 - 14\. Kleiber Scaling and Fractal Networks — 03/13
-
-The 3/4 scaling law. West-Brown-Enquist's fractal model and a derivation of the 3/4 scaling law. Debates in the literature surrounding its validity.Suggested reading: Life's Universal Scaling Laws by Geoffrey B. West and James H. Brown.
+> The 3/4 scaling law. West-Brown-Enquist's fractal model and a derivation of the 3/4 scaling law. Debates in the literature surrounding its validity.
+>
+> Suggested reading: Life's Universal Scaling Laws by Geoffrey B. West and James H. Brown.
 
 - 13\. Dimensional Analysis and Scaling Laws — 03/11
-
-Simple dimensional analysis for equations in physics. Metabolic rate and Rubner's surface law of metabolism.Suggested reading: On Being The Right Size by J. B. S. Haldane.
+> Simple dimensional analysis for equations in physics. Metabolic rate and Rubner's surface law of metabolism.
+>
+> Suggested reading: On Being The Right Size by J. B. S. Haldane.
 
 - 12\. Infinite Series and Primes — 02/27
-
-Sequences and series. Exponential and logarithmic functions. The prime counting function and the prime number theorem. Eratosthenes' sieve. Harmonic series and Euler's product formula.Suggested reading: A great popularisation of the Riemann Hypothesis can be found in Prime Obsession by John Derbyshire.
+> Sequences and series. Exponential and logarithmic functions. The prime counting function and the prime number theorem. Eratosthenes' sieve. Harmonic series and Euler's product formula.
+>
+> Suggested reading: A great popularisation of the Riemann Hypothesis can be found in Prime Obsession by John Derbyshire.
 
 - 11\. Primitive Ideas of Calculus — 02/25
-
-On Archimedes' Measurement of a Circle and Quadrature of the Parabola.Suggested reading: Ch. 1 (titled Area, Number, and Limit Concepts in Antiquity) and Ch. 2 (titled Archimedes) of The Historical Development of the Calculus by C. H. Edwards, Jr.
+> On Archimedes' Measurement of a Circle and Quadrature of the Parabola.
+>
+> Suggested reading: Ch. 1 (titled Area, Number, and Limit Concepts in Antiquity) and Ch. 2 (titled Archimedes) of The Historical Development of the Calculus by C. H. Edwards, Jr.
 
 - 10\. Continuity and Calculus — 02/20
 > Plotting polynomial functions. How to define continuous functions rigorously. The trouble with infinitesimals and the notion of a derivative. The ubiquity of mathematics in the natural sciences. Quine-Putnam indispensability and our ontological commitments to mathematical objects. Field's fictionalism.
