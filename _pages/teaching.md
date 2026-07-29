@@ -10,13 +10,383 @@ toc: true
 
 ### Quantitative Reasoning and Mathematical Thinking (January – April '26)
 
+
+The lectures will be a (very) gentle introduction to some simple ideas in mathematics and their applications. We will discuss what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. We also hope, through examples from many subfields within mathematics, to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking.
+
+Here are some topics I hope to discuss: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics.
+
+Meetings: Wednesdays and Fridays (1500–1630) in AC-04-LR-005
+
+Grading: 60% class tests + 30% final exam + 10% attendance
+
+Office Hours:Thursday (0900–1200) by appointment.
+
+For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
+
+### Announcements
+
+- 04/24 — We're done! Good luck for your final exams!
+
+- 03/23 — Your final exam will be held on 29th April between 1730–1930 in AC-02-LR-007.
+
+- 02/17 — You can come check your grades for the first test on Friday, 20th February, between 5–7 PM.
+
+- 02/11 — Your second class test will be held on 25th February, 2026.
+
+- 01/30 — Your first class test will be held on 11th February, 2026.
+
+- 01/23 — Your first assignment has been posted. Please bring attempts at solutions to all the questions in the assignment to your respective DSs.
+
+### Take-Home Assignment
+
+- Your take-home assignment is available [here](https://drive.google.com/file/d/1PXUNDxSuWDYjfLvnKHZjcRU9KBX9tN8Q/view?usp=sharing).
+
+### Assignments
+
+- [Entropy](https://drive.google.com/file/d/1SvF___6AbtQf_jM6Tx1gfOAxH6ElD6Ip/view?usp=sharing)
+
+- [Probability](https://drive.google.com/file/d/1AORvhMfgSWvVfKoMmE5_si6ikP18zv78/view?usp=sharing)
+
+- [Combinatorics](https://drive.google.com/file/d/16r6WpD21yNFgVH78ldoOtoUKKe0D0h-6/view?usp=sharing)
+
+- [Dimensional Analysis and Scaling Laws](https://drive.google.com/file/d/1Hws-euMpb8iGnzYSZo4gtvXR2eJDRsVk/view?usp=sharing)
+
+- [Sequences and Series](https://drive.google.com/file/d/1x3hLbZcb9QmrZJsT8J1CC9gVG_rQmiq1/view?usp=sharing)
+
+- [Relations and Calculus](https://drive.google.com/file/d/1DAjkfPkc2HLEgatyRqo8OLFAEoUk-FQa/view?usp=sharing)
+
+- [Injections and One-To-One Correspondences](https://drive.google.com/file/d/1hs4sXwBGsQxlKXuI8BjHf2r9Mhw_SvYL/view?usp=sharing)
+
+- [Simple Proofs and Induction](https://drive.google.com/file/d/1PBunJKik3TXbAh1P5jMMvpxT_22u8z5M/view?usp=sharing)
+
+- [Flows and Knots](https://drive.google.com/file/d/1GwOlojfNsa1Sq9rsj-j47acYUCZuxoVa/view?usp=sharing)
+
+- [The Euler Characteristic](https://drive.google.com/file/d/1lxn-3im33pRub6k560_ln4Zh4VmW9Thj/view?usp=sharing)
+
+### Lectures
+
+- 25\. Summing Up — 04/24
+
+An overview of the topics discussed in this course.
+
+- 24\. Relativity — 04/22
+
+The Michaelson-Morley null result and the death of luminiferous ether. Special relativity contrasted with Galilean relativity. The equivalence principle. Freely falling and accelerating elevators and the nature of gravitational forces. Early predictions regarding gravitational redshifts and the Pound-Rebka experiment. The curvature of spacetime induced by matter and energy. The Hulse-Taylor binary and early hints of gravitational waves. Direct detection and gravitational wave interferometry.Suggested reading: I read Was Einstein Right? by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
+
+- 23\. Quantum Mechanics — 04/17
+
+Young's double-slit experiment. The photoelectric effect and Einstein's light quanta. Atomic spectra and Bohr's model. Pauli's aufbauprinzip and the periodic table. Fever dreams and the birth of quantum theory. Born's rule and the probabalistic nature of quantum theory. The "Shut Up and Calculate!" philosophy and its utility in the development of the nascent quantum theory.Suggested reading: A delightful account of the early days of quantum theory can be found in Ch. 1–6 ofQuantum Drama by Jim Baggott and John L. Heilbron.
+
+- 22\. Class Test — 04/15
+
+Based on take-home assignment.
+
+- 21\. Statistical Mechanics — 04/10
+
+Reductionism and emergence. Entropy, energy, and their competition for dominance. Phase transitions and universality. Suggested reading: More is Different by P. W. Anderson.
+
+- 20\. Bayesian Inference — 04/08
+
+Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.Suggested reading: Ch. 1–2 ofData Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
+
+- 19\. Hamiltonian Paths and Complexity — 04/01
+
+Hamiltonian paths/cycles. Certificates. An informal discussion of complexity classes P and NP. Bipartite graphs. Dirac's theorem.Suggested reading:...
+
+- 18\. Graphs — 03/28
+
+The Bridges of Königsberg. Some elementary results on Euler cycles/paths in the theory of graphs.Suggested reading:...
+
+- 17\. Conditional Probability and Statistics — 03/27
+
+Conditional probabilities and Bayes' theorem. Random sampling of populations and Gaussian distributions.Suggested reading: An Intuitive Explanation of Bayes' Theorem by Eliezer S. Yudkowsky.
+
+- 16\. Probability — 03/25
+
+Sample spaces, outcomes, and events. Elementary results in the theory of probability. Suggested reading: Ch. 1–4 of A Philosophical Essay on Probabilities by Pierre-Simon Laplace.
+
+- 15\. Permutations and Combinations — 03/18
+
+Some simple combinatorial problems. Binomial coefficients. Suggested reading: Ch. 6 (titled Combinatorics) in Discrete Thoughts: Essays on Mathematics, Science, and Philosophy by Mark Kac, Gian-Carlo Rota, and Jacob T. Schwartz.
+
+- 14\. Kleiber Scaling and Fractal Networks — 03/13
+
+The 3/4 scaling law. West-Brown-Enquist's fractal model and a derivation of the 3/4 scaling law. Debates in the literature surrounding its validity.Suggested reading: Life's Universal Scaling Laws by Geoffrey B. West and James H. Brown.
+
+- 13\. Dimensional Analysis and Scaling Laws — 03/11
+
+Simple dimensional analysis for equations in physics. Metabolic rate and Rubner's surface law of metabolism.Suggested reading: On Being The Right Size by J. B. S. Haldane.
+
+- 12\. Infinite Series and Primes — 02/27
+
+Sequences and series. Exponential and logarithmic functions. The prime counting function and the prime number theorem. Eratosthenes' sieve. Harmonic series and Euler's product formula.Suggested reading: A great popularisation of the Riemann Hypothesis can be found in Prime Obsession by John Derbyshire.
+
+- 11\. Primitive Ideas of Calculus — 02/25
+
+On Archimedes' Measurement of a Circle and Quadrature of the Parabola.Suggested reading: Ch. 1 (titled Area, Number, and Limit Concepts in Antiquity) and Ch. 2 (titled Archimedes) of The Historical Development of the Calculus by C. H. Edwards, Jr.
+
+- 10\. Continuity and Calculus — 02/20
+> Plotting polynomial functions. How to define continuous functions rigorously. The trouble with infinitesimals and the notion of a derivative. The ubiquity of mathematics in the natural sciences. Quine-Putnam indispensability and our ontological commitments to mathematical objects. Field's fictionalism.
+>
+> Suggested reading: The Unreasonable Effectiveness of Mathematics in the Natural Sciences by Eugene Wigner. Also, here's an [interactive visualisation](https://www.geogebra.org/m/mj2bXA5y) of the ε-δ definition of a limit.
+
+- 9\. Relations and Functions — 02/18
+> Relations on sets. Reflexivity, symmetry, and transitivity. Equivalence relations. Functions and their graphs.
+>
+> Suggested reading: None for this class. However, you'd do well to learn how to plot simple functions using [GeoGebra](https://www.geogebra.org/graphing).
+
+- 8\. Countability and Correspondences — 02/13
+> Hilbert's hotel. Countable and countably infinite sets. Injections, surjections, and bijections. The Cantor-Schröder-Bernstein theorem.
+>
+> Suggested reading: Avatars of the Tortoise and The Library of Babel by Jorge Luis Borges.
+
+- 7\. The Infinite — 02/11
+> The one-to-one correspondence as the notion of "sameness of size" appropriate to infinite sets. Cantor's diagonal argument.
+>
+> Suggested reading: Introduction (titled Paradoxes of the Infinite) and Ch. 2 (titled Aristotle) and Ch. 8 (titled The Mathematics of the Infinite, and the Impact of Cantor) of The Infinite by A. W. Moore.
+
+- 6\. Induction and Primes — 02/06
+> More on mathematical induction. The fundamental theorem of arithmetic governing the existence and uniqueness of prime factors. Euclid's theorem on the infinitude of primes. Arbitrarily long intervals of integers without primes.
+>
+> Suggested reading: Why Isn't the Fundamental Theorem of Arithmetic Obvious? and Proving The Fundamental Theorem of Arithmetic by Timothy Gowers.
+
+- 5\. Numbers — 02/04
+> Natural numbers, integers, and rationals. Irrational numbers and a proof of the irrationality of √2. Platonism and the Frege-Russell conception of cardinals. Simple statements and proofs in the theory of numbers.
+>
+> Suggested reading: Enriching Divisibility: Multiple Proofs and Generalizations by Benjamin Dickman; Ch. 6 (titled Pythagoras and The Soul) and Ch. 18 (titled Philolaus and the Formal Cause) of The Presocratic Philosophers by Jonathan Barnes.
+
+- 4\. Knots — 01/30
+> Knots as embeddings of circles into three-dimensional space. Planar and ambient isotopy. Reidemeister moves. Tricolourability and its isotopy invariance.
+>
+> Suggested reading: Chapters 1–3 of Knots: Mathematics with a Twist by Alexei Sossinsky.
+
+- 3\. The Poincaré-Hopf Index Theorem — 01/28
+> Winds on two-dimensional surfaces. Flowlines and their tangents. Isolated critical points and how to compute their index. Invariance of the index under "small disturbances." The Euler characteristic as a sum of indices of critical points associated to a triangulation.
+>
+> Suggested reading: Why Space Has Three Dimensions by Henri Poincaré.
+
+- 2\. The Euler Characteristic — 01/23
+> The topology of two-dimensional surfaces. Computing the Euler characteristic of a square using triangulations. An inductive proof that the square has unit Euler characteristic. How to construct a torus by identifying the edges of a square.
+>
+> Suggested reading: Funes the Memorious by Jorge Luis Borges; Proofs and Refutations by Imre Lakatos.
+
+- 1\. Introduction — 01/21
+> Overview of course rules, attendance and grading policies. Rough outline of topics to be discussed during the course.
+>
+> Suggested reading: A Mathematician's Lament by Paul Lockhart.
+
+#### Suggested Reading
+
+Below you'll find some reading material that is referenced in the classroom. Reading these, or even just dipping into them, 
+will enrich your experience of the course immeasurably. For those texts without links, I trust you'll find a way to get hold of a copy.
+
+- Was Einstein Right? by Clifford M. Will.
+- Quantum Drama by Jim Baggott and John L. Heilbron.
+- [More is Different](https://cse-robotics.engr.tamu.edu/dshell/cs689/papers/anderson72more_is_different.pdf) by P. W. Anderson.
+- [What is Bayesian Statistics?](http://halfonlab.ccr.buffalo.edu/Bioinformatics%20Primers%20from%20Nature%20Biotechnology/Eddy_2004_Nat%20Biotechnol-15340486.pdf) by Sean R. Eddy.
+- Data Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling.
+- [An Intuitive Explanation of Bayes' Theorem](https://www.yudkowsky.net/rational/bayes) by Eliezer S. Yudkowsky.
+- [A Philosophical Essay on Probabilities](https://en.wikisource.org/wiki/A_Philosophical_Essay_on_Probabilities) by Pierre-Simon Laplace.
+- Discrete Thoughts: Essays on Mathematics, Science, and Philosophy by Mark Kac, Gian-Carlo Rota, and Jacob T. Schwartz.
+- [Life's Universal Scaling Laws](https://jdyeakel.github.io/teaching/ecology/papers/West_Brown_2004.pdf) by Geoffrey B. West and James H. Brown.
+- [On Being The Right Size](https://www.phys.ufl.edu/courses/phy3221/spring10/HaldaneRightSize.pdf) by J. B. S. Haldane.
+- Prime Obsession by John Derbyshire.
+- The Historical Development of the Calculus by C. H. Edwards, Jr.
+- [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) by Eugene Wigner
+- Avatars of the Tortoise and The Library of Babel by Jorge Luis Borges
+- The Infinite by A. W. Moore
+- The Presocratic Philosophers by Jonathan Barnes
+- [Enriching Divisibility: Multiple Proofs and Generalizations](https://www.jstor.org/stable/10.5951/mathteacher.110.6.0416) by Benjamin Dickman
+- [Why Isn't the Fundamental Theorem of Arithmetic Obvious?](https://gowers.wordpress.com/2011/11/13/why-isnt-the-fundamental-theorem-of-arithmetic-obvious/) and [Proving The Fundamental Theorem of Arithmetic](https://gowers.wordpress.com/2011/11/18/proving-the-fundamental-theorem-of-arithmetic/) by Timothy Gowers
+- Knots: Mathematics with a Twist by Alexei Sossinsky.
+- [Why Space Has Three Dimensions](https://henripoincarepapers.univ-nantes.fr/chp/hp-pdf/hp1963ms.pdf) by Henri Poincaré.
+- Proofs and Refutations by Imre Lakatos.
+- [Funes the Memorious](https://vigeland.caltech.edu/ist4/lectures/funes%20borges.pdf) by Jorge Luis Borges.
+- [A Mathematician's Lament](https://profkeithdevlin.org/wp-content/uploads/2023/09/lockhartslament.pdf) by Paul Lockhart.
+
+
 ### Mathematical Physics I: Mathematical and Computational Toolkit (January – April '26)
+
+This is a first course in mathematical methods — both analytic and numerical — often used in physics. Here are some topics I hope to discuss: 
+linear algebra and vector spaces; simple ordinary differential equations; elementary Fourier analysis; vector calculus; 
+and some computational techniques including numerical solutions to algebraic and differential equations. 
+For more information, please see the [course information sheet](https://drive.google.com/file/d/1Re6TOUrb4cT_1EBXeKF_37Kp7KGIE_3Y/view?usp=sharing).
+
+#### Take-Home Assignment
+
+- [Linear Algebra and Vector Calculus](https://drive.google.com/file/d/1dK_JtJkMKiERCsosCMfMWF3toLhU2ALw/view?usp=sharing)
+
+#### Assignments
+
+- [Fourier Series](https://drive.google.com/file/d/1Vb_o7hw_7GBNpe2j2gxRsNKvu1JAIOh0/view?usp=sharing)
+- [Ordinary Differential Equations](https://drive.google.com/file/d/158at98bG36WfVIX9m4kNI15gZQrXGQwq/view?usp=sharing)
+- [Dirac Delta Functions](https://drive.google.com/file/d/12uEi3zVxWPLyVo9p7QH0UxMZMibc-jgj/view?usp=sharing)
+- [Curvilinear Coordinates and Stokes' Theorems](https://drive.google.com/file/d/1gtTXl7gcCwoOfs6J00bjVkouSe6hl-zq/view?usp=sharing)
+- [Higher-Dimensional Integrals](https://drive.google.com/file/d/1g2wKBpSPe2pX-XqKZYrjSA1xVGfouLRZ/view?usp=sharing)
+- [Vector Calculus](https://drive.google.com/file/d/1cTxSnF-vcThi7LXUMnpf5qK8SsUis0zw/view?usp=sharing)
+- [Eigenvalues and Eigenvectors](https://drive.google.com/file/d/14mry9BhUCb0bW9D43hvENXd9yoB2JJA0/view?usp=sharing)
+- [Algebras and Derivations](https://drive.google.com/file/d/1OOb7_BPUIii2xryZffge1rDh_tPJRFgJ/view?usp=sharing)
+- [Bases and Inner Products](https://drive.google.com/file/d/1LPcwctXEvf-qWju6x80C6a9Hn5CeEswD/view?usp=sharing)
+- [Linear Vector Spaces](https://drive.google.com/file/d/1gFaHROyDr_Y-OlPBqs-vUkTqxXxT6HmD/view?usp=drive_link)
+
+#### Coding Challenges
+
+- [Gram-Schmidt Orthogonalisation](https://drive.google.com/file/d/1E-SRf8qUyNoaK08tdagLAm824Ufbo_NP/view?usp=drive_link)
+
+#### Lectures
+
+- 25\. Summing Up — 04/24
+> Overview of topics covered in the course and how they're related to each other.
+
+- 24\. Green's Functions — 04/22
+> Green's functions for second-order ordinary differential equations. The relationship between Green's functions, eigenfunctions, and eigenvalues.
+
+- 23\. Parseval's Identity — 04/17
+> Proof of Parseval's identity. Using it to compute infinite sums.
+
+- 22\. Fourier Series — 04/15
+> Orthonormality of eigenfunctions. Extracting Fourier series coefficients.
+
+- 21\. Eigenfunctions of Differential Operators — 04/10
+> Eigenfunctions of the harmonic oscillator. Fourier series.
+
+- 20\. Harmonic Oscillator and Eigenvalue Equations — 04/08
+> The universality of the harmonic oscillator. Motivating eigenvalue equations in the study of differential equations.
+
+- 19\. More Second-Order Linear Differential Equations — 04/01
+> Solutions to homogeneous equations. Particular solutions. The method of undetermined coefficients.
+
+- 18\. Second-Order Linear Differential Equations — 03/28
+> Solutions to second order linear differential equations. The Wronskian and linear independence of solutions.
+
+- 17\. More First-Order Linear Differential Equations — 03/27
+> Some more first-order linear ODEs and how to solve them.
+
+- 16\. First-Order Linear Differential Equations — 03/25
+> Differential equations in mathematical physics. Some first-order linear ODEs and how to solve them.
+
+- 15\. Dirac Delta Functions — 03/18
+> Introducing distributions. The Dirac δ-function and its properties.
+
+- 14\. Curvilinear Coordinates and Stokes' Theorems — 03/13
+> Proving the Stokes' theorems in curvilinear coordinates.
+
+- 13\. Stokes' Theorems — 03/11
+> Stokes' theorems for gradients, divergences, and curls.
+
+- 12\. Taylor Expansions and Jacobians — 02/28
+> Taylor series. Jacobians of coordinate transformations.
+
+- 11\. Integrals in Two and Three Dimensions — 02/26
+> Surface and volume integrals.
+
+- 10\. Curls and Product Rules — 02/20
+> The curl of a vector field. Product rules. Scalar and vector potentials.
+
+- 9\. Multivariable Calculus, Gradients, and Divergences — 02/18
+> Functions of many variables and partial differentiation. Gradient of a function and its interpretation. Vector differential operators.
+> The divergence of a vector field.
+
+- 8\. Review of Differential Calculus + Curves and Surfaces — 02/13
+> Outer products. Review of limits, continuity, and differentiability in single-variable calculus. Leibniz and chain rules. Curves and surfaces.
+
+- 7\. Eigenvalues and Eigenvectors — 02/11
+> Eigenvalues and eigenvectors of linear operators. Eigenspaces as subspaces. Characteristic polynomials and the eigenvalue equation.
+
+- 6\. Linear Functionals and Derivations — 02/06
+> Dual spaces and functionals. Derivations on algebras. The algebra of linear operators on a vector space. Structure constants.
+
+- 5\. Algebras and Linear Transformations — 02/04
+> Algebras and their examples. Linear transformations on vector spaces. Dual spaces and functionals. Derivations on algebras.
+
+- 4\. Inner Product Spaces — 01/30
+> Inner products on vector spaces. Orthogonality, normality, and orthonormality. The norm of a vector.
+
+- 3\. Vector Spaces II — 01/28
+> Linear independence. Subspaces. The span of a set of vectors. A basis for a vector space as a linear independent set of vectors that spans it.
+> The dimension of a vector space.
+
+- 2\. Vector Spaces — 01/23
+> Abstracting away from vectors in three-dimensional space to define vector spaces in general.
+
+- 1\. Introduction — 01/21
+> Overview of course rules, attendance and grading policies. Rough outline of topics to be discussed during the course.
+
+#### Suggested Reading
+
+Below you'll find some reading material that is referenced in the classroom.
+
+- Introduction to Electrodynamics by David J. Griffiths
+- [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) by Eugene Wigner.
+
 
 ## University of Delhi
 
 ### Strategies for Scientific Dialogue in Research (August – December '25)
 
+This is a skills-based course worth two credits. 
+The course guidelines are available [here](https://drive.google.com/file/d/1ewuuTFwU3Vlriac0jJkFlBSZDsymY981/view?usp=sharing).
+
+#### Suggested Reading
+
+Here are some examples of papers you might consider studying.
+
+- [Can One Hear the Shape of a Drum?](https://doi.org/10.2307/2313748)
+- [The geometrical significance of the Laplacian](https://doi.org/10.1119/1.4935133)
+- [Dimensional analysis as the other language of physics](https://doi.org/10.1119/1.4902882)
+- [Can Maxwell’s equations be obtained from the continuity equation?](https://doi.org/10.1119/1.2739570)
+- [Fresnel's original interpretation of complex numbers in 19th century optics](https://doi.org/10.1119/1.5011366)
+- [Understanding the focusing of charged particle beams in a solenoid magnetic field](https://doi.org/10.1119/1.3129242)
+
+You will find many more articles of this kind in the following journals:
+
+- [Resonance](https://link.springer.com/journal/12045)
+- [American Journal of Physics](https://pubs.aip.org/aapt/ajp)
+- [European Journal of Physics](https://iopscience.iop.org/journal/0143-0807)
+
+Please choose a paper in consultation with a member of the faculty. Ideally, the paper should be related to one of your core courses.
+
+
 ### Quantum Field Theory III (January – April '25)
+
+This was a course on quantum field theory for PhD students. This course has as prerequisites PH-ET536 and PH-ET576,
+our QFT I and QFT II electives offered to MSc students.
+
+#### Lectures
+
+- 16\. Monopoles — 04/25
+- 15\. Lattice Fermions — 04/24
+- 14\. Instantons — 04/17
+- 13\. Lattice Gauge Theory — 04/09
+- 12\. Gauge Anomalies and Anomaly Cancellation — 03/28
+- 11\. Background Field Method — 03/28
+- 10\. The Chiral Anomaly — 03/26
+- 9\. Soft Collinear Effective Field Theory — 03/21
+- 8\. 1-Loop β-Function for Non-Abelian Gauge Theories — 03/20
+- 7\. IR Divergences — 02/14
+- 6\. Basics of Thermal Field Theory — 02/13
+- 5\. BRST Quantisation — 02/07
+- 4\. Local Symmetries, Constraints, and Quantisation — 02/06
+- 3\. Weinberg's Soft Photon Theorem — 01/31
+- 2\. Wigner's Classification and Little Groups — 01/24
+- 1\. Coherent States in Quantum Mechanics — 01/23
+
+#### Suggested Reading
+
+You will best be served by going over the discussion of any topic from more than one of the following non-exhaustive list of references. 
+There are also plenty of excellent lecture notes on (various aspects of) quantum field theory you can find on the [arXiv](https://arxiv.org/).
+
+- Itzykson & Zuber — Quantum Field Theory
+- Mandl & Shaw — Quantum Field Theory
+- Peskin & Schroeder — An Introduction to Quantum Field Theory
+- Ramond — Field Theory: A Modern Primer
+- Schwartz — Quantum Field Theory and the Standard Model
+- Sterman — An Introduction to Quantum Field Theory
+- Zinn-Justin — Quantum Field Theory and Critical Phenomena
+- Weinberg — The Quantum Field Theory of Fields (Vols. I and II)
+
+More references specific to the topic of discussion will be provided as we go along.
+
 
 ### Quantum Field Theory II (January – April '25)
 
