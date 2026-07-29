@@ -10,11 +10,11 @@ toc: true
 
 ### Quantitative Reasoning and Mathematical Thinking (January – April '26)
 
-The lectures will be a (very) gentle introduction to some simple ideas in mathematics and their applications. We will discuss what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. We also hope, through examples from many subfields within mathematics, to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking. Here are some topics I hope to discuss: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics. For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
+A (very) gentle introduction to some simple ideas in mathematics and their applications. We discussed what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. Through examples from many subfields within mathematics, I tried to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking. Some of the topics I discussed were: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics. For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
 
 #### Take-Home Assignment
 
-- Your take-home assignment is available [here](https://drive.google.com/file/d/1PXUNDxSuWDYjfLvnKHZjcRU9KBX9tN8Q/view?usp=sharing).
+- The take-home assignment is available [here](https://drive.google.com/file/d/1PXUNDxSuWDYjfLvnKHZjcRU9KBX9tN8Q/view?usp=sharing).
 
 #### Assignments
 
@@ -180,7 +180,7 @@ will enrich your experience of the course immeasurably. For those texts without 
 
 ### Mathematical Physics I (January – April '26)
 
-This is a first course in mathematical methods — both analytic and numerical — often used in physics. Here are some topics I hope to discuss: 
+This was a first course in mathematical methods — both analytic and numerical — often used in physics. The course covered the following topics: 
 linear algebra and vector spaces; simple ordinary differential equations; elementary Fourier analysis; vector calculus; 
 and some computational techniques including numerical solutions to algebraic and differential equations. 
 For more information, please see the [course information sheet](https://drive.google.com/file/d/1Re6TOUrb4cT_1EBXeKF_37Kp7KGIE_3Y/view?usp=sharing).
