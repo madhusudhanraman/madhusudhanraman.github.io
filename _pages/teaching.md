@@ -10,7 +10,9 @@ toc: true
 
 ### Quantitative Reasoning and Mathematical Thinking (January – April '26)
 
-A (very) gentle introduction to some simple ideas in mathematics and their applications. We discussed what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. Through examples from many subfields within mathematics, I tried to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking. Some of the topics I discussed were: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics. For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
+A (very) gentle introduction to some simple ideas in mathematics and their applications. We discussed what mathematics is, when it can be used to deepen our understanding, how one might go about doing so, and what the limitations of such analyses are. Through examples from many subfields within mathematics, I tried to cultivate an appreciation for the elegance, economy, and clarity of mathematical thinking. 
+
+Some of the topics I discussed were: the shapes of surfaces and knotted pieces of string; elementary results in the theory of numbers; what proofs are and where definitions come from; wordless or picture-perfect proofs; counting, games, and probabilities; the infinitely big and infinitesimally small in mathematics. For more details, please see the [course information sheet](https://drive.google.com/file/d/1NSaY9JVq4UYPRZHypZgkLhHtyhmSE9UK/view?usp=sharing).
 
 #### Take-Home Assignment
 
@@ -838,7 +840,7 @@ These lectures covered critical phenomena and the renormalisation group.
 - 1\. Ising Model and Mean Field Theory — 04/18
 > Ising model and its solution via mean field theory.
 
-### Suggested Reading
+#### Suggested Reading
 
 Below is a small selection of references that I have found useful in preparing these lectures. 
 You should skim through these (and other!) texts and find one that suits your tastes.
