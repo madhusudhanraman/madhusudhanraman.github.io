@@ -178,7 +178,7 @@ will enrich your experience of the course immeasurably. For those texts without 
 - [A Mathematician's Lament](https://profkeithdevlin.org/wp-content/uploads/2023/09/lockhartslament.pdf) by Paul Lockhart.
 
 
-### Mathematical Physics I: Mathematical and Computational Toolkit (January – April '26)
+### Mathematical Physics I (January – April '26)
 
 This is a first course in mathematical methods — both analytic and numerical — often used in physics. Here are some topics I hope to discuss: 
 linear algebra and vector spaces; simple ordinary differential equations; elementary Fourier analysis; vector calculus; 
