@@ -41,22 +41,22 @@ Some of the topics I discussed were: the shapes of surfaces and knotted pieces o
 
 - 24\. Relativity — 04/22
 > The Michaelson-Morley null result and the death of luminiferous ether. Special relativity contrasted with Galilean relativity. The equivalence principle. Freely falling and accelerating elevators and the nature of gravitational forces. Early predictions regarding gravitational redshifts and the Pound-Rebka experiment. The curvature of spacetime induced by matter and energy. The Hulse-Taylor binary and early hints of gravitational waves. Direct detection and gravitational wave interferometry.\
-> _Suggested reading_: I read _Was Einstein Right?_ by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
+> Suggested reading: I read Was Einstein Right? by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
 
 - 23\. Quantum Mechanics — 04/17
 > Young's double-slit experiment. The photoelectric effect and Einstein's light quanta. Atomic spectra and Bohr's model. Pauli's aufbauprinzip and the periodic table. Fever dreams and the birth of quantum theory. Born's rule and the probabalistic nature of quantum theory. The "Shut Up and Calculate!" philosophy and its utility in the development of the nascent quantum theory.\
-> _Suggested reading_: A delightful account of the early days of quantum theory can be found in Ch. 1–6 of _Quantum Drama_ by Jim Baggott and John L. Heilbron.
+> Suggested reading: A delightful account of the early days of quantum theory can be found in Ch. 1–6 of Quantum Drama by Jim Baggott and John L. Heilbron.
 
 - 22\. Class Test — 04/15
 > Based on take-home assignment.
 
 - 21\. Statistical Mechanics — 04/10
 > Reductionism and emergence. Entropy, energy, and their competition for dominance. Phase transitions and universality.
-> _Suggested reading_: _More is Different_ by P. W. Anderson.
+> Suggested reading: More is Different by P. W. Anderson.
 
 - 20\. Bayesian Inference — 04/08
 > Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.\
-> Suggested reading: Ch. 1–2 of _Data Analysis: A Bayesian Tutorial_ by D. S. Sivia and J. Skilling; _What is Bayesian Statistics?_ by Sean R. Eddy.
+> Suggested reading: Ch. 1–2 of Data Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
 
 - 19\. Hamiltonian Paths and Complexity — 04/01
 > Hamiltonian paths/cycles. Certificates. An informal discussion of complexity classes P and NP. Bipartite graphs. Dirac's theorem.
@@ -65,88 +65,71 @@ Some of the topics I discussed were: the shapes of surfaces and knotted pieces o
 > The Bridges of Königsberg. Some elementary results on Euler cycles/paths in the theory of graphs.
 
 - 17\. Conditional Probability and Statistics — 03/27
-> Conditional probabilities and Bayes' theorem. Random sampling of populations and Gaussian distributions.
->
+> Conditional probabilities and Bayes' theorem. Random sampling of populations and Gaussian distributions.\
 > Suggested reading: An Intuitive Explanation of Bayes' Theorem by Eliezer S. Yudkowsky.
 
 - 16\. Probability — 03/25
-> Sample spaces, outcomes, and events. Elementary results in the theory of probability.
->
+> Sample spaces, outcomes, and events. Elementary results in the theory of probability.\
 > Suggested reading: Ch. 1–4 of A Philosophical Essay on Probabilities by Pierre-Simon Laplace.
 
 - 15\. Permutations and Combinations — 03/18
-> Some simple combinatorial problems. Binomial coefficients.
->
+> Some simple combinatorial problems. Binomial coefficients.\
 > Suggested reading: Ch. 6 (titled Combinatorics) in Discrete Thoughts: Essays on Mathematics, Science, and Philosophy by Mark Kac, Gian-Carlo Rota, and Jacob T. Schwartz.
 
 - 14\. Kleiber Scaling and Fractal Networks — 03/13
-> The 3/4 scaling law. West-Brown-Enquist's fractal model and a derivation of the 3/4 scaling law. Debates in the literature surrounding its validity.
->
+> The 3/4 scaling law. West-Brown-Enquist's fractal model and a derivation of the 3/4 scaling law. Debates in the literature surrounding its validity.\
 > Suggested reading: Life's Universal Scaling Laws by Geoffrey B. West and James H. Brown.
 
 - 13\. Dimensional Analysis and Scaling Laws — 03/11
-> Simple dimensional analysis for equations in physics. Metabolic rate and Rubner's surface law of metabolism.
->
+> Simple dimensional analysis for equations in physics. Metabolic rate and Rubner's surface law of metabolism.\
 > Suggested reading: On Being The Right Size by J. B. S. Haldane.
 
 - 12\. Infinite Series and Primes — 02/27
-> Sequences and series. Exponential and logarithmic functions. The prime counting function and the prime number theorem. Eratosthenes' sieve. Harmonic series and Euler's product formula.
->
+> Sequences and series. Exponential and logarithmic functions. The prime counting function and the prime number theorem. Eratosthenes' sieve. Harmonic series and Euler's product formula.\
 > Suggested reading: A great popularisation of the Riemann Hypothesis can be found in Prime Obsession by John Derbyshire.
 
 - 11\. Primitive Ideas of Calculus — 02/25
-> On Archimedes' Measurement of a Circle and Quadrature of the Parabola.
->
+> On Archimedes' Measurement of a Circle and Quadrature of the Parabola.\
 > Suggested reading: Ch. 1 (titled Area, Number, and Limit Concepts in Antiquity) and Ch. 2 (titled Archimedes) of The Historical Development of the Calculus by C. H. Edwards, Jr.
 
 - 10\. Continuity and Calculus — 02/20
-> Plotting polynomial functions. How to define continuous functions rigorously. The trouble with infinitesimals and the notion of a derivative. The ubiquity of mathematics in the natural sciences. Quine-Putnam indispensability and our ontological commitments to mathematical objects. Field's fictionalism.
->
+> Plotting polynomial functions. How to define continuous functions rigorously. The trouble with infinitesimals and the notion of a derivative. The ubiquity of mathematics in the natural sciences. Quine-Putnam indispensability and our ontological commitments to mathematical objects. Field's fictionalism.\
 > Suggested reading: The Unreasonable Effectiveness of Mathematics in the Natural Sciences by Eugene Wigner. Also, here's an [interactive visualisation](https://www.geogebra.org/m/mj2bXA5y) of the ε-δ definition of a limit.
 
 - 9\. Relations and Functions — 02/18
-> Relations on sets. Reflexivity, symmetry, and transitivity. Equivalence relations. Functions and their graphs.
->
+> Relations on sets. Reflexivity, symmetry, and transitivity. Equivalence relations. Functions and their graphs.\
 > Suggested reading: None for this class. However, you'd do well to learn how to plot simple functions using [GeoGebra](https://www.geogebra.org/graphing).
 
 - 8\. Countability and Correspondences — 02/13
-> Hilbert's hotel. Countable and countably infinite sets. Injections, surjections, and bijections. The Cantor-Schröder-Bernstein theorem.
->
+> Hilbert's hotel. Countable and countably infinite sets. Injections, surjections, and bijections. The Cantor-Schröder-Bernstein theorem.\
 > Suggested reading: Avatars of the Tortoise and The Library of Babel by Jorge Luis Borges.
 
 - 7\. The Infinite — 02/11
-> The one-to-one correspondence as the notion of "sameness of size" appropriate to infinite sets. Cantor's diagonal argument.
->
+> The one-to-one correspondence as the notion of "sameness of size" appropriate to infinite sets. Cantor's diagonal argument.\
 > Suggested reading: Introduction (titled Paradoxes of the Infinite) and Ch. 2 (titled Aristotle) and Ch. 8 (titled The Mathematics of the Infinite, and the Impact of Cantor) of The Infinite by A. W. Moore.
 
 - 6\. Induction and Primes — 02/06
-> More on mathematical induction. The fundamental theorem of arithmetic governing the existence and uniqueness of prime factors. Euclid's theorem on the infinitude of primes. Arbitrarily long intervals of integers without primes.
->
+> More on mathematical induction. The fundamental theorem of arithmetic governing the existence and uniqueness of prime factors. Euclid's theorem on the infinitude of primes. Arbitrarily long intervals of integers without primes.\
 > Suggested reading: Why Isn't the Fundamental Theorem of Arithmetic Obvious? and Proving The Fundamental Theorem of Arithmetic by Timothy Gowers.
 
 - 5\. Numbers — 02/04
-> Natural numbers, integers, and rationals. Irrational numbers and a proof of the irrationality of √2. Platonism and the Frege-Russell conception of cardinals. Simple statements and proofs in the theory of numbers.
->
+> Natural numbers, integers, and rationals. Irrational numbers and a proof of the irrationality of √2. Platonism and the Frege-Russell conception of cardinals. Simple statements and proofs in the theory of numbers.\
 > Suggested reading: Enriching Divisibility: Multiple Proofs and Generalizations by Benjamin Dickman; Ch. 6 (titled Pythagoras and The Soul) and Ch. 18 (titled Philolaus and the Formal Cause) of The Presocratic Philosophers by Jonathan Barnes.
 
 - 4\. Knots — 01/30
-> Knots as embeddings of circles into three-dimensional space. Planar and ambient isotopy. Reidemeister moves. Tricolourability and its isotopy invariance.
->
+> Knots as embeddings of circles into three-dimensional space. Planar and ambient isotopy. Reidemeister moves. Tricolourability and its isotopy invariance.\
 > Suggested reading: Chapters 1–3 of Knots: Mathematics with a Twist by Alexei Sossinsky.
 
 - 3\. The Poincaré-Hopf Index Theorem — 01/28
-> Winds on two-dimensional surfaces. Flowlines and their tangents. Isolated critical points and how to compute their index. Invariance of the index under "small disturbances." The Euler characteristic as a sum of indices of critical points associated to a triangulation.
->
+> Winds on two-dimensional surfaces. Flowlines and their tangents. Isolated critical points and how to compute their index. Invariance of the index under "small disturbances." The Euler characteristic as a sum of indices of critical points associated to a triangulation.\
 > Suggested reading: Why Space Has Three Dimensions by Henri Poincaré.
 
 - 2\. The Euler Characteristic — 01/23
-> The topology of two-dimensional surfaces. Computing the Euler characteristic of a square using triangulations. An inductive proof that the square has unit Euler characteristic. How to construct a torus by identifying the edges of a square.
->
+> The topology of two-dimensional surfaces. Computing the Euler characteristic of a square using triangulations. An inductive proof that the square has unit Euler characteristic. How to construct a torus by identifying the edges of a square.\
 > Suggested reading: Funes the Memorious by Jorge Luis Borges; Proofs and Refutations by Imre Lakatos.
 
 - 1\. Introduction — 01/21
-> Overview of course rules, attendance and grading policies. Rough outline of topics to be discussed during the course.
->
+> Overview of course rules, attendance and grading policies. Rough outline of topics to be discussed during the course.\
 > Suggested reading: A Mathematician's Lament by Paul Lockhart.
 
 #### Suggested Reading
