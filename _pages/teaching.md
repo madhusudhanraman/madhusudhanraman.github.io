@@ -161,6 +161,7 @@ will enrich your experience of the course immeasurably. For those texts without 
 - [Funes the Memorious](https://vigeland.caltech.edu/ist4/lectures/funes%20borges.pdf) by Jorge Luis Borges.
 - [A Mathematician's Lament](https://profkeithdevlin.org/wp-content/uploads/2023/09/lockhartslament.pdf) by Paul Lockhart.
 
+---
 
 ### Mathematical Physics I (January – April '26)
 
@@ -276,6 +277,7 @@ Below you'll find some reading material that is referenced in the classroom.
 - Introduction to Electrodynamics by David J. Griffiths
 - [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) by Eugene Wigner.
 
+---
 
 ## University of Delhi
 
@@ -303,6 +305,7 @@ You will find many more articles of this kind in the following journals:
 
 Please choose a paper in consultation with a member of the faculty. Ideally, the paper should be related to one of your core courses.
 
+---
 
 ### Quantum Field Theory III (January – April '25)
 
@@ -344,6 +347,7 @@ There are also plenty of excellent lecture notes on (various aspects of) quantum
 
 More references specific to the topic of discussion will be provided as we go along.
 
+---
 
 ### Quantum Field Theory II (January – April '25)
 
@@ -473,6 +477,7 @@ Finally, for background reading, I recommend:
 - Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
 - Schweber — QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
 
+---
 
 ### Quantum Field Theory I (August – November '24)
 
@@ -613,6 +618,7 @@ Finally, for background reading, I recommend:
 - Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
 - Schweber — QED and the Men Who Made it: Dyson, Feynman, Schwinger, and Tomonaga
 
+---
 
 ### Quantum Field Theory II (February – May '24)
 
@@ -778,6 +784,7 @@ Finally, for background reading, I recommend:
 - Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
 - Schweber — QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
 
+---
 
 ### Critical Phenomena (February – May '24)
 
@@ -832,6 +839,7 @@ You should skim through these (and other!) texts and find one that suits your ta
 - Shankar — Quantum Field Theory and Condensed Matter
 - Zinn-Justin — Quantum Field Theory and Critical Phenomena
 
+---
 
 ### Quantum Field Theory I (September – December '23)
 
@@ -1039,6 +1047,7 @@ Finally, for background reading, I recommend:
 - Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
 - Schweber — QED and the Men Who Made it: Dyson, Feynman, Schwinger, and Tomonaga
 
+---
 
 ### Quantum Mechanics II (April – July '23)
 
@@ -1056,6 +1065,8 @@ Finally, for background reading, I recommend:
 
 See [here](https://drive.google.com/file/d/1f4t2ePreFy-7WTXfrDj8roAIvUhwb1g3/view?usp=sharing) for notes discussing Wigner matrices, 
 Clebsch-Gordan coefficients, the addition of angular momentum, spherical tensors, and the Wigner-Eckart theorem.
+
+---
 
 ### Bosonic String Theory (January – April '23)
 
