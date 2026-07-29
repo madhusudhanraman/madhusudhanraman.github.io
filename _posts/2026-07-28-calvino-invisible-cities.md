@@ -5,7 +5,7 @@ excerpt: >
   Without the stones there is no arch.
 ---
 
-From Invisible Cities (1974) by Italo Calvino.
+From _Invisible Cities_ (1974) by Italo Calvino.
 
 > Marco Polo describes a bridge, stone by stone.
 >
