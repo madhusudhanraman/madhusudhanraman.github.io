@@ -779,7 +779,7 @@ Finally, for background reading, I recommend:
 - Schweber — QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
 
 
-### Superconductivity, Superfluidity, and Critical Phenomena (February – May '24)
+### Critical Phenomena (February – May '24)
 
 These lectures covered critical phenomena and the renormalisation group.
 
