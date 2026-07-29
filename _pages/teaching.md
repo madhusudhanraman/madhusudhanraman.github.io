@@ -20,7 +20,272 @@ toc: true
 
 ### Quantum Field Theory II (January – April '25)
 
+This is the second of a two-semester sequence of courses on quantum field theory. Working chiefly in the path integral formalism, 
+we studied more advanced aspects of quantum field theory including renormalisation, and effective field theories. 
+The plan was to cover non-Abelian gauge theories, too, we didn't have enough time to get to it.
+
+#### Assignments
+
+- [Lie Algebras](https://drive.google.com/file/d/1L3CcicWxe0IR68dhrEFCaG4owMETkNlY/view?usp=sharing)
+- [Renormalisation Group Flows](https://drive.google.com/file/d/1l5GKRUbfa3PaYYJWlNO0yozAUrNashcB/view?usp=sharing)
+- [Renormalised Perturbation Theory](https://drive.google.com/file/d/1eYIUXT1aYUb3y94CuA5hXhFicRmn1vO3/view?usp=sharing)
+- [Vacuum Polarisation and Self-Energy Graphs](https://drive.google.com/file/d/1h_jBF3elLSz9xweKRJ1OGb_QzDky9zeq/view?usp=sharing)
+- [Renormalisation and Dimensional Regularisation](https://drive.google.com/file/d/1GKgcgWwzkyppPwj4XwzcCNKOwfyselHw/view?usp=sharing)
+- [Regulators and Identities](https://drive.google.com/file/d/1Do939DhKbF8m2zi36eHG_CsRta_AQEHN/view?usp=sharing)
+- [Dyson-Schwinger and Conserved Currents](https://drive.google.com/file/d/1YSG_VT0Nxsfh1GVnOTWuz_AN8h7Rc0rE/view?usp=sharing)
+- [Dyson-Schwinger and Correlation Functions](https://drive.google.com/file/d/1Tb9dQ9NBVLQ0U3tm9VOBW15XmhVliI5A/view?usp=sharing)
+- [Correcting the Propagator](https://drive.google.com/file/d/1puefaV5mphQ1N5NAOQdxK6D7ByP0ASKQ/view?usp=sharing)
+
+#### Lectures
+
+- 26\. Abelian Higgs Models, Superconductors, and Confinement — 04/25
+> The Higgs mechanism in Abelian gauge theory. Meissner effect. Nielsen-Oleson vortex strings. Type I and II superconductors.
+> Electric-magnetic duality, dual superconductors, and charge confinement.
+
+- 25\. Effective Field Theories for Nambu-Goldstone Modes — 04/24
+> General discussion of effective field theories. Matching and using equations of motion.
+
+- 24\. Spontaneous Symmetry Breaking in Yukawa Theory — 04/17
+> Spontaneous symmetry breaking in Yukawa theory. The Adler zero principle.
+
+- 23\. Lie Algebras — 04/04
+> A lightning introduction to Lie algebras and their representations.
+
+- 22\. All Together Now — 04/03
+> The continuum and Wilsonian RG. Relevant, irrelevant, and marginal couplings revisited. Quantum triviality.
+
+- 21\. Wilsonian RG — 03/28
+> Integrating out high-energy degrees of freedom. The Wilsonian effective action.
+
+- 20\. RG Flows II — 03/27
+> Interpreting RG flows. The significance of fixed points.
+
+- 19\. RG Flows — 03/21
+> Anomalous dimensions and critical exponents. Renormalisation group flows. The Wilson-Fisher fixed point.
+
+- 18\. RG Equations — 03/20
+> 1-loop β-function for QED. Landau pole. Asymptotically free and conformal theories. Anomalous dimensions and their interpretation.
+
+- 17\. Renormalisation of QED II — 03/07
+> Subtleties involving IR divergent integrals. Fixing counterterms.
+
+- 16\. Renormalisation of QED I — 03/06
+> Renormalised perturbation theory for quantum electrodynamics. Renormalisation conditions.
+
+- 15\. Renormalisation of Quartic Scalar Theory — 02/28
+> Renormalised perturbation theory for self-interacting scalar theories. Fixing counterterms. Renormalisation conditions.
+
+- 14\. Counting UV Divergences — 02/27
+> Superficial degree of divergence in theories with scalars and fermions. Superrenormalisable, renormalisable, and non-renormalisable theories. Listing divergent 1PI subgraphs.
+
+- 13\. Anomalous Magnetic Moment — 02/14
+> Gordon's identity. Vertex corrections and computation of electron g-2 in quantum electrodynamics.
+
+- 12\. On-Shell Subtraction — 02/13
+> 1-particle irreducible graphs. Pole and renormalised mass. Further discussion of LSZ prescription.
+
+- 11\. [Electron Self-Energy Graphs](https://mega.nz/file/A8Y1DALZ#smpEpGGcWrRwFlHsaoH_ZlwVtTmNHndGIcBk94htvis) — 02/07
+> Self-energy graphs in QED. Mass and wavefunction renormalisation. Subtraction schemes.
+
+- 10\. [Vacuum Polarisation in QED](https://mega.nz/file/11x1FBAB#HJokcEUOP1otJgS86LIvYpZDJ02RV_nXQIZRKIMBQEI) — 02/06
+> Vacuum polarisation graphs in scalar and spinor QED. 1-loop corrections to Coulomb's law. Charge renormalisation.
+
+- 9\. [Dimensional Regularisation](https://mega.nz/file/w55TRDYJ#bipVnudIJwD6OQsKS0zmfkqnql2GFloiTPDcQKoLtbY) — 01/31
+> How to do integrals commonly encountered in loop-level QFT using dimensional regularisation.
+
+- 8\. [Vacuum Polarisation and Pauli-Villars Regularisation](https://mega.nz/file/59xD3CbT#mGuyNqfyLxdYR-_XeRNUyf88Sgr3SH6KclvifaS-F3I) — 01/30
+> Pauli-Villars ghosts, and how to use them to regularise integrals. Example using vacuum polarisation graph in cubic scalar theory.
+
+- 7\. [Renormalised Perturbation Theory and Schwinger Parameters](https://mega.nz/file/Jt5zyY6C#6w7alo1uD2WQXYictGvtTiNOA2SRQVEXXO05KGpaocY) — 01/24
+> Counterterms and their use. Schwinger and Feynman parametrisations for loop integrals.
+
+- 6\. [Casimir Force, Regulators, and a Broad Overview of Renormalisation](https://mega.nz/file/B9AzjTrZ#2Wxz4Z6xZ6LoT22HGa1wP5CIqscrnqjCCymyIUwr9rc) — 01/23
+> The Casimir effect. Cut-off and heat-kernel regulators. Wick rotation. On-shell perturbation theory and renormalisation conditions.
+
+- 5\. Lehmann-Symanzik-Zimmermann Reduction — 01/17
+> A derivation of the LSZ reduction formula, with examples of how it works.
+> (I'm not writing up the notes for this lecture. Please see Sec. 6.1 of Schwartz instead!)
+
+- 4\. [Dyson-Schwinger Revisited](https://mega.nz/file/81QQCCYT#crBmFYAYcwYImFHyOiRIAuV6me9BT_Gm_MrSzeZK-8k) — 01/16
+> A derivation of the Dyson-Schwinger equation in the path integral formalism. Discussion of contact terms. The case of global symmetries and Ward identities.
+
+- 3\. [Dyson-Schwinger, Canonically](https://mega.nz/file/5kRn1aiR#c61nIFFVZnLdIbj3WiFwHuFUC5yq6P6P1kJ_DHvEfeM) — 01/10
+> A derivation of the Dyson-Schwinger equation in the canonical formalism.
+
+- 2\. [Path Integrals for Gauge Fields](https://mega.nz/file/Rhh1yIRZ#Smj7iPtddMpw6r3WVBZXESSPZ6G1snXXm9n5c-Ll-fM) — 01/09
+> Derivation of the gauge-fixed path integral for an Abelian gauge theory. Proof that matrix elements of gauge invariant operators are independent of the choice of gauge.
+
+- 1\. [Path Integrals for Scalars](https://mega.nz/file/h5gzzbAC#5Kt4tbsYKdQWJdnwMlj2K0TyQIKHo1ftPnpSk7p3SBg) — 01/03
+> Review of path integral for scalar fields and how to compute the path integral for a free theory. Incorporating interactions and the reproducing Feynman rules. A first look at mass renormalisation due to interactions.
+
+#### Suggested Reading
+
+There are many, many textbooks on quantum field theory. Below is a small selection of references that adopt the same conventions as we do in the lectures. 
+You should skim through these (and other!) texts and find one that suits your tastes.
+
+- Das — Field Theory: A Path Integral Approach
+- Itzykson & Zuber — Quantum Field Theory
+- Mandl & Shaw — Quantum Field Theory
+- Peskin & Schroeder — An Introduction to Quantum Field Theory
+- Ramond — Field Theory: A Modern Primer
+- Schwartz — Quantum Field Theory and the Standard Model
+- Sterman — An Introduction to Quantum Field Theory
+- Zee — Quantum Field Theory in a Nutshell
+- Zinn-Justin — Quantum Field Theory and Critical Phenomena
+
+There are also many excellent lecture notes available online:
+
+- [Iqbal](https://nabiliqbal.github.io/lectures.pdf)
+- [Kaplan](https://sites.krieger.jhu.edu/jared-kaplan/files/2016/05/QFTNotes.pdf)
+- [Mukhi](https://arxiv.org/abs/1908.04075)
+- [Preskill](http://theory.caltech.edu/~preskill/notes.html)
+- [Sen](https://www.hri.res.in/~sen/)
+
+Finally, for background reading, I recommend:
+
+- Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
+- Schweber — QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
+
+
 ### Quantum Field Theory I (August – November '24)
+
+Between August–November 2024, I taught the first of a two-semester sequence of courses on quantum field theory. 
+The course was divided into roughly four parts: (i) canonical and path integral quantisation of free scalar fields, 
+(ii) spinors, Abelian gauge fields, and their quantisation, (iii) interactions and tree-level scattering amplitudes 
+in various theories, and (iv) spontaneous symmetry breaking. It was planned initially that we would also discuss some 
+aspects of the large-N approximation and lattice field theory, but this was not possible.
+
+#### Assignments
+
+- [Mandelstam Invariants, Amplitudes, and Correlators](https://drive.google.com/file/d/1NY0PkXuvL03WSi9gQkS1xE6aVRBxnJUk/view?usp=sharing)
+- [Grassmann Integration](https://drive.google.com/file/d/1GZ1f6dmWBQhFSAvMcpk0U19Pa4Y1pxbE/view?usp=sharing)
+- [Charge Conjugation and Majorana Spinors](https://drive.google.com/file/d/16mPfHAQbrYTIZIrE4KKvbvaueldEke4l/view?usp=sharing)
+- [Algebras, Representations, and Green's Functions](https://drive.google.com/file/d/1bF2Bkoont2PuM-bO49oL2HLVAwH3FaMh/view?usp=sharing)
+- [Path Integrals](https://drive.google.com/file/d/1tRXxsoWrn7ziTD0pH23GeGAb7Opty9DJ/view?usp=sharing)
+- [Complex Scalar Field](https://drive.google.com/file/d/1dXUFJyOl9umSsxFHMF7DcP2Fr6B2i2rG/view?usp=sharing)
+- [Noether's Theorem](https://drive.google.com/file/d/1AcrKUZXuPaFYSKdOK0jxd45Dt4RGYQgG/view?usp=sharing)
+- [Simple Integrals and Natural Units](https://drive.google.com/file/d/1DeipEr1Q16BvgBbOof8f45cHMoalCFiI/view?usp=sharing)
+
+#### Lectures
+
+- 30\. QED — 11/22
+> Feynman rules for quantum electrodynamics. Scattering amplitudes for elementary processes.
+
+- 29\. Scalar QED — 11/21
+> Feynman rules for scalar QED. Elementary processes.
+
+- 28\. Where Do Feynman Rules Come From? — 11/14
+> Tracking all the factors. Derivative couplings.
+
+- 27\. Scattering in Theories with Fermions — 11/08
+> Relating correlation functions computed in the free and interacting vacua. Feynman rules for theories with fermions and scalars. Computing correlation functions perturbatively.
+
+- 26\. More Amplitudes — 11/07
+> Streamlining Feynman rules. Mandelstam invariants.
+
+- 25\. Scattering Amplitudes in Scalar Theories — 10/25
+> Wick's theorem relating time-ordered and normal-ordered operators. Feynman rules for theories with real and complex scalars.
+
+- 24\. The S-Matrix and Decay Amplitudes — 10/24
+> Decays amplitudes in a toy theory of scalars.
+
+- 23\. Spontaneous Symmetry Breaking II — 10/18
+> A special series of lectures by Prof. Debajyoti Choudhury.
+
+- 22\. Spontaneous Symmetry Breaking I — 10/17
+> A special series of lectures by Prof. Debajyoti Choudhury.
+
+- 21\. Interactions — 10/11
+> Dimensional analysis. Classically relevant, irrelevant, and marginal operators. The interaction picture and Dyson series.
+
+- 20\. Gupta-Bleuler — 10/10
+> Negative-norm states in Maxwell theory and the tension between Lorentz covariance and positive norm.
+
+- 19\. Maxwell Theory — 10/04
+> Gauge invariance and gauge fixing. Canonical quantisation of Maxwell theory. Polarisation vectors and mode expansions. Negative-norm states.
+
+- 18\. Path Integrals for Dirac Fermions — 10/03
+> Grassmann calculus. Fermionic path integrals. Re-deriving the Dirac propagator.
+
+- 17\. Propagators — 09/26
+> Propagators for free Dirac fermions. The Grassmann algebra.
+
+- 16\. Spin-Statistics Connection — 09/20
+> The relation between spin and statistics. Considerations of stability. Canonical quantisation of Dirac spinors. Causality and field commutators.
+
+- 15\. Dirac Lagrangian — 09/19
+> Plane wave solutions. Inner and outer products.
+
+- 14\. Dirac Lagrangian — 09/13
+> Constructing the Dirac Lagrangian. Field bilinears.
+
+- 13\. What is a Spinor? — 09/12
+> Clifford algebras. Properties of Dirac γ-matrices. Constructing representations of the Lorentz Lie algebra using γ-matrices.
+
+- 12\. The Lorentz Lie Algebra — 09/06
+> The relation between the complexified Lorentz Lie algebra and the su(2) Lie algebra. Scalar, vector, and tensor representations.
+
+- 11\. The Lorentz and Poincare Groups — 09/05
+> Computing Gaussian path integrals. The Poincare group and its various subgroups. The Poincare and Lorentz Lie algebras. Parity and time-reversal. The global structure of the Lorentz group.
+
+- 10\. Path Integral in Quantum Field Theory — 08/30
+> Gaussian fluctuations and effective actions. Operator insertions in the path integral and time-ordering. The path integral in quantum field theory. Green's functions and the generating functional.
+
+- 9\. Path Integral in Quantum Mechanics — 08/29
+> Constructing the phase space and configuration space path integrals via time-slicing. Interpretation as sum over trajectories. Recovering the principle of least action.
+
+- 8\. Feynman Propagator and Complex Scalars — 08/23
+> Propagators, in particular the Feynman propagator as a Green's function for the Klein-Gordon equation. Time-ordering symbol and the iε pole prescription.Note: Due to a power failure, we weren't able to get very far into our discussion of the complex scalar. Please see the latest assignment for this material instead!
+
+- 7\. Causality and Propagation — 08/22
+> Lorentz-invariant measures and relativistic normalisation of one-particle states. Vanishing of field commutators at spacelike separations.
+
+- 6\. Mode Expansions and Fock Space — 08/16
+> Mode expansions of field operators, reality conditions, equal-time commutation relations. Hamiltonian and zero-point energy. Normal ordering. One-particle states. Quanta of real scalar field obey bosonic statistics. The number operator in free and interacting theories.
+
+- 5\. Canonical Quantisation — 08/10
+> Canonical quantisation of the free scalar field. Heisenberg picture operators and the Klein-Gordon equation.
+
+- 4\. Gauging Global Symmetries — 08/09
+> Wilson lines and covariant derivatives. Gauge invariance and charge conservation. Review of canonical quantisation for finite-dimensional dynamical systems.
+
+- 3\. Noether's Theorem — 08/08
+> Locally conserved currents and associated charges. Noether's theorem for internal and spacetime symmetries. Symmetry groups and the O(N) model.
+
+- 2\. Field Theory and Statistical Mechanics — 08/03
+> The Ising model, computing its partition function as a sum over functions of the average magnetisation of "blocks" of spins, the Landau-Ginzburg free energy functional, equivalence with the Hamiltonian of a scalar field in Minkowski spacetime, dominant contributions to the path integral as saddle points, Wick rotation (formally) relating QFTs and statistical mechanical systems.
+
+- 1\. Classical Scalar Fields — 08/02
+> The principle of least action for finite-dimensional dynamical systems, extension to scalar field theories, the (Euler-Lagrange) field equations for a scalar field, recovering Klein-Gordon as a field equation, plane-wave solutions and dispersion relations, classical field theory in phase space, the Hamiltonian for scalar fields.
+
+#### Suggested Reading
+
+There are many, many textbooks on quantum field theory. Below is a small selection of references that adopt the same conventions as we do in the lectures. 
+You should skim through these (and other!) texts and find one that suits your tastes.
+
+- Das — Lectures on Quantum Field Theory
+- Itzykson & Zuber — Quantum Field Theory
+- Mandl & Shaw — Quantum Field Theory
+- Peskin & Schroeder — An Introduction to Quantum Field Theory
+- Ramond — Field Theory: A Modern Primer
+- Schwartz — Quantum Field Theory and the Standard Model
+- Sterman — An Introduction to Quantum Field Theory
+- Zee — Quantum Field Theory in a Nutshell
+- Zinn-Justin — Quantum Field Theory and Critical Phenomena
+
+There are also many excellent lecture notes available online:
+
+- [Iqbal](https://nabiliqbal.github.io/lectures.pdf)
+- [Kaplan](https://sites.krieger.jhu.edu/jared-kaplan/files/2016/05/QFTNotes.pdf)
+- [Preskill](http://theory.caltech.edu/~preskill/notes.html)
+- [Sen](https://www.hri.res.in/~sen/)
+- [Tong](https://www.damtp.cam.ac.uk/user/tong/qft.html)
+
+Finally, for background reading, I recommend:
+
+- Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
+- Schweber — QED and the Men Who Made it: Dyson, Feynman, Schwinger, and Tomonaga
+
 
 ### Quantum Field Theory II (February – May '24)
 
@@ -156,7 +421,7 @@ and effective field theories. We were also able to discuss some aspects of quant
 > Review of path integral for scalar fields and how to compute the path integral for a free theory. Incorporating interactions and the reproducing Feynman rules. A first look at mass renormalisation due to interactions.
 
 - 1\. Introduction — 01/29
-> Broad introduction to the topics to be covered in this course, discussion of course plan.\
+> Broad introduction to the topics to be covered in this course, discussion of course plan.
 
 #### Suggested Reading
 
