@@ -7,6 +7,8 @@ toc: true
 toc_sticky: true
 ---
 
+Detailed course plans, assignments, references, and occasionally some notes for the courses I have taught are available below. 
+
 ## Ashoka University
 
 ### Quantitative Reasoning and Mathematical Thinking (January – April '26)
@@ -38,27 +40,23 @@ Some of the topics I discussed were: the shapes of surfaces and knotted pieces o
 > An overview of the topics discussed in this course.
 
 - 24\. Relativity — 04/22
-> The Michaelson-Morley null result and the death of luminiferous ether. Special relativity contrasted with Galilean relativity. The equivalence principle. Freely falling and accelerating elevators and the nature of gravitational forces. Early predictions regarding gravitational redshifts and the Pound-Rebka experiment. The curvature of spacetime induced by matter and energy. The Hulse-Taylor binary and early hints of gravitational waves. Direct detection and gravitational wave interferometry.
->
-> Suggested reading: I read Was Einstein Right? by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
+> The Michaelson-Morley null result and the death of luminiferous ether. Special relativity contrasted with Galilean relativity. The equivalence principle. Freely falling and accelerating elevators and the nature of gravitational forces. Early predictions regarding gravitational redshifts and the Pound-Rebka experiment. The curvature of spacetime induced by matter and energy. The Hulse-Taylor binary and early hints of gravitational waves. Direct detection and gravitational wave interferometry.\
+> _Suggested reading_: I read _Was Einstein Right?_ by Clifford M. Will as an undergraduate and it remains one of my favourite popular introductions to the general theory of relativity.
 
 - 23\. Quantum Mechanics — 04/17
-> Young's double-slit experiment. The photoelectric effect and Einstein's light quanta. Atomic spectra and Bohr's model. Pauli's aufbauprinzip and the periodic table. Fever dreams and the birth of quantum theory. Born's rule and the probabalistic nature of quantum theory. The "Shut Up and Calculate!" philosophy and its utility in the development of the nascent quantum theory.
->
-> Suggested reading: A delightful account of the early days of quantum theory can be found in Ch. 1–6 ofQuantum Drama by Jim Baggott and John L. Heilbron.
+> Young's double-slit experiment. The photoelectric effect and Einstein's light quanta. Atomic spectra and Bohr's model. Pauli's aufbauprinzip and the periodic table. Fever dreams and the birth of quantum theory. Born's rule and the probabalistic nature of quantum theory. The "Shut Up and Calculate!" philosophy and its utility in the development of the nascent quantum theory.\
+> _Suggested reading_: A delightful account of the early days of quantum theory can be found in Ch. 1–6 of _Quantum Drama_ by Jim Baggott and John L. Heilbron.
 
 - 22\. Class Test — 04/15
 > Based on take-home assignment.
 
 - 21\. Statistical Mechanics — 04/10
 > Reductionism and emergence. Entropy, energy, and their competition for dominance. Phase transitions and universality.
->
-> Suggested reading: More is Different by P. W. Anderson.
+> _Suggested reading_: _More is Different_ by P. W. Anderson.
 
 - 20\. Bayesian Inference — 04/08
-> Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.
->
-> Suggested reading: Ch. 1–2 of Data Analysis: A Bayesian Tutorial by D. S. Sivia and J. Skilling; What is Bayesian Statistics? by Sean R. Eddy.
+> Bayes' theorem and hypothesis testing. Priors and posterior probabilities. Here's the [Python notebook](https://drive.google.com/file/d/1t7tk8tGXt8WXmJWYdzQ2u-XTBMxscQh8/view?usp=sharing) from the lecture.\
+> Suggested reading: Ch. 1–2 of _Data Analysis: A Bayesian Tutorial_ by D. S. Sivia and J. Skilling; _What is Bayesian Statistics?_ by Sean R. Eddy.
 
 - 19\. Hamiltonian Paths and Complexity — 04/01
 > Hamiltonian paths/cycles. Certificates. An informal discussion of complexity classes P and NP. Bipartite graphs. Dirac's theorem.
