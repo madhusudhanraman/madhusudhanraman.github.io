@@ -8,7 +8,7 @@ author_profile: true
 **Nandini Nair** (2025–26) studied chiral bosons in two dimensions, bosonisation duality, and chiral anomalies.
 She is now a PhD scholar at IIT Gandhinagar.
 
-**Pallavi Chauhan** (2025–26) wrote her dissertations on quantum field theory for many-body systems.
+**Pallavi Chauhan** (2025–26) wrote her dissertation on quantum field theory for many-body systems.
 In [Part I](https://drive.google.com/file/d/1wM3kQ53iESxKFUy5avT69hXXBGxdBax3/view?usp=sharing), she studied examples of many-body systems in quantum mechanics and field theory.
 In [Part II](https://drive.google.com/file/d/1gUa6zYXipVtljiou_D9OqVAxQSB5GGHn/view?usp=sharing), she studied Fermi liquids and diagrammatic methods at zero temperature.
 
