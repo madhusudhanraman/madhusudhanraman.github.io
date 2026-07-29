@@ -33,7 +33,8 @@ Published in [Fortschr. Phys. 72 (2024)](http://doi.org/10.1002/prop.202400023).
 
 - **Triangle Groups: Automorphic Forms and a Hierarchy of Nonlinear ODEs**\
 with S. K. Ashok and D. P. Jatkar.\
-To appear in *Geometry and Arithmetic of Calabi-Yau Threefolds* by C. Doran, L. Long, D. Thakur, D. Tiwari, and N. Yui.\
+To appear in *Geometry and Arithmetic of Calabi-Yau Threefolds*\
+by C. Doran, L. Long, D. Thakur, D. Tiwari, and N. Yui.\
 Preprint available [here](https://sites.google.com/view/bms2021/proceedings).
 
 - **Effective Gravitational Couplings of Kaluza-Klein Gauge Theories**\
