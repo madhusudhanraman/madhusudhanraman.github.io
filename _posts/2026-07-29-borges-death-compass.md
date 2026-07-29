@@ -2,10 +2,10 @@
 title: "Borges - Death and the Compass"
 date: 2026-07-29
 excerpt: >
-  Reality may avoid that obligation but that hypotheses may not.
+  Possible, but not interesting.
 ---
 
-From _Death and the Compass_ in Labyrinths (1962) by Jorge Luis Borges.
+From _Death and the Compass_ in _Labyrinths_ (1962) by Jorge Luis Borges.
 
 > "No need to look for a three-legged cat here," Treviranus was saying as he brandished an imperious cigar.
 > "We all know that the Tetrarch of Galilee owns the finest sapphires in the world.
