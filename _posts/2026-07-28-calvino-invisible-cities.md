@@ -1,5 +1,5 @@
 ---
-title: "On Bridges"
+title: "Calvino - Invisible Cities"
 date: 2026-07-28
 excerpt: >
   Without the stones there is no arch.
