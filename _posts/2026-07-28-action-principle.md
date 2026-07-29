@@ -65,9 +65,3 @@ $ L(q, \dot{q} ) $ allows us to translate the principle of least
 action --- global principle --- into a differential equation, i.e. a
 local formulation of the same.
 
-Here's a test of the subscript/superscript abilities. Inline, we can 
-have $\delta_{\indices{^{i}_ {j}}}$. Centered, we have:
-\begin{equation}
-\left[ a _{i}, a ^{\dagger j} \right] = \delta \indices{_ {i}^{j}} \ ,
-\end{equation}
-
