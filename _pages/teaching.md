@@ -24,15 +24,228 @@ toc: true
 
 ### Quantum Field Theory II (February – May '24)
 
+This was the second of a two-semester sequence of courses on quantum field theory. Working chiefly in the path integral formalism, 
+we studied more advanced aspects of quantum field theory including non-Abelian gauge theories, renormalisation, spontaneous symmetry breaking,
+and effective field theories. We were also able to discuss some aspects of quantum field theories in low dimensions.
+
+#### Assignments
+
+- [BRST and Supersymmetry](https://drive.google.com/file/d/1qUsPRsa1hkEWOPneAwykwvIo5k_6k_FM/view?usp=sharing)
+- [Non-Abelian Gauge Fields and Wilson Lines](https://drive.google.com/file/d/10LJbw8yknnh5sC6_vsw1T6GT19OOHu8V/view?usp=sharing)
+- [Wilsonian RG and Lie Algebras](https://drive.google.com/file/d/1_ds8sX8fVOnMEfgJcoAaFD_P0xW75rI_/view?usp=sharing)
+- [Superficial Degree of Divergence, Mesons, and Nucleons](https://drive.google.com/file/d/1EqtrFpfu11bHoUoLSIzcW8w8s68uM5pp/view?usp=sharing)
+- [Counterterms and Anomalous Magnetic Moment](https://drive.google.com/file/d/1kBG8MIE08ZdfKfVwblnqevXnbCJuwPxd/view?usp=sharing)
+- [Feynman's Trick, Schwinger Parameters, and Dressed Propagators](https://drive.google.com/file/d/1wkGRwSGYc-ZBY9SsPDytc9W9ZuXp-o2R/view?usp=sharing)
+- [Fun With Regulators](https://drive.google.com/file/d/1Re4-1AraEwVVG_bkVQK5SIUzj4qkapYf/view?usp=sharing)
+- [Propagators and Dyson-Schwinger Equations](https://drive.google.com/file/d/11GdrlnQP1uZZ4NbkP6DJIQRMzgRdWnWY/view?usp=sharing)
+
+#### Lectures
+
+- 38\. Vertex Operators and Bosonisation — 05/10
+> Correlation functions of vertex operators. The bosonisation dictionary relating chiral fermions to vertex operators of chiral bosons.
+> Duality between sine-Gordon theory and the massive Thirring model.
+
+- 37\. Two-Dimensional Fermions, Compact Bosons, and T-Duality — 05/09
+> Chiral fermions in two dimensions. Compact bosons. Momentum and winding modes. T-duality.
+
+- 36\. Abelian Higgs Model — 05/04
+> Spontaneous symmetry breaking with gauge fields. Landau-Ginzburg description of superconducting phase transition. Vortex strings.
+
+- 35\. Effective Field Theories — 05/03
+> Constructing an effective field theory of Nambu-Goldstone bosons via matching, and by explicitly eliminating heavy modes.
+
+- 34\. Scattering of Nambu-Goldstone Bosons — 05/02
+> Spontaneous symmetry breaking in a Yukawa theory. Nambu-Goldstone and Higgs modes. Scattering of Nambu-Goldstone bosons. The Adler zero principle.
+
+- 33\. Spontaneous Symmetry Breaking — 04/27
+> Spontaneous breaking of discrete symmetries. Tunneling in quantum mechanics vs. tunneling in field theory. Complex scalar fields in a quartic potential.
+> Shift symmetry of the Goldstone mode.
+
+- 32\. Monopoles — 04/26
+> Another, extra special lecture on monopole solutions by Prof. Dileep Jatkar (Harish-Chandra Research Institute).
+
+- 31\. Symmetry and Renormalisation — 04/25
+> A special lecture by Prof. Dileep Jatkar (Harish-Chandra Research Institute).
+
+- 30\. Feynman Rules — 04/20
+> Feynman rules for non-Abelian gauge theories. Elementary processes.
+
+- 29\. BRST Symmetry — 04/19
+> A global symmetry of the gauge-fixed Yang-Mills Lagrangian. The BRST operator and its cohomology.
+
+- 28\. Faddeev-Popov for Non-Abelian Gauge Fields — 04/18
+> How to derive the gauge-fixed path integrals over non-Abelian gauge fields.
+
+- 27\. Effective Field Theory: Not Everything Goes! — 04/13
+> A special lecture on effective field theories by Dr. Subham Dutta Chowdhury (U. Chicago).
+
+- 26\. Yang-Mills Theory — 04/12
+> Non-Abelian gauge fields and their field strengths. The Yang-Mills action for non-Abelian gauge fields.
+
+- 25\. Lie Algebras and Wilson Loops — 04/06
+> A quick review of Lie groups, Lie algebras, and their representation theory. Wilson lines in Abelian gauge theory.
+
+- 24\. Wilsonian Renormalisation Group II — 04/05
+> Scaling and renormalisation group flows revisited. Comparison between the continuum and Wilsonian renormalisation group.
+> Radiative corrections to scalar masses. Fine-tuning, naturalness, and the hierarchy problem.
+
+- 23\. Wilsonian Renormalisation Group I — 04/04
+> Momentum shell renormalisation group. The Wilsonian low-energy effective action.
+
+- 22\. Running Masses and Renormalisation Group Flows — 03/21
+> Quantum corrections to the Yukawa potential. Critical exponents. The renormalisation group flow. Gaussian and Wilson-Fisher fixed points.
+
+- 21\. Renormalisation Group Equations — 03/16b
+> The beta function. Anomalous dimensions. The Callan-Symanzik equation.
+
+- 20\. 1-Loop Renormalisation of Quantum Electrodynamics — 03/16a
+> Consolidating earlier computations in QED and doing some more. Counterterms, relations between them, and implications thereof.
+
+- 19\. Renormalised Perturbation Theory II — 03/14
+> Setting up renormalised perturbation theory for QED.
+
+- 18\. 1-Loop Renormalisation of 𝜙⁴ Theory — 03/09
+> Actually computing counterterms in scalar and Yukawa theories.
+
+- 17\. Renormalised Perturbation Theory I — 03/08
+> Setting up renormalised perturbation theory. Counterterms and renormalisation conditions.
+
+- 16\. Counting UV Divergences — 03/07
+> Superficial degree of divergence. Super-renormalisable, renormalisable, and non-renormalisable theories. Examples.
+
+- 15\. Anomalous Magnetic Moment — 03/02
+> Computing 1-loop corrections to the magnetic moment of the electron.
+
+- 14\. Pole Mass and Subtraction Schemes — 03/01
+> 1-particle irreducible graphs. Pole mass. Minimal vs. on-shell subtraction. Amputation via LSZ. Subtraction points.
+
+- 13\. Electron Self-Energy — 02/29
+> Computing 1-loop corrections to the electron propagator. Mass and wavefunction renormalisation. Counterterms and subtraction schemes.
+
+- 12\. Vacuum Polarisation in Quantum Electrodynamics — 02/24
+> Computing quantum corrections to the Coulomb potential. The Lamb shift and effective charge. The Landau pole in QED.
+
+- 11\. Dimensional Regularisation — 02/23
+> How to do integrals in 4-ε dimensions.
+
+- 10\. Vacuum Polarisation in Scalar Theories — 02/22
+> Vacuum polarisation in scalar field theories. Feynman and Schwinger parameters. Pauli-Villars ghosts. Wick rotation.
+
+- 9\. A Bird's Eye View of Renormalisation — 02/17
+> How renormalisation works. Bare and physical couplings. Counterterms and renormalised perturbation theory.
+
+- 8\. Infinities and Regulators— 02/16
+> Using cut-off and heat kernel regularisation schemes to regulate divergent sums. Computation of Casimir force.
+
+- 7\. Takahashi-Ward Identities — 02/15
+> A proof of the Takahashi-Ward and Ward identities.
+
+- 6\. LSZ Reduction — 02/10
+> Lehmann-Symanzik-Zimmermann (LSZ) reduction, or how to relate correlation functions to scattering amplitudes.
+
+- 5\. Dyson-Schwinger, Path Integrally — 02/09
+> Derivation of the Dyson-Schwinger equations in the path integral formalism. Dyson-Schwinger equations for global symmetries.
+
+- 4\. Dyson-Schwinger, Canonically — 02/08
+> Derivation of the Dyson-Schwinger equations in the canonical formalism. Recovering position space Feynman diagrams using the Dyson-Schwinger equations.
+
+- 3\. Path Integrals for Fermions and Abelian Gauge Fields — 02/02
+> Review of path integral for fermions and Abelian gauge fields. Field redefinitions. Gauge invariance. Stueckelberg's trick.
+
+- 2\. Path Integrals for Scalars — 02/01
+> Review of path integral for scalar fields and how to compute the path integral for a free theory. Incorporating interactions and the reproducing Feynman rules. A first look at mass renormalisation due to interactions.
+
+- 1\. Introduction — 01/29
+> Broad introduction to the topics to be covered in this course, discussion of course plan.\
+
+#### Suggested Reading
+
+There are many, many textbooks on quantum field theory. Below is a small selection of references that adopt the same conventions as we do in the lectures. 
+You should skim through these (and other!) texts and find one that suits your tastes.
+
+- Das — Field Theory: A Path Integral Approach
+- Itzykson & Zuber — Quantum Field Theory
+- Mandl & Shaw — Quantum Field Theory
+- Peskin & Schroeder — An Introduction to Quantum Field Theory
+- Ramond — Field Theory: A Modern Primer
+- Schwartz — Quantum Field Theory and the Standard Model
+- Sterman — An Introduction to Quantum Field Theory
+- Zee — Quantum Field Theory in a Nutshell
+- Zinn-Justin — Quantum Field Theory and Critical Phenomena
+
+There are also many excellent lecture notes available online:
+
+- [Iqbal](https://nabiliqbal.github.io/lectures.pdf)
+- [Kaplan](https://sites.krieger.jhu.edu/jared-kaplan/files/2016/05/QFTNotes.pdf)
+- [Mukhi](https://arxiv.org/abs/1908.04075)
+- [Preskill](http://theory.caltech.edu/~preskill/notes.html)
+- [Sen](https://www.hri.res.in/~sen/)
+
+Finally, for background reading, I recommend:
+
+- Cao (Ed.) — Conceptual Foundations of Quantum Field Theory
+- Schweber — QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga
+
+
 ### Superconductivity, Superfluidity, and Critical Phenomena (February – May '24)
+
+These lectures covered critical phenomena and the renormalisation group.
+
+#### Assignments
+
+- [Sextic Free Energies and Multi-Critical Points](https://drive.google.com/file/d/1bRQpZ_8_xyNRqIXnCeuz5oULxk_TRJTs/view?usp=sharing)
+
+#### Lectures
+
+- 11\. Gaussian Fixed Points — 05/10
+> The Gaussian fixed point. Relevant and irrelevant operators.
+
+- 10\. Momentum-Shell Renormalisation Group — 05/09
+> What renormalisation group transformations look like in momentum space. Flows in the space of theories. Fixed points.
+
+- 9\. Ginzburg Criterion — 05/04
+> When is mean field theory reliable?
+
+- 8\. Correlation Length — 05/03
+> Computing the 2-point function in a Gaussian theory explicitly. The correlation length.
+
+- 7\. Green's Functions — 05/02
+> Connected correlation functions. Gaussian path integrals with sources. Green's functions.
+
+- 6\. Path Integrals — 04/27
+> How to do Gaussian path integrals.
+
+- 5\. Landau-Ginzburg Theory II — 04/26
+> Saddle points. Kink solutions and their proliferation in one dimension.
+
+- 4\. Landau-Ginzburg Theory — 04/25
+> Local order parameters. Coarse-graining. The Landau-Ginzburg functional.
+
+- 3\. Landau's Theory of Phase Transitions — 04/20
+> Continuous and first-order phase transitions. Critical exponents.
+
+- 2\. Mean Field Theory, Again — 04/19
+> Global order parameters. Landau free energy and its critical points.
+
+- 1\. Ising Model and Mean Field Theory — 04/18
+> Ising model and its solution via mean field theory.
+
+### Suggested Reading
+
+Below is a small selection of references that I have found useful in preparing these lectures. 
+You should skim through these (and other!) texts and find one that suits your tastes.
+
+- Goldenfeld — Lectures on Phase Transitions and Critical Phenomena
+- Kardar — Statistical Physics of Fields
+- Shankar — Quantum Field Theory and Condensed Matter
+- Zinn-Justin — Quantum Field Theory and Critical Phenomena
+
 
 ### Quantum Field Theory I (September – December '23)
 
 Between September–December 2023, I taught the first of a two-semester sequence of courses on quantum field theory. We discussed the canonical and path integral quantisation of scalars, spinors, and Abelian gauge fields, building up to a study of elementary processes in quantum electrodynamics.
 
 #### Assignments
-
-Assignments will not be counted as part of your internal assessment grade, but can be submitted for evaluation and feedback provided they adhere to the [guidelines](https://drive.google.com/file/d/1wAWiRKG14mKBy-iziKH7kavQ4Z2X5xjX/view?usp=sharing).
 
 - [Derivative Couplings, Bhabha Scattering, and Soft Photons](https://drive.google.com/file/d/14qii3M8vD1BVh__sJEU7PQ0948TOFuad/view?usp=sharing)
 - [Unitarity, Wick's Theorem, and Scalar Yukawa Amplitudes](https://drive.google.com/file/d/1_B2yZTGWFqCIA_UgKZ4KVgeQPrRBIDp1/view?usp=drive_link)
