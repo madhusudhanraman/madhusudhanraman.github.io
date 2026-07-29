@@ -4,6 +4,7 @@ layout: single
 permalink: /teaching/
 author_profile: true
 toc: true
+toc_sticky: true
 ---
 
 ## Ashoka University
