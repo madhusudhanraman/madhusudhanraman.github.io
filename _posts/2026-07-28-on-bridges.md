@@ -15,4 +15,4 @@ From Invisible Cities (1974) by Italo Calvino.
 >
 > Kublai Khan remains silent, reflecting. Then he adds: “Why do you speak to me of the stones? It is only the arch that matters to me.”
 >
-> Polo answers: “Without stones there is no arch.”
+> Polo answers: “Without the stones there is no arch.”
