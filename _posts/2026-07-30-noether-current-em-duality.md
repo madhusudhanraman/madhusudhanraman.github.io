@@ -47,7 +47,8 @@ and the conservation law would look like $ \text{d} \star j = 0 $.
 
 Let's work out an example: the Noether current corresponding to
 electric-magnetic duality rotations in source-free
-electromagnetism. Recall that Maxwell's equations take the form
+electromagnetism. Recall that Maxwell's equations in this case
+take the form
 \begin{equation}
 \text{d} \star F = 0 \quad \text{and} \quad \text{d} F = 0 \ ,
 \end{equation}
@@ -65,7 +66,7 @@ were a $ \delta A $ such that
 $ \text{d} \left( \delta A \right) = \star F $. Then, by acting on
 both sides of this equation with an exterior derivative, we'd find
 \begin{equation}
-d ^ {2} \left( \delta A \right) = 0 = \text{d} \star F \ .
+\text{d} ^ {2} \left( \delta A \right) = 0 = \text{d} \star F \ .
 \end{equation}
 Note that the first equality is identically true, whereas the second
 is only true on-shell. For this reason, it is necessary to extend
