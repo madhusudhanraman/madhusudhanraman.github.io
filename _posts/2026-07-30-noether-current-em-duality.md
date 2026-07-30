@@ -2,16 +2,17 @@
 title: "The Noether Current for Electric-Magnetic Duality"
 date: 2026-07-30
 excerpt: >
-  Deriving the conserved current for electric-magnetic duality rotations.
+  Deriving the Noether current for electric-magnetic duality rotations.
 ---
 
-I'll briefly review, in covariant notation, some results from the
+I will briefly review, in covariant notation, a result from the
 following paper:
 
 _Duality Transformations of Abelian and Nonabelian Gauge Fields_\
 S. Deser and C. Teitelboim\
 [Phys. Rev. D **13** (1976),
 1592-1597](https://doi.org/10.1103/PhysRevD.13.1592).
+
 
 ## Noether Currents
 
@@ -120,7 +121,7 @@ J _ {\text{D}} \Big\vert _ {\text{on-shell}}  = \frac{1}{2} \left[ A \wedge F + 
 \end{equation}
 
 To the best of my knowledge, the corresponding charge was first
-remarked upon in the literature in:
+computed in:
 
 _An Invariance Property of the Free Electromagnetic Field_\
 M. G. Calkin\
