@@ -9,7 +9,7 @@ I'll briefly review, in covariant notation, some results from the
 following paper:
 
 _Duality Transformations of Abelian and Nonabelian Gauge Fields_\
-S. Deser and C. Teitelboim\ 
+S. Deser and C. Teitelboim\
 [Phys. Rev. D **13** (1976),
 1592-1597](https://doi.org/10.1103/PhysRevD.13.1592).
 
@@ -99,7 +99,7 @@ This allows us to identify $ H _ {\text{D}} = -Z \wedge \star F $.
 
 We now use the following algebraic fact:
 \begin{equation}
-- \text{d} Z \wedge \star F = \frac{1}{2} G \wedge G + \frac{1}{2} \text{d} \left[ A \wedge F - Z \wedge \text{d} Z \right] \ .
+-\text{d} Z \wedge \star F = \frac{1}{2} G \wedge G + \frac{1}{2} \text{d} \left[ A \wedge F - Z \wedge \text{d} Z \right] \ .
 \end{equation}
 Assuming that $ G \wedge G = 0 $, we read off
 \begin{equation}
@@ -123,7 +123,7 @@ To the best of my knowledge, the corresponding charge was first
 remarked upon in the literature in:
 
 _An Invariance Property of the Free Electromagnetic Field_\
-M. G. Calkin\ 
+M. G. Calkin\
 [Am. J. Phys. **33** (1965)
 958–960](https://doi.org/10.1119/1.1971089).
 
