@@ -129,5 +129,5 @@ M. G. Calkin\
 [Am. J. Phys. **33** (1965)
 958–960](https://doi.org/10.1119/1.1971089).
 
-The charge $ Q _ {\text{D}} $ is proportional to the difference in the
+This charge is proportional to the difference in the
 number of left- and right-circularly polarised photons. 
