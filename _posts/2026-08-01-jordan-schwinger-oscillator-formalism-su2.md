@@ -2,11 +2,11 @@
 title: "The Jordan-Schwinger Oscillator Formalism: Part I"
 date: 2026-08-01
 excerpt: >
-  Using harmonic oscillators to build up representations of SU(2).
+  Using a pair of harmonic oscillators to build up representations of SU(2).
 ---
 
 The oscillator formalism was developed by Jordan and (independently
-by) Schwinger to construct irreducible representations of the group
+by) Schwinger to construct irreducible representations of
 $\text{SU}(2)$ in the following papers:
 
 _Der Zusammenhang der symmetrischen und linearen Gruppen und das
@@ -142,7 +142,7 @@ which send
 \begin{equation}
     K _ {+} : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto
 	\left\vert N _ {1}+1, N _ {2} - 1 \right\rangle \quad \text{and} \quad
-    K _ {-} & : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1} - 1, N _ {2}+1 \right\rangle \ .
+    K _ {-} : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1} - 1, N _ {2}+1 \right\rangle \ .
 \end{equation}
 These are precisely the kind of operators we are looking for. On
 defining the operator
