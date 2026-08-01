@@ -14,11 +14,11 @@ Mehrkörperproblem_\
 P. Jordan\
 Zeitschrift für Physik **94** (1935), No. 7, 531–535.
 
-On Angular Momentum\
+_On Angular Momentum_\
 J. Schwinger\
 [Technical Report
-NYO-3071](https://www.osti.gov/biblio/4389568), Harvard University and
-Nuclear Development Associates, Inc. (US), 1952.
+NYO-3071](https://www.osti.gov/biblio/4389568), Harvard University\
+and Nuclear Development Associates, Inc. (US), 1952.
 
 ## Symmetries in Quantum Theory
 
@@ -105,12 +105,10 @@ two copies of the Heisenberg algebra.
 
 The Hamiltonian in \eqref{eq:hamiltonian-2d-oscillator} in terms of the
 raising and lowering operators is then
-$$
 \begin{align}
-H & = \sum_ {i=1}^{2} \left( a ^{\dagger }_ {i}a _ {i} + \frac{1}{2} \right) \ ,  \\
+H & = \sum_ {i=1}^{2} \left( a ^{\dagger }_ {i}a _ {i} + \frac{1}{2} \right) \ ,  \\\\
 & = N_ {1} + N_ {2} + 1 \ ,
 \end{align}
-$$
 where $ N _ {i} = a _ {i}^{\dagger }a _ {i} $ is the number operator for
 the $ i ^{\text{th}} $ oscillator. The ground state is defined by
 \begin{equation}
@@ -141,12 +139,10 @@ easy to write down two:
 K _ {+} = a _ {1}^{\dagger }a _ {2} \quad \text{and} \quad K _ {-} = a _ {2}^{\dagger }a _ {1} \ ,
 \end{equation}
 which send
-$$
 \begin{align}
-    K _ {+} & : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1}+1, N _ {2} - 1 \right\rangle \ , \\
+    K _ {+} & : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1}+1, N _ {2} - 1 \right\rangle \ , \\\\
     K _ {-} & : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1} - 1, N _ {2}+1 \right\rangle \ .
 \end{align}
-$$
 These are precisely the kind of operators we are looking for. On
 defining the operator
 \begin{equation}
@@ -156,14 +152,12 @@ K _ {3} = \frac{1}{2} \left( N _ {1} - N _ {2} \right) \ ,
 it is easy to check that the operators
 $ \left\lbrace K _ {+}, K _ {-}, K _ {3} \right\rbrace $ obey the
 following commutation relations:
-$$
 \begin{align}
 \label{eq:Kpm3-algebra}
-  \left[ K _ {+}, K _ {-} \right] &= 2 K _ {3} \ , \\
-  \left[ K _ {3}, K _ {+} \right] &= + K _ {+} \ , \\
+  \left[ K _ {+}, K _ {-} \right] &= 2 K _ {3} \ , \\\\
+  \left[ K _ {3}, K _ {+} \right] &= + K _ {+} \ , \\\\
   \left[ K _ {3}, K _ {-} \right] &= - K _ {-} \ .
 \end{align}
-$$
 This algebra ought to be familiar: on constituting the combinations
 \begin{equation}
   \label{eq:k12-defn}
@@ -176,8 +170,7 @@ the algebra in \eqref{eq:Kpm3-algebra} simplifies to
 \end{equation}
 where the indices
 $ \left\lbrace a, b, c, \cdots \right\rbrace \in \left\lbrace 1,2,3
-\right\rbrace $. This is the familiar $ \mathfrak{su}(2) $ Lie algebra
-from our study of angular momentum.
+\right\rbrace $. This is the familiar $ \mathfrak{su}(2) $ Lie algebra.
 
 Using the states in \eqref{eq:states-2d-oscillator}, we can construct
 $ \left( n+1 \right)\times \left( n+1 \right) $ matrix representations
@@ -189,7 +182,7 @@ $ \left\vert 1 \right\rangle = a _ {1}^{\dagger }\left\vert 0
 \right\rangle $ and
 $ \left\vert 2 \right\rangle = a _ {2}^{\dagger }\left\vert 0
 \right\rangle $. The matrix elements of $ K _ {a} $ are easily computed
-using \eqref{eq:kpm-defn},\eqref{eq:k3-defn}, and \eqref{eq:k12-defn}, 
+using \eqref{eq:kpm-defn}, \eqref{eq:k3-defn}, and \eqref{eq:k12-defn}, 
 and one finds
 \begin{equation}
 K _ {a} = \frac{1}{2} \sigma _ {a} \ .
