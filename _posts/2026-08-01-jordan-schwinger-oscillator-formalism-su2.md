@@ -9,15 +9,16 @@ The oscillator formalism was developed by Jordan and (independently
 by) Schwinger to construct irreducible representations of the group
 $\text{SU}(2)$ in the following papers:
 
-> _Der Zusammenhang der symmetrischen und linearen Gruppen und das
-> Mehrkörperproblem_\
-> P. Jordan\
-> Zeitschrift für Physik **94** (1935), No. 7, 531–535.
+_Der Zusammenhang der symmetrischen und linearen Gruppen und das
+Mehrkörperproblem_\
+P. Jordan\
+Zeitschrift für Physik **94** (1935), No. 7, 531–535.
 
-> On Angular Momentum\
-> J. Schwinger\
-> Technical Report NYO-3071, Harvard Univ.;
-> Nuclear Development Associates, Inc. (US), 1952.
+On Angular Momentum\
+J. Schwinger\
+[Technical Report
+NYO-3071](https://www.osti.gov/biblio/4389568), Harvard University and
+Nuclear Development Associates, Inc. (US), 1952.
 
 ## Symmetries in Quantum Theory
 
@@ -37,13 +38,15 @@ We conclude from this that $\delta H = + i a[F, H]$, and it follows
 that if $[F, H]=0$, then $ \delta H = 0 $ and $ F $ generates a
 symmetry. It is easy to see using Heisenberg's equations of motion
 that if $ F $ generates a symmetry, it is conserved. This is
-essentially the quantum equivalent of Noether's theorem. 
+essentially the quantum equivalent of Noether's theorem, which we
+discussed 
+[here](https://madhusudhanraman.github.io/noether-current-em-duality/). 
 
 The existence of symmetries implies strong constraints on the spectrum
 of the Hamiltonian. Consider an eigenstate
 $\left\vert n \right\rangle $ of the Hamiltonian with eigenvalue
 $E_ {n}$. We have just seen that unitary operators corresponding to
-symmetries of the Hamiltonian commute with it, i.e.~if $ U $ is a
+symmetries of the Hamiltonian commute with it, i.e. if $ U $ is a
 symmetry then
 $ \left[ \mathcal{U}, H \right] = 0 \Rightarrow H \mathcal{U} =
 \mathcal{U}H $. From this it follows that
@@ -75,7 +78,7 @@ of transformations that $ \mathcal{U}_ {a} $ comes from.
 In a nutshell, this is one of the reasons why quantum mechanics is
 interesting to mathematicians: unitary irreducible representations of
 groups are furnished by quantum systems which exhibit these
-symmetries. We now proceed to a sequence of illustrations of this
+symmetries. We now proceed to a simple illustrations of this
 fact.
 
 ## Jordan-Schwinger Formalism for SU(2) Representations
@@ -90,8 +93,8 @@ system is then
 H = \sum_ {i = 1}^{2} \frac{1}{2} \left( p _ {i}^{2} + q _ {i}^{2} \right) \ .
 \end{equation}
 Constructing the raising $ (a ^{\dagger }_ {i}) $ and lowering
-$ (a _ {i}) $ operators for both these oscillators as we did in
-\Ref{sec:harmonic-oscillator-1d}, it is easy to see that the only
+$ (a _ {i}) $ operators for both these oscillators as we usually do,
+it is easy to see that the only
 non-trivial commutators between them are
 \begin{equation}
   \label{eq:2d-heisenberg-algebra}
@@ -100,7 +103,7 @@ non-trivial commutators between them are
 and all other commutators are identically zero. In essence, this is
 two copies of the Heisenberg algebra.
 
-The Hamiltonian in \ref{eq:hamiltonian-2d-oscillator} in terms of the
+The Hamiltonian in \eqref{eq:hamiltonian-2d-oscillator} in terms of the
 raising and lowering operators is then
 \begin{equation}
 \begin{aligned}
@@ -138,12 +141,10 @@ easy to write down two:
 K _ {+} = a _ {1}^{\dagger }a _ {2} \quad \text{and} \quad K _ {-} = a _ {2}^{\dagger }a _ {1} \ ,
 \end{equation}
 which send
-\begin{equation}
-  \begin{aligned}
+\begin{align}
     K _ {+} &: \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1}+1, N _ {2} - 1 \right\rangle \ , \\
     K _ {-} &: \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1} - 1, N _ {2}+1 \right\rangle \ .
-  \end{aligned}
-\end{equation}
+\end{align}
 These are precisely the kind of operators we are looking for. On
 defining the operator
 \begin{equation}
@@ -153,20 +154,18 @@ K _ {3} = \frac{1}{2} \left( N _ {1} - N _ {2} \right) \ ,
 it is easy to check that the operators
 $ \left\lbrace K _ {+}, K _ {-}, K _ {3} \right\rbrace $ obey the
 following commutation relations:
-\begin{equation}
-  \label{eq:Kpm3-algebra}
-\begin{aligned}
+\begin{align}
+\label{eq:Kpm3-algebra}
   \left[ K _ {+}, K _ {-} \right] &= 2 K _ {3} \ , \\
   \left[ K _ {3}, K _ {+} \right] &= + K _ {+} \ , \\
   \left[ K _ {3}, K _ {-} \right] &= - K _ {-} \ .
-\end{aligned}
-\end{equation}
+\end{align}
 This algebra ought to be familiar: on constituting the combinations
 \begin{equation}
   \label{eq:k12-defn}
 K _ {1} = \frac{1}{2} \left( K _ {+} + K _ {-} \right) \quad \text{and} \quad K _ {2} = \frac{1}{2i} \left( K _ {+} - K _ {-} \right) \ ,
 \end{equation}
-the algebra in \ref{eq:Kpm3-algebra} simplifies to
+the algebra in \eqref{eq:Kpm3-algebra} simplifies to
 \begin{equation}
   \label{eq:su2-algebra}
 \left[ K _ {a}, K _ {b} \right] = i \epsilon _ {abc} K _ {c} \ ,
@@ -176,17 +175,17 @@ $ \left\lbrace a, b, c, \cdots \right\rbrace \in \left\lbrace 1,2,3
 \right\rbrace $. This is the familiar $ \mathfrak{su}(2) $ Lie algebra
 from our study of angular momentum.
 
-Using the states in \ref{eq:states-2d-oscillator}, we can construct
+Using the states in \eqref{eq:states-2d-oscillator}, we can construct
 $ \left( n+1 \right)\times \left( n+1 \right) $ matrix representations
 of the angular momentum operators using the $ n+1 $ degenerate states
 corresponding to the $ n ^{\text{th}} $ excited energy level. As an
-example, consider the case of $ n = 1 $, i.e.~the first excited energy
+example, consider the case of $ n = 1 $, i.e. the first excited energy
 level which corresponds to two degenerate states
 $ \left\vert 1 \right\rangle = a _ {1}^{\dagger }\left\vert 0
 \right\rangle $ and
 $ \left\vert 2 \right\rangle = a _ {2}^{\dagger }\left\vert 0
 \right\rangle $. The matrix elements of $ K _ {a} $ are easily computed
-using \ref{eq:kpm-defn,eq:k3-defn,eq:k12-defn} and one finds
+using \eqref{eq:kpm-defn,eq:k3-defn,eq:k12-defn} and one finds
 \begin{equation}
 K _ {a} = \frac{1}{2} \sigma _ {a} \ .
 \end{equation}
