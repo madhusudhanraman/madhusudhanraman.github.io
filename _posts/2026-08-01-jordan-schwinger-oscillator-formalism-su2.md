@@ -105,10 +105,10 @@ two copies of the Heisenberg algebra.
 
 The Hamiltonian in \eqref{eq:hamiltonian-2d-oscillator} in terms of the
 raising and lowering operators is then
-\begin{align}
-H & = \sum_ {i=1}^{2} \left( a ^{\dagger }_ {i}a _ {i} + \frac{1}{2} \right) \ ,  \\\\
-& = N_ {1} + N_ {2} + 1 \ ,
-\end{align}
+\begin{equation}
+H = \sum_ {i=1}^{2} \left( a ^{\dagger }_ {i}a _ {i} + \frac{1}{2}
+\right) = N_ {1} + N_ {2} + 1 \ ,
+\end{equation}
 where $ N _ {i} = a _ {i}^{\dagger }a _ {i} $ is the number operator for
 the $ i ^{\text{th}} $ oscillator. The ground state is defined by
 \begin{equation}
@@ -139,10 +139,11 @@ easy to write down two:
 K _ {+} = a _ {1}^{\dagger }a _ {2} \quad \text{and} \quad K _ {-} = a _ {2}^{\dagger }a _ {1} \ ,
 \end{equation}
 which send
-\begin{align}
-    K _ {+} & : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1}+1, N _ {2} - 1 \right\rangle \ , \\\\
+\begin{equation}
+    K _ {+} : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto
+	\left\vert N _ {1}+1, N _ {2} - 1 \right\rangle \quad \text{and} \quad
     K _ {-} & : \left\vert N _ {1}, N _ {2} \right\rangle \mapsto \left\vert N _ {1} - 1, N _ {2}+1 \right\rangle \ .
-\end{align}
+\end{equation}
 These are precisely the kind of operators we are looking for. On
 defining the operator
 \begin{equation}
@@ -152,12 +153,12 @@ K _ {3} = \frac{1}{2} \left( N _ {1} - N _ {2} \right) \ ,
 it is easy to check that the operators
 $ \left\lbrace K _ {+}, K _ {-}, K _ {3} \right\rbrace $ obey the
 following commutation relations:
-\begin{align}
+\begin{equation}
 \label{eq:Kpm3-algebra}
-  \left[ K _ {+}, K _ {-} \right] &= 2 K _ {3} \ , \\\\
-  \left[ K _ {3}, K _ {+} \right] &= + K _ {+} \ , \\\\
-  \left[ K _ {3}, K _ {-} \right] &= - K _ {-} \ .
-\end{align}
+  \left[ K _ {+}, K _ {-} \right] = 2 K _ {3} \quad , \quad
+  \left[ K _ {3}, K _ {+} \right] = + K _ {+} \quad , \quad
+  \left[ K _ {3}, K _ {-} \right] = - K _ {-} \quad .
+\end{equation}
 This algebra ought to be familiar: on constituting the combinations
 \begin{equation}
   \label{eq:k12-defn}
@@ -200,3 +201,6 @@ turn means the operators of the form $ U = e^{i K _ {a} \theta ^{a}} $
 are unitary matrices. Thus, we conclude that the degenerate states of
 a two-dimensional harmonic oscillator furnish a unitary representation
 of $ \text{SU}(2) $.
+
+We will discuss how this story generalises to other groups in a later
+note.
