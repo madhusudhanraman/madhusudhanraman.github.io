@@ -116,7 +116,7 @@ analytics:
 author:
   name             : "Madhusudhan Raman"
   avatar           : assets/images/DisplayPicture2.JPG # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I study theoretical physics."
+  bio              : "'I started out on burgundy, but soon hit the harder stuff.'"
   location         : "Bangalore, India"
   # email            : "madhusudhan.raman@ashoka.edu.in"
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag

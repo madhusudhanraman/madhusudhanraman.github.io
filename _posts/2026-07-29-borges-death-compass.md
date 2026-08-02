@@ -3,6 +3,8 @@ title: "Borges - Death and the Compass"
 date: 2026-07-29
 categories: 
   - Literature
+tags:
+  - Jorge Luis Borges
 excerpt: >
   Possible, but not interesting.
 ---

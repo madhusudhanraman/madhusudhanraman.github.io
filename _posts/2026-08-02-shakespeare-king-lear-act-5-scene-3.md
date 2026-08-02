@@ -3,8 +3,10 @@ title: "Shakespeare - King Lear, Act 5, Scene 3"
 date: 2026-08-02
 categories: 
   - Literature
+tags:
+  - William Shakespeare
 excerpt: >
-  Come, let’s away to prison. 
+  Come, let's away to prison. 
   We two alone will sing like birds i' th' cage.
 ---
 
