@@ -1,5 +1,5 @@
 ---
-title: "The Jordan-Schwinger Oscillator Formalism: Part I"
+title: "The Oscillator Formalism"
 date: 2026-08-01
 excerpt: >
   Using a pair of harmonic oscillators to build up representations of SU(2).
