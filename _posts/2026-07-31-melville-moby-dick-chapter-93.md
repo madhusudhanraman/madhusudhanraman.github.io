@@ -1,6 +1,8 @@
 ---
 title: "Melville - Moby Dick, Ch. 93"
 date: 2026-07-31
+categories: 
+  - Literature
 excerpt: >
   The sea had jeeringly kept his finite body up, but drowned the infinite of his soul. Not drowned entirely, though.
 ---

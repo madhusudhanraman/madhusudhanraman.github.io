@@ -1,6 +1,8 @@
 ---
 title: "Borges - Death and the Compass"
 date: 2026-07-29
+categories: 
+  - Literature
 excerpt: >
   Possible, but not interesting.
 ---

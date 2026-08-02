@@ -1,6 +1,8 @@
 ---
 title: "The Oscillator Formalism"
 date: 2026-08-01
+categories: 
+  - Physics
 excerpt: >
   Using a pair of harmonic oscillators to build up representations of SU(2).
 ---

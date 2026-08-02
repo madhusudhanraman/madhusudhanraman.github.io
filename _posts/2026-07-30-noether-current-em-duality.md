@@ -1,6 +1,8 @@
 ---
 title: "The Noether Current for Electric-Magnetic Duality"
 date: 2026-07-30
+categories: 
+  - Physics
 excerpt: >
   Deriving the Noether current for electric-magnetic duality rotations.
 ---
