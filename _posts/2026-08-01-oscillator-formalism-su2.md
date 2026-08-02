@@ -42,7 +42,7 @@ symmetry. It is easy to see using Heisenberg's equations of motion
 that if $ F $ generates a symmetry, it is conserved. This is
 essentially the quantum equivalent of Noether's theorem, which we
 discussed 
-[here](https://madhusudhanraman.github.io/noether-current-em-duality/). 
+[here](https://madhusudhanraman.github.io/physics/noether-current-em-duality/). 
 
 The existence of symmetries implies strong constraints on the spectrum
 of the Hamiltonian. Consider an eigenstate
