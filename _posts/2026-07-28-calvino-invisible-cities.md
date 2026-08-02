@@ -2,7 +2,7 @@
 title: "Calvino - Invisible Cities"
 date: 2026-07-28
 categories: 
-  - literature
+  - Literature
 excerpt: >
   Without the stones there is no arch.
 ---

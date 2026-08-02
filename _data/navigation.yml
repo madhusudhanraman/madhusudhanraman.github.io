@@ -6,6 +6,8 @@ main:
     url:   /teaching/
   - title: "Notes"
     url:   /notes/
+  - title: "Categories"
+    url:   /categories/
   - title: "Students"
     url:   /students/
   - title: "Contact"
