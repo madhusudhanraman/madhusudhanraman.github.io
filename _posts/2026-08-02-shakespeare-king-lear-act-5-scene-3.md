@@ -18,7 +18,7 @@ Lear.
 > Who with best meaning have incurred the worst.\
 > For thee, oppressèd king, I am cast down.\
 > Myself could else outfrown false Fortune's frown.\
-> Shall we not see these daughters and these sisters?\
+> Shall we not see these daughters and these sisters?
 > 
 > KING LEAR\
 > No, no, no, no. Come, let's away to prison.\
