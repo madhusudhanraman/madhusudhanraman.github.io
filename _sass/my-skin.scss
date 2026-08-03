@@ -18,15 +18,15 @@ $masthead-link-color-hover: $link-color;
 
 $border-color: #d8d1c4;
 
-$footer-background-color: #ece6da;
-$footer-text-color: $text-color;
+$footer-background-color: $link-color;
+$footer-text-color: #faf8f2;
 $footer-link-color: $link-color;
 
 $muted-text-color: #6b645c;
 
 $code-background-color: #eee8dc;
 
-$primary-color: #a23b2a;        // buttons and highlights
+$primary-color: $link-color;        // buttons and highlights
 $success-color: #3f6b3f;
 $warning-color: #b06d1d;
 $danger-color: #8d2d2d;
