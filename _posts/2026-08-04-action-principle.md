@@ -16,9 +16,9 @@ in time?
 The answer to this question is supplied by Newton's laws. In
 particular, Newton's second law of motion gives us a second-order
 differential equation that, given the configuration (i.e. a collection
-of generalised positions and velocities) at some time $ t _{i} $, will
+of generalised positions and velocities) at some time $ t _ {i} $, will
 uniquely determine the configuration of the system at any future time
-$ t _{f} $. This is a local or differential formulation of classical
+$ t _ {f} $. This is a local or differential formulation of classical
 dynamics: given the configuration of the system at an instant $ t $,
 the differential equation tells us how to construct the configuration
 of the system at an instant $ t + \delta t $, and so on. The path our
@@ -80,8 +80,8 @@ In more detail:
 Integrating the second term by parts yields
 \begin{equation}
   \begin{aligned}
-    \delta S &= \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\partial L}{\partial \dot{q} } \delta q \right) + \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ , \\\
-    &= \left. \frac{\partial L}{\partial \dot{q} } \delta q \right\vert_{t _{i}} ^{t _{f}} + \int _{t _{i}} ^{t _{f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ .
+    \delta S &= \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\partial L}{\partial \dot{q} } \delta q \right) + \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ , \\\
+    &= \left. \frac{\partial L}{\partial \dot{q} } \delta q \right\vert_ {t _ {i}} ^{t _ {f}} + \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ .
   \end{aligned}
 \end{equation}
 The boundary conditions we will impose are
