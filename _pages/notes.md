@@ -6,6 +6,7 @@ author_profile: true
 ---
 
 ## Collections
+---
 
 Some longer-term projects I'm writing notes on:
 
@@ -16,3 +17,4 @@ On some algebraic and geometric aspects of quantisation.
 On the philosophy of science associated with the Vienna Circle.
 
 ## All Notes
+---
