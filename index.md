@@ -9,13 +9,8 @@ field theory.
 
 ## Recent Notes
 
-<ul>
 {% for post in site.posts limit:10 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <small>({{ post.date | date: "%Y-%m-%d" }})</small>
-  </li>
+- {{ post.date | date: "%m/%d" }} - [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
-</ul>
 
-[View all notes →]({{ "/notes/" | relative_url }})
+To view older notes, click [here]({{ "/notes/" | relative_url }}).
