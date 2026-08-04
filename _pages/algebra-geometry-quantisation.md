@@ -10,7 +10,7 @@ various algebraic and geometric aspects of quantisation. Here's a
 broad outline of the topics I hope to cover. 
 
 - Classical Dynamics and Geometry
-  - The Action Principle
+  - [The Action Principle](https://madhusudhanraman.github.io/physics/action-principle/)
   - Canonical Structures
   - Symplectic Geometry
 - Symmetries
