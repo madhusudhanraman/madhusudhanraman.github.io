@@ -5,9 +5,23 @@ permalink: /algebra-geometry-quantisation/
 author_profile: true
 ---
 
-These are a collection of short notes on algebraic and geometric aspects of quantisation. 
-They are very much a work in progress.
+Over the coming months, I hope to write a collection of short notes on
+various algebraic and geometric aspects of quantisation. Here's a
+broad outline of the topics I hope to cover. 
 
+- Classical Dynamics and Geometry
+  - The Action Principle
+  - Canonical Structures
+  - Symplectic Geometry
+- Symmetries
+  - The Geometry of Forms
+  - Group Actions
+  - Hamiltonian Vector Fields
+  - Conserved Charges
+  - Moment Maps
+  - Dual Algebras
+- Groups, Algebras, and Representations
+- The Heisenberg Algebra
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
   - Higher-Dimensional Oscillators
@@ -17,3 +31,15 @@ They are very much a work in progress.
   - A Simpler Example: Schur-Weyl Duality
   - Dual Reductive Pairs and Applications
   - Supergroups
+- The Hall Effect
+  - The Landau Problem
+  - Integer Hall Effect
+  - Fractional Hall Effect
+- Bosonisation
+- Geometric Quantisation
+  - Topological Effects
+  - Coherent States
+  - Kähler Manifolds and Quotient Spaces
+- Kirillov's Orbit Method
+- Localisation Theorems
+- Fermions, Clifford Algebras, and Spinors
