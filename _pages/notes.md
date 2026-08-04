@@ -9,10 +9,10 @@ author_profile: true
 
 Some longer-term projects I'm writing notes on:
 
-[Algebra, Geometry, and Quantisation](https://madhusudhanraman.github.io/algebra-geometry-quantisation/)\
-On various algebraic and geometric aspects of quantisation. 
+### [Algebra, Geometry, and Quantisation](https://madhusudhanraman.github.io/algebra-geometry-quantisation/)
+On some algebraic and geometric aspects of quantisation. 
 
-[The Vienna Circle](https://madhusudhanraman.github.io/vienna-circle/)\
+### [The Vienna Circle](https://madhusudhanraman.github.io/vienna-circle/)
 On the philosophy of science associated with the Vienna Circle.
 
 ## All Notes
