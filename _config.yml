@@ -21,7 +21,7 @@ title                    : "Field Notes"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Madhusudhan Raman"
-description              : "Notes on physics and mathematics, among other things."
+description              : # site description
 url                      : "https://madhusudhanraman.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : madhusudhanraman/madhusudhanraman.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -149,7 +149,7 @@ author:
       url: "https://inspirehep.net/authors/1386436"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://sites.google.com/view/madhusudhanraman/home"
+      # url: "https://sites.google.com/view/madhusudhanraman/home"
 
 
 # Site Footer
