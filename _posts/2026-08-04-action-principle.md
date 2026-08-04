@@ -74,10 +74,7 @@ is
 \end{equation}
 Integrating the second term by parts yields
 \begin{equation}
-  \begin{align}
-    \delta S &= \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\partial L}{\partial \dot{q} } \delta q \right) + \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ , \\
-    &= \left. \frac{\partial L}{\partial \dot{q} } \delta q \right\vert_ {t _ {i}} ^{t _ {f}} + \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ .
-  \end{align}
+    \delta S = \left. \frac{\partial L}{\partial \dot{q} } \delta q \right\vert_ {t _ {i}} ^{t _ {f}} + \int _ {t _ {i}} ^{t _ {f}} \mathrm{d} t\, \left( \frac{\partial L}{\partial q} - \frac{\mathrm{d} }{\mathrm{d} t} \frac{\partial L}{\partial \dot{q} }  \right) \delta q \ .
 \end{equation}
 The boundary conditions we will impose are
 $ \delta q(t _ {i}) = 0 = \delta q(t _ {f}) $, which is the statement
