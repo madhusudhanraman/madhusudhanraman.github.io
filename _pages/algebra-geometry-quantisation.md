@@ -5,10 +5,6 @@ permalink: /algebra-geometry-quantisation/
 author_profile: true
 ---
 
-Over the coming months, I hope to write a collection of short notes on
-various algebraic and geometric aspects of quantisation. Here's a
-broad outline of the topics I hope to cover. 
-
 - Classical Dynamics and Geometry
   - [The Action Principle](https://madhusudhanraman.github.io/physics/action-principle/)
   - Canonical Structures
