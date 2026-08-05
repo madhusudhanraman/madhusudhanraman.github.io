@@ -18,7 +18,7 @@ First published in _Just Give Me a Cool Drink of Water 'fore I Diiie_
 > And you sit wondering\
 > where you're going to turn.\
 > I got it.\
-> Come. And be my baby.\
+> Come. And be my baby.
 > 
 > Some prophets say the world is gonna end tomorrow\
 > But others say we've got a week or two\
