@@ -11,7 +11,7 @@ excerpt: >
 
 On p. 622 of _The Complete Poems of Anna Akhmatova: Expanded Edition_
 (1992) with translations by Judith Hemschemeyer and edited by Roberta
-Reeder, we find that Anna Akhmatova authored, in 1925, the following 
+Reeder, we read that Anna Akhmatova authored, in 1925, the following 
 verse:
 
 > And you will forgive me everything:\
