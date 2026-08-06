@@ -20,7 +20,7 @@ verse:
 > Like putrid smoke with a blessed flame,\
 > Has been fused forever with my name.
 
-In 1927, it appears she revisited this motif.
+In 1927, she revisited this motif.
 
 > Forgive me, that I manage badly,\
 > Manage badly but live gloriously,\
