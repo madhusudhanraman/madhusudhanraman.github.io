@@ -97,9 +97,8 @@ $ \left\lbrace i, j, \cdots \right\rbrace \in \left\lbrace 1, 2 , 3
 \right\rbrace $ and
 $ \left\lbrace a, b, c, \cdots \right\rbrace \in \left\lbrace 1,
   \cdots , 8 \right\rbrace $. Now, the $ T ^{a} $ are Hermitian,
-courtesy of the Hermiticity of the Gell-Mann matrices in
-\eqref{eq:gell-mann-matrices}. From
-\eqref{eq:uN-algebra,eq:su3-algebra}, one can easily verify that the $
+courtesy of the Hermiticity of the Gell-Mann matrices. From
+\eqref{eq:uN-algebra} and \eqref{eq:su3-algebra}, one can easily verify that the $
 T _ {a} $ satisfy the $ \mathfrak{su}(3) $ Lie algebra. Finally, each
 of the $ T _ {a} $ commute with $ N _ {i} = E _ {ii} $, and therefore
 from \eqref{eq:3d-hamiltonian} that the Hamiltonian commutes with each
