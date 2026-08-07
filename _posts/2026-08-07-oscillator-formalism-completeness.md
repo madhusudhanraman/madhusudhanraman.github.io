@@ -48,7 +48,7 @@ representations.
 
 Let's recall how this is done for the case of $ d=2 $. Define the
 antisymmetric $ 2 $-tensor $ \epsilon _ {ij} $ such that
-$ \epsilon _ {12} = 1 $. For \emph{any} $ 2 \times 2 $ complex matrix
+$ \epsilon _ {12} = 1 $. For any $ 2 \times 2 $ complex matrix
 $ U $, it is a fact that
 \begin{equation}
   \label{eq:epsilon-invariance-1}
