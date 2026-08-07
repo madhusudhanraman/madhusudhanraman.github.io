@@ -12,12 +12,14 @@ transformations can rotate positions and momenta into each
 other. These labels, therefore, have no invariant meaning, and so it
 is helpful to adopt a more covariant notation: let $ \mathsf{a} $ take
 values in $ \left\lbrace 1, \cdots , 2N \right\rbrace $, such that
-\begin{equation}
+
+$$
 y ^{\mathsf{a} } = \begin{cases}
  q _ {a} \ , & \text{if} \quad 1 \leq \mathsf{a}  \leq N \\ 
  p ^{a} \ , & \text{if} \quad N+1 \leq \mathsf{a}  \leq 2N \ . 
 \end{cases}
-\end{equation}
+$$
+
 Similarly, let
 $ \partial _ {\mathsf{a} } = \partial /\partial y ^{\mathsf{a} } $.  In
 terms of these phase space coordinates $ y ^{\mathsf{a} } $, the
@@ -28,20 +30,21 @@ can now be written as
 \end{equation}
 where $ \epsilon  $ is the constant antisymmetric $ 2N \times 2N $
 matrix, written in terms of $ N \times N $ blocks as
-\begin{equation}
+
+$$
 \epsilon ^{\textsf{ab} } = \begin{pmatrix}
   0 & \mathbf{1} \\
   -\mathbf{1} & 0
 \end{pmatrix} \ .
-\end{equation}
+$$
+
 This choice of coordinates is sometimes referred to as the Darboux
-coordinates. Hamilton's equations in \eqref{eq:hamilton} can be
+coordinates. Hamilton's equations can be
 rewritten as
 \begin{equation}
 \dot{y} ^{\mathsf{a} } = \left\lbrace y ^{\mathsf{a} }, H \right\rbrace = \epsilon ^{\mathsf{ab} } \, \partial _ {\mathsf{b} }H \ ,
 \end{equation}
-and the Poisson brackets of any two functions as defined in
-\eqref{eq:poisson-bracket-def} can be written as
+and the Poisson brackets of any two functions can be written as
 \begin{equation}
 \left\lbrace A,B \right\rbrace = \epsilon ^{\mathsf{ab} }\,\partial _ {\mathsf{a} }A \,\partial _ {\mathsf{b} }B \ .
 \end{equation}
@@ -55,8 +58,8 @@ coordinates that satisfy
 \end{equation}
 The matrix $ \omega ^{\mathsf{ab} } $ is now not necessarily a
 constant, and can depend on the point in phase space where this
-Poisson bracket is being computed. From the antisymmetry in
-\eqref{eq:pb-antisymmetry}, we have that
+Poisson bracket is being computed. From the antisymmetry of the
+Poisson bracket, we have that
 \begin{equation}
 \omega ^{\mathsf{ab} } = - \omega ^{\mathsf{ba} } \ .
 \end{equation}
@@ -65,7 +68,7 @@ invertible, and denote its inverse with lowered indices such that
 \begin{equation}
 \omega ^{\mathsf{ab} } \omega _ {\mathsf{bc} } = \delta ^{\mathsf{a} }_ {\mathsf{c} } \ .
 \end{equation}
-Finally, from the Jacobi identity in \eqref{eq:pb-jacobi} we derive the
+Finally, from the Jacobi identity we derive the
 following condition:
 
 $$
