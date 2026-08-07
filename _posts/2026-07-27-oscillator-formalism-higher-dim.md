@@ -8,26 +8,27 @@ excerpt: >
 ---
 
 The Lie algebra $ \mathfrak{su}(2) $ is insufficiently generic, and it
-is profitable at this stage to ask: to what extent does this
+is profitable at this stage to ask: to what extent does the oscillator formalism
 generalise to $ \mathfrak{su}(d) $? In order to suggest a natural
 generalisation to $ \mathfrak{su}(d) $ it is helpful to rewrite the
-results of the previous section (for $ d=2 $) as follows. First,
-define the bilinears
+results of the [previous section](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/) 
+(for $ d=2 $) as follows. First, define the bilinears
 \begin{equation}
-\label{eq:Eij-defn}
+  \label{eq:Eij-defn}
 E _ {ij} = a ^{\dagger }_ {i} a _ {j} \ ,
 \end{equation}
-whose algebra is easily derived from \eqref{eq:2d-heisenberg-algebra}
+whose algebra is easily derived from the canonical commutation relations
+of creation and annihilation operators
 as
 \begin{equation}
-\label{eq:uN-algebra}
+  \label{eq:uN-algebra}
 \left[ E _ {ij}, E _ {k \ell } \right] = \delta _ {jk}E _ {i \ell } - \delta _ {i \ell } E _ {kj} \ .
 \end{equation}
-From \eqref{eq:kpm-defn,eq:k3-defn,eq:k12-defn,eq:Eij-defn}, it is easy
-to check that
+It is easy
+to check that for the case of $\mathfrak{su}(2)$
 \begin{equation}
-\label{eq:su2-Eij-pauli}
-K _ {a} = \frac{1}{2} , E _ {ij} \left( \sigma _ {a}  \right)_ {ij} \ ,
+  \label{eq:su2-Eij-pauli}
+K _ {a} = \frac{1}{2} \, E _ {ij} \left( \sigma _ {a}  \right)_ {ij} \ ,
 \end{equation}
 where we have an implicit sum over the repeated oscillator indices.
 
@@ -43,8 +44,8 @@ angular frequency:
 
 $$
 \begin{align}
-H &=\sum_ {i=1}^{3} E _ {ii} + \frac{3}{2} \ , \
-&=\sum_ {i=1}^{3} N _ {i} + \frac{3}{2} = N + \frac{3}{2}  \ , \label{eq:3d-hamiltonian}
+    H &=\sum_ {i=1}^{3} E _ {ii} + \frac{3}{2} \ , \\
+    &=\sum_ {i=1}^{3} N _ {i} + \frac{3}{2} = N + \frac{3}{2}  \ . \label{eq:3d-hamiltonian}
 \end{align}
 $$
 
@@ -74,53 +75,14 @@ $ d ^{2} $ independent components, but tracelessness supplies one
 condition, leaving $ d ^{2}-1 $ independent parameters, which for
 $ d = 3 $ once again gives eight independent generators. These are
 conventionally taken to be proportional to the Gell-Mann matrices
-$ t _ {a} = \frac{1}{2} \lambda_  {a} $, where
-
-$$
-\begin{align}
-& \lambda_ 1=\left(\begin{array}{lll}
-0 & 1 & 0 \
-1 & 0 & 0 \
-0 & 0 & 0
-\end{array}\right) \quad \lambda_ 2=\left(\begin{array}{ccc}
-0 & -i & 0 \
-i & 0 & 0 \
-0 & 0 & 0
-\end{array}\right) \quad \lambda_ 3=\left(\begin{array}{ccc}
-1 & 0 & 0 \
-0 & -1 & 0 \
-0 & 0 & 0
-\end{array}\right) \ , \
-& \lambda_ 4=\left(\begin{array}{lll}
-0 & 0 & 1 \
-0 & 0 & 0 \
-1 & 0 & 0
-\end{array}\right) \quad \lambda_ 5=\left(\begin{array}{ccc}
-0 & 0 & -i \
-0 & 0 & 0 \
-i & 0 & 0
-\end{array}\right) \ , \
-& \lambda_ 6=\left(\begin{array}{lll}
-0 & 0 & 0 \
-0 & 0 & 1 \
-0 & 1 & 0
-\end{array}\right) \quad \lambda_ 7=\left(\begin{array}{ccc}
-0 & 0 & 0 \
-0 & 0 & -i \
-0 & i & 0
-\end{array}\right) \quad \lambda_ 8=\frac{1}{\sqrt{3}}\left(\begin{array}{ccc}
-1 & 0 & 0 \
-0 & 1 & 0 \
-0 & 0 & -2
-\end{array}\right) \ . \label{eq:gell-mann-matrices}
-\end{align}
-$$
+$ t _ {a} = \frac{1}{2} \lambda _ {a} $. You can look up the
+Gell-Mann matrices [here](https://en.wikipedia.org/wiki/Gell-Mann_matrices).
 
 These matrices are normalised so that
 $\operatorname{Tr}\left(t_ {a} t_ {b}\right)=\frac{1}{2} \delta_ {a b}$,
 and their algebra is
 \begin{equation}
-\label{eq:su3-algebra}
+  \label{eq:su3-algebra}
 \left[t_ {a}, t_ {b}\right]=i f_ {a b c} t_ {c} \ ,
 \end{equation}
 where the $f_ {a b c}$ are called structure constants. This is the
@@ -134,7 +96,7 @@ In the above equation, the indices
 $ \left\lbrace i, j, \cdots \right\rbrace \in \left\lbrace 1, 2 , 3
 \right\rbrace $ and
 $ \left\lbrace a, b, c, \cdots \right\rbrace \in \left\lbrace 1,
-\cdots , 8 \right\rbrace $. Now, the $ T ^{a} $ are Hermitian,
+  \cdots , 8 \right\rbrace $. Now, the $ T ^{a} $ are Hermitian,
 courtesy of the Hermiticity of the Gell-Mann matrices in
 \eqref{eq:gell-mann-matrices}. From
 \eqref{eq:uN-algebra,eq:su3-algebra}, one can easily verify that the $
@@ -145,14 +107,14 @@ of the $ T _ {a} $, i.e. the $ T _ {a} $ will only move states within a
 degenerate subspace. We can conclude at this point that the degenerate
 states
 \begin{equation}
-\label{eq:oscillator-su3-states}
+  \label{eq:oscillator-su3-states}
 \left[\prod _ {i=1} ^{3} \frac{1}{\sqrt{N _ {i}!} } \left( a _ {i}^{\dagger } \right)^{N _ {i}} \right] \left\vert 0 \right\rangle \ ,
 \end{equation}
 with fixed $ N = \sum_ {i=1}^{3} N _ {i} $ of the three-dimensional
 isotropic harmonic oscillator form unitary irreducible representations
 of $ \text{SU}(3) $ of dimensions
 \begin{equation}
-\label{eq:oscillator-su3-dimension}
+  \label{eq:oscillator-su3-dimension}
 \frac{1}{2} \left( N+1 \right) \left( N+2 \right) \ .
 \end{equation}
 

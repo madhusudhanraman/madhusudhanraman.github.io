@@ -20,7 +20,7 @@ author_profile: true
 - The Heisenberg Algebra
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
-  - Higher-Dimensional Oscillators
+  - [Higher-Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
   - Completeness?
   - Three-Dimensional Oscillators, Revisited
   - The Theta Correspondence
