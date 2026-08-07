@@ -8,7 +8,7 @@ author_profile: true
 - Classical Dynamics and Geometry
   - [The Action Principle](https://madhusudhanraman.github.io/physics/action-principle/)
   - [Canonical Structures](https://madhusudhanraman.github.io/physics/canonical-structures/)
-  - Symplectic Geometry
+  - [Symplectic Geometry](https://madhusudhanraman.github.io/physics/symplectic-geometry/)
 - Symmetries
   - The Geometry of Forms
   - Group Actions
