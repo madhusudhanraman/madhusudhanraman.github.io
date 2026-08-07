@@ -4,38 +4,39 @@ date: 2026-08-07 19:30:00 +0530
 categories: 
   - Physics
 excerpt: >
-  Does the oscillator formalism for higher rank gauge groups furnish
+  Does the oscillator formalism for higher rank groups furnish
   all representations?
 ---
 
 We have undoubtedly constructed, in an [earlier post](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/),
 unitary irreducible representations of $ \text{SU}(d) $, but we might
-ask ourselves: are these \emph{all} the unitary irreducible
+ask ourselves: are these all the unitary irreducible
 representations of $ \text{SU}(d) $? That is, is the above
 construction exhaustive?
 
 To answer this question, it is helpful to quickly recall what
 differentiates the Lie group $ \text{SU}(2) $ from
-$ \text{SU}(d) $ for $ d \geq 3 $. Let us begin by observing that the
+$ \text{SU}(d) $ for $ d \geq 3 $. Following
+\cite[Ch.~1]{Coleman:1985rnk}, let us begin by observing that the
 definition of $ \text{SU}(d) $ itself suggests a representation:
 that of $ d $-dimensional complex column vector, which transforms
 under the action of an element $ U \in \text{SU}(d) $ as
 \begin{equation}
-U : x ^{i} \mapsto U ^{i} _ {j} x ^{j} \ .
+U : x ^{i} \mapsto U ^{i} {} _ {j} x ^{j} \ .
 \end{equation}
 Another representation is obtained by the corresponding row vectors:
 \begin{equation}
   \label{eq:row-vector-transformation}
-U : y _ {i} \mapsto y _ {j} \overline{U} ^{j} _ {i}  \ ,
+U : y _ {i} \mapsto y _ {j} \overline{U} ^{j} {} _ {i}  \ ,
 \end{equation}
 where the bar denotes complex conjugation. By unitarity
 \begin{equation}
   \label{eq:unitarity}
-\overline{U} ^{j} _ {i} U ^{i} _ {k} = \delta ^{j} _ {k} \ ,
+\overline{U} ^{j} {} _ {i} U ^{i} {} _ {k} = \delta ^{j} {} _ {k} \ ,
 \end{equation}
 the singlet $ x _ {i}y ^{i} $ is invariant, since
 \begin{equation}
-U: x _ {i}y ^{i} \mapsto x _ {j} \cdot \overline{U} ^{j} _ {i}   U ^{i} _ {k} \cdot  y ^{k} = x _ {j} \cdot \delta ^{j} _ {k} \cdot y ^{k} = x _ {i} y ^{i} \ .
+U: x _ {i}y ^{i} \mapsto x _ {j} \cdot \overline{U} ^{j} {} _ {i}   U ^{i} {} _ {k} \cdot  y ^{k} = x _ {j} \cdot \delta ^{j} {} _ {k} \cdot y ^{k} = x _ {i} y ^{i} \ .
 \end{equation}
 Products of these primitive upper- and
 lower-indexed objects clearly carry other representations of
@@ -48,23 +49,23 @@ representations.
 
 Let's recall how this is done for the case of $ d=2 $. Define the
 antisymmetric $ 2 $-tensor $ \epsilon _ {ij} $ such that
-$ \epsilon _ {12} = 1 $. For any $ 2 \times 2 $ complex matrix
+$ \epsilon _ {12} = 1 $. For \emph{any} $ 2 \times 2 $ complex matrix
 $ U $, it is a fact that
 \begin{equation}
   \label{eq:epsilon-invariance-1}
-U ^{i} _ {k} U ^{j} _ {\ell } \epsilon _ {ij} = \operatorname{det} U \times \epsilon _ {k \ell } \ .
+U ^{i} {} _ {k} U ^{j} {} _ {\ell } \epsilon _ {ij} = \operatorname{det} U \times \epsilon _ {k \ell } \ .
 \end{equation}
 In our case, $ \operatorname{det} U = 1 $ since our
 $ U \in \text{SU}(2) $. The form of the identity in
 \eqref{eq:epsilon-invariance-1}, although true, is a little
 unsatisfactory as objects with lower indices ought to transfer
 analogously to \eqref{eq:row-vector-transformation}. Multiplying
-\eqref{eq:epsilon-invariance-1} by $ \overline{U} ^{k} _ {m}
-\overline{U} ^{\ell } _ {n}  $ and using \eqref{eq:unitarity},
+\eqref{eq:epsilon-invariance-1} by $ \overline{U} ^{k} {} _ {m}
+\overline{U} ^{\ell } {} _ {n}  $ and using \eqref{eq:unitarity},
 we get
 \begin{equation}
   \label{eq:epsilon-invariance-2}
-  \epsilon _ {k \ell }\overline{U} ^{k} _ {m} \overline{U} ^{\ell } _ {n} = \epsilon _ {mn} \ ,
+  \epsilon _ {k \ell }\overline{U} ^{k} {} _ {m} \overline{U} ^{\ell } {} _ {n} = \epsilon _ {mn} \ ,
 \end{equation}
 which shows us that the $ \epsilon  $-tensor is an invariant tensor of
 $ \text{SU}(2) $.
@@ -97,12 +98,12 @@ Note, however, that for the case of $ \text{SU}(3) $, the invariant
 tensor $ \epsilon _ {ijk} $ has three indices, and therefore cannot be
 used to raise and lower indices, and so we must consider tensors with
 both upper and lower indices of the form
-$ T ^{i _ {1} \cdots i _ {n}} _ {j _ {1} \cdots j _ {m}}
+$ T ^{i _ {1} \cdots i _ {n}} {} _ {j _ {1} \cdots j _ {m}}
 $. However, we may yet express the antisymmetric parts of tensors in
 terms of tensors of lower rank, just as we did for the case of
 $ \text{SU}(2) $, as follows:
 \begin{equation}
-T ^{\cdots [i| \cdots |j] \cdots } _ {\cdots } = \epsilon ^{ijk} S ^{\cdots } _ {k \cdots }  \ .
+T ^{\cdots [i| \cdots |j] \cdots } {} _ {\cdots } = \epsilon ^{ijk} S ^{\cdots } {} _ {k \cdots }  \ .
 \end{equation}
 This teaches us that for the case of $ \text{SU}(3) $ we can
 restrict ourselves to the study of tensors that are completely
