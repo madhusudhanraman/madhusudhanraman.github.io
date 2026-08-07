@@ -33,7 +33,9 @@ It is instructive to consider the total derivative of the Hamiltonian:
 
 $$
 \begin{align}
-  \mathrm{d} H &= \dot{q} _ {a} \mathrm{d} p ^{a} + p ^{a} \mathrm{d} \dot{q} _ {a} - \mathrm{d} L(q _ {a},\dot{q} _ {a}) \ , \\
+  \mathrm{d} H &= \dot{q} _ {a} \mathrm{d} p ^{a} + p ^{a} \mathrm{d}
+  \dot{q} _ {a} - \mathrm{d} L(q _ {a},\dot{q} _ {a}) \ , \\
+  \label{eq:d-hamiltonian-2}
   &= - \frac{\partial L}{\partial q _ {a}} \mathrm{d} q _ {a} + \dot{q} _ {a} \mathrm{d} p ^{a}  \ .
 \end{align}
 $$
@@ -49,7 +51,7 @@ write
 \end{equation}
 and on comparing the coefficients of $ \mathrm{d} p ^{a} $ and
 $ \mathrm{d} q _ {a} $ in \eqref{eq:d-hamiltonian} and \eqref{eq:d-hamiltonian-2}
-and using \eqref{eq:el-equations}, we arrive at:
+and using the Euler-Lagrange equations, we arrive at:
 \begin{equation}
   \label{eq:hamilton}
 \dot{q} _ {a} = \frac{\partial H}{\partial p ^{a}} \quad \mathrm{and} \quad \dot{p} ^{a} = - \frac{\partial H}{\partial q _ {a}} \ .
@@ -93,8 +95,8 @@ $$
 $$
 
 It follows, then, that any function that depends on time only
-implicitly through the phase space coordinates and that ``Poisson
-commutes'' with the Hamiltonian --- i.e.~satisfies $ \left\lbrace f,
+implicitly through the phase space coordinates and that "Poisson
+commutes"" with the Hamiltonian --- i.e. satisfies $ \left\lbrace f,
   H \right\rbrace = 0 $ --- is a constant of motion.
 
 The Poisson brackets have two properties that follow from
@@ -114,7 +116,7 @@ It is useful to note that the only non-trivial Poisson brackets of the
 canonical (or phase space) variables is
 \begin{equation}
   \label{eq:fundamental-Poisson-brackets}
-  \left\lbrace q _ {a}, p ^{b} \right\rbrace = \delta _ {a}^{b} \ .
+  \left\lbrace q _ {a}, p ^{b} \right\rbrace = \tensor{\delta}{_{a}^{b}} \ .
 \end{equation}
 
 ## Canonical Transformations
