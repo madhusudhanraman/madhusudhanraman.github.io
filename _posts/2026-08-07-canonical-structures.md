@@ -1,6 +1,6 @@
 ---
 title: "Canonical Structures"
-date: 2026-08-07
+date: 2026-08-07 10:00:00 +0530
 categories: 
   - Physics
 excerpt: >

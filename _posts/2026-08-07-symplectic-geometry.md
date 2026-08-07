@@ -1,6 +1,6 @@
 ---
 title: "Symplectic Geometry"
-date: 2026-08-07
+date: 2026-08-07 17:00:00 +0530
 categories: 
   - Physics
 excerpt: >

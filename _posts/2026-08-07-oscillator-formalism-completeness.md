@@ -1,6 +1,6 @@
 ---
 title: "Is The Oscillator Formalism Complete?"
-date: 2026-08-07
+date: 2026-08-07 20:00:00 +0530
 categories: 
   - Physics
 excerpt: >
@@ -139,7 +139,7 @@ representations $ \left( N,0 \right) $.
 
 We conclude from this discussion that the oscillator formalism only
 constructs symmetric representations. For the case of
-$ \text{SU}(2) $, this exhausts \emph{all} representations, but for
+$ \text{SU}(2) $, this exhausts all representations, but for
 $ \text{SU}(d) $ with $ d \geq 3 $, there are representations that
 our construction has yet to reproduce. Concretely, for the case of
 $ \text{SU}(3) $ we do not yet know how to construct representations
