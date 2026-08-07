@@ -16,8 +16,7 @@ construction exhaustive?
 
 To answer this question, it is helpful to quickly recall what
 differentiates the Lie group $ \text{SU}(2) $ from
-$ \text{SU}(d) $ for $ d \geq 3 $. Following
-\cite[Ch.~1]{Coleman:1985rnk}, let us begin by observing that the
+$ \text{SU}(d) $ for $ d \geq 3 $. Let us begin by observing that the
 definition of $ \text{SU}(d) $ itself suggests a representation:
 that of $ d $-dimensional complex column vector, which transforms
 under the action of an element $ U \in \text{SU}(d) $ as
