@@ -21,7 +21,7 @@ author_profile: true
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
   - [Higher-Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
-  - Completeness?
+  - [Completeness?](https://madhusudhanraman.github.io/physics/oscillator-formalism-completeness/)
   - Three-Dimensional Oscillators, Revisited
   - The Theta Correspondence
   - A Simpler Example: Schur-Weyl Duality
