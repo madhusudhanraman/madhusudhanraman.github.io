@@ -8,8 +8,8 @@ excerpt: >
 ---
 
 The Lie algebra $ \mathfrak{su}(2) $ is insufficiently generic, and it
-is profitable at this stage to ask: to what extent does the oscillator formalism
-generalise to $ \mathfrak{su}(d) $? In order to suggest a natural
+is profitable at this stage to ask: to what extent does the oscillator
+formalism generalise to $ \mathfrak{su}(d) $? In order to suggest a natural
 generalisation to $ \mathfrak{su}(d) $ it is helpful to rewrite the
 results of the [previous section](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/) 
 (for $ d=2 $) as follows. First, define the bilinears

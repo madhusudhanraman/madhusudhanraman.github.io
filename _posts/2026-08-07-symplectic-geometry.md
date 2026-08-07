@@ -26,6 +26,7 @@ terms of these phase space coordinates $ y ^{\mathsf{a} } $, the
 fundamental Poisson brackets
 can now be written as
 \begin{equation}
+\label{eq:fund-pb}
 \left\lbrace y ^{\mathsf{a} }, y ^{\mathsf{b} } \right\rbrace = \epsilon ^{\mathsf{ab} } \ ,
 \end{equation}
 where $ \epsilon  $ is the constant antisymmetric $ 2N \times 2N $
@@ -51,7 +52,7 @@ and the Poisson brackets of any two functions can be written as
 
 More generally, we will find it convenient to depart from strictly
 canonical coordinates on phase space that obey
-\eqref{eq:fundamental-Poisson-brackets} and instead work with
+\eqref{eq:fund-pb} and instead work with
 coordinates that satisfy
 \begin{equation}
 \left\lbrace y ^{\mathsf{a} }, y ^{\mathsf{b} } \right\rbrace = \omega ^{\mathsf{ab} }(y) \ .
