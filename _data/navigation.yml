@@ -1,11 +1,11 @@
 # main links
 main:
+  - title: "Notes"
+    url:   /notes/
   - title: "Papers"
     url:   /papers/
   - title: "Teaching"
     url:   /teaching/
-  - title: "Notes"
-    url:   /notes/
   - title: "Students"
     url:   /students/
   - title: "Contact"
