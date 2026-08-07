@@ -1,5 +1,5 @@
 ---
-title: "The Oscillator Formalism"
+title: "The Oscillator Formalism: Two Dimensions"
 date: 2026-08-01
 categories: 
   - Physics
