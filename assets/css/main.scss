@@ -5,8 +5,6 @@ search: false
 
 @charset "utf-8";
 
-$sans-serif: "EB Garamond", Garamond, serif;
-
 // @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "my-skin";          // custom skin
 @import "minimal-mistakes"; // main partials
