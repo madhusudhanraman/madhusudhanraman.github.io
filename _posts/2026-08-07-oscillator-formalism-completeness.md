@@ -1,5 +1,5 @@
 ---
-title: "The Oscillator Formalism: Completeness"
+title: "Is The Oscillator Formalism Complete?"
 date: 2026-08-07
 categories: 
   - Physics
@@ -8,9 +8,9 @@ excerpt: >
   all representations?
 ---
 
-We have undoubtedly constructed, in the previous section, unitary
-irreducible representations of $ \text{SU}(d) $, but we might ask
-ourselves: are these \emph{all} the unitary irreducible
+We have undoubtedly constructed, in an [earlier post](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/),
+unitary irreducible representations of $ \text{SU}(d) $, but we might
+ask ourselves: are these \emph{all} the unitary irreducible
 representations of $ \text{SU}(d) $? That is, is the above
 construction exhaustive?
 
@@ -48,7 +48,7 @@ representations.
 
 Let's recall how this is done for the case of $ d=2 $. Define the
 antisymmetric $ 2 $-tensor $ \epsilon _ {ij} $ such that
-$ \epsilon _ {12} = 1 $. For \emph{any} $ 2 \times 2 $ complex matrix
+$ \epsilon _ {12} = 1 $. For any $ 2 \times 2 $ complex matrix
 $ U $, it is a fact that
 \begin{equation}
   \label{eq:epsilon-invariance-1}
@@ -73,7 +73,7 @@ The nice thing about this antisymmetric tensor is that it can be used
 to raise and lower indices: $ x _ {i} = \epsilon _ {ij} x ^{j} $. This
 is quite special to $ \text{SU}(2) $, and is the statement that the
 representations $ \mathbf{2} $ and $ \mathbf{\overline{2} } $
-(viz.~the fundamental and antifundamental) are isomorphic. More
+(viz. the fundamental and antifundamental) are isomorphic. More
 generally, this means we can safely consider (say) tensors with lower
 indices only.
 
