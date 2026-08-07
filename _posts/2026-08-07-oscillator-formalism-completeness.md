@@ -1,6 +1,6 @@
 ---
 title: "Is The Oscillator Formalism Complete?"
-date: 2026-08-07 20:00:00 +0530
+date: 2026-08-07 19:30:00 +0530
 categories: 
   - Physics
 excerpt: >
