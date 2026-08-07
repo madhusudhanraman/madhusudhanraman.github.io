@@ -1,6 +1,6 @@
 ---
 title: "The Oscillator Formalism: Higher Dimensions"
-date: 2026-08-08
+date: 2026-08-07
 categories: 
   - Physics
 excerpt: >
