@@ -116,7 +116,7 @@ It is useful to note that the only non-trivial Poisson brackets of the
 canonical (or phase space) variables is
 \begin{equation}
   \label{eq:fundamental-Poisson-brackets}
-  \left\lbrace q _ {a}, p ^{b} \right\rbrace = \tensor{\delta}{_a^b} \ .
+  \left\lbrace q _ {a}, p ^{b} \right\rbrace = \delta _ {a} {}^{b} \ .
 \end{equation}
 
 ## Canonical Transformations
