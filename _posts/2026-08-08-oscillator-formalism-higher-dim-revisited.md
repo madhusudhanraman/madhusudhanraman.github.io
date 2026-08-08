@@ -1,6 +1,6 @@
 ---
 title: "Higher Dimensional Oscillators, Revisited"
-date: 2026-08-07 19:30:00 +0530
+date: 2026-08-08 18:00:00 +0530
 categories: 
   - Physics
 excerpt: >
@@ -119,8 +119,8 @@ T _ {a} = a ^{\dagger j} \left( t _ {a} \right) ^{i}{} _ {j} a _ {i} - b ^{\dagg
 \end{align}
 $$
 
-does the job and satisfies the Lie algebra of $ \mathfrak{su}(3) $ in
-\eqref{eq:su3-algebra}. Notice that the operators $ T _ {a} $ commute
+does the job and satisfies the Lie algebra of $ \mathfrak{su}(3) $. 
+Notice that the operators $ T _ {a} $ commute
 with the number operators $ N _ {a} = a ^{\dagger i}a _ {i} $ and
 $ N _ {b} = b ^{\dagger \bar{\imath } }b _ {\bar{\imath } } $,
 decomposing our Hilbert space into invariant sectors, each
