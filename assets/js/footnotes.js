@@ -314,37 +314,7 @@ document.addEventListener("DOMContentLoaded", function () {
       )
     );
 
-    /*
-     * Return link.
-     */
-    const back = document.createElement("a");
 
-    back.className = "mobile-footnote__back";
-    back.href = "#";
-    back.textContent = "↩";
-
-    back.setAttribute(
-      "aria-label",
-      "Return to footnote reference"
-    );
-
-    back.addEventListener(
-      "click",
-      function (event) {
-        event.preventDefault();
-
-        reference.scrollIntoView({
-          behavior: "smooth",
-          block: "center"
-        });
-
-        reference.focus({
-          preventScroll: true
-        });
-      }
-    );
-
-    note.appendChild(back);
 
     /*
      * Insert immediately after the paragraph.

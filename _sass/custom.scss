@@ -167,17 +167,22 @@ html {
 }
 
 
-/*
- * Keep the return arrow inside the footnote's bordered area.
- */
-.mobile-footnote__back {
-  display: block;
+@media (max-width: 1199px) {
+  .footnote-sidebar {
+    display: none;
+  }
 
-  margin-top: 0.5em;
+  .page__content .footnotes {
+    display: block;
+  }
 
-  text-decoration: none;
+  .mobile-footnote .footnote-number {
+    display: none;
+  }
 
-  font-size: 0.9em;
+  .mobile-footnote .footnote-content {
+    padding-left: 0;
+  }
 }
 
 /*
