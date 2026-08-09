@@ -9,6 +9,14 @@ html {
   hyphens: auto;
 }
 
+/* Centers TOC in right third of screen. */
+
+@media (min-width: 1024px) {
+  .toc {
+    transform: translateX(25%);
+  }
+}
+
 /* ==========================================================================
    Footnotes
    ========================================================================== */
