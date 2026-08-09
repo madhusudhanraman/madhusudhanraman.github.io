@@ -13,7 +13,7 @@ html {
 
 @media (min-width: 1024px) {
   .toc {
-    transform: translateX(25%);
+    transform: translateX(20%);
   }
 }
 
@@ -68,8 +68,8 @@ html {
   visibility: hidden;
 
   transition:
-    opacity 0.15s ease,
-    visibility 0.15s ease;
+    opacity 0.6s ease,
+    visibility 0.6s ease;
 
   font-size: 0.78em;
   line-height: 1.5;
@@ -93,6 +93,14 @@ html {
   right: 0;
 
   pointer-events: auto;
+
+  opacity: 0;
+
+  transition: opacity 0.6s ease;
+}
+
+.footnote-sidebar__item.is-visible {
+  opacity: 1;
 }
 
 

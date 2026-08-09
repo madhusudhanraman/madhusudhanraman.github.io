@@ -73,169 +73,292 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
 
-  /*
-   * ------------------------------------------------------------
-   * Desktop sidebar
-   * ------------------------------------------------------------
-   */
+/*
+ * ------------------------------------------------------------
+ * Desktop sidebar
+ * ------------------------------------------------------------
+ */
 
-  const sidebar = document.createElement("aside");
+const sidebar = document.createElement("aside");
 
-  sidebar.className = "footnote-sidebar";
-  sidebar.setAttribute("aria-label", "Footnotes");
+sidebar.className = "footnote-sidebar";
+sidebar.setAttribute("aria-label", "Footnotes");
 
-  document.body.appendChild(sidebar);
+document.body.appendChild(sidebar);
 
 
-  /*
-   * Create one sidebar note for a reference.
-   */
+/*
+ * Keep track of the footnote elements currently in the sidebar.
+ *
+ * We don't immediately delete notes that are no longer visible.
+ * Instead, we fade them out first.
+ */
+const desktopNotes = new Map();
 
-  function createDesktopFootnote(reference) {
-    const footnote = getFootnote(reference);
 
-    if (!footnote) return null;
+function createDesktopFootnote(reference) {
+  const footnote = getFootnote(reference);
 
-    const note = document.createElement("div");
+  if (!footnote) return null;
 
-    note.className = "footnote-sidebar__item";
+  const note = document.createElement("div");
 
-    note.appendChild(
-      createFootnoteContent(footnote, reference)
-    );
+  note.className = "footnote-sidebar__item";
 
-    return note;
+  note.appendChild(
+    createFootnoteContent(footnote, reference)
+  );
+
+  return note;
+}
+
+
+/*
+ * Display every footnote whose reference is currently
+ * visible in the viewport.
+ */
+function updateDesktopFootnotes() {
+
+  if (window.innerWidth < 1200) {
+    sidebar.classList.remove("is-visible");
+
+    /*
+     * Fade everything out rather than deleting it immediately.
+     */
+    desktopNotes.forEach(function (item) {
+      item.element.classList.remove("is-visible");
+    });
+
+    return;
   }
 
 
   /*
-   * Display every footnote whose reference is currently
-   * visible in the viewport.
+   * Determine which references are currently visible.
    */
+  const visibleReferences = [];
 
-  function updateDesktopFootnotes() {
-    if (window.innerWidth < 1200) {
-      sidebar.classList.remove("is-visible");
-      sidebar.innerHTML = "";
-      return;
+  references.forEach(function (reference) {
+
+    const rect = reference.getBoundingClientRect();
+
+    if (
+      rect.bottom >= 0 &&
+      rect.top <= window.innerHeight
+    ) {
+      visibleReferences.push({
+        reference: reference,
+        rect: rect
+      });
     }
+  });
 
-    const visibleReferences = [];
 
-    references.forEach(function (reference) {
-      const rect = reference.getBoundingClientRect();
+  /*
+   * Keep track of which notes are currently visible.
+   */
+  const visibleKeys = new Set();
 
-      /*
-       * Consider a reference visible if any part of it is
-       * inside the viewport.
-       */
-      if (
-        rect.bottom >= 0 &&
-        rect.top <= window.innerHeight
-      ) {
-        visibleReferences.push({
-          reference: reference,
-          rect: rect
-        });
-      }
-    });
+
+  visibleReferences.forEach(function (entry) {
+
+    const reference = entry.reference;
 
     /*
-     * Nothing visible.
+     * Use the reference itself as the key.
      */
-    if (!visibleReferences.length) {
-      sidebar.classList.remove("is-visible");
-      sidebar.innerHTML = "";
-      return;
-    }
+    visibleKeys.add(reference);
+
 
     /*
-     * Create all the notes.
+     * If this note isn't already in the sidebar,
+     * create it.
      */
-    sidebar.innerHTML = "";
+    if (!desktopNotes.has(reference)) {
 
-    const items = visibleReferences.map(function (entry) {
-      const item = createDesktopFootnote(entry.reference);
+      const element =
+        createDesktopFootnote(reference);
 
-      if (!item) return null;
+      if (!element) return;
 
-      sidebar.appendChild(item);
+      sidebar.appendChild(element);
 
-      return {
-        element: item,
+      desktopNotes.set(reference, {
+        element: element,
         desiredTop:
           entry.rect.top +
-          entry.rect.height / 2
-      };
-    }).filter(Boolean);
+          entry.rect.height / 2,
+        height: 0
+      });
+
+      /*
+       * Force layout so the browser recognizes the
+       * initial hidden state before we fade it in.
+       */
+      element.offsetHeight;
+
+      requestAnimationFrame(function () {
+        element.classList.add("is-visible");
+      });
+
+    } else {
+
+      /*
+       * The note already exists. Just update its desired
+       * position.
+       */
+      const item = desktopNotes.get(reference);
+
+      item.desiredTop =
+        entry.rect.top +
+        entry.rect.height / 2;
+    }
+  });
+
+
+  /*
+   * Fade out notes whose references are no longer visible.
+   */
+  desktopNotes.forEach(function (item, reference) {
+
+    if (!visibleKeys.has(reference)) {
+
+      item.element.classList.remove("is-visible");
+
+      /*
+       * Remove the element only after the fade-out has
+       * completed.
+       */
+      setTimeout(function () {
+
+        /*
+         * It may have become visible again while the
+         * fade-out was occurring.
+         */
+        if (!desktopNotes.has(reference)) {
+          return;
+        }
+
+        if (visibleKeys.has(reference)) {
+          return;
+        }
+
+        /*
+         * Check whether the element is still hidden.
+         */
+        if (
+          !item.element.classList.contains(
+            "is-visible"
+          )
+        ) {
+          item.element.remove();
+          desktopNotes.delete(reference);
+        }
+
+      }, 600);
+    }
+  });
+
+
+  /*
+   * ----------------------------------------------------------
+   * Position the visible notes
+   * ----------------------------------------------------------
+   */
+
+  const items = [];
+
+  desktopNotes.forEach(function (item, reference) {
+
+    if (!visibleKeys.has(reference)) {
+      return;
+    }
+
+    item.height =
+      item.element.offsetHeight;
+
+    items.push(item);
+  });
+
+
+  /*
+   * Sort according to vertical position.
+   */
+  items.sort(function (a, b) {
+    return a.desiredTop - b.desiredTop;
+  });
+
+
+  const gap = 24;
+  const margin = 16;
+
+  let previousBottom = margin;
+
+
+  items.forEach(function (item) {
+
+    let top =
+      item.desiredTop -
+      item.height / 2;
 
 
     /*
-     * ----------------------------------------------------------
-     * Position the notes
-     * ----------------------------------------------------------
-     *
-     * Each note initially wants to sit at the same vertical
-     * position as its reference.
-     *
-     * If two notes overlap, push the lower one down.
+     * Don't allow the note to extend above
+     * the viewport.
      */
+    top = Math.max(
+      top,
+      margin
+    );
 
-    const gap = 24;
-    const margin = 16;
 
     /*
-     * Force the browser to calculate the dimensions.
+     * Prevent overlapping notes.
      */
-    items.forEach(function (item) {
-      item.height = item.element.offsetHeight;
-    });
+    if (
+      top <
+      previousBottom + gap
+    ) {
+      top =
+        previousBottom +
+        gap;
+    }
+
 
     /*
-     * Sort according to vertical position.
+     * Don't allow the note to extend below
+     * the viewport.
      */
-    items.sort(function (a, b) {
-      return a.desiredTop - b.desiredTop;
-    });
+    const maximumTop =
+      window.innerHeight -
+      item.height -
+      margin;
 
-    let previousBottom = margin;
+    top = Math.min(
+      top,
+      maximumTop
+    );
 
-    items.forEach(function (item) {
-      let top =
-        item.desiredTop -
-        item.height / 2;
 
-      /*
-       * Don't allow the note to extend above the viewport.
-       */
-      top = Math.max(top, margin);
+    item.element.style.top =
+      top + "px";
 
-      /*
-       * Prevent overlap with the previous note.
-       */
-      if (top < previousBottom + gap) {
-        top = previousBottom + gap;
-      }
 
-      /*
-       * Don't allow it to extend below the viewport.
-       */
-      const maximumTop =
-        window.innerHeight -
-        item.height -
-        margin;
+    previousBottom =
+      top + item.height;
+  });
 
-      top = Math.min(top, maximumTop);
 
-      item.element.style.top = top + "px";
-
-      previousBottom =
-        top + item.height;
-    });
-
+  /*
+   * The sidebar itself is visible as long as at least
+   * one footnote is present.
+   */
+  if (visibleKeys.size > 0) {
     sidebar.classList.add("is-visible");
+  } else {
+    sidebar.classList.remove("is-visible");
   }
-
+}
 
   /*
    * ------------------------------------------------------------
