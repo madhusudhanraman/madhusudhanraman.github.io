@@ -122,6 +122,7 @@ html {
 
 .footnote-text {
   min-width: 0;
+ text-align: justify;
 }
 
 .footnote-text p {
@@ -133,14 +134,9 @@ html {
   margin-bottom: 0;
 }
 
-/*
- * ------------------------------------------------------------
- * Mobile inline footnotes
- * ------------------------------------------------------------
- *
- * The note is inserted directly after the paragraph containing
- * the reference.
- */
+/* ==========================================================================
+   Mobile inline footnotes
+   ========================================================================== */
 
 .mobile-footnote {
   margin: 0.8em 0 1.2em;
@@ -153,21 +149,36 @@ html {
   line-height: 1.5;
 }
 
+/*
+ * Don't add another vertical border to the content inside the
+ * mobile footnote. The border belongs to the entire footnote.
+ */
 .mobile-footnote .footnote-content {
   border-left: 0;
   padding-left: 1.5em;
 }
 
-.mobile-footnote__back {
-  display: inline-block;
 
-  margin-top: 0.4em;
+/*
+ * Justify the actual footnote text.
+ */
+.mobile-footnote .footnote-text {
+  text-align: justify;
+}
+
+
+/*
+ * Keep the return arrow inside the footnote's bordered area.
+ */
+.mobile-footnote__back {
+  display: block;
+
+  margin-top: 0.5em;
 
   text-decoration: none;
 
   font-size: 0.9em;
 }
-
 
 /*
  * ------------------------------------------------------------
