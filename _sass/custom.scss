@@ -8,3 +8,211 @@ html {
   text-align: justify;
   hyphens: auto;
 }
+
+/* ==========================================================================
+   Footnotes
+   ========================================================================== */
+
+/*
+ * ------------------------------------------------------------
+ * Footnote references
+ * ------------------------------------------------------------
+ */
+
+.page__content a.footnote {
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
+  text-decoration: none;
+
+  margin-left: 0.04em;
+  margin-right: 0.04em;
+}
+
+
+/*
+ * ------------------------------------------------------------
+ * Desktop floating footnote
+ * ------------------------------------------------------------
+ */
+
+.footnote-sidebar {
+  position: fixed;
+
+  /*
+   * The article on your Minimal Mistakes site is approximately
+   * centered. This puts the footnotes just to its right.
+   *
+   * We can fine-tune this number after you see it live.
+   */
+  left: calc(50% + 390px);
+
+  width: 280px;
+  max-width: 20vw;
+
+  z-index: 100;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition:
+    opacity 0.15s ease,
+    visibility 0.15s ease;
+
+  font-size: 0.78em;
+  line-height: 1.5;
+
+  /*
+   * Don't let an unusually long footnote run off the screen.
+   */
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.footnote-sidebar.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*
+ * The vertical rule gives the footnotes the visual separation
+ * from the main article.
+ */
+
+.footnote-content {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+
+  padding-left: 1.5em;
+
+  border-left: 1px solid $border-color;
+}
+
+.footnote-number {
+  position: absolute;
+
+  left: 0;
+
+  transform: translateX(-50%);
+
+  padding: 0 0.25em;
+
+  background: $background-color;
+
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+.footnote-text {
+  min-width: 0;
+}
+
+.footnote-text p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.footnote-text p:last-child {
+  margin-bottom: 0;
+}
+
+
+/*
+ * ------------------------------------------------------------
+ * Mobile inline footnotes
+ * ------------------------------------------------------------
+ *
+ * The note is inserted directly after the paragraph containing
+ * the reference.
+ */
+
+.mobile-footnote {
+  margin: 0.8em 0 1.2em;
+
+  padding: 0.9em 1em;
+
+  border-left: 2px solid $border-color;
+
+  font-size: 0.85em;
+  line-height: 1.5;
+}
+
+.mobile-footnote .footnote-content {
+  border-left: 0;
+  padding-left: 1.5em;
+}
+
+.mobile-footnote__back {
+  display: inline-block;
+
+  margin-top: 0.4em;
+
+  text-decoration: none;
+
+  font-size: 0.9em;
+}
+
+
+/*
+ * ------------------------------------------------------------
+ * Desktop / mobile breakpoint
+ * ------------------------------------------------------------
+ */
+
+@media (min-width: 1200px) {
+
+  /*
+   * The normal endnotes are hidden because the sidebar is now
+   * the primary presentation.
+   */
+  .page__content .footnotes {
+    display: none;
+  }
+
+  .mobile-footnote {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1199px) {
+
+  /*
+   * The desktop sidebar isn't used on smaller screens.
+   */
+  .footnote-sidebar {
+    display: none;
+  }
+
+  /*
+   * The normal endnotes remain available at the bottom as a
+   * fallback, but JavaScript creates inline notes when the
+   * reader taps a reference.
+   */
+  .page__content .footnotes {
+    display: block;
+  }
+}
+
+
+/*
+ * ------------------------------------------------------------
+ * Small phones
+ * ------------------------------------------------------------
+ */
+
+@media (max-width: 600px) {
+
+  .mobile-footnote {
+    font-size: 0.85em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .page__content a.footnote {
+    font-size: 0.7em;
+  }
+}
