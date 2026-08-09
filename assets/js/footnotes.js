@@ -17,17 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (!references.length) return;
 
-  /*
-   * ------------------------------------------------------------
-   * Create desktop sidebar
-   * ------------------------------------------------------------
-   */
-
-  const sidebar = document.createElement("aside");
-  sidebar.className = "footnote-sidebar";
-  sidebar.setAttribute("aria-label", "Footnote");
-
-  document.body.appendChild(sidebar);
 
   /*
    * ------------------------------------------------------------
@@ -49,7 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function getReferenceParagraph(reference) {
-    return reference.closest("p, li, blockquote, figcaption, td, th");
+    return reference.closest(
+      "p, li, blockquote, figcaption, td, th"
+    );
   }
 
   function createFootnoteContent(footnote, reference) {
@@ -63,28 +54,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const content = document.createElement("div");
     content.className = "footnote-text";
 
-    /*
-     * Clone the footnote so that the original endnote remains
-     * untouched and available as a fallback.
-     */
     const clone = footnote.cloneNode(true);
 
-    /*
-     * Remove the original list-item ID so that we don't create
-     * duplicate IDs in the document.
-     */
     clone.removeAttribute("id");
 
-    /*
-     * Remove Kramdown's backlink.
-     */
     clone.querySelectorAll(".reversefootnote").forEach(function (link) {
       link.remove();
     });
 
-    /*
-     * Move the contents of the cloned <li> into our container.
-     */
     while (clone.firstChild) {
       content.appendChild(clone.firstChild);
     }
@@ -95,46 +72,170 @@ document.addEventListener("DOMContentLoaded", function () {
     return wrapper;
   }
 
+
   /*
    * ------------------------------------------------------------
    * Desktop sidebar
    * ------------------------------------------------------------
    */
 
-  function showDesktopFootnote(reference) {
-    if (window.innerWidth < 1200) return;
+  const sidebar = document.createElement("aside");
 
+  sidebar.className = "footnote-sidebar";
+  sidebar.setAttribute("aria-label", "Footnotes");
+
+  document.body.appendChild(sidebar);
+
+
+  /*
+   * Create one sidebar note for a reference.
+   */
+
+  function createDesktopFootnote(reference) {
     const footnote = getFootnote(reference);
-    if (!footnote) return;
 
-    sidebar.innerHTML = "";
-    sidebar.appendChild(
+    if (!footnote) return null;
+
+    const note = document.createElement("div");
+
+    note.className = "footnote-sidebar__item";
+
+    note.appendChild(
       createFootnoteContent(footnote, reference)
     );
 
-    /*
-     * Position the sidebar beside the reference.
-     */
-    const rect = reference.getBoundingClientRect();
+    return note;
+  }
+
+
+  /*
+   * Display every footnote whose reference is currently
+   * visible in the viewport.
+   */
+
+  function updateDesktopFootnotes() {
+    if (window.innerWidth < 1200) {
+      sidebar.classList.remove("is-visible");
+      sidebar.innerHTML = "";
+      return;
+    }
+
+    const visibleReferences = [];
+
+    references.forEach(function (reference) {
+      const rect = reference.getBoundingClientRect();
+
+      /*
+       * Consider a reference visible if any part of it is
+       * inside the viewport.
+       */
+      if (
+        rect.bottom >= 0 &&
+        rect.top <= window.innerHeight
+      ) {
+        visibleReferences.push({
+          reference: reference,
+          rect: rect
+        });
+      }
+    });
 
     /*
-     * Put the top of the sidebar approximately level with
-     * the footnote reference.
+     * Nothing visible.
      */
-    let top = rect.top + window.scrollY;
+    if (!visibleReferences.length) {
+      sidebar.classList.remove("is-visible");
+      sidebar.innerHTML = "";
+      return;
+    }
 
     /*
-     * Convert to fixed-position coordinates.
+     * Create all the notes.
      */
-    top = rect.top;
+    sidebar.innerHTML = "";
 
-    sidebar.style.top = top + "px";
+    const items = visibleReferences.map(function (entry) {
+      const item = createDesktopFootnote(entry.reference);
+
+      if (!item) return null;
+
+      sidebar.appendChild(item);
+
+      return {
+        element: item,
+        desiredTop:
+          entry.rect.top +
+          entry.rect.height / 2
+      };
+    }).filter(Boolean);
+
+
+    /*
+     * ----------------------------------------------------------
+     * Position the notes
+     * ----------------------------------------------------------
+     *
+     * Each note initially wants to sit at the same vertical
+     * position as its reference.
+     *
+     * If two notes overlap, push the lower one down.
+     */
+
+    const gap = 24;
+    const margin = 16;
+
+    /*
+     * Force the browser to calculate the dimensions.
+     */
+    items.forEach(function (item) {
+      item.height = item.element.offsetHeight;
+    });
+
+    /*
+     * Sort according to vertical position.
+     */
+    items.sort(function (a, b) {
+      return a.desiredTop - b.desiredTop;
+    });
+
+    let previousBottom = margin;
+
+    items.forEach(function (item) {
+      let top =
+        item.desiredTop -
+        item.height / 2;
+
+      /*
+       * Don't allow the note to extend above the viewport.
+       */
+      top = Math.max(top, margin);
+
+      /*
+       * Prevent overlap with the previous note.
+       */
+      if (top < previousBottom + gap) {
+        top = previousBottom + gap;
+      }
+
+      /*
+       * Don't allow it to extend below the viewport.
+       */
+      const maximumTop =
+        window.innerHeight -
+        item.height -
+        margin;
+
+      top = Math.min(top, maximumTop);
+
+      item.element.style.top = top + "px";
+
+      previousBottom =
+        top + item.height;
+    });
+
     sidebar.classList.add("is-visible");
   }
 
-  function hideDesktopFootnote() {
-    sidebar.classList.remove("is-visible");
-  }
 
   /*
    * ------------------------------------------------------------
@@ -158,17 +259,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+
   function openMobileFootnote(reference) {
     const paragraph = getReferenceParagraph(reference);
     const footnote = getFootnote(reference);
 
     if (!paragraph || !footnote) return;
 
-    /*
-     * If this footnote is already open, close it.
-     */
     const existing = paragraph.nextElementSibling;
 
+    /*
+     * Tapping an open reference closes its note.
+     */
     if (
       existing &&
       existing.classList.contains("mobile-footnote")
@@ -188,145 +290,133 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
     article
-      .querySelectorAll("a.footnote[aria-expanded='true']")
+      .querySelectorAll(
+        "a.footnote[aria-expanded='true']"
+      )
       .forEach(function (link) {
-        link.setAttribute("aria-expanded", "false");
+        link.setAttribute(
+          "aria-expanded",
+          "false"
+        );
       });
 
     /*
      * Create the inline note.
      */
     const note = document.createElement("aside");
+
     note.className = "mobile-footnote";
 
     note.appendChild(
-      createFootnoteContent(footnote, reference)
+      createFootnoteContent(
+        footnote,
+        reference
+      )
     );
 
     /*
-     * Add a return-to-text link.
+     * Return link.
      */
     const back = document.createElement("a");
+
     back.className = "mobile-footnote__back";
     back.href = "#";
     back.textContent = "↩";
+
     back.setAttribute(
       "aria-label",
       "Return to footnote reference"
     );
 
-    back.addEventListener("click", function (event) {
-      event.preventDefault();
+    back.addEventListener(
+      "click",
+      function (event) {
+        event.preventDefault();
 
-      reference.scrollIntoView({
-        behavior: "smooth",
-        block: "center"
-      });
+        reference.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
 
-      reference.focus({
-        preventScroll: true
-      });
-    });
+        reference.focus({
+          preventScroll: true
+        });
+      }
+    );
 
     note.appendChild(back);
 
     /*
-     * Insert immediately after the paragraph containing
-     * the footnote reference.
+     * Insert immediately after the paragraph.
      */
-    paragraph.insertAdjacentElement("afterend", note);
+    paragraph.insertAdjacentElement(
+      "afterend",
+      note
+    );
 
-    reference.setAttribute("aria-expanded", "true");
+    reference.setAttribute(
+      "aria-expanded",
+      "true"
+    );
   }
+
 
   /*
    * ------------------------------------------------------------
-   * Reference event handlers
+   * Reference events
    * ------------------------------------------------------------
    */
 
   references.forEach(function (reference) {
-    reference.setAttribute("aria-expanded", "false");
 
-    reference.addEventListener("click", function (event) {
-      event.preventDefault();
+    reference.setAttribute(
+      "aria-expanded",
+      "false"
+    );
 
-      if (window.innerWidth < 1200) {
-        openMobileFootnote(reference);
-      } else {
-        showDesktopFootnote(reference);
+    reference.addEventListener(
+      "click",
+      function (event) {
+        event.preventDefault();
+
+        if (window.innerWidth < 1200) {
+          openMobileFootnote(reference);
+        } else {
+          /*
+           * On desktop, clicking simply ensures that the
+           * corresponding note is visible.
+           */
+          updateDesktopFootnotes();
+        }
       }
-    });
+    );
 
     /*
-     * Desktop hover behavior.
+     * Keyboard focus should also update the desktop notes.
      */
-    reference.addEventListener("mouseenter", function () {
-      showDesktopFootnote(reference);
-    });
-
-    reference.addEventListener("focus", function () {
-      if (window.innerWidth >= 1200) {
-        showDesktopFootnote(reference);
+    reference.addEventListener(
+      "focus",
+      function () {
+        if (window.innerWidth >= 1200) {
+          updateDesktopFootnotes();
+        }
       }
-    });
+    );
   });
+
 
   /*
    * ------------------------------------------------------------
-   * Desktop scrolling behavior
+   * Scrolling
    * ------------------------------------------------------------
-   *
-   * Find the reference closest to the upper-middle part of the
-   * viewport and display its footnote.
    */
 
   let ticking = false;
 
-  function updateDesktopFootnote() {
-    if (window.innerWidth < 1200) {
-      hideDesktopFootnote();
-      return;
-    }
-
-    let closest = null;
-    let closestDistance = Infinity;
-
-    const targetY = window.innerHeight * 0.35;
-
-    references.forEach(function (reference) {
-      const rect = reference.getBoundingClientRect();
-
-      /*
-       * Only consider references currently near the viewport.
-       */
-      if (
-        rect.bottom < 0 ||
-        rect.top > window.innerHeight
-      ) {
-        return;
-      }
-
-      const center = rect.top + rect.height / 2;
-      const distance = Math.abs(center - targetY);
-
-      if (distance < closestDistance) {
-        closestDistance = distance;
-        closest = reference;
-      }
-    });
-
-    if (closest) {
-      showDesktopFootnote(closest);
-    } else {
-      hideDesktopFootnote();
-    }
-  }
-
   function onScroll() {
     if (!ticking) {
       window.requestAnimationFrame(function () {
-        updateDesktopFootnote();
+        updateDesktopFootnotes();
         ticking = false;
       });
 
@@ -334,35 +424,64 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  window.addEventListener("scroll", onScroll, {
-    passive: true
-  });
+  window.addEventListener(
+    "scroll",
+    onScroll,
+    { passive: true }
+  );
 
-  window.addEventListener("resize", function () {
-    /*
-     * Remove mobile notes when switching to desktop.
-     */
-    if (window.innerWidth >= 1200) {
-      article
-        .querySelectorAll(".mobile-footnote")
-        .forEach(function (note) {
-          note.remove();
-        });
-
-      article
-        .querySelectorAll("a.footnote")
-        .forEach(function (link) {
-          link.setAttribute("aria-expanded", "false");
-        });
-
-      updateDesktopFootnote();
-    } else {
-      hideDesktopFootnote();
-    }
-  });
 
   /*
-   * Initial desktop state.
+   * ------------------------------------------------------------
+   * Resizing
+   * ------------------------------------------------------------
    */
-  updateDesktopFootnote();
+
+  window.addEventListener(
+    "resize",
+    function () {
+
+      if (window.innerWidth >= 1200) {
+
+        /*
+         * Remove mobile notes when switching to desktop.
+         */
+        article
+          .querySelectorAll(".mobile-footnote")
+          .forEach(function (note) {
+            note.remove();
+          });
+
+        article
+          .querySelectorAll(
+            "a.footnote"
+          )
+          .forEach(function (link) {
+            link.setAttribute(
+              "aria-expanded",
+              "false"
+            );
+          });
+
+        updateDesktopFootnotes();
+
+      } else {
+
+        sidebar.classList.remove(
+          "is-visible"
+        );
+
+        sidebar.innerHTML = "";
+      }
+    }
+  );
+
+
+  /*
+   * ------------------------------------------------------------
+   * Initial state
+   * ------------------------------------------------------------
+   */
+
+  updateDesktopFootnotes();
 });
