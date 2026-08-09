@@ -7,8 +7,6 @@ excerpt: >
   Testing footnote display.
 ---
 
-# Lorem Ipsum Footnote Test
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque nec nulla suscipit tincidunt. Suspendisse potenti. Donec vulputate, nisl at aliquam feugiat, justo sapien malesuada erat, vitae fermentum libero neque non arcu. Curabitur consequat, magna quis interdum consectetur, erat massa tincidunt nunc, sed feugiat neque ipsum at libero. Vivamus consequat, sapien vitae dignissim porttitor, nunc ipsum ullamcorper massa, vitae elementum arcu neque sed nisl. Proin interdum, lectus at consequat tincidunt, lorem arcu consectetur metus, vitae facilisis massa lacus non magna.[^1]
 
 Mauris tincidunt, erat quis suscipit vulputate, justo augue elementum nibh, sed aliquet magna lorem sit amet purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Quisque pellentesque sem id justo vulputate, vitae luctus nisl placerat. Aliquam erat volutpat. Donec id magna euismod, tincidunt lorem quis, aliquam erat. Sed vitae lorem vitae augue commodo imperdiet. Nam tristique augue sed purus fermentum, vel aliquet neque aliquet. Integer interdum libero vel neque posuere, non scelerisque nisl volutpat.[^2]
@@ -57,9 +55,6 @@ In conclusion, this final paragraph exists primarily to provide additional mater
 
 The text continues with deliberately ordinary filler so that the final footnote does not appear immediately at the bottom of the article. Phasellus auctor, lectus sed pulvinar pretium, arcu neque aliquet lorem, at condimentum magna nulla non nisl. Donec vitae ipsum vel sapien tempor malesuada. Morbi malesuada ligula vel neque elementum, sed consequat purus scelerisque. Integer vitae mauris non neque consequat facilisis. Suspendisse euismod eros vitae lectus consequat, sed luctus ipsum posuere.
 
----
-
-## Footnotes
 
 [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is the first test footnote and provides enough text to see how a relatively short note behaves.
 
