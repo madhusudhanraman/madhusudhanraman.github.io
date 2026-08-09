@@ -7,7 +7,7 @@ tags:
   - Jorge Luis Borges
   - Rainer Maria Rilke
 excerpt: >
-  Testing footnote display.
+  You suffer captivity, but you will have given a word to the poem.
 ---
 
 From _Inferno, I, 32_ in _Labyrinths_ (1962) by Jorge Luis Borges.[^1]
@@ -59,9 +59,9 @@ in Paris, where he would compose _The Panther_ for his _New Poems_
 > rushes down through the tensed, arrested muscles,\
 > plunges into the heart and is gone.
 	
-[^1]: As always, I prefer the translations of James E. Irby.
+[^1]: This translation is due to James E. Irby.
 
-[^2]: The translation is due to Stephen Mitchell. A comparison of some
-    well-known translations can be found
+[^2]: This translation is due to Stephen Mitchell. An interesting
+    discussion of some well-known translations can be found
     [here](https://rilkeduinoelegiestranslations.com/der-panther-the-panther-comparing-translations/).
 
