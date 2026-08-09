@@ -1,6 +1,6 @@
 ---
 title: "Parker and Addonizio - Résumé"
-date: 2026-08-09
+date: 2026-08-09 18:00:00 +0530
 categories: 
   - Literature
 tags:
