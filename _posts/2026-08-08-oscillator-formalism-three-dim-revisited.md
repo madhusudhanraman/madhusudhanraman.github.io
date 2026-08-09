@@ -1,5 +1,5 @@
 ---
-title: "Higher Dimensional Oscillators, Revisited"
+title: "Three-Dimensional Oscillators, Revisited"
 date: 2026-08-08 18:00:00 +0530
 categories: 
   - Physics

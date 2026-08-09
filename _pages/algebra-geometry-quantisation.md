@@ -9,7 +9,6 @@ author_profile: true
   - [The Action Principle](https://madhusudhanraman.github.io/physics/action-principle/)
   - [Canonical Structures](https://madhusudhanraman.github.io/physics/canonical-structures/)
   - [Symplectic Geometry](https://madhusudhanraman.github.io/physics/symplectic-geometry/)
-- Symmetries
   - The Geometry of Forms
   - Group Actions
   - Hamiltonian Vector Fields
@@ -20,9 +19,9 @@ author_profile: true
 - The Heisenberg Algebra
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
-  - [Higher-Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
+  - [Higher Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
   - [Completeness?](https://madhusudhanraman.github.io/physics/oscillator-formalism-completeness/)
-  - Three-Dimensional Oscillators, Revisited
+  - [Three-Dimensional Oscillators, Revisited](https://madhusudhanraman.github.io/physics/oscillator-formalism-three-dim-revisited/)
   - The Theta Correspondence
   - A Simpler Example: Schur-Weyl Duality
   - Dual Reductive Pairs and Applications
