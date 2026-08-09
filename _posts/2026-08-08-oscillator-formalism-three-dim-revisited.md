@@ -9,7 +9,7 @@ excerpt: >
 
 We sharpen our focus now to the relatively simple case of $
 \text{SU}(3) $, since there is a neat trick that allows us to
-generate all representations $ (n,m) $.
+generate all its representations.
 
 Recall that we constructed the representation $ (N,0) $ using three
 oscillators. The fact that the algebra of these oscillator creation
