@@ -10,7 +10,7 @@ excerpt: >
   You suffer captivity, but you will have given a word to the poem.
 ---
 
-From _Inferno, I, 32_ in _Labyrinths_ (1962) by Jorge Luis Borges.[^1]
+_Inferno, I, 32_ in _Labyrinths_ (1962) by Jorge Luis Borges.[^1]
 
 > From the twilight of day till the twilight of evening, a leopard, 
 > in the last years of the thirteenth century, would see some 
@@ -39,10 +39,10 @@ From _Inferno, I, 32_ in _Labyrinths_ (1962) by Jorge Luis Borges.[^1]
 > able to recuperate or even glimpse, for the machinery of the 
 > world is much too complex for the simplicity of men. 
 
-Centuries would pass before Rainer Maria Rilke, on the advice of
-Auguste Rodin, would spend time at the Ménagerie du Jardin des Plantes
-in Paris, where he would compose _The Panther_ for his _New Poems_
-(1907).[^2]
+Centuries after these obscure resignations and half-remembered dreams,
+Rainer Maria Rilke, on the advice of Auguste Rodin, would spend time
+at the Ménagerie du Jardin des Plantes in Paris, where he would
+compose _The Panther_ for his _New Poems_ (1907).[^2]
 
 > His vision, from the constantly passing bars,\
 > has grown so weary that it cannot hold\

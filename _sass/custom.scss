@@ -1,4 +1,4 @@
-/* Change font size, justify all paragraphs. */
+/* Change font size, justify all paragraphs, make blockquotes normal. */
 
 html {
   font-size: 16px;
@@ -7,6 +7,10 @@ html {
 .page__content p {
   text-align: justify;
   hyphens: auto;
+}
+
+.page__content blockquote {
+  font-style: normal;
 }
 
 /* Centers TOC in right third of screen. */
