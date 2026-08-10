@@ -62,6 +62,7 @@ compose _The Panther_ for his _New Poems_ (1907).[^2]
 [^1]: This translation is due to James E. Irby.
 
 [^2]: This translation is due to Stephen Mitchell. An interesting
-    discussion of some well-known translations can be found
+    discussion and comparison of some well-known translations can be
+    found
     [here](https://rilkeduinoelegiestranslations.com/der-panther-the-panther-comparing-translations/).
 
