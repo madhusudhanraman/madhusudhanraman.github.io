@@ -35,8 +35,8 @@ Shaw_, where Borges writes:[^2]
 > sectors with Latin words...
  
 He discusses this apparatus in more detail in a short essay titled
-_Ramon Llull's Thinking Machine_, at first admitting freely and
-unperturbed by its intricate futility.[^3]
+_Ramon Llull's Thinking Machine_, at first admitting freely its
+intricate futility and unperturbed by it.[^3]
 
 > [M]easured against its objective, judged by its inventor's
 > illustrious goal, the thinking machine does not work. For us, that
