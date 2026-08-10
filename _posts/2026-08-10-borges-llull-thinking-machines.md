@@ -7,10 +7,8 @@ tags:
   - Jorge Luis Borges
   - Ramon Llull
 excerpt: >
-  ...
+  On the combinatorics of discovery.
 ---
-
-## Borges on Llull
 
 Borges refers to the work of Ramon Llull (or Raymond Lully, or even
 Raimundo Lulio) at least thrice in his oeuvre. My earliest encounter
@@ -79,7 +77,7 @@ of Llull's Christian apologetics, it also functioned more generally
 (not unlike the dialectic) as a universal methodology, a practical art
 of investigation for all subjects.
 
-## Thinking Machines
+---
 
 Returning now to _A Note on (toward) Bernard Shaw_, Borges identifies
 a pathology more severe underlying the logic of the _Ars_:
@@ -108,9 +106,12 @@ and the natural sciences, but it is not clear to me yet.
 
 [^1]: Collected in _Labyrinths_ (1962). The translation quoted here
     is by James E. Irby.
+	
 [^2]: Ibid.
+
 [^3]: Collected in _Selected Non-Fictions_ (1999). The translation
     quoted here is by Esther Allen.
+	
 [^4]: For a brief biography of Llull and a detailed discussion of the
     _Ars_, see _The Art of Logic of Ramon Llull: A User's Guide_ by
     Anthony Bonner (2007), where the quote below is also drawn from.
