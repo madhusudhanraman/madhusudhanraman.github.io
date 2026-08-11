@@ -6,7 +6,11 @@ permalink: /movies/
 
 <div class="movie-grid">
 
-{% assign movie_posts = site.categories.movies | sort: "date" | reverse %}
+{% assign movie_posts = site.posts
+  | where_exp: "post", "post.categories contains 'Movies'"
+  | sort: "date"
+  | reverse
+%}
 
 {% for post in movie_posts %}
   <a class="movie-card" href="{{ post.url | relative_url }}">
