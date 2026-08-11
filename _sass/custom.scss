@@ -332,8 +332,8 @@ blockquote {
 }
 
 .movie-meta {
-  display: block;
-  margin-top: 0.4em;
+  display: block !important;
+  margin-top: 0.5em;
 }
 
 .movie-meta strong {
