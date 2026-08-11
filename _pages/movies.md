@@ -25,10 +25,6 @@ author_profile: true
     {% if post.director %}
       <div class="movie-director">{{ post.director }}</div>
     {% endif %}
-
-    {% if post.movie_year %}
-      <div class="movie-year">{{ post.movie_year }}</div>
-    {% endif %}
   </a>
 {% endfor %}
 
