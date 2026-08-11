@@ -10,16 +10,16 @@
   {% endif %}
 
   {% if page.categories contains "Movies" and page.director %}
-    <span class="page__taxonomy-item">
+    <span class="movie-meta">
       <i class="fas fa-film" aria-hidden="true"></i>
-      Director: {{ page.director }}
+      <strong>Director:</strong> {{ page.director }}
     </span>
   {% endif %}
 
   {% if page.categories contains "Movies" and page.cast %}
-    <span class="page__taxonomy-item">
+    <span class="movie-meta">
       <i class="fas fa-users" aria-hidden="true"></i>
-      Cast:
+      <strong>Cast:</strong>
       {% for actor in page.cast %}
         {{ actor }}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
