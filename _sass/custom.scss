@@ -348,3 +348,23 @@ blockquote {
 .movie-page__meta-item strong {
   font-weight: 700;
 }
+
+.movie-poster {
+  float: right;
+  width: 280px;
+  margin: 0 0 1.5em 2em;
+}
+
+.movie-poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .movie-poster {
+    float: none;
+    width: 60%;
+    margin: 0 auto 1.5em;
+  }
+}
