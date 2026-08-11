@@ -9,6 +9,8 @@ excerpt: >
   Silent, upon a peak in Darien.
 ---
 
+Published in _Poems_ (1817).
+
 > Much have I travell'd in the realms of gold,\
 > And many goodly states and kingdoms seen;\
 > Round many western islands have I been\

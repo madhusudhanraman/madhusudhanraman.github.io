@@ -1,6 +1,6 @@
 ---
 title: "Plutarch - Parallel Lives: Gaius Marius"
-date: 2026-08-11 17:00:00 +0530
+date: 2026-08-11 15:00:00 +0530
 categories: 
   - Literature
 tags:
@@ -9,6 +9,8 @@ excerpt: >
   Tell him, then, that thou hast seen Gaius Marius, a fugitive,
 > seated amid the ruins of Carthage.
 ---
+
+An excerpt from _Parallel Lives_ by Plutarch, on Gaius Marius.
 
 > The Roman governor of Africa at this time was Sextilius, a man who
 > had received neither good nor ill at the hands of Marius, but whom,
