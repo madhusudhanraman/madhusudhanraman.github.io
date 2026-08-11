@@ -265,3 +265,61 @@ blockquote {
     font-size: 0.7em;
   }
 }
+
+/* MOVIE GRID */
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1.5rem;
+  margin-top: 2rem;
+}
+
+.movie-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.movie-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.movie-card:hover img {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 14px rgba(0, 0, 0, 0.2);
+}
+
+.movie-title {
+  margin-top: 0.7rem;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.movie-year {
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+  opacity: 0.65;
+}
+
+/* Three columns on medium screens */
+@media (max-width: 900px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Two columns on phones */
+@media (max-width: 600px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 1rem;
+  }
+}
