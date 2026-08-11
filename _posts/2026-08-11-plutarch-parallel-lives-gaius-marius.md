@@ -1,13 +1,12 @@
 ---
 title: "Plutarch - Parallel Lives: Gaius Marius"
-date: 2026-08-11 15:00:00 +0530
+date: 2026-08-11 10:00:00 +0530
 categories: 
   - Literature
 tags:
   - Plutarch
 excerpt: >
-  Tell him, then, that thou hast seen Gaius Marius, a fugitive,
-> seated amid the ruins of Carthage.
+  Tell him, then, that thou hast seen Gaius Marius, a fugitive, seated amid the ruins of Carthage.
 ---
 
 An excerpt from _Parallel Lives_ by Plutarch, on Gaius Marius.
