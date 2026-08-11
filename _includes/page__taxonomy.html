@@ -9,12 +9,19 @@
     {% include category-list.html locale=locale %}
   {% endif %}
 
+  {% if page.categories contains "Movies" and page.director %}
+    <span class="page__taxonomy-item">
+      <i class="fas fa-film" aria-hidden="true"></i>
+      Director: {{ page.director }}
+    </span>
+  {% endif %}
+
   {% if page.categories contains "Movies" and page.cast %}
     <span class="page__taxonomy-item">
       <i class="fas fa-users" aria-hidden="true"></i>
       Cast:
       {% for actor in page.cast %}
-        {{ actor.name }}{% unless forloop.last %}, {% endunless %}
+        {{ actor }}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </span>
   {% endif %}
