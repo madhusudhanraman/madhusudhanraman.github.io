@@ -2,6 +2,7 @@
 title: "Movies"
 layout: single
 permalink: /movies/
+author_profile: true
 ---
 
 <div class="movie-grid">
@@ -20,6 +21,11 @@ permalink: /movies/
       loading="lazy"
     >
     <div class="movie-title">{{ post.title }}</div>
+
+    {% if post.director %}
+      <div class="movie-director">{{ post.director }}</div>
+    {% endif %}
+
     {% if post.movie_year %}
       <div class="movie-year">{{ post.movie_year }}</div>
     {% endif %}
