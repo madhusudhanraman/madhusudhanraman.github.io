@@ -331,11 +331,20 @@ blockquote {
   opacity: 0.75;
 }
 
-.movie-meta {
-  display: block !important;
-  margin-top: 0.5em;
+.movie-page__meta {
+  margin-top: 0;
 }
 
-.movie-meta strong {
+.movie-page__meta-item {
+  display: block;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+.movie-page__meta-item:last-child {
+  margin-bottom: 0;
+}
+
+.movie-page__meta-item strong {
   font-weight: 700;
 }
