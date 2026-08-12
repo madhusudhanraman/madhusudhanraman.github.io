@@ -5,7 +5,7 @@ permalink: /philosophy/
 layout: single
 author_profile: true
 ---
-
+...
 ## The Vienna Circle
 Some notes on the philosophy of science that emerged from the Vienna
 Circle. 

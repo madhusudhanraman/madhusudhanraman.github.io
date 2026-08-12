@@ -4,9 +4,7 @@ permalink: /physics/
 layout: single
 author_profile: true
 ---
-
-Notes on theoretical and mathematical physics.
-
+...
 ## Algebra, Geometry, and Quantisation
 
 An ongoing collection of notes exploring algebraic and geometric
