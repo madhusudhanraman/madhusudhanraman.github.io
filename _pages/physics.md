@@ -2,13 +2,12 @@
 title: "Physics"
 permalink: /physics/
 layout: single
+author_profile: true
 ---
 
 Notes on theoretical and mathematical physics.
 
-## Current Projects
-
-### Algebraic and Geometric Aspects of Quantisation
+## Algebra, Geometry, and Quantisation
 
 An ongoing collection of notes exploring algebraic and geometric
 aspects of quantisation.
@@ -54,5 +53,5 @@ aspects of quantisation.
 A collection of shorter or independent notes that do not yet belong to
 a larger project.
 
-- ...
+- [The Noether Current for Electric-Magnetic Duality](https://madhusudhanraman.github.io/physics/noether-current-em-duality/)
 

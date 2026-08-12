@@ -14,14 +14,14 @@ author_profile: true
 </p>
 
 
-#### [The Vienna Circle](https://madhusudhanraman.github.io/vienna-circle/)
+#### [Philosophy](https://madhusudhanraman.github.io/philosophy/)
 <p class="archive__item-excerpt">
-  On the philosophy of science associated with the Vienna Circle.
+  Mostly on the philosophy of science.
 </p>
 
 #### [Movies](https://madhusudhanraman.github.io/movies/)
 <p class="archive__item-excerpt">
-  On some films I've watched recently.
+  Some films I've watched recently.
 </p>
 
 
