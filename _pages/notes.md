@@ -8,15 +8,20 @@ author_profile: true
 ## Collections
 ---
 
-#### [Algebra, Geometry, and Quantisation](https://madhusudhanraman.github.io/algebra-geometry-quantisation/)
+#### [Physics](https://madhusudhanraman.github.io/physics/)
 <p class="archive__item-excerpt">
-  On some algebraic and geometric aspects of quantisation.
+  On various aspects of theoretical and mathematical physics.
 </p>
 
 
 #### [The Vienna Circle](https://madhusudhanraman.github.io/vienna-circle/)
 <p class="archive__item-excerpt">
   On the philosophy of science associated with the Vienna Circle.
+</p>
+
+#### [Movies](https://madhusudhanraman.github.io/movies/)
+<p class="archive__item-excerpt">
+  On some films I've watched recently.
 </p>
 
 
