@@ -14,8 +14,10 @@
     <span itemprop="keywords">
     {% for category_word in categories_sorted %}
       {% if category_word == "Movies" %}
-        <a href="{{ '/movies/' | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>
-      {% else %}
+  <a href="{{ '/movies/' | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>
+{% elsif category_word == "Physics" %}
+  <a href="{{ '/physics/' | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>
+{% else %}
         <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}" class="page__taxonomy-item p-category" rel="tag">{{ category_word }}</a>
       {% endif %}
       {% unless forloop.last %}<span class="sep">, </span>{% endunless %}
