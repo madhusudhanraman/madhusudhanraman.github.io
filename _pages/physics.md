@@ -34,7 +34,7 @@ aspects of quantisation.
   - Dual Reductive Pairs and Applications
   - Supergroups
 - The Hall Effect
-  - The Landau Problem
+  - [The Landau Problem](https://madhusudhanraman.github.io/physics/landau-problem/)
   - Integer Hall Effect
   - Fractional Hall Effect
 - Bosonisation
