@@ -15,14 +15,14 @@ From [Act 5, Scene
 of *King Lear* (1606) by William Shakespeare, between Cordelia and
 Lear.
 
-> CORDELIA\
+> **CORDELIA**\
 > We are not the first\
 > Who with best meaning have incurred the worst.\
 > For thee, oppressèd king, I am cast down.\
 > Myself could else outfrown false Fortune's frown.\
 > Shall we not see these daughters and these sisters?
 > 
-> KING LEAR\
+> **KING LEAR**\
 > No, no, no, no. Come, let's away to prison.\
 > We two alone will sing like birds i' th' cage.\
 > When thou dost ask me blessing, I'll kneel down\
