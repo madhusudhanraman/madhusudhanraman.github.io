@@ -39,7 +39,8 @@ whose commutations relations are
 \left[ \Pi _ {i} , \Pi _ {j}  \right] = i \epsilon _ {ij} e B \ ,
 \end{equation}
 where $ \epsilon _ {ij} $ is the totally antisymmetric two-dimensional
-Levi-Civita symbol.[^1] Our
+Levi-Civita symbol. (It is useful, incidentally, to write $ A _ {i} = -\frac{B}{2} \epsilon _ {ij} x _ {j} $ sometimes.
+) Our
 conventions completely specified by $ \epsilon _ {12} = +1 $. Consider
 the following operators constructed out of the $ \Pi _ {i} $:
 \begin{equation}
@@ -115,5 +116,3 @@ Thus
 N \propto  \frac{eB}{2 \pi } \, \text{d} x _ {1}  \, \text{d} x _ {2} \ ,
 \end{equation}
 or, more properly, the degeneracy per unit area is $ e B/2 \pi $.
-
-[^1]: It is useful, incidentally, to write $ A _ {i} = -\frac{B}{2} \epsilon _ {ij} x _ {j} $ sometimes.
