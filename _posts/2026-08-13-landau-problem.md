@@ -116,5 +116,4 @@ N \propto  \frac{eB}{2 \pi } \, \text{d} x _ {1}  \, \text{d} x _ {2} \ ,
 \end{equation}
 or, more properly, the degeneracy per unit area is $ e B/2 \pi $.
 
-[^1]: It is useful, incidentally, to write $ A _ {i} = -\frac{B}{2}
-\epsilon _ {ij} x _ {j} $ sometimes.
+[^1]: It is useful, incidentally, to write $ A _ {i} = -\frac{B}{2} \epsilon _ {ij} x _ {j} $ sometimes.
