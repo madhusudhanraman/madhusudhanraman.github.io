@@ -50,7 +50,7 @@ which satisfy the familar commutation relations
 \begin{equation}
 \left[ a, a ^ {\dagger }  \right] = 1 \ ,
 \end{equation}
-and so the Hamiltonian in \cref{eq:landau-problem-hamiltonian} is
+and so the Hamiltonian in \eqref{eq:landau-problem-hamiltonian} is
 equivalently expressed as
 \begin{equation}
 H = \frac{eB}{m} \left( a ^ {\dagger } a + \frac{1}{2}  \right) \ .
@@ -105,7 +105,7 @@ volume spanned by these directions. Then
 \begin{equation}
 N \propto \frac{1}{2 \pi } \, \text{d} M _ {1} \, \text{d} M _ {2} \ ,
 \end{equation}
-Let's consider the LLL and ignore zero-point fluctuations. Minimising
+Let's consider the lowest Landau level and ignore zero-point fluctuations. Minimising
 the Hamiltonian tells us $ \Pi _ {i} \sim 0 $, which in turn means $ p
 _ {i} \sim e A _ {i} $, so
 \begin{equation}
