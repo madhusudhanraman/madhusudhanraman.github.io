@@ -23,6 +23,7 @@ aspects of quantisation.
   - Dual Algebras
 - Groups, Algebras, and Representations
 - The Heisenberg Algebra
+- Schur-Weyl Duality
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
   - [Higher Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
@@ -30,7 +31,6 @@ aspects of quantisation.
   - [Three-Dimensional Oscillators,
     Revisited](https://madhusudhanraman.github.io/physics/oscillator-formalism-three-dim-revisited/)
   - The Theta Correspondence
-  - A Simpler Example: Schur-Weyl Duality
   - Dual Reductive Pairs and Applications
   - Supergroups
 - The Hall Effect
