@@ -18,6 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const bioElement = document.getElementById("author-bio");
 
   if (bioElement) {
-    bioElement.innerHTML = bio;
+    bioElement.innerHTML = "<p>" + bio + "</p>";
   }
 });
