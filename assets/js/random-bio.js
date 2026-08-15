@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sessionStorage.setItem(storageKey, bio);
   }
 
-  const bioElement = document.querySelector(".author__bio");
+  const bioElement = document.getElementById("author-bio");
 
   if (bioElement) {
     bioElement.innerHTML = bio;
