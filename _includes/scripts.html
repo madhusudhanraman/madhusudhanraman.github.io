@@ -27,3 +27,9 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  window.authorBios = {{ site.data.author_bios | jsonify }};
+</script>
+
+<script src="{{ '/assets/js/random-bio.js' | relative_url }}"></script>

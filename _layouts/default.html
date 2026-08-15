@@ -35,9 +35,3 @@
     {% include scripts.html locale=locale %}
   </body>
 </html>
-
-<script>
-  window.authorBios = {{ site.data.author_bios | jsonify }};
-</script>
-
-<script src="{{ '/assets/js/random-bio.js' | relative_url }}"></script>
