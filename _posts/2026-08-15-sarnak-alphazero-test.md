@@ -28,7 +28,7 @@ Rather disappointingly, Sarnak goes on to write:
 > understanding why. Since understanding is such an integral part of
 > doing mathematics, we will have to rethink what mathematics is.
 
-Perhaps this is naïve, but it seems to me that having an oracle that
+This may be naïve, but it seems to me that having an oracle that
 certifies (reliably, even) the truth or falsity of mathematical
 statements doesn't change what a mathematician would _do_ to
 understand why it is true or false. The mathematician would go from
