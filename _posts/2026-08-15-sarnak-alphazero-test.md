@@ -38,7 +38,7 @@ understand why." With or without the oracla, mathematics _is_ the
 understanding, and not the corpus of lemmas and theorems they
 illuminate.
 
-Sarnak goes on to postulate that:
+Sarnak later postulates that:
 
 > The problems for which [our statistical theorem prover] will have
 > success are ones that are already in the ballpark of our current
