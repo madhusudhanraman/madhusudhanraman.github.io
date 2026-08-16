@@ -8,8 +8,8 @@ excerpt: >
   ...
 ---
 
-Peter Sarnak's [writes](https://doi.org/10.1090/noti3373) in the
-_Notices of the American Mathematical Society_ on the "AlphaZero Test"
+Peter Sarnak's [proposes](https://doi.org/10.1090/noti3373) in the
+_Notices of the American Mathematical Society_ the "AlphaZero Test"
 for AI in mathematics:
 
 > _The AlphaZero Test_: The theorem prover has no access to any
@@ -20,7 +20,7 @@ for AI in mathematics:
 > self-correcting guesses using statistical machine learning... will
 > recover few of the theorems of our theories.
 
-Rather disappointingly, Sarnak goes on to write:
+Rather disappointingly, he goes on to write:
 
 > If the postulate is wrong, the impact on mathematics would be
 > dramatic since we would be in the position of knowing that
@@ -34,8 +34,9 @@ statements doesn't change what a mathematician would _do_ to
 understand why it is true or false. The mathematician would go from
 saying "I am trying to prove this conjecture/find a counterexample to
 this conjecture" to "This conjecture is true/false and I am trying to
-understand why." In both cases, the mathematics _is_ the
-understanding. 
+understand why." With or without the oracla, mathematics _is_ the
+understanding, and not the corpus of lemmas and theorems they
+illuminate.
 
 Sarnak goes on to postulate that:
 
