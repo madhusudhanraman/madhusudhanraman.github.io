@@ -5,10 +5,11 @@ categories:
   - Commentary
 tags:
 excerpt: >
-  ...
+  Mathematics _is_ the understanding, and
+  not the corpus of lemmas and theorems it illuminates.
 ---
 
-Peter Sarnak's [proposes](https://doi.org/10.1090/noti3373) in the
+Peter Sarnak [proposes](https://doi.org/10.1090/noti3373) in the
 _Notices of the American Mathematical Society_ the "AlphaZero Test"
 for AI in mathematics:
 
@@ -34,9 +35,9 @@ statements doesn't change what a mathematician would _do_ to
 understand why it is true or false. The mathematician would go from
 saying "I am trying to prove this conjecture/find a counterexample to
 this conjecture" to "This conjecture is true/false and I am trying to
-understand why." With or without the oracla, mathematics _is_ the
-understanding, and not the corpus of lemmas and theorems they
-illuminate.
+understand why." With or without the oracle, mathematics _is_ the
+understanding, and not the corpus of lemmas and theorems it
+illuminates.
 
 Sarnak later postulates that:
 
