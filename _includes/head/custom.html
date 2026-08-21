@@ -9,11 +9,461 @@ window.MathJax = {
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
     processEscapes: true,
     processEnvironments: true,
-    tags: 'ams'
+    tags: 'ams',
+
+    packages: {
+      '[+]': ['youngtab']
+    }
   },
 
   output: {
     font: 'mathjax-newcm'
+  },
+
+  startup: {
+    ready() {
+
+      const {
+        HandlerType,
+        ConfigurationType
+      } = MathJax._.input.tex.HandlerTypes;
+
+      const {
+        Configuration
+      } = MathJax._.input.tex.Configuration;
+
+      const {
+        CommandMap
+      } = MathJax._.input.tex.TokenMap;
+
+      /*
+       * ------------------------------------------------------------------
+       * Young tableaux configuration
+       * ------------------------------------------------------------------
+       */
+
+      let lineThickness = '1pt';
+
+      /*
+       * Parse the argument of \yng(...) or \young(...).
+       *
+       * MathJax's normal GetArgument() expects braces, whereas
+       * youngtab uses parentheses.  We therefore read through the
+       * matching closing parenthesis ourselves.
+       */
+      function getParenArgument(parser, name) {
+        while (parser.nextIsSpace()) {
+          parser.i++;
+        }
+
+        if (parser.string.charAt(parser.i) !== '(') {
+          throw new Error(
+            'Expected ( after ' + name
+          );
+        }
+
+        parser.i++;
+
+        const start = parser.i;
+        let depth = 1;
+        let braces = 0;
+
+        while (parser.i < parser.string.length) {
+
+          const c = parser.string.charAt(parser.i);
+
+          if (c === '\\') {
+            /*
+             * Skip the next character/control sequence so that
+             * parentheses inside TeX commands aren't mistaken for
+             * structural parentheses.
+             */
+            parser.i++;
+
+            if (
+              parser.i < parser.string.length &&
+              /[A-Za-z]/.test(
+                parser.string.charAt(parser.i)
+              )
+            ) {
+              while (
+                parser.i < parser.string.length &&
+                /[A-Za-z]/.test(
+                  parser.string.charAt(parser.i)
+                )
+              ) {
+                parser.i++;
+              }
+            } else {
+              parser.i++;
+            }
+
+            continue;
+          }
+
+          if (c === '{') {
+            braces++;
+          } else if (c === '}') {
+            braces--;
+          } else if (braces === 0) {
+            if (c === '(') {
+              depth++;
+            } else if (c === ')') {
+              depth--;
+
+              if (depth === 0) {
+                const result =
+                  parser.string.slice(start, parser.i);
+
+                parser.i++;
+                return result;
+              }
+            }
+          }
+
+          parser.i++;
+        }
+
+        throw new Error(
+          'Missing closing parenthesis for ' + name
+        );
+      }
+
+      /*
+       * Split the rows at top-level commas.
+       */
+      function splitRows(text) {
+        const rows = [];
+        let current = '';
+        let braces = 0;
+
+        for (let i = 0; i < text.length; i++) {
+          const c = text.charAt(i);
+
+          if (c === '{') {
+            braces++;
+            current += c;
+          } else if (c === '}') {
+            braces--;
+            current += c;
+          } else if (c === ',' && braces === 0) {
+            rows.push(current);
+            current = '';
+          } else {
+            current += c;
+          }
+        }
+
+        rows.push(current);
+
+        return rows;
+      }
+
+      /*
+       * Split a \young row into individual tableau entries.
+       *
+       *     abc       -> a, b, c
+       *     {a_i}bc   -> {a_i}, b, c
+       *     \alpha bc -> \alpha, b, c
+       */
+      function tokenizeRow(row) {
+        const tokens = [];
+        let i = 0;
+
+        while (i < row.length) {
+
+          if (/\s/.test(row.charAt(i))) {
+            i++;
+            continue;
+          }
+
+          /*
+           * Braces make one tableau cell.
+           */
+          if (row.charAt(i) === '{') {
+            let depth = 1;
+            let j = i + 1;
+
+            while (
+              j < row.length &&
+              depth > 0
+            ) {
+              if (row.charAt(j) === '{') {
+                depth++;
+              } else if (row.charAt(j) === '}') {
+                depth--;
+              }
+
+              j++;
+            }
+
+            tokens.push(
+              row.slice(i + 1, j - 1)
+            );
+
+            i = j;
+            continue;
+          }
+
+          /*
+           * A TeX control sequence is one entry.
+           */
+          if (row.charAt(i) === '\\') {
+            let j = i + 1;
+
+            while (
+              j < row.length &&
+              /[A-Za-z]/.test(row.charAt(j))
+            ) {
+              j++;
+            }
+
+            /*
+             * Commands with braced arguments:
+             * e.g. \mathbf{a}
+             */
+            if (
+              row.charAt(j) === '{'
+            ) {
+              let depth = 1;
+              let k = j + 1;
+
+              while (
+                k < row.length &&
+                depth > 0
+              ) {
+                if (row.charAt(k) === '{') {
+                  depth++;
+                } else if (row.charAt(k) === '}') {
+                  depth--;
+                }
+
+                k++;
+              }
+
+              j = k;
+            }
+
+            tokens.push(
+              row.slice(i, j)
+            );
+
+            i = j;
+            continue;
+          }
+
+          /*
+           * Ordinary character.
+           */
+          tokens.push(row.charAt(i));
+          i++;
+        }
+
+        return tokens;
+      }
+
+      /*
+       * Create a MathML cell.
+       */
+      function makeCell(parser, content) {
+
+        const cell = parser.create(
+          'node',
+          'mrow',
+          [],
+          {
+            class: 'youngtab-cell',
+            style:
+              'display:inline-flex;' +
+              'box-sizing:border-box;' +
+              'width:1.55em;' +
+              'height:1.55em;' +
+              'align-items:center;' +
+              'justify-content:center;' +
+              'border:' +
+              lineThickness +
+              ' solid currentColor;' +
+              'margin-left:-' +
+              lineThickness +
+              ';' +
+              'margin-top:-' +
+              lineThickness + ';'
+          }
+        );
+
+        /*
+         * Parse the contents of the cell as TeX.
+         */
+        const parsed =
+          parser.create(
+            'node',
+            'mrow',
+            parser.configuration.nodeFactory
+              .create('mrow')
+          );
+
+        /*
+         * The easiest reliable way to preserve normal MathJax
+         * TeX parsing inside a cell is to parse the content using
+         * the current parser environment.
+         */
+        const childParser =
+          parser.configuration.nodeFactory
+            .create('mrow');
+
+        /*
+         * Use the parser's own argument parser.
+         */
+        const math =
+          parser.parse(
+            content
+          );
+
+        cell.appendChild(math);
+
+        return cell;
+      }
+
+      /*
+       * Create one row.
+       */
+      function makeRow(parser, entries) {
+
+        const row = parser.create(
+          'node',
+          'mrow',
+          [],
+          {
+            class: 'youngtab-row',
+            style:
+              'display:flex;' +
+              'height:1.55em;'
+          }
+        );
+
+        entries.forEach(function (entry) {
+          row.appendChild(
+            makeCell(parser, entry)
+          );
+        });
+
+        return row;
+      }
+
+      /*
+       * \yng(3,2,1)
+       */
+      function yng(parser, name) {
+
+        const argument =
+          getParenArgument(parser, name);
+
+        const lengths =
+          argument
+            .split(',')
+            .map(function (x) {
+              return parseInt(x.trim(), 10);
+            })
+            .filter(function (x) {
+              return Number.isFinite(x) && x > 0;
+            });
+
+        const rows = [];
+
+        lengths.forEach(function (length) {
+
+          const entries = [];
+
+          for (let i = 0; i < length; i++) {
+            entries.push('\\phantom{1}');
+          }
+
+          rows.push(
+            makeRow(parser, entries)
+          );
+        });
+
+        const tableau =
+          parser.create(
+            'node',
+            'mrow',
+            rows,
+            {
+              class: 'youngtab-tableau',
+              style:
+                'display:inline-block;' +
+                'vertical-align:middle;' +
+                'line-height:1;'
+            }
+          );
+
+        parser.Push(tableau);
+      }
+
+      /*
+       * \young(134,25)
+       */
+      function young(parser, name) {
+
+        const argument =
+          getParenArgument(parser, name);
+
+        const rows =
+          splitRows(argument).map(function (row) {
+            return tokenizeRow(row);
+          });
+
+        const mrows =
+          rows.map(function (entries) {
+            return makeRow(parser, entries);
+          });
+
+        const tableau =
+          parser.create(
+            'node',
+            'mrow',
+            mrows,
+            {
+              class: 'youngtab-tableau',
+              style:
+                'display:inline-block;' +
+                'vertical-align:middle;' +
+                'line-height:1;'
+            }
+          );
+
+        parser.Push(tableau);
+      }
+
+      /*
+       * \Ylinethick{1pt}
+       */
+      function Ylinethick(parser, name) {
+        lineThickness =
+          parser.GetArgument(name).trim();
+      }
+
+      const YoungMap =
+        new CommandMap(
+          'youngMap',
+          {
+            yng: yng,
+            young: young,
+            Ylinethick: Ylinethick
+          }
+        );
+
+      Configuration.create(
+        'youngtab',
+        {
+          [ConfigurationType.HANDLER]: {
+            [HandlerType.MACRO]: ['youngMap']
+          }
+        }
+      );
+
+      MathJax.startup.defaultReady();
+    }
   }
 };
 </script>

@@ -376,3 +376,24 @@ blockquote {
   }
 }
 
+/* Young tableaux */
+
+mjx-mrow.youngtab-tableau {
+  display: inline-block !important;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+mjx-mrow.youngtab-row {
+  display: flex !important;
+  height: 1.55em;
+}
+
+mjx-mrow.youngtab-cell {
+  display: inline-flex !important;
+  box-sizing: border-box;
+  width: 1.55em;
+  height: 1.55em;
+  align-items: center;
+  justify-content: center;
+}
