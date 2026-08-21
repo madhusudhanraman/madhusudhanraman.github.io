@@ -33,21 +33,19 @@ window.MathJax = {
         MathJax._.input.tex.TexParser.default;
 
 
-      /*
-       * ============================================================
+      /* ==========================================================
        * Young tableaux
-       * ============================================================
-       */
+       * ========================================================== */
 
       let lineThickness = '1pt';
 
 
       /*
-       * ------------------------------------------------------------
-       * Read the contents of (...).
-       * ------------------------------------------------------------
+       * Read the contents of (...) in
+       *
+       *   \yng(...)
+       *   \young(...)
        */
-
       function getParenthesizedArgument(parser, name) {
 
         while (
@@ -93,6 +91,7 @@ window.MathJax = {
               depth--;
 
               if (depth === 0) {
+
                 const result =
                   parser.string.slice(
                     start,
@@ -118,18 +117,12 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
-       * Split the rows of a tableau.
+       * Split
        *
-       * \young(abc,de,f)
-       * becomes:
+       *   abc,de,f
        *
-       *   abc
-       *   de
-       *   f
-       * ------------------------------------------------------------
+       * into rows.
        */
-
       function splitRows(text) {
 
         const rows = [];
@@ -167,20 +160,12 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
-       * Split a tableau row into individual cells.
+       * Split a row into cells.
        *
-       * abc
-       *     -> a, b, c
-       *
-       * {a_i}bc
-       *     -> a_i, b, c
-       *
-       * \alpha bc
-       *     -> \alpha, b, c
-       * ------------------------------------------------------------
+       *   abc       -> a, b, c
+       *   {a_i}bc   -> a_i, b, c
+       *   \alpha bc -> \alpha, b, c
        */
-
       function tokenizeRow(row) {
 
         const tokens = [];
@@ -188,9 +173,6 @@ window.MathJax = {
 
         while (i < row.length) {
 
-          /*
-           * Ignore whitespace.
-           */
           if (/\s/.test(row.charAt(i))) {
             i++;
             continue;
@@ -198,7 +180,7 @@ window.MathJax = {
 
 
           /*
-           * A braced expression is one cell.
+           * Braced material is one cell.
            */
           if (row.charAt(i) === '{') {
 
@@ -231,7 +213,7 @@ window.MathJax = {
 
 
           /*
-           * A TeX control sequence is one cell.
+           * A TeX command is one cell.
            */
           if (row.charAt(i) === '\\') {
 
@@ -248,13 +230,8 @@ window.MathJax = {
 
 
             /*
-             * Include a braced argument if there is one.
-             *
-             * This permits things such as
-             *
-             *   \mathbf{a}
-             *
-             * to occupy a single cell.
+             * Include a braced argument, e.g.
+             * \mathbf{a}
              */
             if (row.charAt(j) === '{') {
 
@@ -290,10 +267,9 @@ window.MathJax = {
 
 
           /*
-           * An ordinary character is one cell.
+           * Ordinary character.
            */
           tokens.push(row.charAt(i));
-
           i++;
         }
 
@@ -302,20 +278,19 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
-       * Create one tableau cell.
+       * ----------------------------------------------------------
+       * Make one cell.
        *
-       * Each boundary is drawn exactly once:
+       * Border convention:
        *
-       *   - right border: every cell
-       *   - left border: first cell in each row
-       *   - top border: cells in first row
-       *   - bottom border: cells with no cell below
+       *   top    = first row only
+       *   right  = every cell
+       *   bottom = every cell
+       *   left   = first cell in each row
        *
-       * This prevents internal lines from becoming twice as thick.
-       * ------------------------------------------------------------
+       * Therefore every visible line is drawn exactly once.
+       * ----------------------------------------------------------
        */
-
       function makeCell(
         parser,
         content,
@@ -364,11 +339,6 @@ window.MathJax = {
         }
 
 
-        /*
-         * Parse the contents of the cell using MathJax's
-         * own TeX parser, so ordinary mathematical notation
-         * continues to work inside tableau cells.
-         */
         const cellMath =
           new TexParser(
             content,
@@ -390,62 +360,28 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
-       * Create one row.
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
+       * Make one row.
+       * ----------------------------------------------------------
        */
-
       function makeRow(
         parser,
         entries,
-        rowIndex,
-        rowLengths
+        rowIndex
       ) {
 
         const cells =
           entries.map(
             function (entry, colIndex) {
 
-              /*
-               * A cell always has a right edge.
-               *
-               * Only the first cell gets a left edge.
-               */
-              const left =
-                colIndex === 0;
-
-              const right = true;
-
-
-              /*
-               * Only the first row gets top borders.
-               */
-              const top =
-                rowIndex === 0;
-
-
-              /*
-               * Draw the bottom edge when there is no
-               * cell directly underneath this cell.
-               */
-              const below =
-                rowIndex <
-                  rowLengths.length - 1 &&
-                colIndex <
-                  rowLengths[rowIndex + 1];
-
-              const bottom =
-                !below;
-
-
               return makeCell(
                 parser,
                 entry,
                 {
-                  top: top,
-                  right: right,
-                  bottom: bottom,
-                  left: left
+                  top: rowIndex === 0,
+                  right: true,
+                  bottom: true,
+                  left: colIndex === 0
                 }
               );
             }
@@ -467,13 +403,10 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
        * \yng(3,2,1)
-       *
-       * Young diagram with row lengths 3, 2, 1.
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
        */
-
       function Yng(parser, name) {
 
         const argument =
@@ -520,12 +453,10 @@ window.MathJax = {
                 );
               }
 
-
               return makeRow(
                 parser,
                 entries,
-                rowIndex,
-                lengths
+                rowIndex
               );
             }
           );
@@ -552,16 +483,10 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
        * \young(134,25)
-       *
-       * Young tableau with rows:
-       *
-       *   1 3 4
-       *   2 5
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
        */
-
       function Young(parser, name) {
 
         const argument =
@@ -580,14 +505,6 @@ window.MathJax = {
             );
 
 
-        const rowLengths =
-          tokenRows.map(
-            function (row) {
-              return row.length;
-            }
-          );
-
-
         const rows =
           tokenRows.map(
             function (entries, rowIndex) {
@@ -595,8 +512,7 @@ window.MathJax = {
               return makeRow(
                 parser,
                 entries,
-                rowIndex,
-                rowLengths
+                rowIndex
               );
             }
           );
@@ -623,11 +539,10 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
        * \Ylinethick{1pt}
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
        */
-
       function Ylinethick(parser, name) {
 
         lineThickness =
@@ -636,9 +551,9 @@ window.MathJax = {
 
 
       /*
-       * ------------------------------------------------------------
-       * Register the TeX commands.
-       * ------------------------------------------------------------
+       * ----------------------------------------------------------
+       * Register commands.
+       * ----------------------------------------------------------
        */
 
       new CommandMap(
@@ -656,10 +571,6 @@ window.MathJax = {
       );
 
 
-      /*
-       * Register the Young-tab package with MathJax.
-       */
-
       Configuration.create(
         'youngtab',
         {
@@ -671,9 +582,8 @@ window.MathJax = {
 
 
       /*
-       * Continue with normal MathJax startup.
+       * Continue normal MathJax startup.
        */
-
       MathJax.startup.defaultReady();
     }
   }
