@@ -23,15 +23,14 @@ window.MathJax = {
   startup: {
     ready() {
 
-      const Configuration =
-        MathJax._.input.tex.Configuration.Configuration;
+const Configuration =
+  MathJax._.input.tex.Configuration.Configuration;
 
-      const CommandMap =
-        MathJax._.input.tex.TokenMap.CommandMap;
+const CommandMap =
+  MathJax._.input.tex.TokenMap.CommandMap;
 
-      const TexParser =
-        MathJax._.input.tex.TexParser.TexParser;
-
+const TexParser =
+  MathJax._.input.tex.TexParser.default;
 
       /*
        * ------------------------------------------------------------
