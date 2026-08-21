@@ -23,19 +23,20 @@ window.MathJax = {
   startup: {
     ready() {
 
-const Configuration =
-  MathJax._.input.tex.Configuration.Configuration;
+      const Configuration =
+        MathJax._.input.tex.Configuration.Configuration;
 
-const CommandMap =
-  MathJax._.input.tex.TokenMap.CommandMap;
+      const CommandMap =
+        MathJax._.input.tex.TokenMap.CommandMap;
 
-const TexParser =
-  MathJax._.input.tex.TexParser.default;
+      const TexParser =
+        MathJax._.input.tex.TexParser.default;
+
 
       /*
-       * ------------------------------------------------------------
-       * Settings
-       * ------------------------------------------------------------
+       * ============================================================
+       * Young tableaux
+       * ============================================================
        */
 
       let lineThickness = '1pt';
@@ -43,7 +44,7 @@ const TexParser =
 
       /*
        * ------------------------------------------------------------
-       * Read \yng(...) and \young(...)
+       * Read the contents of (...).
        * ------------------------------------------------------------
        */
 
@@ -118,10 +119,14 @@ const TexParser =
 
       /*
        * ------------------------------------------------------------
-       * Split rows of a tableau
+       * Split the rows of a tableau.
        *
        * \young(abc,de,f)
-       *          ^  ^
+       * becomes:
+       *
+       *   abc
+       *   de
+       *   f
        * ------------------------------------------------------------
        */
 
@@ -163,11 +168,16 @@ const TexParser =
 
       /*
        * ------------------------------------------------------------
-       * Split a row into tableau entries
+       * Split a tableau row into individual cells.
        *
-       * abc        -> a b c
-       * {a_i}bc    -> a_i b c
-       * \alpha bc  -> \alpha b c
+       * abc
+       *     -> a, b, c
+       *
+       * {a_i}bc
+       *     -> a_i, b, c
+       *
+       * \alpha bc
+       *     -> \alpha, b, c
        * ------------------------------------------------------------
        */
 
@@ -179,7 +189,7 @@ const TexParser =
         while (i < row.length) {
 
           /*
-           * Ignore spaces.
+           * Ignore whitespace.
            */
           if (/\s/.test(row.charAt(i))) {
             i++;
@@ -188,7 +198,7 @@ const TexParser =
 
 
           /*
-           * {...} is one cell.
+           * A braced expression is one cell.
            */
           if (row.charAt(i) === '{') {
 
@@ -221,7 +231,7 @@ const TexParser =
 
 
           /*
-           * A TeX command is one cell.
+           * A TeX control sequence is one cell.
            */
           if (row.charAt(i) === '\\') {
 
@@ -236,8 +246,15 @@ const TexParser =
               j++;
             }
 
+
             /*
              * Include a braced argument if there is one.
+             *
+             * This permits things such as
+             *
+             *   \mathbf{a}
+             *
+             * to occupy a single cell.
              */
             if (row.charAt(j) === '{') {
 
@@ -273,9 +290,10 @@ const TexParser =
 
 
           /*
-           * Ordinary character.
+           * An ordinary character is one cell.
            */
           tokens.push(row.charAt(i));
+
           i++;
         }
 
@@ -285,17 +303,71 @@ const TexParser =
 
       /*
        * ------------------------------------------------------------
-       * Make a cell
+       * Create one tableau cell.
+       *
+       * Each boundary is drawn exactly once:
+       *
+       *   - right border: every cell
+       *   - left border: first cell in each row
+       *   - top border: cells in first row
+       *   - bottom border: cells with no cell below
+       *
+       * This prevents internal lines from becoming twice as thick.
        * ------------------------------------------------------------
        */
 
-      function makeCell(parser, content) {
+      function makeCell(
+        parser,
+        content,
+        borders
+      ) {
+
+        const border =
+          lineThickness +
+          ' solid currentColor';
+
+        let style =
+          'width:1.55em;' +
+          'height:1.55em;' +
+          'box-sizing:border-box;' +
+          'display:inline-flex;' +
+          'align-items:center;' +
+          'justify-content:center;';
+
+
+        if (borders.top) {
+          style +=
+            'border-top:' +
+            border +
+            ';';
+        }
+
+        if (borders.right) {
+          style +=
+            'border-right:' +
+            border +
+            ';';
+        }
+
+        if (borders.bottom) {
+          style +=
+            'border-bottom:' +
+            border +
+            ';';
+        }
+
+        if (borders.left) {
+          style +=
+            'border-left:' +
+            border +
+            ';';
+        }
+
 
         /*
-         * This is the important correction:
-         *
-         * MathJax 4 uses TexParser to parse the TeX inside
-         * an individual cell.
+         * Parse the contents of the cell using MathJax's
+         * own TeX parser, so ordinary mathematical notation
+         * continues to work inside tableau cells.
          */
         const cellMath =
           new TexParser(
@@ -311,22 +383,7 @@ const TexParser =
           [cellMath],
           {
             class: 'youngtab-cell',
-            style:
-              'width:1.55em;' +
-              'height:1.55em;' +
-              'box-sizing:border-box;' +
-              'display:inline-flex;' +
-              'align-items:center;' +
-              'justify-content:center;' +
-              'border:' +
-              lineThickness +
-              ' solid currentColor;' +
-              'margin-left:-' +
-              lineThickness +
-              ';' +
-              'margin-top:-' +
-              lineThickness +
-              ';'
+            style: style
           }
         );
       }
@@ -334,16 +391,65 @@ const TexParser =
 
       /*
        * ------------------------------------------------------------
-       * Make a row
+       * Create one row.
        * ------------------------------------------------------------
        */
 
-      function makeRow(parser, entries) {
+      function makeRow(
+        parser,
+        entries,
+        rowIndex,
+        rowLengths
+      ) {
 
         const cells =
-          entries.map(function (entry) {
-            return makeCell(parser, entry);
-          });
+          entries.map(
+            function (entry, colIndex) {
+
+              /*
+               * A cell always has a right edge.
+               *
+               * Only the first cell gets a left edge.
+               */
+              const left =
+                colIndex === 0;
+
+              const right = true;
+
+
+              /*
+               * Only the first row gets top borders.
+               */
+              const top =
+                rowIndex === 0;
+
+
+              /*
+               * Draw the bottom edge when there is no
+               * cell directly underneath this cell.
+               */
+              const below =
+                rowIndex <
+                  rowLengths.length - 1 &&
+                colIndex <
+                  rowLengths[rowIndex + 1];
+
+              const bottom =
+                !below;
+
+
+              return makeCell(
+                parser,
+                entry,
+                {
+                  top: top,
+                  right: right,
+                  bottom: bottom,
+                  left: left
+                }
+              );
+            }
+          );
 
 
         return parser.create(
@@ -363,6 +469,8 @@ const TexParser =
       /*
        * ------------------------------------------------------------
        * \yng(3,2,1)
+       *
+       * Young diagram with row lengths 3, 2, 1.
        * ------------------------------------------------------------
        */
 
@@ -374,41 +482,53 @@ const TexParser =
             name
           );
 
+
         const lengths =
           argument
             .split(',')
-            .map(function (x) {
-              return parseInt(
-                x.trim(),
-                10
-              );
-            })
-            .filter(function (x) {
-              return Number.isFinite(x) &&
-                     x > 0;
-            });
+            .map(
+              function (x) {
+                return parseInt(
+                  x.trim(),
+                  10
+                );
+              }
+            )
+            .filter(
+              function (x) {
+                return (
+                  Number.isFinite(x) &&
+                  x > 0
+                );
+              }
+            );
 
 
         const rows =
-          lengths.map(function (length) {
+          lengths.map(
+            function (length, rowIndex) {
 
-            const entries = [];
+              const entries = [];
 
-            for (
-              let i = 0;
-              i < length;
-              i++
-            ) {
-              entries.push(
-                '\\phantom{1}'
+              for (
+                let i = 0;
+                i < length;
+                i++
+              ) {
+                entries.push(
+                  '\\phantom{1}'
+                );
+              }
+
+
+              return makeRow(
+                parser,
+                entries,
+                rowIndex,
+                lengths
               );
             }
-
-            return makeRow(
-              parser,
-              entries
-            );
-          });
+          );
 
 
         const tableau =
@@ -434,6 +554,11 @@ const TexParser =
       /*
        * ------------------------------------------------------------
        * \young(134,25)
+       *
+       * Young tableau with rows:
+       *
+       *   1 3 4
+       *   2 5
        * ------------------------------------------------------------
        */
 
@@ -446,17 +571,35 @@ const TexParser =
           );
 
 
-        const rows =
+        const tokenRows =
           splitRows(argument)
-            .map(function (row) {
-              return tokenizeRow(row);
-            })
-            .map(function (entries) {
+            .map(
+              function (row) {
+                return tokenizeRow(row);
+              }
+            );
+
+
+        const rowLengths =
+          tokenRows.map(
+            function (row) {
+              return row.length;
+            }
+          );
+
+
+        const rows =
+          tokenRows.map(
+            function (entries, rowIndex) {
+
               return makeRow(
                 parser,
-                entries
+                entries,
+                rowIndex,
+                rowLengths
               );
-            });
+            }
+          );
 
 
         const tableau =
@@ -494,10 +637,7 @@ const TexParser =
 
       /*
        * ------------------------------------------------------------
-       * Command map
-       *
-       * MathJax 4 expects the map to point to handler names,
-       * with the actual functions supplied separately.
+       * Register the TeX commands.
        * ------------------------------------------------------------
        */
 
@@ -517,7 +657,7 @@ const TexParser =
 
 
       /*
-       * Register the package.
+       * Register the Young-tab package with MathJax.
        */
 
       Configuration.create(
@@ -531,7 +671,7 @@ const TexParser =
 
 
       /*
-       * Let MathJax continue with its normal startup.
+       * Continue with normal MathJax startup.
        */
 
       MathJax.startup.defaultReady();
