@@ -34,18 +34,16 @@ window.MathJax = {
 
 
       /* ==========================================================
-       * Young tableaux
+       * Young tableaux / youngtab
        * ========================================================== */
 
       let lineThickness = '1pt';
 
 
-      /*
-       * Read the contents of (...) in
-       *
-       *   \yng(...)
-       *   \young(...)
-       */
+      /* ----------------------------------------------------------
+       * Read the contents of (...) in \yng(...) or \young(...)
+       * ---------------------------------------------------------- */
+
       function getParenthesizedArgument(parser, name) {
 
         while (
@@ -116,13 +114,10 @@ window.MathJax = {
       }
 
 
-      /*
-       * Split
-       *
-       *   abc,de,f
-       *
-       * into rows.
-       */
+      /* ----------------------------------------------------------
+       * Split \young(abc,de,f) into rows.
+       * ---------------------------------------------------------- */
+
       function splitRows(text) {
 
         const rows = [];
@@ -159,13 +154,14 @@ window.MathJax = {
       }
 
 
-      /*
+      /* ----------------------------------------------------------
        * Split a row into cells.
        *
-       *   abc       -> a, b, c
-       *   {a_i}bc   -> a_i, b, c
-       *   \alpha bc -> \alpha, b, c
-       */
+       * abc       -> a, b, c
+       * {a_i}bc   -> a_i, b, c
+       * \alpha bc -> \alpha, b, c
+       * ---------------------------------------------------------- */
+
       function tokenizeRow(row) {
 
         const tokens = [];
@@ -173,15 +169,14 @@ window.MathJax = {
 
         while (i < row.length) {
 
+          /* Ignore whitespace. */
           if (/\s/.test(row.charAt(i))) {
             i++;
             continue;
           }
 
 
-          /*
-           * Braced material is one cell.
-           */
+          /* A braced expression is one cell. */
           if (row.charAt(i) === '{') {
 
             let depth = 1;
@@ -212,9 +207,7 @@ window.MathJax = {
           }
 
 
-          /*
-           * A TeX command is one cell.
-           */
+          /* A TeX command is one cell. */
           if (row.charAt(i) === '\\') {
 
             let j = i + 1;
@@ -266,9 +259,7 @@ window.MathJax = {
           }
 
 
-          /*
-           * Ordinary character.
-           */
+          /* Ordinary character. */
           tokens.push(row.charAt(i));
           i++;
         }
@@ -277,21 +268,11 @@ window.MathJax = {
       }
 
 
-      /*
-       * ----------------------------------------------------------
-       * Make one cell.
-       *
-       * Border convention:
-       *
-       *   top    = first row only
-       *   right  = every cell
-       *   bottom = every cell
-       *   left   = first cell in each row
-       *
-       * Therefore every visible line is drawn exactly once.
-       * ----------------------------------------------------------
-       */
-      function makeCell(
+      /* ==========================================================
+       * Young diagrams: \yng(...)
+       * ========================================================== */
+
+      function makeDiagramCell(
         parser,
         content,
         borders
@@ -359,12 +340,7 @@ window.MathJax = {
       }
 
 
-      /*
-       * ----------------------------------------------------------
-       * Make one row.
-       * ----------------------------------------------------------
-       */
-      function makeRow(
+      function makeDiagramRow(
         parser,
         entries,
         rowIndex
@@ -374,7 +350,7 @@ window.MathJax = {
           entries.map(
             function (entry, colIndex) {
 
-              return makeCell(
+              return makeDiagramCell(
                 parser,
                 entry,
                 {
@@ -402,11 +378,6 @@ window.MathJax = {
       }
 
 
-      /*
-       * ----------------------------------------------------------
-       * \yng(3,2,1)
-       * ----------------------------------------------------------
-       */
       function Yng(parser, name) {
 
         const argument =
@@ -453,7 +424,7 @@ window.MathJax = {
                 );
               }
 
-              return makeRow(
+              return makeDiagramRow(
                 parser,
                 entries,
                 rowIndex
@@ -469,7 +440,7 @@ window.MathJax = {
             rows,
             {
               class:
-                'youngtab-tableau',
+                'youngtab-diagram',
               style:
                 'display:inline-block;' +
                 'vertical-align:middle;' +
@@ -482,11 +453,100 @@ window.MathJax = {
       }
 
 
-      /*
-       * ----------------------------------------------------------
-       * \young(134,25)
-       * ----------------------------------------------------------
-       */
+      /* ==========================================================
+       * Young tableaux: \young(...)
+       *
+       * Use actual MathML table elements:
+       *
+       *   mtable
+       *     mtr
+       *       mtd
+       *       ...
+       *
+       * This prevents MathJax's ordinary mathematical row
+       * spacing from affecting the tableau.
+       * ========================================================== */
+
+      function makeTableauCell(
+        parser,
+        content,
+        isFirstRow,
+        isFirstColumn
+      ) {
+
+        const border =
+          lineThickness +
+          ' solid currentColor';
+
+        let style =
+          'box-sizing:border-box;' +
+          'width:1.55em;' +
+          'height:1.55em;' +
+          'padding:0;' +
+          'margin:0;' +
+          'text-align:center;' +
+          'vertical-align:middle;';
+
+
+        /*
+         * Top edge only on the first row.
+         */
+        if (isFirstRow) {
+          style +=
+            'border-top:' +
+            border +
+            ';';
+        }
+
+
+        /*
+         * Left edge only on the first column.
+         */
+        if (isFirstColumn) {
+          style +=
+            'border-left:' +
+            border +
+            ';';
+        }
+
+
+        /*
+         * Every cell supplies its right and bottom edges.
+         * Hence every shared boundary is drawn exactly once.
+         */
+        style +=
+          'border-right:' +
+          border +
+          ';';
+
+        style +=
+          'border-bottom:' +
+          border +
+          ';';
+
+
+        const cellMath =
+          new TexParser(
+            content,
+            parser.stack.env,
+            parser.configuration
+          ).mml();
+
+
+        return parser.create(
+          'node',
+          'mtd',
+          [cellMath],
+          {
+            class:
+              'youngtab-cell',
+            style:
+              style
+          }
+        );
+      }
+
+
       function Young(parser, name) {
 
         const argument =
@@ -505,14 +565,32 @@ window.MathJax = {
             );
 
 
-        const rows =
+        const tableRows =
           tokenRows.map(
             function (entries, rowIndex) {
 
-              return makeRow(
-                parser,
-                entries,
-                rowIndex
+              const cells =
+                entries.map(
+                  function (entry, colIndex) {
+
+                    return makeTableauCell(
+                      parser,
+                      entry,
+                      rowIndex === 0,
+                      colIndex === 0
+                    );
+                  }
+                );
+
+
+              return parser.create(
+                'node',
+                'mtr',
+                cells,
+                {
+                  class:
+                    'youngtab-row'
+                }
               );
             }
           );
@@ -521,15 +599,33 @@ window.MathJax = {
         const tableau =
           parser.create(
             'node',
-            'mrow',
-            rows,
+            'mtable',
+            tableRows,
             {
               class:
                 'youngtab-tableau',
+
+              columnalign:
+                'center',
+
+              rowalign:
+                'center',
+
+              columnspacing:
+                '0em',
+
+              rowspacing:
+                '0em',
+
+              frame:
+                'none',
+
               style:
-                'display:inline-block;' +
+                'display:inline-table;' +
+                'border-spacing:0;' +
                 'vertical-align:middle;' +
-                'line-height:1;'
+                'margin:0;' +
+                'padding:0;'
             }
           );
 
@@ -538,11 +634,10 @@ window.MathJax = {
       }
 
 
-      /*
-       * ----------------------------------------------------------
-       * \Ylinethick{1pt}
-       * ----------------------------------------------------------
-       */
+      /* ==========================================================
+       * \Ylinethick{...}
+       * ========================================================== */
+
       function Ylinethick(parser, name) {
 
         lineThickness =
@@ -550,11 +645,9 @@ window.MathJax = {
       }
 
 
-      /*
-       * ----------------------------------------------------------
-       * Register commands.
-       * ----------------------------------------------------------
-       */
+      /* ==========================================================
+       * Register commands
+       * ========================================================== */
 
       new CommandMap(
         'youngtab',
@@ -581,9 +674,7 @@ window.MathJax = {
       );
 
 
-      /*
-       * Continue normal MathJax startup.
-       */
+      /* Continue normal MathJax startup. */
       MathJax.startup.defaultReady();
     }
   }

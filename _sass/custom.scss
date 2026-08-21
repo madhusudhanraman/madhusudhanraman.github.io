@@ -376,12 +376,10 @@ blockquote {
   }
 }
 
-/* Young tableaux */
+/* Young diagrams and tableaux */
 
-mjx-mrow.youngtab-tableau {
-  display: inline-flex !important;
-  flex-direction: column;
-  align-items: flex-start;
+mjx-mrow.youngtab-diagram {
+  display: inline-block !important;
   vertical-align: middle;
   line-height: 1;
 }
@@ -398,4 +396,26 @@ mjx-mrow.youngtab-cell {
   height: 1.55em;
   align-items: center;
   justify-content: center;
+}
+
+mjx-mtable.youngtab-tableau {
+  display: inline-table !important;
+  vertical-align: middle;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+mjx-mtable.youngtab-tableau > mjx-mtr {
+  height: 1.55em;
+}
+
+mjx-mtable.youngtab-tableau > mjx-mtr > mjx-mtd.youngtab-cell {
+  box-sizing: border-box;
+  width: 1.55em;
+  height: 1.55em;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  vertical-align: middle;
 }
