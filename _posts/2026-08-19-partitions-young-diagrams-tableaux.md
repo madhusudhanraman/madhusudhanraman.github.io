@@ -70,22 +70,25 @@ $ \lambda ^ {\text{T}} _ {j} $.
 The symmetric group $ S _ {n} $ is the set of all permutations of
 $ n $ elements. It has order $ n! $ and is an important example of a
 finite group. An element $ s \in S _ {n}  $ may be represented as
-\begin{equation}
+
+$$
 s = 
 \begin{pmatrix}
   1 & 2 & \cdots & n \\
   s(1) & s(2) & \cdots & s(n)
 \end{pmatrix} \ ,
-\end{equation}
+$$
+
 and it sends $ k \rightarrow s(k) $ for all $ 1 \leq k \leq n $. For
 example, below is an element of $ S _ {6} $:
-\begin{equation}
+
+$$
 \sigma = 
 \begin{pmatrix}
   1 & 2 & 3 & 4 & 5 & 6 \\
   4 & 5 & 1 & 3 & 2 & 6
 \end{pmatrix} \ .
-\end{equation}
+$$
 
 It is easily seen that every permutation can be decomposed into
 disjoint cycles. For example, $ \sigma \in S _ {6}  $ can be
@@ -163,13 +166,13 @@ T = \young(152,43) \ .
 For our discussion of the representation theory of $ S _ {n} $, will
 consider tableaux like this, except that we will place some further
 restrictions on the manner in which the labels appear.
-\begin{itemize}
-\item [1.] Labels feature each of the integers
+
+- Labels feature each of the integers
   $ \left\lbrace 1, \cdots , n \right\rbrace $ exactly once.
-\item [2.] Labels increase as one moves left-to-right as well as from
+- Labels increase as one moves left-to-right as well as from
   top-to-bottom. That is, $ T(i,j) < T(i+1,j) $ and $ T(i,j) <
   T(i,j+1) $. 
-\end{itemize}
+
 Such tableaux are called standard Young tableaux. For example, the
 tableau $ T $ above is not a standard Young tableau, but the following
 is:

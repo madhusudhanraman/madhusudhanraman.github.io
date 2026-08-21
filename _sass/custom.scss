@@ -379,7 +379,9 @@ blockquote {
 /* Young tableaux */
 
 mjx-mrow.youngtab-tableau {
-  display: inline-block !important;
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: flex-start;
   vertical-align: middle;
   line-height: 1;
 }
