@@ -97,7 +97,7 @@ equivalently written as
 \sigma = (143)(25)(6) \ ,
 \end{equation}
 where each number in each parenthesis should be read as being mapped
-into the next one, with periodic boundary conditions, i.e.~the last
+into the next one, with periodic boundary conditions, i.e. the last
 number maps to the first. Each of these parentheses is a cycle, and
 each cycle may have different lengths. To be sure, these are just
 different notations for the same element of the permutation group; we
@@ -161,7 +161,7 @@ $ \lambda \vdash n $. A Young tableau is obtained when one fills the
 boxes of $ \lambda  $ with some labels. For example, to $ (3,2) \vdash
 5 $ we can associate the tableau
 \begin{equation}
-T = \young(152,43) \ .
+T = \quad \young(152,43) \ .
 \end{equation}
 For our discussion of the representation theory of $ S _ {n} $, will
 consider tableaux like this, except that we will place some further
@@ -177,17 +177,17 @@ Such tableaux are called standard Young tableaux. For example, the
 tableau $ T $ above is not a standard Young tableau, but the following
 is:
 \begin{equation}
-T' = \young(134,25) \ ,
+T' =\quad \young(134,25) \ ,
 \end{equation}
 since the labels increase as we have stipulated.
 
 It is clear that with these restrictions, the number of standard
-tableaux is limited, i.e.~there are only a fixed number of ways in
+tableaux is limited, i.e. there are only a fixed number of ways in
 which labels can be assigned to boxes. Let us work out an
 example. Consider the group $ S _ {3}  $, which has three conjugacy
 classes
 \begin{equation}
-\left\lbrace \yng(3) \quad , \quad  \yng(2,1) \quad , \quad  \yng(1,1,1)  \right\rbrace \ .
+\yng(3) \quad , \quad  \yng(2,1) \quad , \quad  \yng(1,1,1) \ .
 \end{equation}
 Notice that the first and last of these can only be filled in exactly
 one way:
