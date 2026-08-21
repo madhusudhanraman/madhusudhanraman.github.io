@@ -7,6 +7,14 @@ excerpt: >
   Keeping track of partitions and permutations.
 ---
 
+\[
+\yng(3,2,1)
+\]
+
+\[
+\young(134,25)
+\]
+
 Consider a natural number $ n \in \mathbb{N} $. The $ r $-tuple
 $ \lambda = \left( \lambda _ {1} , \cdots , \lambda _ {r} \right) $
 such that
