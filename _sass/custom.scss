@@ -339,32 +339,46 @@ blockquote {
   }
 }
 
-/* MOVIE AND BOOK POST PAGES */
+/* MOVIE POST PAGES */
 
-.movie-poster,
-.book-cover {
+.movie-page__meta {
+  margin-top: 0;
+}
+
+.movie-page__meta-item {
+  display: block;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+.movie-page__meta-item:last-child {
+  margin-bottom: 0;
+}
+
+.movie-page__meta-item strong {
+  font-weight: 700;
+}
+
+.movie-poster {
   float: right;
   width: 280px;
   margin: 0 0 1.5em 2em;
 }
 
-.movie-poster img,
-.book-cover img {
+.movie-poster img {
   display: block;
   width: 100%;
   height: auto;
 }
 
 @media (max-width: 600px) {
-  .movie-poster,
-  .book-cover {
+  .movie-poster {
     float: none;
     width: 60%;
     margin: 0 auto 1.5em;
   }
 
-  .movie-poster img,
-  .book-cover img {
+  .movie-poster img {
     display: block;
     width: 100%;
     margin-left: auto;
