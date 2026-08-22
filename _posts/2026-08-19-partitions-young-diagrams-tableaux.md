@@ -1,6 +1,7 @@
 ---
 title: "Partitions, Young Diagrams, and Tableaux"
 date: 2026-08-19 18:00:00 +0530
+last_modified_at: 2026-08-22 18:00:00 +0530
 categories: 
   - Physics
 excerpt: >
