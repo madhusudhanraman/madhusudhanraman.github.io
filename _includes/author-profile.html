@@ -1,5 +1,9 @@
 {% assign locale = include.locale | default: site.locale %}
-{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% if page.categories contains "Books" %}
+  {% assign author = site.author %}
+{% else %}
+  {% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% endif %}
 {% assign author = site.data.authors[author] | default: author %}
 
 <div itemscope itemtype="https://schema.org/Person" class="h-card">
