@@ -338,6 +338,40 @@ blockquote {
     gap: 1.5rem 1rem;
   }
 }
+
+/* MOVIE AND BOOK POST PAGES */
+
+.movie-poster,
+.book-cover {
+  float: right;
+  width: 280px;
+  margin: 0 0 1.5em 2em;
+}
+
+.movie-poster img,
+.book-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .movie-poster,
+  .book-cover {
+    float: none;
+    width: 60%;
+    margin: 0 auto 1.5em;
+  }
+
+  .movie-poster img,
+  .book-cover img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 /* Young diagrams and tableaux */
 
 mjx-mrow.youngtab-diagram {

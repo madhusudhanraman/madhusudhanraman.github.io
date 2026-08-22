@@ -2,7 +2,7 @@
 title: "The Invention of Morel (1964)"
 author: "Adolfo Bioy Casares"
 year: 1964
-cover: "https://covers.openlibrary.org/b/id/7000586-L.jpg"
+cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1657543161i/94486.jpg"
 translator: "Ruth L. C. Simms"
 categories:
   - Books
