@@ -6,8 +6,11 @@ cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books
 translator: "Ruth L. C. Simms"
 categories:
   - Books
-date: 2026-08-22
-author_profile: true
+date: 2026-08-20
+excerpt: >
+  The habits of our lives makes us presume that things will happen in
+  a certain foreseeable way, that there will be a vague coherence 
+  in the world.
 ---
 
 Borges, to whom this book is dedicated, and who supplied a prologue to
