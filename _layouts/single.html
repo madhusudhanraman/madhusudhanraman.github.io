@@ -50,9 +50,15 @@ layout: default
     </aside>
   {% endif %}
 
-  {% if page.categories contains "Movies" and page.poster %}
+    {% if page.categories contains "Movies" and page.poster %}
     <div class="movie-poster">
       <img src="{{ page.poster }}" alt="{{ page.title }} poster">
+    </div>
+  {% endif %}
+
+  {% if page.categories contains "Books" and page.cover %}
+    <div class="book-cover">
+      <img src="{{ page.cover }}" alt="{{ page.title }} cover">
     </div>
   {% endif %}
 
