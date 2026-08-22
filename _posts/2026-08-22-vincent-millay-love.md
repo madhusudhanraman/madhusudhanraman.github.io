@@ -6,8 +6,8 @@ categories:
 tags:
   - Edna St. Vincent Millay
 excerpt: >
-  So, she said, the garden ants could crawl beneath, 
-  as under a blanket, and keep warm...
+  Yet many a man is making friends with death 
+  even as I speak, for lack of love alone.
 ---
 
 Collected in _Fatal Interview_ (1931).

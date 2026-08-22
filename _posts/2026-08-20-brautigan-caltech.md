@@ -6,7 +6,7 @@ categories:
 tags:
   - Richard Brautigan
 excerpt: >
-  I don't care how Got-damn smart these guys are...
+  I don't care how God-damn smart these guys are...
 ---
 
 When Brautigan was poet-in-residence at the California Institute of
