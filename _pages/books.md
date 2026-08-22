@@ -26,10 +26,6 @@ author_profile: true
     {% if post.author %}
       <div class="book-author">{{ post.author }}</div>
     {% endif %}
-
-    {% if post.year %}
-      <div class="book-year">{{ post.year }}</div>
-    {% endif %}
   </a>
 {% endfor %}
 
