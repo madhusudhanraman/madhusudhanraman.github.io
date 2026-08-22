@@ -1,5 +1,4 @@
 ---
-
 title: "Books"
 layout: single
 permalink: /books/
