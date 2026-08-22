@@ -19,6 +19,11 @@ author_profile: true
   Mostly on the philosophy of science.
 </p>
 
+#### [Books](https://madhusudhanraman.github.io/books/)
+<p class="archive__item-excerpt">
+  Some books I've read recently.
+</p>
+
 #### [Movies](https://madhusudhanraman.github.io/movies/)
 <p class="archive__item-excerpt">
   Some films I've watched recently.
