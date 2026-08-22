@@ -1,6 +1,7 @@
 ---
 title: "Berry - A Meeting"
 date: 2026-08-16 10:00:00 +0530
+last_modified_at: 2026-08-22
 categories: 
   - Literature
 tags:
@@ -8,6 +9,8 @@ tags:
 excerpt: >
   I been eating peaches off some mighty fine trees.
 ---
+
+From _The Selected Poems of Wendell Berry_ (1998).
 
 > In a dream I meet\
 > my dead friend. He has,\

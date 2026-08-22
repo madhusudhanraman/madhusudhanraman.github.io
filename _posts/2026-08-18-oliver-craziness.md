@@ -1,6 +1,7 @@
 ---
-title: "Oliver - In Praise of Craziness of a Certain Kind"
+title: "Oliver - In Praise of Craziness, of a Certain Kind"
 date: 2026-08-18 10:00:00 +0530
+last_modified_at: 2026-08-22
 categories: 
   - Literature
 tags:
@@ -9,6 +10,8 @@ excerpt: >
   So, she said, the garden ants could crawl beneath, 
   as under a blanket, and keep warm...
 ---
+
+From _New and Selected Poems, Volume Two_ (2005) by Mary Oliver.
 
 > On cold evenings\
 > my grandmother,\
