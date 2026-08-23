@@ -7,11 +7,13 @@ tags:
   - Seamus Heaney
 excerpt: >
   You are neither here nor there, 
-  a hurry through which known and strange things pass
+  a hurry through which known and strange things pass...
 ---
 
-A couple of poems by Seamus Heaney. The first is titled _Postscript_,
-and is collected in _The Spirit Level_ (1996). 
+A couple of poems by Seamus Heaney, today. 
+
+The first is titled _Postscript_, and is collected in _The Spirit
+Level_ (1996).
 
 > And some time make the time to drive out west\
 > Into County Clare, along the Flaggy Shore,\

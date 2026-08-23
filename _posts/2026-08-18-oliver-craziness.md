@@ -15,8 +15,8 @@ From _New and Selected Poems, Volume Two_ (2005) by Mary Oliver.
 
 > On cold evenings\
 > my grandmother,\
-> with ownership of half her mind-\
-> the other half having flown back to Bohemia-
+> with ownership of half her mind---\
+> the other half having flown back to Bohemia---
 > 
 > spread newspapers over the porch floor\
 > so, she said, the garden ants could crawl beneath,\
