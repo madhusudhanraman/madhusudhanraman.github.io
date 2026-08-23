@@ -30,7 +30,7 @@ I don't remember how I came to this book. But it seems to me, in what
 may be the final days of my teaching career, that this book is the
 perfect one to read right now.
 
-<div class="section-break">***</div>
+***
 
 Williams' prose is crystalline. The sentences are clean and clear and
 remind me of Scott Fitzgerald. Here William Stoner's growing
