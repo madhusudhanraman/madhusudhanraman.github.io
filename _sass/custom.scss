@@ -509,3 +509,150 @@ mjx-mtable.youngtab-tableau > mjx-mtr > mjx-mtd.youngtab-cell {
     margin-right: auto;
   }
 }
+
+/* =========================================================
+   Notes archive — month tabs
+   ========================================================= */
+
+.notes-month-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1.5em 0 2em;
+}
+
+.notes-month-tab {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid #9b3d2f;
+  border-radius: 0.25em;
+  background: transparent;
+  color: #9b3d2f;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.85em;
+  line-height: 1.2;
+  padding: 0.55em 0.8em;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.notes-month-tab:hover,
+.notes-month-tab:focus {
+  background-color: #9b3d2f;
+  color: #fff;
+}
+
+.notes-month-tab[aria-selected="true"] {
+  background-color: #9b3d2f;
+  color: #fff;
+}
+
+.notes-month-count {
+  opacity: 0.75;
+  margin-left: 0.2em;
+}
+
+.notes-month-tab[aria-selected="true"] .notes-month-count {
+  opacity: 1;
+}
+
+
+/* =========================================================
+   Notes archive — month panels
+   ========================================================= */
+
+.notes-month-panels {
+  margin-top: 1em;
+}
+
+.notes-month-panel[hidden] {
+  display: none;
+}
+
+
+/* =========================================================
+   Notes archive — responsive cards
+   ========================================================= */
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.notes-card {
+  border: 1px solid #d8d8d8;
+  border-radius: 0.35em;
+  padding: 1.25em 1.35em;
+  min-width: 0;
+  transition:
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.notes-card:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.notes-card__title {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.35;
+}
+
+.notes-card__title a {
+  text-decoration: none;
+}
+
+.notes-card__excerpt {
+  margin-top: 0.65em;
+  font-size: 0.85em;
+  line-height: 1.55;
+}
+
+.notes-card__excerpt p {
+  margin: 0;
+}
+
+
+/* =========================================================
+   Medium screens
+   ========================================================= */
+
+@media screen and (max-width: 900px) {
+
+  .notes-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+/* =========================================================
+   Small screens
+   ========================================================= */
+
+@media screen and (max-width: 600px) {
+
+  .notes-month-tabs {
+    gap: 0.4em;
+  }
+
+  .notes-month-tab {
+    font-size: 0.8em;
+  }
+
+  .notes-grid {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  .notes-card {
+    padding: 1.1em 1.2em;
+  }
+
+}
