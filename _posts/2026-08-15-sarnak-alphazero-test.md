@@ -5,7 +5,7 @@ categories:
   - Commentary
 tags:
 excerpt: >
-  Mathematics _is_ the understanding, and
+  Mathematics is the understanding, and
   not the corpus of lemmas and theorems it illuminates.
 ---
 
