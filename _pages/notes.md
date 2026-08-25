@@ -31,8 +31,6 @@ Some films I've watched recently.
 
 ## All Notes
 
-* * *
-
 {% assign notes_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
 
 <div class="notes-month-tabs" role="tablist" aria-label="Notes by month">
