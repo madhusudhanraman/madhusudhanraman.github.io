@@ -6,7 +6,6 @@ cover: "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books
 translator: ""
 categories:
   - Books
-  - Commentary
 date: 2026-08-24
 excerpt: >
   ...
