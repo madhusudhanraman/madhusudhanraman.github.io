@@ -7,23 +7,27 @@ author_profile: true
 
 ## Collections
 
-* * *
-
 #### [Physics](/physics/)
-
+<p class="notes-collection-description">
 On various aspects of theoretical and mathematical physics.
+</p>
 
 #### [Philosophy](/philosophy/)
-
+<p class="notes-collection-description">
 Mostly on the philosophy of science.
+</p>
+
 
 #### [Books](/books/)
-
+<p class="notes-collection-description">
 Some books I've read recently.
+</p>
 
 #### [Movies](/movies/)
-
+<p class="notes-collection-description">
 Some films I've watched recently.
+</p>
+
 
 ## All Notes
 
