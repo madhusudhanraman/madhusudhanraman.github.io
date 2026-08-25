@@ -1,45 +1,39 @@
 ---
-title: "Notes"
-layout: posts
+title: Notes
+layout: single
 permalink: /notes/
 author_profile: true
 ---
 
 ## Collections
----
 
-#### [Physics](https://madhusudhanraman.github.io/physics/)
-<p class="archive__item-excerpt">
-  On various aspects of theoretical and mathematical physics.
-</p>
+* * *
 
+#### [Physics](/physics/)
 
-#### [Philosophy](https://madhusudhanraman.github.io/philosophy/)
-<p class="archive__item-excerpt">
-  Mostly on the philosophy of science.
-</p>
+On various aspects of theoretical and mathematical physics.
 
-#### [Books](https://madhusudhanraman.github.io/books/)
-<p class="archive__item-excerpt">
-  Some books I've read recently.
-</p>
+#### [Philosophy](/philosophy/)
 
-#### [Movies](https://madhusudhanraman.github.io/movies/)
-<p class="archive__item-excerpt">
-  Some films I've watched recently.
-</p>
+Mostly on the philosophy of science.
 
+#### [Books](/books/)
+
+Some books I've read recently.
+
+#### [Movies](/movies/)
+
+Some films I've watched recently.
 
 ## All Notes
 
-<hr>
+* * *
 
 {% assign notes_by_month = site.posts | group_by_exp: "post", "post.date | date: '%Y-%m'" %}
 
 <div class="notes-month-tabs" role="tablist" aria-label="Notes by month">
 
   {% for month in notes_by_month %}
-    {% assign month_date = month.name | append: "-01" | date: "%s" %}
     {% assign month_label = month.name | append: "-01" | date: "%B %Y" %}
 
     <button
@@ -50,7 +44,8 @@ author_profile: true
       aria-controls="notes-month-{{ month.name }}"
       id="notes-tab-{{ month.name }}"
       data-month="{{ month.name }}">
-      {{ month_label }} <span class="notes-month-count">{{ month.items.size }}</span>
+      {{ month_label }}
+      <span class="notes-month-count">{{ month.items.size }}</span>
     </button>
   {% endfor %}
 
@@ -59,7 +54,6 @@ author_profile: true
 <div class="notes-month-panels">
 
   {% for month in notes_by_month %}
-    {% assign month_label = month.name | append: "-01" | date: "%B %Y" %}
 
     <section
       class="notes-month-panel"
@@ -94,6 +88,7 @@ author_profile: true
       </div>
 
     </section>
+
   {% endfor %}
 
 </div>
