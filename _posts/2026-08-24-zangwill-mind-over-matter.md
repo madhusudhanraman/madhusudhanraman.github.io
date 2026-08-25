@@ -34,9 +34,9 @@ of whether to continue funding the Superconducting Super Collider
 The acrimony between "low-energy" and "high-energy" theory which no
 doubt has its origins in this episode, is alive and well in Indian
 academia. It is reflected in popular attitudes, evinced by careless
-remarks, and is baked into graduate training. I cannot help but feel
-that this will hurt us in the long run. I am reminded of the following
-remark by G. R. G. Mure in his _An Introduction to Hegel_ (1940):
+remarks, and is baked into graduate training. I am reminded, here, of
+the following remark by G. R. G. Mure in his _An Introduction to
+Hegel_ (1940):
 
 > The plain man has never quite succeeded in seeing in the quarrels of
 > philosophers the symptom of a free and healthy speculative
@@ -45,3 +45,5 @@ remark by G. R. G. Mure in his _An Introduction to Hegel_ (1940):
 > so ill as to make an intelligent dispute no longer possible, then
 > his customary charge of futility would become more difficult to
 > answer.
+
+Much the same could be said of us.
