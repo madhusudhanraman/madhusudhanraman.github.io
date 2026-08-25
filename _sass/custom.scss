@@ -659,7 +659,8 @@ mjx-mtable.youngtab-tableau > mjx-mtr > mjx-mtd.youngtab-cell {
 
 /* Notes page — collection descriptions */
 
-.notes-collection-description {
+.page__content p.notes-collection-description {
   font-size: 0.85em;
   line-height: 1.55;
+  margin-top: 0;
 }
