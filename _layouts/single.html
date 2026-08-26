@@ -50,9 +50,9 @@ layout: default
   </aside>
 
 {% elsif page.url == "/notes/" %}
-  <aside class="sidebar__right notes-overview-sidebar">
+  <div class="notes-overview-sidebar">
     {% include notes-overview.html %}
-  </aside>
+  </div>
 {% endif %}
 
     {% if page.categories contains "Movies" and page.poster %}

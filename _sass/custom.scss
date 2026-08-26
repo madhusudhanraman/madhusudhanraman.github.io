@@ -669,7 +669,23 @@ mjx-mtable.youngtab-tableau > mjx-mtr > mjx-mtd.youngtab-cell {
    ========================================================= */
 
 .notes-overview-sidebar {
-  transform: translateX(20%);
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .notes-overview-sidebar {
+    display: block;
+    position: fixed;
+
+    left: calc(50% + 390px);
+
+    width: 280px;
+    max-width: 20vw;
+
+    top: 180px;
+
+    z-index: 10;
+  }
 }
 
 .notes-overview {
