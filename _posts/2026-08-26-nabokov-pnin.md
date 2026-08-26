@@ -7,7 +7,7 @@ tags:
   - Vladimir Nabokov
 excerpt: >
   It surprised him to realise how fond he
-> had been of his teeth.
+  had been of his teeth.
 ---
 
 I had a wisdom tooth extracted a few days ago and so this excerpt from
