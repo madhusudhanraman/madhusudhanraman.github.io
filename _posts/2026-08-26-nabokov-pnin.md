@@ -1,13 +1,14 @@
 ---
 title: "Nabokov - Pnin"
 date: 2026-08-26 12:00:00 +0530
-categories: 
+categories:
   - Literature
 tags:
   - Vladimir Nabokov
+permalink: /literature/nabokov-pnin/
 excerpt: >
   It surprised him to realise how fond he
-  had been of his teeth
+> had been of his teeth
 ---
 
 I had a wisdom tooth extracted a few days ago and so this excerpt from
