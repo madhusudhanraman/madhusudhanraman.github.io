@@ -1,11 +1,10 @@
 ---
 title: "Nabokov - Pnin"
-date: 2026-08-26 12:00:00 +0530
+date: 2026-08-25 12:00:00 +0530
 categories:
   - Literature
 tags:
   - Vladimir Nabokov
-permalink: /literature/nabokov-pnin/
 excerpt: >
   It surprised him to realise how fond he
 > had been of his teeth
