@@ -1,6 +1,6 @@
 ---
 title: "Nabokov - Pnin"
-date: 2026-08-26 10:00:00 +0530
+date: 2026-08-26 12:00:00 +0530
 categories: 
   - Literature
 tags:
