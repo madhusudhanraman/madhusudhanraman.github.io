@@ -7,10 +7,10 @@ tags:
   - Vladimir Nabokov
 excerpt: >
   It surprised him to realise how fond he
-> had been of his teeth
+  had been of his teeth
 ---
 
-I had a wisdom tooth extracted a few days ago and so excerpt from
+I had a wisdom tooth extracted a few days ago and so this excerpt from
 _Pnin_ (1957) seemed topical.
 
 > A warm flow of pain was gradually replacing the ice and wood of the
