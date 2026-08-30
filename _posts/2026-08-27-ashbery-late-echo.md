@@ -1,0 +1,30 @@
+---
+title: "Ashbery - Late Echo"
+date: 2026-08-27 10:00:00 +0530
+categories: 
+  - Literature
+tags:
+  - John Ashbery
+excerpt: >
+  It is necessary to write about the same old things in the same way, 
+  repeating the same things over and over again 
+  for love to continue and be gradually different.
+---
+
+> Alone with our madness and favourite flower\
+> We see that there really is nothing left to write about.\
+> Or rather, it is necessary to write about the same old things\
+> In the same way, repeating the same things over and over again\
+> For love to continue and be gradually different.
+>
+> Beehives and ants have to be re-examined externally\
+> And the colour of the day put in\
+> Hundreds of times and varied from summer to winter\
+> For it to get slowed down to the pace of an authentic\
+> Saraband and huddle there, alive and resting.
+> 
+> Only then can the chronic inattention\
+> Of our lives drape itself around us, conciliatory\
+> And with one eye on those long tan plush shadows\
+> That speak so deeply into our unprepared knowledge\
+> Of ourselves, the talking engines of our day.
