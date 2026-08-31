@@ -1,6 +1,6 @@
 ---
 title: "Representations of the Permutation Group"
-date: 2026-08-19 18:00:00 +0530
+date: 2026-08-29 18:00:00 +0530
 last_modified_at: 2026-08-22 18:00:00 +0530
 categories: 
   - Physics
@@ -63,7 +63,7 @@ We will use this to reveal what the Young symmetriser does.
 
 Let us start with the simplest non-trivial group, $ S _ {2} $, acting
 on a rank-2 tensor $ M _ {ij} \in V \otimes V $. There are two
-relevant partitions: $ \smol{\yng(2) } $ and $ \smol{\yng(1,1) } $,
+relevant partitions: $ \tiny{\yng(2) } $ and $ \tiny{\yng(1,1) } $,
 each of which have unique tableaux corresponding to them. Let us take
 these both in turn.
 
@@ -72,11 +72,11 @@ $ \tiny{\young(12) } $ which has a trivial column group and a row
 group with two elements: the identity $ e $ and the element $ (12)
 $. The Young symmetriser is therefore
 \begin{equation}
-c _ {\smol{\yng(2) } } = e + (12) \ .
+c _ {\tiny{\yng(2) } } = e + (12) \ .
 \end{equation}
 Acting with this element on $ M _ {ij}  $ yields
 \begin{equation}
-c _ {\smol{\yng(2) } } [M _ {ij}] = M _ {ij} + M _ {ji} \ ,
+c _ {\tiny{\yng(2) } } [M _ {ij}] = M _ {ij} + M _ {ji} \ ,
 \end{equation}
 which is the symmetric part of the tensor.
 
@@ -86,18 +86,18 @@ trivial row group and a column group with two elements: the identity
 element $ e $ and the element $ (12) $, which has negative
 parity. Thus, the Young symmetriser is
 \begin{equation}
-c _ {\smol{\yng(1,1)} } = e - (12) \ .
+c _ {\tiny{\yng(1,1)} } = e - (12) \ .
 \end{equation}
 Applying this to $ M _ {ij}  $ yields
 \begin{equation}
-c _ {\smol{\yng(1,1)} } [M _ {ij}] = M _ {ij} - M _ {ji} \ ,
+c _ {\tiny{\yng(1,1)} } [M _ {ij}] = M _ {ij} - M _ {ji} \ ,
 \end{equation}
 or the antisymmetric part of the tensor. 
 
 We can apply this to more complex cases rather
 straightforwardly. Consider the group $ S _ {3} $ and one of the two
 standard tableau corresponding to the diagram
-$ \smol{\yng(2,1) } $:
+$ \tiny{\yng(2,1) } $:
 \begin{equation}
 T = \quad \young(12,3) \ .
 \end{equation}
@@ -117,7 +117,7 @@ c _ {T}[M _ {ijk}] = M _ {ijk} + M _ {jik} - M _ {kji} - M _ {kij} \ .
 \end{equation}
 In this case too, the Young symmetriser has projected a generic tensor
 onto a subspace whose symmetry is dictated by the diagram $
-\smol{\yng(2,1) }  $: symmetric under the exchange of first and second
+\tiny{\yng(2,1) }  $: symmetric under the exchange of first and second
 indices, but antisymmetric under the exchange of first and third
 indices. 
 
@@ -153,36 +153,36 @@ Consider the group $ S _ {3}  $, whose representations we now
 construct.
 
 ### Trivial Representation
-Consider the partition $ \smol{\yng(3) } $ and the corresponding tableau
+Consider the partition $ \tiny{\yng(3) } $ and the corresponding tableau
 $ T = \tiny{\young(123) } $. The Young symmetriser is just the sum of
 all elements:
 \begin{equation}
-c _ {\smol{\yng(3) } } = \sum _ {\sigma \in S _ {3}} \sigma \ .
+c _ {\tiny{\yng(3) } } = \sum _ {\sigma \in S _ {3}} \sigma \ .
 \end{equation}
-If we act on $ c _ {\smol{\yng(3) } } $ with a group element $ g $, we get
+If we act on $ c _ {\tiny{\yng(3) } } $ with a group element $ g $, we get
 \begin{equation}
-  g \cdot c _ {\smol{\yng(3) } } = \sum _ {\sigma \in S _ {3} } ^ {} g \cdot \sigma
-  = \sum _ {\sigma ' \in S _ {3} } ^ {} \sigma ' = c _ {\smol{\yng(3) } }
+  g \cdot c _ {\tiny{\yng(3) } } = \sum _ {\sigma \in S _ {3} } ^ {} g \cdot \sigma
+  = \sum _ {\sigma ' \in S _ {3} } ^ {} \sigma ' = c _ {\tiny{\yng(3) } }
   \ .
 \end{equation}
-The left ideal $ V _ {\smol{\yng(3) } } $ is therefore a
+The left ideal $ V _ {\tiny{\yng(3) } } $ is therefore a
 $ 1 $-dimensional space where every group element acts as the
 identity. This, in other words, is the trivial representation.
 
 ### The Sign Representation
-Consider the partition $ \smol{\yng(1,1,1) } $ representing a single
+Consider the partition $ \tiny{\yng(1,1,1) } $ representing a single
 column, whose corresponding tableau is $ T = \tiny{\young(1,2,3)}
 $. Here, the symmetriser is:
 \begin{equation}
-c _ {\smol{\yng(1,1,1) } } = \sum _ {\sigma \in S _ {3}} \text{sgn}(\sigma)\sigma \ .
+c _ {\tiny{\yng(1,1,1) } } = \sum _ {\sigma \in S _ {3}} \text{sgn}(\sigma)\sigma \ .
 \end{equation}
 If we act on this with a group element $ g $, we pull out a sign
 factor:
 \begin{equation}
-g \cdot c _ {\smol{\yng(1,1,1) } } = \text{sgn}(g) c _
-{\smol{\yng(1,1,1) } }
+g \cdot c _ {\tiny{\yng(1,1,1) } } = \text{sgn}(g) c _
+{\tiny{\yng(1,1,1) } }
 \end{equation}
-The left ideal $ V _ {\smol{\yng(1,1,1) } } $ is therefore a
+The left ideal $ V _ {\tiny{\yng(1,1,1) } } $ is therefore a
 $ 1 $-dimensional space corresponding to the sign representation.
 
 ### The Mixed Representation
@@ -203,7 +203,7 @@ combination of $ v _ {1} $ and $ v _ {2} $. The left ideal $ V _
 representation. 
 
 Suppose instead that we had chosen the other standard tableau for the
-partition $ \smol{\yng(2,1) } $, namely
+partition $ \tiny{\yng(2,1) } $, namely
 \begin{equation}
 T' = \quad \young(13,2) \ .
 \end{equation}
