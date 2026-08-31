@@ -68,7 +68,7 @@ g \cdot (v _ {1} \otimes \cdots \otimes v _ {n}) = (gv _ {1}) \otimes \cdots \ot
 To illustrate, let us return to our $d=2$ example in $V^{\otimes
   2}$. Suppose we apply a generic $2 \times 2$ matrix
 
-$ g = \begin{pmatrix} a & b \\ c & d \end{pmatrix} $ 
+$$ g = \begin{pmatrix} a & b \\ c & d \end{pmatrix} $$
 
 to the basis tensor
 $e _ {1} \otimes e _ {2}$. First, note how $g$ acts on the individual
