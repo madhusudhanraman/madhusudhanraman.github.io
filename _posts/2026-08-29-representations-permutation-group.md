@@ -1,12 +1,15 @@
 ---
 title: "Representations of the Permutation Group"
 date: 2026-08-29 18:00:00 +0530
-last_modified_at: 2026-08-22 18:00:00 +0530
 categories: 
   - Physics
 excerpt: >
   Constructing irreducible representations of the permutation group.
 ---
+
+In this section we outline the construction of irreducible
+representations of the permutation group.
+
 
 ## Group Algebra and Young Symmetrisers
 
