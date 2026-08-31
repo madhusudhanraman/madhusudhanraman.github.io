@@ -25,6 +25,7 @@ aspects of quantisation.
 - The Heisenberg Algebra
 - Schur-Weyl Duality
   - [Partitions, Young Diagrams, and Tableaux](https://madhusudhanraman.github.io/physics/partitions-young-diagrams-tableaux/)
+  - [Representations of the Permutation Group](https://madhusudhanraman.github.io/physics/representations-permutation-group/)
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
   - [Higher Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
