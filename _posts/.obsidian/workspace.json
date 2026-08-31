@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7c180fb42d226ff9",
+        "id": "6fce7b16d1d17afd",
         "type": "tabs",
         "children": [
           {
-            "id": "9da10c4d02796d06",
+            "id": "b912ca637666f09c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "9da10c4d02796d06",
+  "active": "b912ca637666f09c",
   "lastOpenFiles": [
+    "2026-08-31-wood-how-fiction-works.md",
     "2026-08-27-ashbery-late-echo.md",
     "2026-08-28-cope-differences-opinion.md",
     "2026-08-30-tensor-spaces-commuting-actions.md",
