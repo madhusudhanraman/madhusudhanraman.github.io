@@ -26,6 +26,7 @@ aspects of quantisation.
 - Schur-Weyl Duality
   - [Partitions, Young Diagrams, and Tableaux](https://madhusudhanraman.github.io/physics/partitions-young-diagrams-tableaux/)
   - [Representations of the Permutation Group](https://madhusudhanraman.github.io/physics/representations-permutation-group/)
+  - [Tensor Spaces and Commuting Actions](https://madhusudhanraman.github.io/physics/tensor-spaces-commuting-actions/)
 - The Oscillator Formalism
   - [Two Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-su2/)
   - [Higher Dimensions](https://madhusudhanraman.github.io/physics/oscillator-formalism-higher-dim/)
