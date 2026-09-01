@@ -20,7 +20,7 @@ geometry.
 ## Manifolds and Coordinates
 
 An $n$-dimensional manifold $M$ is a space such that, informally
-speaking, every small patch of it ``looks'' like $\mathbb{R}^{n}$. The
+speaking, every small patch of it "looks" like $\mathbb{R}^{n}$. The
 surface of the Earth, for example, is a two-dimensional sphere, but in
 a small neighbourhood around you, it looks more or less flat. We
 formulate this mathematically as follows: around every point $x \in
@@ -29,7 +29,7 @@ open set to a subset of $ n $-dimensional flat space:
 \begin{equation}
 \varphi : U \longrightarrow \varphi(U) \subset \mathbb{R}^{n} \ .
 \end{equation}
-This map should be a invertible, and ``sufficiently'' differentiable,
+This map should be a invertible, and "sufficiently" differentiable,
 although we won't be too careful specifying what that means. The pair
 $(U,\varphi)$ is called a coordinate chart, and a little thought
 should convince you that this is exactly how one sets up coordinates

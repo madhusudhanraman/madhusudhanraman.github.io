@@ -15,7 +15,7 @@ aspects of quantisation.
   - [Canonical Structures](https://madhusudhanraman.github.io/physics/canonical-structures/)
   - [Motivating Symplectic Geometry](https://madhusudhanraman.github.io/physics/symplectic-geometry/)
   - More Geometry
-    - Manifolds, Vectors, and 1-Forms
+    - [Manifolds, Vectors, and 1-Forms](https://madhusudhanraman.github.io/physics/manifolds-vectors-1-forms/)
   - Group Actions
   - Hamiltonian Vector Fields
   - Conserved Charges
