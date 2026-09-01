@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6fce7b16d1d17afd",
+        "id": "c4c16e4bfb6bf165",
         "type": "tabs",
         "children": [
           {
-            "id": "b912ca637666f09c",
+            "id": "ded0e9731b574927",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-08-22-williams-stoner.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-08-22-williams-stoner"
+              "title": "New tab"
             }
           }
         ]
@@ -188,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "b912ca637666f09c",
+  "active": "ded0e9731b574927",
   "lastOpenFiles": [
+    "2026-08-22-williams-stoner.md",
     "2026-08-31-wood-how-fiction-works.md",
     "2026-08-27-ashbery-late-echo.md",
     "2026-08-28-cope-differences-opinion.md",
@@ -199,7 +196,6 @@
     "2026-08-25-meredith-illiterate.md",
     "2026-08-24-zangwill-mind-over-matter.md",
     "2026-08-23-heaney-clearances-postscript.md",
-    "2026-08-22-williams-stoner.md",
     "Algebra, Geometry, and Quantisation.md",
     "Homepage.md",
     "Papers.md"
