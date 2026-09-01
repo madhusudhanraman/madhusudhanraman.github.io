@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c16e4bfb6bf165",
+        "id": "089ad913b2d16faf",
         "type": "tabs",
         "children": [
           {
-            "id": "ded0e9731b574927",
+            "id": "4dc977612a49d757",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "ded0e9731b574927",
+  "active": "4dc977612a49d757",
   "lastOpenFiles": [
+    "2026-09-01-last-year-at-marienbad-1961.md",
     "2026-08-22-williams-stoner.md",
     "2026-08-31-wood-how-fiction-works.md",
     "2026-08-27-ashbery-late-echo.md",
