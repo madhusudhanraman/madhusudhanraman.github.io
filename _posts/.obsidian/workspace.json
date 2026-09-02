@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "089ad913b2d16faf",
+        "id": "7b39f8a29dffa5a1",
         "type": "tabs",
         "children": [
           {
-            "id": "4dc977612a49d757",
+            "id": "0a2a93bab679c861",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,11 +184,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "4dc977612a49d757",
+  "active": "0a2a93bab679c861",
   "lastOpenFiles": [
+    "2026-08-31-wood-how-fiction-works.md",
     "2026-09-01-last-year-at-marienbad-1961.md",
     "2026-08-22-williams-stoner.md",
-    "2026-08-31-wood-how-fiction-works.md",
     "2026-08-27-ashbery-late-echo.md",
     "2026-08-28-cope-differences-opinion.md",
     "2026-08-30-tensor-spaces-commuting-actions.md",
