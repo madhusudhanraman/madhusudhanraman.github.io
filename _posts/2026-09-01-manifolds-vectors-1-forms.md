@@ -105,7 +105,7 @@ X=X^{\mathsf{a}}\partial _ {\mathsf{a}} \ .
 When this vector acts on a function, it returns the function
 $X[f]=X^{\mathsf{a}}\partial _ {\mathsf{a}}f$, and so $ X[f] $ can be
 thought of as a directional derivative. Under a change of coordinates,
-the basis vectors (i.e.~the coordinate derivatives) and the components
+the basis vectors (i.e. the coordinate derivatives) and the components
 transform oppositely:
 \begin{equation}
 \partial' _ {\mathsf{a}}=\frac{\partial y^{\mathsf{b}}}{\partial y'^{\mathsf{a}}}\partial _ {\mathsf{b}}
