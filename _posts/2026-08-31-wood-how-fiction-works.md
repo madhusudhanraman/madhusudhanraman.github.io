@@ -8,7 +8,7 @@ categories:
   - Books
 date: 2026-08-31
 last_modified_at: 2026-09-02
-excerpt: ...
+excerpt: One way to tell slick genre prose from really interesting writing is to look, in the former case, for the absence of different registers... rich and daring prose avails itself of harmony and dissonance by being able to move in and out of place.
 ---
 I enjoyed this book immensely. I haven’t read much literary criticism or “theory” — frankly, it never occurred to me to try — but so often these past few days Wood’s discussion of literature rushed past me like an express train through the station of a small town. Reading this book feels a bit like he’s sitting behind you on a train as you read, say, _A House for Mr. Biswas_ by V. S. Naipaul, and he’s just leaned over to point out a paragraph and he whispers to you “See what he’s doing there? Look closely...” And later: “Isn’t that amazing?!”
 
