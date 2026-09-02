@@ -96,7 +96,7 @@ move freely between them, using indices when they make a calculation
 transparent and suppressing them when the geometric structure is
 clearer without them.
 
-The pullback introduced in \eqref{eq:pullback-one-form} extends to forms
+The pullback introduced earlier extends to forms
 of arbitrary degree. If $\alpha\in\Omega^{p}(N)$, then
 \begin{equation}
 (\Phi^{\star}\alpha)(X _ {1},\cdots,X _ {p})
