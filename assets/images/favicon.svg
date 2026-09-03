@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1280">
+  <title>Particle on a Ring</title>
+  <desc>Vector recreation of the selected favicon mark.</desc>
+
+  <path
+    d="M 688 254
+       A 360 360 0 1 0 953 460"
+    fill="none"
+    stroke="#000000"
+    stroke-width="43"
+    stroke-linecap="round"
+  />
+
+  <circle cx="846" cy="322" r="58" fill="#000000"/>
+</svg>
