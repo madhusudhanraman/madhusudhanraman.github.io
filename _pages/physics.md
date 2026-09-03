@@ -17,6 +17,7 @@ aspects of quantisation.
   - More Geometry
     - [Manifolds, Vectors, and 1-Forms](https://madhusudhanraman.github.io/physics/manifolds-vectors-1-forms/)
     - [Higher-Degree Forms and Exterior Derivatives](https://madhusudhanraman.github.io/physics/p-forms-exterior-derivatives/)
+    - [Symplectic Geometry, Revisited](https://madhusudhanraman.github.io/physics/symplectic-geometry-revisited/)
   - Group Actions
   - Hamiltonian Vector Fields
   - Conserved Charges
