@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1280">
+  <title>Particle on a Ring — Inverted</title>
+  <desc>Colour-inverted version of the selected favicon mark.</desc>
+
+  <rect width="1280" height="1280" fill="#000000"/>
+
+  <path
+    d="M 688 254
+       A 360 360 0 1 0 953 460"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="43"
+    stroke-linecap="round"
+  />
+
+  <circle cx="846" cy="322" r="58" fill="#FFFFFF"/>
+</svg>

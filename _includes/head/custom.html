@@ -688,6 +688,20 @@ window.MathJax = {
 <script data-goatcounter="https://madhusudhanraman.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-<link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+<!-- fallback -->
+<link rel="icon"
+      href="{{ '/assets/images/favicon-light.svg' | relative_url }}"
+      type="image/svg+xml">
 
+<!-- light mode -->
+<link rel="icon"
+      href="{{ '/assets/images/favicon-light.svg' | relative_url }}"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: light)">
+
+<!-- dark mode -->
+<link rel="icon"
+      href="{{ '/assets/images/favicon-dark.svg' | relative_url }}"
+      type="image/svg+xml"
+      media="(prefers-color-scheme: dark)">
 <!-- end custom head snippets -->
