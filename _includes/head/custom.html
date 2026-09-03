@@ -688,20 +688,33 @@ window.MathJax = {
 <script data-goatcounter="https://madhusudhanraman.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 
-<!-- fallback -->
+<!-- Classic fallback -->
 <link rel="icon"
-      href="{{ '/assets/images/favicon-light.svg' | relative_url }}"
-      type="image/svg+xml">
+      href="{{ '/favicon.ico' | relative_url }}"
+      sizes="any">
 
-<!-- light mode -->
+<!-- Light mode -->
 <link rel="icon"
       href="{{ '/assets/images/favicon-light.svg' | relative_url }}"
       type="image/svg+xml"
       media="(prefers-color-scheme: light)">
 
-<!-- dark mode -->
+<!-- Dark mode -->
 <link rel="icon"
       href="{{ '/assets/images/favicon-dark.svg' | relative_url }}"
       type="image/svg+xml"
       media="(prefers-color-scheme: dark)">
+
+<!-- PNG fallback -->
+<link rel="icon"
+      href="{{ '/assets/images/favicon-96x96.png' | relative_url }}"
+      type="image/png"
+      sizes="32x32">
+
+<!-- iPhone/iPad home screen -->
+<link rel="apple-touch-icon"
+      href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}"
+      sizes="180x180">
+
+
 <!-- end custom head snippets -->
