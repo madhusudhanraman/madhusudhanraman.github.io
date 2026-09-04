@@ -20,7 +20,7 @@ aspects of quantisation.
     - [Symplectic Geometry, Revisited](https://madhusudhanraman.github.io/physics/symplectic-geometry-revisited/)
     - [Contractions, Lie Derivatives, and Integration](https://madhusudhanraman.github.io/physics/contractions-lie-derivatives-integration/)
   - Hamiltonian Symmetries and Moment Maps
-    - Hamiltonian Vector Fields and Conserved Charges
+    - [Generators and Conserved Charges](https://madhusudhanraman.github.io/physics/generators-conserved-charges/)
     - Group Actions and Moment Maps
     - Dual Algebras
     - Noether's Theorem, Revisited
