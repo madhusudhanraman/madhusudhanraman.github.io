@@ -18,7 +18,7 @@ first slot:
 =\alpha(X,X _ {2},\cdots,X _ {p}) \ .
 \label{eq:contraction-def}
 \end{equation}
-For the form in \eqref{eq:p-form-components}, we can determine the
+For the component form of $\alpha$, we can determine the
 components of this contraction to be
 \begin{equation}
 \iota _ {X}\alpha

@@ -18,11 +18,12 @@ aspects of quantisation.
     - [Manifolds, Vectors, and 1-Forms](https://madhusudhanraman.github.io/physics/manifolds-vectors-1-forms/)
     - [Higher-Degree Forms and Exterior Derivatives](https://madhusudhanraman.github.io/physics/p-forms-exterior-derivatives/)
     - [Symplectic Geometry, Revisited](https://madhusudhanraman.github.io/physics/symplectic-geometry-revisited/)
-  - Group Actions
-  - Hamiltonian Vector Fields
-  - Conserved Charges
-  - Moment Maps
-  - Dual Algebras
+    - [Contractions, Lie Derivatives, and Integration](https://madhusudhanraman.github.io/physics/contractions-lie-derivatives-integration/)
+  - Hamiltonian Symmetries and Moment Maps
+    - Hamiltonian Vector Fields and Conserved Charges
+    - Group Actions and Moment Maps
+    - Dual Algebras
+    - Noether's Theorem, Revisited
 - Groups, Algebras, and Representations
 - The Heisenberg Algebra
 - Schur-Weyl Duality
