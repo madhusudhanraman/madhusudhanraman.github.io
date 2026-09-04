@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ff9f28c0d8c545d8",
+        "id": "fc242ec00712d30b",
         "type": "tabs",
         "children": [
           {
-            "id": "94aaa866f9aca020",
+            "id": "93d29738afde59ac",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "94aaa866f9aca020",
+  "active": "93d29738afde59ac",
   "lastOpenFiles": [
+    "2026-09-05-duminil-copin-lighthouses.md",
     "2026-09-03-naipaul-miguel-street.md",
     "2026-08-31-wood-how-fiction-works.md",
     "2026-09-01-last-year-at-marienbad-1961.md",
