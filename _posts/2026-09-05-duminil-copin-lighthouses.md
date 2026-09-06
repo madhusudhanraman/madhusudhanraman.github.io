@@ -1,12 +1,12 @@
 ---
 title: "Duminil-Copin on AI and Mathematics"
-date: 2026-09-05 00:30:00 +0530
+date: 2026-09-05 09:30:00 +0530
 categories: 
   - Commentary
 tags:
 excerpt: >
-  First and foremost, it is a lighthouse in the night: 
-  it illuminates and guides mathematicians in their wanderings...
+  First and foremost, it [a mathematical question] is a lighthouse in the night: 
+  it illuminates and guides mathematicians in their wanderings.
 ---
 
 Hugo Duminil-Copin recently wrote a [very nice piece](https://proofsandprompts.com/2026/08/30/care-for-a-little-more-ai/) on AI and mathematics, where he gives us a delightful image:
