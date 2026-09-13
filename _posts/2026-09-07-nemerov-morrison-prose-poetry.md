@@ -1,5 +1,5 @@
 ---
-title: "Nemerov - Because You Asked About The Line Between Prose and Poetry"
+title: "Nemerov and Morrison"
 date: 2026-09-07 10:00:00 +0530
 categories: 
   - Literature
@@ -9,6 +9,8 @@ tags:
 excerpt: >
   And then they clearly flew instead of fell.
 ---
+
+Howard Nemerov's _Because You Asked About The Line Between Prose and Poetry_.
 
 > Sparrows were feeding in a freezing drizzle\
 > That while you watched turned to pieces of snow\
