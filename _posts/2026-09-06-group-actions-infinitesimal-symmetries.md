@@ -25,6 +25,8 @@ T _ {a}(q,p)=(q+a,p) \ .
 \label{eq:position-translation-finite}
 \end{equation}
 Performing a translation by $b$ and then one by $a$ gives
+
+$$
 \begin{align}
 T _ {a}\bigl(T _ {b}(q,p)\bigr)
 &=T _ {a}(q+b,p) \ ,
@@ -32,6 +34,8 @@ T _ {a}\bigl(T _ {b}(q,p)\bigr)
 &=(q+a+b,p)
 =T _ {a+b}(q,p) \ .
 \end{align}
+$$
+
 The transformations reproduce the addition law on $\mathbb{R}$. Note
 also that a translation by $ 0 $ serves as an identity element,
 $T _ {0}$, and that every translation $ T _ {a} $ has a unique inverse
@@ -42,7 +46,7 @@ $. Translations along a line are an example of an Abelian group, whose
 transformations preserve the symplectic form:
 \begin{equation}
 T _ {a}^{\star}\omega
-&=\mathrm{d}p\wedge\mathrm{d}(q+a) = \mathrm{d}p\wedge\mathrm{d}q
+=\mathrm{d}p\wedge\mathrm{d}(q+a) = \mathrm{d}p\wedge\mathrm{d}q
 =\omega \ .
 \end{equation}
 
@@ -88,8 +92,8 @@ and similarly for momenta:
 \delta p^{1}=-\epsilon p^{2} \quad \text{and} \quad 
 \delta p^{2}=\epsilon p^{1} \ .
 \end{equation}
-To find its generator, we make use of 
-\eqref{eq:canonical-transformation-from-generator}. The generator $ J
+To find its generator, we make use of the fact that
+$\delta _ {f} g = \left\lbrace g,f \right\rbrace$. The generator $ J
 $ is such that the position
 transformations require 
 \begin{equation}
@@ -216,11 +220,13 @@ J _ {\xi}=p^{a}\xi _ {a}(q) \ ,
 \label{eq:cotangent-lift-generator}
 \end{equation}
 because
+$$
   \begin{align}
-\{q _ {a},J _ {\xi}\}
+\left\lbrace q _ {a},J _ {\xi}\right\rbrace
 &=\frac{\partial J _ {\xi}}{\partial p^{a}}
 =\xi _ {a}(q) \ , \\
-\{p^{a},J _ {\xi}\}
+\left\lbrace p^{a},J _ {\xi}\right\rbrace
 &=-\frac{\partial J _ {\xi}}{\partial q _ {a}}
 =-p^{b}\frac{\partial\xi _ {b}}{\partial q _ {a}} \ .
   \end{align}
+$$
