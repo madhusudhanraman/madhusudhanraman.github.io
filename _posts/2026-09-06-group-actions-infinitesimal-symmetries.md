@@ -178,7 +178,7 @@ that we are interested in symmetry transformations of the form
 \begin{equation}
 \delta q _ {a}=\epsilon\xi _ {a}(q) \ .
 \end{equation}
-We have seen earlier that pullbacks ``commute'' with exterior
+We have seen earlier that pullbacks "commute" with exterior
 derivatives:
 $ \Phi ^ {\star } \left( \text{d} \alpha \right) = \text{d} \left(
   \Phi ^ {\star } \alpha \right) $. We want to see what this symmetry
@@ -220,6 +220,7 @@ J _ {\xi}=p^{a}\xi _ {a}(q) \ ,
 \label{eq:cotangent-lift-generator}
 \end{equation}
 because
+
 $$
   \begin{align}
 \left\lbrace q _ {a},J _ {\xi}\right\rbrace
