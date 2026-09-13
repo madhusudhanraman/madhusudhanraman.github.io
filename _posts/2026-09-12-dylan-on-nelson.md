@@ -1,6 +1,6 @@
 ---
 title: "Dylan on Nelson"
-date: 2026-09-09 10:00:00 +0530
+date: 2026-09-12 10:00:00 +0530
 categories: 
   - Literature
 tags:

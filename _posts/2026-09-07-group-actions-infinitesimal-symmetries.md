@@ -1,6 +1,6 @@
 ---
 title: "Group Actions and Infinitesimal Symmetries"
-date: 2026-09-06 20:00:00 +0530
+date: 2026-09-07 20:00:00 +0530
 categories: 
   - Physics
 excerpt: >
