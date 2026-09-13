@@ -21,7 +21,8 @@ aspects of quantisation.
     - [Contractions, Lie Derivatives, and Integration](https://madhusudhanraman.github.io/physics/contractions-lie-derivatives-integration/)
   - Hamiltonian Symmetries and Moment Maps
     - [Generators and Conserved Charges](https://madhusudhanraman.github.io/physics/generators-conserved-charges/)
-    - Group Actions and Moment Maps
+    - [Group Actions and Infinitesimal Symmetries](https://madhusudhanraman.github.io/physics/group-actions-infinitesimal-symmetries/) 
+    - Moment Maps
     - Dual Algebras
     - Noether's Theorem, Revisited
 - Groups, Algebras, and Representations
