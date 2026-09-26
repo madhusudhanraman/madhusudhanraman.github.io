@@ -13,7 +13,7 @@ aspects of quantisation.
 - Classical Dynamics and Geometry
   - [The Action Principle](https://madhusudhanraman.github.io/physics/action-principle/)
   - [Canonical Structures](https://madhusudhanraman.github.io/physics/canonical-structures/)
-  - [Motivating Symplectic Geometry](https://madhusudhanraman.github.io/physics/symplectic-geometry/)
+  - [Motivating Symplectic Geometry](https://madhusudhanraman.github.io/physics/motivating-symplectic-geometry/)
   - More Geometry
     - [Manifolds, Vectors, and 1-Forms](https://madhusudhanraman.github.io/physics/manifolds-vectors-1-forms/)
     - [Higher-Degree Forms and Exterior Derivatives](https://madhusudhanraman.github.io/physics/p-forms-exterior-derivatives/)
