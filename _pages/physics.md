@@ -22,7 +22,7 @@ aspects of quantisation.
   - Hamiltonian Symmetries and Moment Maps
     - [Generators and Conserved Charges](https://madhusudhanraman.github.io/physics/generators-conserved-charges/)
     - [Group Actions and Infinitesimal Symmetries](https://madhusudhanraman.github.io/physics/group-actions-infinitesimal-symmetries/) 
-    - Moment Maps
+    - [Moment Maps](https://madhusudhanraman.github.io/physics/moment-maps/)
     - Dual Algebras
     - Noether's Theorem, Revisited
 - Groups, Algebras, and Representations
