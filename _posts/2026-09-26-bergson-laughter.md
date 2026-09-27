@@ -7,7 +7,6 @@ translator: ""
 categories:
   - Books
 date: 2026-09-26
-last_modified_at: 2026-09-26
 excerpt: We move amidst generalities and symbols...
 ---
 I wish to record here the comments from Bergson’s *Laughter* (1900) on art and artists, which I found more thought-provoking than the analysis that makes up the bulk of this book. He notes that our selves and the natural world (or even our consciousness) are separated by a veil, which is “dense and opaque for the common herd” and yet ”thin, almost transparent, for the artist and the poet.”
