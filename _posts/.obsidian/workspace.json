@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3dc5d9fea7741fab",
+        "id": "fcd8dedea1616a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "3586cf04f21654bf",
+            "id": "6c3416f274db4b47",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2dc30024769b3377",
@@ -185,8 +184,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "3586cf04f21654bf",
+  "active": "6c3416f274db4b47",
   "lastOpenFiles": [
+    "2026-09-26-bergson-laughter.md",
+    "2026-09-13-bellow-herzog.md",
+    "2026-09-13-bellow-herzog copy.md",
+    "2026-09-27-moment-maps.md",
     "2026-09-21-tony-2026.md",
     "2026-09-05-duminil-copin-lighthouses.md",
     "2026-09-03-naipaul-miguel-street.md",
