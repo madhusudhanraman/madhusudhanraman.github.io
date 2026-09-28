@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fcd8dedea1616a0a",
+        "id": "72cbaed967513276",
         "type": "tabs",
         "children": [
           {
-            "id": "6c3416f274db4b47",
+            "id": "9017eb7a0e2110f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,8 +184,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "6c3416f274db4b47",
+  "active": "9017eb7a0e2110f3",
   "lastOpenFiles": [
+    "2026-09-28-bobby-fischer-against-the-world.md",
     "2026-09-26-bergson-laughter.md",
     "2026-09-13-bellow-herzog.md",
     "2026-09-13-bellow-herzog copy.md",
