@@ -118,12 +118,12 @@ If $H$ is invariant under the $G$-action, then as we have already seen:
 \begin{equation}
 0=\xi _ {M}[H]
 =X _ {J _ {\xi}}[H]
-=\{H,J _ {\xi}\} \ .
+=\left\lbrace H,J _ {\xi}\right\rbrace \ .
 \end{equation}
 Therefore,
 \begin{equation}
 \frac{\mathrm{d}J _ {\xi}}{\mathrm{d}t}
-=\{J _ {\xi},H\}
+=\left\lbrace J _ {\xi},H\right\rbrace
 =0 \ .
 \label{eq:moment-map-charge-conservation}
 \end{equation}
