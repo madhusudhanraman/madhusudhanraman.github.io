@@ -10,11 +10,13 @@ My papers/preprints are listed below in reverse chronological order.
 
 - **Generalised Symmetries and Manifest Duality II: Curved Spacetime**\
 with S. Chakrabarti and A. Manna.\
-Preprint available at [arXiv:2606.18013](https://arxiv.org/abs/2606.18013).
+Preprint available at [arXiv:2606.18013](https://arxiv.org/abs/2606.18013).\
+Submitted to Physical Review D.
 
 - **Generalised Symmetries and Manifest Duality I: Flat Spacetime**\
 with S. Chakrabarti and A. Manna.\
-Preprint available at [arXiv:2511.23350](https://arxiv.org/abs/2511.23350).
+Preprint available at [arXiv:2511.23350](https://arxiv.org/abs/2511.23350).\
+Accepted for publication in Physical Review D.
 
 - **Monopoles, Clarified**\
 with A. Aggarwal and S. Chakrabarti.\
