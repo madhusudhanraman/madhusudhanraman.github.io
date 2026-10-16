@@ -7,14 +7,13 @@ translator: ""
 categories:
   - Books
 date: 2026-09-03
-last_modified_at: 2026-09-03
+last_modified_at: 2026-10-16
 excerpt: ...
 ---
 …
 
 ## Excerpts
 
-<!-- nautilus:5FC17C39-3410-492E-AEDE-F940BC14AA51 -->
 > “What you making, Mr Popo?’ I asked.
 > 
 >   Popo would always say, ‘Ha, boy! That’s the question. I making the thing without a name.’
@@ -40,4 +39,3 @@ excerpt: ...
 >   My mother was pleased with the egg-stand, and used it for about a week. Then she seemed to forget all about it, and began putting the eggs in bowls or plates, just as she did before.
 > 
 >   And Popo laughed when I told him. He said, ‘Boy, the only thing to make is the thing without a name.”
-<!-- /nautilus:5FC17C39-3410-492E-AEDE-F940BC14AA51 -->
