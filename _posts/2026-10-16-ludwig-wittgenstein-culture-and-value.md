@@ -1,13 +1,14 @@
 ---
 title: "Culture and Value (1977)"
 date: 2026-10-16
-last_modified_at: 2026-10-16
+last_modified_at: 2026-10-17
 categories: [Books]
 author: "Ludwig Wittgenstein"
 book_author: "Ludwig Wittgenstein"
 cover: "https:\/\/i.gr-assets.com\/images\/S\/compressed.photo.goodreads.com\/books\/1328873090i\/124603.jpg"
 nautilus_edition: ""
 year: 1977
+excerpt: "…"
 ---
 
 ## Excerpts
