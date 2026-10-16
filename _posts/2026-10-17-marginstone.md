@@ -1,6 +1,6 @@
 ---
 title: "Marginstone"
-date: 2026-10-17
+date: 2026-10-17 00:00:00 +0530
 last_modified_at: 2026-10-17
 categories:
   - Commentary
