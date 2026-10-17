@@ -2,12 +2,12 @@
 title: Miguel Street (1959)
 author: V. S. Naipaul
 year: 1959
-cover: https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1403189899i/49741.jpg
+cover: "https:\/\/m.media-amazon.com\/images\/S\/compressed.photo.goodreads.com\/books\/1403189899i\/49741.jpg"
 translator: ""
 categories:
   - Books
 date: 2026-09-03
-last_modified_at: 2026-10-16
+last_modified_at: 2026-10-17
 excerpt: ...
 ---
 …
@@ -39,3 +39,6 @@ excerpt: ...
 >   My mother was pleased with the egg-stand, and used it for about a week. Then she seemed to forget all about it, and began putting the eggs in bowls or plates, just as she did before.
 > 
 >   And Popo laughed when I told him. He said, ‘Boy, the only thing to make is the thing without a name.”
+
+> In Elias’s mouth litritcher was the most beautiful word I heard. It sounded like something to eat, something rich like chocolate.
+> 
