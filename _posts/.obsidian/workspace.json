@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ee802dd8a44a7441",
+        "id": "9b86c5b60dfb5233",
         "type": "tabs",
         "children": [
           {
-            "id": "79288aedcccee3d9",
+            "id": "b24053371ec868dd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,10 +184,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "79288aedcccee3d9",
+  "active": "b24053371ec868dd",
   "lastOpenFiles": [
-    "2026-10-17-marginstone.md",
     "2026-09-03-naipaul-miguel-street.md",
+    "2026-10-17-marginstone.md",
     "2026-10-05-edmonds-murder-of-professor-schlick.md",
     "2026-09-28-bobby-fischer-against-the-world.md",
     "2026-09-26-bergson-laughter.md",
