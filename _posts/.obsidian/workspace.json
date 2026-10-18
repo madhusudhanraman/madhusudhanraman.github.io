@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b86c5b60dfb5233",
+        "id": "8cac39493a705e43",
         "type": "tabs",
         "children": [
           {
-            "id": "b24053371ec868dd",
+            "id": "a2b60311c78a0d55",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,10 +184,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "b24053371ec868dd",
+  "active": "a2b60311c78a0d55",
   "lastOpenFiles": [
-    "2026-09-03-naipaul-miguel-street.md",
+    "2026-10-18-bellow-seize-the-day.md",
     "2026-10-17-marginstone.md",
+    "2026-09-03-naipaul-miguel-street.md",
     "2026-10-05-edmonds-murder-of-professor-schlick.md",
     "2026-09-28-bobby-fischer-against-the-world.md",
     "2026-09-26-bergson-laughter.md",
