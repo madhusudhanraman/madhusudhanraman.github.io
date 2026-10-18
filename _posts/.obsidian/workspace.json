@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8cac39493a705e43",
+        "id": "0453b54a8ba1ed0d",
         "type": "tabs",
         "children": [
           {
-            "id": "a2b60311c78a0d55",
+            "id": "dba072c87e19d021",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -184,10 +184,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "a2b60311c78a0d55",
+  "active": "dba072c87e19d021",
   "lastOpenFiles": [
-    "2026-10-18-bellow-seize-the-day.md",
     "2026-10-17-marginstone.md",
+    "2026-10-16-ludwig-wittgenstein-culture-and-value.md",
+    "2026-10-18-bellow-seize-the-day.md",
     "2026-09-03-naipaul-miguel-street.md",
     "2026-10-05-edmonds-murder-of-professor-schlick.md",
     "2026-09-28-bobby-fischer-against-the-world.md",
