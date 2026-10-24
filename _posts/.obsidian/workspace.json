@@ -11,10 +11,14 @@
             "id": "dba072c87e19d021",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2026-10-24-tolstoy-death-of-ivan-ilyich.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-10-24-tolstoy-death-of-ivan-ilyich"
             }
           }
         ]
@@ -187,6 +191,7 @@
   "active": "dba072c87e19d021",
   "lastOpenFiles": [
     "2026-10-17-marginstone.md",
+    "2026-10-24-tolstoy-death-of-ivan-ilyich.md",
     "2026-10-16-ludwig-wittgenstein-culture-and-value.md",
     "2026-10-18-bellow-seize-the-day.md",
     "2026-09-03-naipaul-miguel-street.md",
@@ -210,7 +215,6 @@
     "2026-08-24-zangwill-mind-over-matter.md",
     "2026-08-23-heaney-clearances-postscript.md",
     "Algebra, Geometry, and Quantisation.md",
-    "Homepage.md",
-    "Papers.md"
+    "Homepage.md"
   ]
 }

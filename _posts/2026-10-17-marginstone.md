@@ -1,7 +1,7 @@
 ---
 title: Marginstone
 date: 2026-10-17 00:00:00 +0530
-last_modified_at: 2026-10-17
+last_modified_at: 2026-10-24
 categories:
   - Commentary
 tags:
@@ -18,3 +18,5 @@ A small companion sits on the screen, and you drop passages onto it. These are s
 <img src="{{ '/assets/images/marginstone-companions.png' | relative_url }}" alt="Nautilus, Leaf, Ammonite, Brachiopod, and Fern" style="display: block; width: 100%; height: auto;">
 
 There are rough edges, particularly around identifying sources and capturing from different browsers. Testing is currently underway.
+
+**Update**: This was fun, but I started out in the wrong direction. 
