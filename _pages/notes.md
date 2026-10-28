@@ -79,7 +79,7 @@ Some films I've watched recently.
 
             {% if post.excerpt %}
               <div class="notes-card__excerpt">
-                {{ post.excerpt }}
+                {{ post.excerpt | split: '<div class="footnotes"' | first | strip_html | truncate: 200 }}
               </div>
             {% endif %}
 

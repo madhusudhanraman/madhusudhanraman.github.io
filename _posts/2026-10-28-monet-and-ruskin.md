@@ -1,11 +1,11 @@
 ---
 title: Monet and Ruskin
-date: 2026-09-12 10:00:00 +0530
+date: 2026-10-28 10:00:00 +0530
 categories:
   - Literature
   - Ways of Seeing
 tags:
-excerpt:
+excerpt: "Monet and Ruskin on painting what we see and recovering the innocence of the eye."
 ---
 Lilla Cabot Perry recollects that Claude Monet, despite not taking on the responsibility of training pupils, was “inexpressibly kind to many a struggling young painter,” and reckons he’d have made an inspiring teacher if he had been willing to teach. This is the advice he gave her.[^1]
 

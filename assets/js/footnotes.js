@@ -287,6 +287,9 @@ document.addEventListener("DOMContentLoaded", function () {
     references.forEach(
       function (reference) {
 
+        // Hidden month panels have no rendered reference to annotate.
+        if (!reference.getClientRects().length) return;
+
         const rect =
           reference.getBoundingClientRect();
 

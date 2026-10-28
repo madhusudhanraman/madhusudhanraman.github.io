@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  tabs[0].click();
+
   tabs.forEach(function (tab, index) {
     tab.addEventListener("keydown", function (event) {
       let newIndex = null;
