@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-10-24-tolstoy-death-of-ivan-ilyich.md",
+                "file": "2026-10-28-monet-and-ruskin.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-24-tolstoy-death-of-ivan-ilyich"
+              "title": "2026-10-28-monet-and-ruskin"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 366.81640625
   },
   "right": {
     "id": "2dc30024769b3377",
@@ -190,19 +190,24 @@
   },
   "active": "dba072c87e19d021",
   "lastOpenFiles": [
-    "2026-10-17-marginstone.md",
-    "2026-10-24-tolstoy-death-of-ivan-ilyich.md",
-    "2026-10-16-ludwig-wittgenstein-culture-and-value.md",
-    "2026-10-18-bellow-seize-the-day.md",
-    "2026-09-03-naipaul-miguel-street.md",
-    "2026-10-05-edmonds-murder-of-professor-schlick.md",
-    "2026-09-28-bobby-fischer-against-the-world.md",
+    "2026-09-12-dylan-on-nelson.md",
+    "2026-10-28-monet-and-ruskin.md",
+    "2026-09-21-tony-2026.md",
     "2026-09-26-bergson-laughter.md",
+    "2026-09-27-moment-maps.md",
+    "2026-09-28-bobby-fischer-against-the-world.md",
+    "2026-10-05-edmonds-murder-of-professor-schlick.md",
+    "2026-10-16-ludwig-wittgenstein-culture-and-value.md",
+    "2026-10-17-marginstone.md",
+    "2026-10-18-bellow-seize-the-day.md",
+    "2026-10-24-tolstoy-death-of-ivan-ilyich.md",
+    "2026-09-09-nemerov-morrison-prose-poetry.md",
+    "2026-09-05-duminil-copin-lighthouses.md",
+    "2026-09-04-generators-conserved-charges.md",
+    "2026-09-07-group-actions-infinitesimal-symmetries.md",
+    "2026-09-03-naipaul-miguel-street.md",
     "2026-09-13-bellow-herzog.md",
     "2026-09-13-bellow-herzog copy.md",
-    "2026-09-27-moment-maps.md",
-    "2026-09-21-tony-2026.md",
-    "2026-09-05-duminil-copin-lighthouses.md",
     "2026-08-31-wood-how-fiction-works.md",
     "2026-09-01-last-year-at-marienbad-1961.md",
     "2026-08-22-williams-stoner.md",
@@ -210,11 +215,6 @@
     "2026-08-28-cope-differences-opinion.md",
     "2026-08-30-tensor-spaces-commuting-actions.md",
     "2026-08-29-representations-permutation-group.md",
-    "2026-08-26-nabokov-pnin.md",
-    "2026-08-25-meredith-illiterate.md",
-    "2026-08-24-zangwill-mind-over-matter.md",
-    "2026-08-23-heaney-clearances-postscript.md",
-    "Algebra, Geometry, and Quantisation.md",
-    "Homepage.md"
+    "2026-08-26-nabokov-pnin.md"
   ]
 }

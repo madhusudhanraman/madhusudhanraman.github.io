@@ -1,12 +1,10 @@
 ---
 title: Marginstone
 date: 2026-10-17 00:00:00 +0530
-last_modified_at: 2026-10-24
+last_modified_at: 2026-10-28
 categories:
   - Commentary
 tags:
-  - software
-  - reading
 excerpt: |
   A small Mac app for keeping passages from things I read.
 ---
