@@ -5,7 +5,9 @@ categories:
   - Literature
   - Ways of Seeing
 tags:
-excerpt: "Monet and Ruskin on painting what we see and recovering the innocence of the eye."
+  - Claude Monet
+  - John Ruskin
+excerpt: When you go out to paint, try to forget what objects you have before you...
 ---
 Lilla Cabot Perry recollects that Claude Monet, despite not taking on the responsibility of training pupils, was “inexpressibly kind to many a struggling young painter,” and reckons he’d have made an inspiring teacher if he had been willing to teach. This is the advice he gave her.[^1]
 
